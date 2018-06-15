@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:og="http://ogp.me/ns#">
+<channel>
+<atom:link rel="self" href="http://ftr.rachini.com/makefulltextfeed.php?url=https%3A%2F%2Fandroidcommunity.com%2Ffeed%2F" />
+<atom:link rel="alternate" title="Source URL" href="https://androidcommunity.com/feed/" />
+<atom:link rel="related" title="Subscribe to feed" href="http://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dhttps%253A%252F%252Fandroidcommunity.com%252Ffeed%252F&amp;back=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dhttps%253A%252F%252Fandroidcommunity.com%252Ffeed%252F" />
+<title>Android Community</title>
+<link>https://androidcommunity.com</link>
+<description>Android News, Reviews, and Apps</description>
+<item>
+<title>Pixel Launcher modded for the new Pixel 2 phones</title>
+<link>https://androidcommunity.com/pixel-launcher-modded-for-the-new-pixel-2-phones-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/pixel-launcher-modded-for-the-new-pixel-2-phones-20171110/</guid>
+<description>&lt;p&gt;Many Android users are happy with the Pixel Launcher. As with any other app launchers we know, this one has also received a number of important changes and additions. On its own, it’s already useful and efficient but one XDA developer (sharkie405) isn’t content with it so he has added some modifications to best suit the new Pixel 2 and Pixel 2 XL. The two phones already have the Google Launcher and the most recent update adds new features and improves the items available.&lt;/p&gt;
+
+
+&lt;p&gt;Some of the updates include removal of the following: text from home screen icons, text from app drawer icons, page indicator, and the home screen app drawer up arrow. You won’t see those things from now on but you will notice two new rows of icons to the home screen. Icons are made smaller while you can now see the colored Google G in the search bar.&lt;/p&gt;
+&lt;p&gt;If you own a Pixel with Taimen 8.1 Developer Preview 1, you have to root it first if you want to install the launcher. The version shared over on XDA forum is already the modified launcher. Make sure you understand rooting. Grant root access to MiXplorer and you will see a prompt right away. Access the /system partition for it to appear.&lt;/p&gt;
+&lt;p&gt;Here are the steps to proper installation as provided by the XDA dev:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;• Extract the APK from the zip file&lt;br/&gt;&amp;#13;
+• Using your favorite root file explorer make /system/priv-app/NexusLauncherPrebuilt rw (read-write)&lt;br/&gt;&amp;#13;
+• Copy the APK from the ZIP into /system/priv-app/NexusLauncherPrebuilt, overwriting the existing APK&lt;br/&gt;&amp;#13;
+• Reboot your phone&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;VIA: XDA (&lt;a href=&quot;https://www.xda-developers.com/pixel-2-launcher-modifications-for-android-8-1-and-developer-preview-1&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1&lt;/a&gt;),(&lt;a href=&quot;https://forum.xda-developers.com/pixel-2-xl/themes/mod-pixel-2-xl-launcher-mods-8-1-0-dp1-t3701939&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;2&lt;/a&gt;)&lt;/p&gt;
+&lt;div class=&quot;related-posts&quot;&gt;
+&lt;div id=&quot;related-posts-MRP_all&quot; class=&quot;related-posts-type&quot;&gt;
+&lt;h4&gt;Story Timeline&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+<pubDate>Sat, 11 Nov 2017 00:00:15 +0000</pubDate>
+<dc:creator>Rei Padla</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/Pixel-2-XL-Launcher-Mods.jpg</og:image>
+<og:type>article</og:type>
+<og:title>Pixel Launcher modded for the new Pixel 2 phones</og:title>
+<og:url>https://androidcommunity.com/pixel-launcher-modded-for-the-new-pixel-2-phones-20171110/</og:url>
+<og:description>Many Android users are happy with the Pixel Launcher. As with any other app launchers we know, this one has also received a number of important changes and additions. On its own, it’s already…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/pixel-launcher-modded-for-the-new-pixel-2-phones-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>Android Oreo</category>
+<category>launcher</category>
+<category>Pixel 2</category>
+<category>Pixel 2 XL</category>
+</item>
+<item>
+<title>Google working on new Activity Recognition Transition API</title>
+<link>https://androidcommunity.com/google-working-on-new-activity-recognition-transition-api-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/google-working-on-new-activity-recognition-transition-api-20171110/</guid>
+<description>&lt;p&gt;Almost two years ago, the &lt;a href=&quot;https://androidcommunity.com/do-not-disturb-feature-deleted-from-android-6-0-1-20151228/&quot;&gt;‘Do Not Disturb’ feature was deleted&lt;/a&gt; from Android 6.0.1 Marshmallow. That’s one helpful feature but we had no idea why it was removed. It appears to be back as the DND mode when we noted how the &lt;a href=&quot;https://androidcommunity.com/pixel-2-knows-when-youre-driving-will-switch-to-dnd-mode-20171009/&quot;&gt;Pixel 2 seems to know when you are driving&lt;/a&gt;. It makes more sense for a device to switch to DND mode but there may be apps that need to still work while you are moving and driving.&lt;/p&gt;
+
+
+&lt;p&gt;There are driving or navigational apps that have to function. To make sure apps are working properly and Android devices are responding correctly, Google has introduced a Driving Do-Not-Disturb API.&lt;/p&gt;
+&lt;p&gt;We first encountered this Driving Do-Not-Disturb on the Pixel 2 phones. What the feature does is to silence any incoming calls, messages, or notifications. This makes driving safer for most people. What’s good about this is that you can receive calls, hear voice interactions, and listen to navigation directions over Bluetooth. Distraction is limited while driving but navigation is still made efficient.&lt;/p&gt;
+&lt;p&gt;Making all these possible is Activity Recognition that knows when a user is driving. It uses low power signals from WiFi, Bluetooth, and multiple sensors. It takes advantage of the Android Sensor Hub that &lt;em&gt;ensures low latency, low power and accurate driving detection&lt;/em&gt; as described. In the coming year, Google will also be launching the Activity Recognition Transition API to allow more efficiency among apps and devices, enabling distraction-free driving all the time.&lt;/p&gt;
+
+&lt;p&gt;SOURCE: &lt;a href=&quot;https://android-developers.googleblog.com/2017/11/making-pixel-better-for-drivers.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Android Developers Blog&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;related-posts&quot;&gt;
+&lt;div id=&quot;related-posts-MRP_all&quot; class=&quot;related-posts-type&quot;&gt;
+&lt;h4&gt;Story Timeline&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 23:00:14 +0000</pubDate>
+<dc:creator>Rei Padla</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/Driving-Do-Not-Disturb-API-Cover.png</og:image>
+<og:type>article</og:type>
+<og:title>Google working on new Activity Recognition Transition API</og:title>
+<og:url>https://androidcommunity.com/google-working-on-new-activity-recognition-transition-api-20171110/</og:url>
+<og:description>Almost two years ago, the ‘Do Not Disturb’ feature was deleted from Android 6.0.1 Marshmallow. That’s one helpful feature but we had no idea why it was removed. It appears to be back as…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/google-working-on-new-activity-recognition-transition-api-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>api</category>
+<category>driving</category>
+</item>
+<item>
+<title>T-Mobile and Qualcomm team up to bring Gigabit LTE, LTE Advanced</title>
+<link>https://androidcommunity.com/t-mobile-and-qualcomm-team-up-to-bring-gigabit-lte-lte-advanced-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/t-mobile-and-qualcomm-team-up-to-bring-gigabit-lte-lte-advanced-20171110/</guid>
+<description>&lt;p&gt;Fast Internet connection in the US is not a luxury anymore but a necessity for a lot of people. Probably each carrier will claim that they have the fastest data connection in the country. &lt;a href=&quot;https://androidcommunity.com/tag/t-mobile/&quot;&gt;T-Mobile&lt;/a&gt;, the 3rd largest in the US, is no exception and they have now announced a partnership with &lt;a href=&quot;https://androidcommunity.com/tag/qualcomm/&quot;&gt;Qualcomm&lt;/a&gt; Technologies, to bring Gigabit Class LTE to their network. The next generation of LTE, the “contentious” LTE Advanced is also now available in more than 920 markets. They also plan to launch License Assisted Access (LAA) soon.&lt;/p&gt;
+
+
+&lt;p&gt;Qualcomm’s Snapdragon Gigabit LTE modems are the support that T-Mobile needed in order to bring LTE Advanced to go live in 430 more markets, to reach the 900+ mark. They are using three speed-boosting technologies to be able to do this, including carrier aggregation, 4X4 MIMO and 256 QAM. If you get LTE-A in your area, ideally you will get double your usual download speeds and if you have the aforementioned three technologies, then you get another double speed. We say ideally of course because as we all know, it doesn’t always happen in real life.&lt;/p&gt;
+&lt;p&gt;The Gigabit LTE is actually preparing networks and consumers for the future 5G, which is still a few years far off but hopefully will arrive eventually. T-Mobile also revealed their plans to launch LAA which basically taps into the unlicensed spectrum in order to “further densify the network for even more capacity and speed”.&lt;/p&gt;
+&lt;p&gt;While all of these things sound good, regular consumers of course will only understand it if they feel that their Internet speeds are significantly faster. If you’re a T-Mobile subscriber, have you already felt the effect of LTE Advanced in your area?&lt;/p&gt;
+&lt;p&gt;SOURCE: &lt;a href=&quot;https://newsroom.t-mobile.com/news-and-blogs/t-mobile-more-than-doubles-lte-advanced-coverage.htm&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;T-Mobile&lt;/a&gt;&lt;/p&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 22:00:12 +0000</pubDate>
+<dc:creator>Ida Torres</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/NewNetworkTile123.jpg</og:image>
+<og:type>article</og:type>
+<og:title>T-Mobile and Qualcomm team up to bring Gigabit LTE, LTE Advanced</og:title>
+<og:url>https://androidcommunity.com/t-mobile-and-qualcomm-team-up-to-bring-gigabit-lte-lte-advanced-20171110/</og:url>
+<og:description>Fast Internet connection in the US is not a luxury anymore but a necessity for a lot of people. Probably each carrier will claim that they have the fastest data connection in the country. T-Mobile,…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/t-mobile-and-qualcomm-team-up-to-bring-gigabit-lte-lte-advanced-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>Qualcomm</category>
+<category>T-Mobile</category>
+</item>
+<item>
+<title>Protect your PC from viruses, hackers &amp; more with GlassWire Pro [DEALS]</title>
+<link>https://androidcommunity.com/protect-your-pc-from-viruses-hackers-more-with-glasswire-pro-deals-2-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/protect-your-pc-from-viruses-hackers-more-with-glasswire-pro-deals-2-20171110/</guid>
+<description>&lt;p&gt;Maintain optimal PC performance and avoid security threats with &lt;a href=&quot;https://deals.androidcommunity.com/sales/glasswire-pro-lifetime-license-2?utm_source=androidcommunity.com&amp;amp;utm_medium=referral&amp;amp;utm_campaign=glasswire-pro-lifetime-license-2&amp;amp;utm_term=scsf-258947&amp;amp;utm_content=a0x1a000003aNsA&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;GlassWire Pro&lt;/a&gt;. Purchase a lifetime license and save 70% off the regular price this week at Android Community Deals.&lt;/p&gt;
+
+
+&lt;p&gt;GlassWire is a PC monitoring system and firewall. It keeps undesirables out and provides an overall picture of your PC’s health so you can fix problems before they get out of hand. It’s a must have security feature, especially these days with new threats cropping up almost daily.&lt;/p&gt;
+&lt;p&gt;A lifetime license to GlassWire Pro provides top-level protection for as many as three PC’s. It’s easy to set up, the interface is simple to understand, and it’s received glowing reviews from trusted publications like PC World and PC Advisor.&lt;/p&gt;
+&lt;p&gt;It’s time to get serious about your PC’s performance and security. Get a &lt;a href=&quot;https://deals.androidcommunity.com/sales/glasswire-pro-lifetime-license-2?utm_source=androidcommunity.com&amp;amp;utm_medium=referral&amp;amp;utm_campaign=glasswire-pro-lifetime-license-2&amp;amp;utm_term=scsf-258947&amp;amp;utm_content=a0x1a000003aNsA&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;lifetime license to GlassWire Pro&lt;/a&gt; for just $29.00 for a limited time.&lt;/p&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 21:00:03 +0000</pubDate>
+<dc:creator>Juan Carlos Torres</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/sale_10493_primary_image.jpg</og:image>
+<og:type>article</og:type>
+<og:title>Protect your PC from viruses, hackers &amp; more with GlassWire Pro [DEALS]</og:title>
+<og:url>https://androidcommunity.com/protect-your-pc-from-viruses-hackers-more-with-glasswire-pro-deals-2-20171110/</og:url>
+<og:description>Maintain optimal PC performance and avoid security threats with GlassWire Pro. Purchase a lifetime license and save 70% off the regular price this week at Android Community Deals.</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/protect-your-pc-from-viruses-hackers-more-with-glasswire-pro-deals-2-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Deals</category>
+<category>Android</category>
+<category>Deal</category>
+<category>deals</category>
+</item>
+<item>
+<title>Samsung SM-W2018 clamshell, flip phone images surface</title>
+<link>https://androidcommunity.com/samsung-sm-w2018-clamshell-flip-phone-images-surface-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/samsung-sm-w2018-clamshell-flip-phone-images-surface-20171110/</guid>
+<description>&lt;p&gt;Samsung’s next clamshell phone was already leaked back in July. Back then, it was known as the Samsung G9298 flip phone on Weibo. It’s believed to be the Samsung W2018 and looks like the new Android phone is about to be unveiled judging from these photos of a new Samsung smartphone. The clamshell form is different from the foldable-bendable phone we’ve been waiting for and is expected to be released next year.&lt;/p&gt;
+
+
+&lt;p&gt;The upcoming Android flip phone is said to feature flagship features and specs. There may be a pair of 4.2-inch screens with Full HD resolution, 6GB RAM, 64GB onboard storage, 12MP main camera, 5MP front-facing shooter, Qualcomm Snapdragon 835 chipset, and a 2300mAh battery. Nothing is certain yet but these leaked live images show us the South Korean tech giant is more than ready with another premium-looking flip smartphone.&lt;/p&gt;
+&lt;p&gt;The phone shows a W2018ZCU0AQI9 firmware version. It will roll out in China with an unknown price and availability. We’re crossing our fingers it won’t be too pricey given the premium specs. We’re also assuming this model will officially follow the Samsung SM-G9298 flip phone announced back in August.&lt;/p&gt;
+&lt;p&gt;Since the clamshell phone business is small, expect this Samsung W2018 to compete with the &lt;a href=&quot;https://androidcommunity.com/zte-cymbal-t-flip-phone-announced-with-4g-lte-already-20161103/&quot;&gt;ZTE Cymbal-T&lt;/a&gt;, &lt;a href=&quot;https://androidcommunity.com/veyron-premium-flip-smartphone-spotted-in-leaked-images-20160919/&quot;&gt;Veyron premium flip smartphone&lt;/a&gt;, or the old &lt;a href=&quot;https://androidcommunity.com/lg-wine-smart-jazz-expands-to-other-south-korean-mobile-carriers-20150922/&quot;&gt;LG Wine Smart Jazz&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;VIA: &lt;a href=&quot;https://www.sammobile.com/2017/11/09/live-images-samsungs-sm-w2018-clamshell-flagship-will-make-want-one/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SAMMOBILE&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;related-posts&quot;&gt;
+&lt;div id=&quot;related-posts-MRP_all&quot; class=&quot;related-posts-type&quot;&gt;
+&lt;h4&gt;Story Timeline&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 19:00:24 +0000</pubDate>
+<dc:creator>Rei Padla</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/Samsung-SM-W2018-Clamshell-Phone-1.jpg</og:image>
+<og:type>article</og:type>
+<og:title>Samsung SM-W2018 clamshell, flip phone images surface</og:title>
+<og:url>https://androidcommunity.com/samsung-sm-w2018-clamshell-flip-phone-images-surface-20171110/</og:url>
+<og:description>Samsung’s next clamshell phone was already leaked back in July. Back then, it was known as the Samsung G9298 flip phone on Weibo. It’s believed to be the Samsung W2018 and looks like th…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/samsung-sm-w2018-clamshell-flip-phone-images-surface-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>clamshell</category>
+<category>Samsung</category>
+<category>Smartphone</category>
+</item>
+<item>
+<title>Selfie-loving people in India: Oppo F5 now available through Amazon</title>
+<link>https://androidcommunity.com/selfie-loving-people-in-india-oppo-f5-now-available-through-amazon-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/selfie-loving-people-in-india-oppo-f5-now-available-through-amazon-20171110/</guid>
+<description>&lt;p&gt;The art of taking selfies have gone up a whole new level since smartphone makers started creating “selfie phones” or devices that give special attention to the front-facing camera and features related to it. Oppo has been releasing a few devices like that and the latest one is the &lt;a href=&quot;https://androidcommunity.com/tag/oppo-f5/&quot;&gt;Oppo F5&lt;/a&gt;, announced last week in India. Now the AI-powered smartphone is finally available there on Amazon (oh and Flipkart too!), although it seems like the 4GB RAM / 32GB storage variant is the only one available.&lt;/p&gt;
+
+
+&lt;p&gt;Aside from being a selfie-cam, another selling point of the Oppo F5 is that it has an 84% screen-to-body ratio, with its 6-inch full HD+ display with 2160 x 1080 pixels and 18:9 aspect ratio. Processing-wise, it is powered by an Octa-core MediaTek Helio P23 chipset with a Mali-G71 graphics processor. The lower variant has 4GB RAM and 32GB onboard storage while the higher one has 6GB RAM and 64GB internal storage. However, no word yet on when the latter will be available.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://scdn.androidcommunity.com/wp-content/uploads/2017/11/design-sec5-83e72c5b4f8390168973a00d683dc682442ca368-1024x852.jpg&quot; alt=&quot;&quot; width=&quot;640&quot; height=&quot;533&quot; class=&quot;alignnone size-large wp-image-334322&quot; srcset=&quot;https://scdn.androidcommunity.com/wp-content/uploads/2017/11/design-sec5-83e72c5b4f8390168973a00d683dc682442ca368-1024x852.jpg 1024w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/design-sec5-83e72c5b4f8390168973a00d683dc682442ca368-505x420.jpg 505w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/design-sec5-83e72c5b4f8390168973a00d683dc682442ca368-768x639.jpg 768w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/design-sec5-83e72c5b4f8390168973a00d683dc682442ca368-696x579.jpg 696w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/design-sec5-83e72c5b4f8390168973a00d683dc682442ca368-1068x889.jpg 1068w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/design-sec5-83e72c5b4f8390168973a00d683dc682442ca368.jpg 1080w&quot; sizes=&quot;(max-width: 640px) 100vw, 640px&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;But of course what Oppo is pushing with this particular phone is the 20MP front-facing camera with its f/2.0 aperture and 1/2.8-inch sensor. It also has a 16MP rear camera with f/1.8 aperture and can record 1080p videos. The phone has new AI capabilities that highlight the features you want to pop out in your selfies, whether it’s the nose or eyes or cheekbones. It can also shoot in portrait mode, artificially blurring the background in your selfies.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://scdn.androidcommunity.com/wp-content/uploads/2017/11/camera-sec5-a0b9cb50168c4204b4b1e95feb57af2825fb5e5b-1024x808.jpg&quot; alt=&quot;&quot; width=&quot;640&quot; height=&quot;505&quot; class=&quot;alignnone size-large wp-image-334323&quot; srcset=&quot;https://scdn.androidcommunity.com/wp-content/uploads/2017/11/camera-sec5-a0b9cb50168c4204b4b1e95feb57af2825fb5e5b-1024x808.jpg 1024w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/camera-sec5-a0b9cb50168c4204b4b1e95feb57af2825fb5e5b-532x420.jpg 532w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/camera-sec5-a0b9cb50168c4204b4b1e95feb57af2825fb5e5b-768x606.jpg 768w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/camera-sec5-a0b9cb50168c4204b4b1e95feb57af2825fb5e5b-696x549.jpg 696w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/camera-sec5-a0b9cb50168c4204b4b1e95feb57af2825fb5e5b-1068x843.jpg 1068w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/camera-sec5-a0b9cb50168c4204b4b1e95feb57af2825fb5e5b.jpg 1180w&quot; sizes=&quot;(max-width: 640px) 100vw, 640px&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;The Oppo F5 (4GB/32GB variant) is now available on Amazon for Rs 21,790 (tax-inclusive) or around $330. It’s available in black and gold colors. You can also get it through Flipkart for Rs 19,990 (tax-exclusive) and other offline stores.&lt;/p&gt;
+&lt;p&gt;SOURCE: &lt;a href=&quot;https://www.amazon.in/dp/B0776ZZXY3&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 18:00:58 +0000</pubDate>
+<dc:creator>Ida Torres</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/oppo-f5-2.jpg</og:image>
+<og:type>article</og:type>
+<og:title>Selfie-loving people in India: Oppo F5 now available through Amazon</og:title>
+<og:url>https://androidcommunity.com/selfie-loving-people-in-india-oppo-f5-now-available-through-amazon-20171110/</og:url>
+<og:description>The art of taking selfies have gone up a whole new level since smartphone makers started creating “selfie phones” or devices that give special attention to the front-facing camera and features rela…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/selfie-loving-people-in-india-oppo-f5-now-available-through-amazon-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>India</category>
+<category>OPPO</category>
+<category>Oppo F5</category>
+<category>Smartphone</category>
+</item>
+<item>
+<title>SwiftKey adds Photo Themes, choose from own or curated images</title>
+<link>https://androidcommunity.com/swiftkey-adds-photo-themes-choose-from-own-or-curated-images-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/swiftkey-adds-photo-themes-choose-from-own-or-curated-images-20171110/</guid>
+<description>&lt;p&gt;Over the past seven years, we’ve witnessed how SwiftKey developed from an alternative &lt;a href=&quot;https://androidcommunity.com/swiftkey-dominates-android%E2%80%99s-paid-downloads-reigning-in-as-top-keyboard-20100930/&quot;&gt;keyboard for Android&lt;/a&gt; to a &lt;a href=&quot;https://androidcommunity.com/swiftkey-update-brings-support-for-gifs-on-its-virtual-keyboard-20170701/&quot;&gt;smarter virtual keyboard&lt;/a&gt;. The latest beta version added more &lt;a href=&quot;https://androidcommunity.com/swiftkey-update-brings-support-for-gifs-on-its-virtual-keyboard-20170701/&quot;&gt;GIFs, hashtag prediction, and new transliteration languages&lt;/a&gt;. For &lt;a href=&quot;https://androidcommunity.com/swiftkey-brings-new-design-emojis-for-oreo-hashtag-predictions-20171003/&quot;&gt;Oreo&lt;/a&gt;, it’s also getting a new design, emojis (for Oreo), and better hashtag predictions. If those are not enough for you, then maybe these Photo Themes will make you more excited.&lt;/p&gt;
+
+
+&lt;p&gt;SwiftKey has announced Photo Themes as a new feature for the SwiftKey Keyboard. This allows a mobile user to personalize his keyboard with own images. If you want to use a photo of your significant other, your kid, or your pet, feel free to do so. Who knows, you might be inspired if you see their photos regularly on your screen. You can also choose nature-inspired images captured by photographer Keith Ladzinski who’ve contributed to National Geographic. His works can be seen on a curated gallery exclusive for SwiftKey keyboard users.&lt;/p&gt;
+&lt;p&gt;Customize your keyboard according to your preference. You can add or remove borders on the keys. You can also set your own symbols or secondary characters depending on your frequent needs when typing. SwiftKey can be customized easily. Go to &lt;em&gt;Settings&amp;gt; Themes&lt;/em&gt; on the SwiftKey app for Android for further options and instructions.&lt;/p&gt;
+
+&lt;p&gt;SOURCE: &lt;a href=&quot;https://blog.swiftkey.com/swiftkey-announces-photo-themes-partnership-national-geographic-contributing-photographer/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;SwiftKey&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;related-posts&quot;&gt;
+&lt;div id=&quot;related-posts-MRP_all&quot; class=&quot;related-posts-type&quot;&gt;
+&lt;h4&gt;Story Timeline&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 17:00:27 +0000</pubDate>
+<dc:creator>Rei Padla</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/SwiftKey-1.jpg</og:image>
+<og:type>article</og:type>
+<og:title>SwiftKey adds Photo Themes, choose from own or curated images</og:title>
+<og:url>https://androidcommunity.com/swiftkey-adds-photo-themes-choose-from-own-or-curated-images-20171110/</og:url>
+<og:description>Over the past seven years, we’ve witnessed how SwiftKey developed from an alternative keyboard for Android to a smarter virtual keyboard. The latest beta version added more GIFs, hashtag pred…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/swiftkey-adds-photo-themes-choose-from-own-or-curated-images-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>Apps</category>
+<category>keyboard</category>
+<category>SwiftKey</category>
+<category>Update</category>
+</item>
+<item>
+<title>OnePlus opens The Lab for the OnePlus 5T</title>
+<link>https://androidcommunity.com/oneplus-opens-the-lab-for-the-oneplus-5t-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/oneplus-opens-the-lab-for-the-oneplus-5t-20171110/</guid>
+<description>&lt;p&gt;Another OnePlus device is about to be unveiled which means the company is once again opening The Lab. First launched for the OnePlus 3 last year, we know &lt;a href=&quot;https://androidcommunity.com/oneplus-opens-the-lab-as-oneplus-3-peer-review-program-20160531/&quot;&gt;the Lab as a Peer Review Program&lt;/a&gt; where fans can test and try out the new smartphone offering. The Chinese OEM has just announced the latest edition of The Lab for OnePlus 5T. Like last year, you can have the opportunity to review a new phone and share feedback.&lt;/p&gt;
+
+
+&lt;p&gt;OnePlus will be choosing ten (10) lucky testers to share their impressions of the OnePlus 5T that is yet to launch next week.&lt;/p&gt;
+&lt;p&gt;The Lab for OnePlus 5T is open for everyone. You can sign up &lt;a href=&quot;https://goo.gl/forms/NvoHK3cpnc2kV0pf2&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;HERE&lt;/a&gt; and cross your fingers you will be chosen and &lt;em&gt;be among the first ones to receive the OnePlus 5T in the world&lt;/em&gt; according to the OnePlus team. You will only receive and be loaned the phone as you may need to return the review unit.&lt;/p&gt;
+&lt;p&gt;OnePlus is opening the submission for one week. The team will choose the reviewer on November 15, 10PM (EDT). Terms and Conditions apply. Make sure you agree with the requirements like submitting the materials on time and answering honestly. OnePlus reserves the right to publish any document you will be sending.&lt;/p&gt;
+&lt;p&gt;SOURCE: &lt;a href=&quot;https://forums.oneplus.net/threads/the-lab-oneplus-5t-edition.675876/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;OnePlus&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;related-posts&quot;&gt;
+&lt;div id=&quot;related-posts-MRP_all&quot; class=&quot;related-posts-type&quot;&gt;
+&lt;h4&gt;Story Timeline&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 16:20:53 +0000</pubDate>
+<dc:creator>Rei Padla</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/OnePlus-5T-Limited-Edition.jpg</og:image>
+<og:type>article</og:type>
+<og:title>OnePlus opens The Lab for the OnePlus 5T</og:title>
+<og:url>https://androidcommunity.com/oneplus-opens-the-lab-for-the-oneplus-5t-20171110/</og:url>
+<og:description>Another OnePlus device is about to be unveiled which means the company is once again opening The Lab. First launched for the OnePlus 3 last year, we know the Lab as a Peer Review Program where fans…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/oneplus-opens-the-lab-for-the-oneplus-5t-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>OnePlus</category>
+<category>OnePlus 5T</category>
+<category>Smartphone</category>
+</item>
+<item>
+<title>B&amp;O releases compact wireless speaker Beoplay M3</title>
+<link>https://androidcommunity.com/bo-releases-compact-wireless-speaker-beoplay-m3-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/bo-releases-compact-wireless-speaker-beoplay-m3-20171110/</guid>
+<description>&lt;p&gt;Bluetooth wireless speakers are getting prettier and more compact every day. Several brands have released products that are pretty portable and can also blend in with the rest of your furniture. &lt;a href=&quot;https://androidcommunity.com/tag/bang-and-olufsen/&quot;&gt;Bang &amp;amp; Olufsen&lt;/a&gt; is the latest one to do so and their new Beoplay M3 is their most compact wireless speaker yet. And even though it is small and can pass as a decor in your house or office because of its swappable covers, you know that you still get the quality you expect from a B&amp;amp;O speaker.&lt;/p&gt;
+
+
+&lt;p&gt;When it comes to its physical specs, the Beoplay M3 does seem tiny compared to other B&amp;amp;O speakers. It is 11 x 15 x 14 cm and weighs just 1.46kg. It’s designed by famous Danish industrial designer Cecille Manz and is made of anodized aluminum, polymer, and Kvadrat wool. It has a black aluminum grill cover and if you get bored with your current cover, you can interchange it with a new one.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://scdn.androidcommunity.com/wp-content/uploads/2017/11/beoplay_m3.jpg&quot; alt=&quot;&quot; width=&quot;980&quot; height=&quot;620&quot; class=&quot;alignnone size-full wp-image-334361&quot; srcset=&quot;https://scdn.androidcommunity.com/wp-content/uploads/2017/11/beoplay_m3.jpg 980w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/beoplay_m3-600x380.jpg 600w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/beoplay_m3-768x486.jpg 768w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/beoplay_m3-696x440.jpg 696w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/beoplay_m3-664x420.jpg 664w&quot; sizes=&quot;(max-width: 980px) 100vw, 980px&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;Hardware-wise, it has a pair of 40W amps with a frequency range of 65-22,000Hz. You can choose to stream music to it through AirPlay and Chromecast or Bluetooth with dual-band 802.11 a/b/g/n/ac WiFi. But you can also choose wired connectivity if you feel like it. You can also connect it with other Beoplay speakers like A6, A9, and M5 models to complete a multi-room audio set-up.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://scdn.androidcommunity.com/wp-content/uploads/2017/11/BO-Play-M5.jpg&quot; alt=&quot;&quot; width=&quot;650&quot; height=&quot;442&quot; class=&quot;alignnone size-full wp-image-334364&quot; srcset=&quot;https://scdn.androidcommunity.com/wp-content/uploads/2017/11/BO-Play-M5.jpg 650w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/BO-Play-M5-600x408.jpg 600w, https://scdn.androidcommunity.com/wp-content/uploads/2017/11/BO-Play-M5-618x420.jpg 618w&quot; sizes=&quot;(max-width: 650px) 100vw, 650px&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;The Beoplay M3 has some physical controls for volume, standby, and join but you can also control it through the Beoplay app. You can now buy the speakers for $299 on their online store and selected retail outlets.&lt;/p&gt;
+&lt;p&gt;&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/5q1w05uMJLE?feature=oembed&quot; frameborder=&quot;0&quot; gesture=&quot;media&quot; allowfullscreen=&quot;&quot;&gt;[embedded content]&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;VIA: &lt;a href=&quot;https://www.slashgear.com/beoplay-m3-is-bos-most-compact-wireless-speaker-09507505/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;SlashGear&lt;/a&gt;&lt;/p&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 15:40:09 +0000</pubDate>
+<dc:creator>Ida Torres</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/M3_hero_hero.jpg</og:image>
+<og:type>article</og:type>
+<og:title>B&amp;O releases compact wireless speaker Beoplay M3</og:title>
+<og:url>https://androidcommunity.com/bo-releases-compact-wireless-speaker-beoplay-m3-20171110/</og:url>
+<og:description>Bluetooth wireless speakers are getting prettier and more compact every day. Several brands have released products that are pretty portable and can also blend in with the rest of your furniture. Ba…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/bo-releases-compact-wireless-speaker-beoplay-m3-20171110/</dc:identifier>
+<category>Archive</category>
+<category>accessories</category>
+<category>Android</category>
+<category>Bang and Olufsen</category>
+<category>Bluetooth speakers</category>
+</item>
+<item>
+<title>Files Go now out on Beta for more Android users</title>
+<link>https://androidcommunity.com/files-go-now-out-on-beta-for-more-android-users-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/files-go-now-out-on-beta-for-more-android-users-20171110/</guid>
+<description>&lt;p&gt;When Google first put up the &lt;a href=&quot;https://androidcommunity.com/googles-files-go-storage-manager-app-now-on-test-mode-20171107/&quot;&gt;Files Go on the Google Play Store&lt;/a&gt;, it was to test out the file-transfer and file-management app for certain markets, particularly those with slow Internet and with devices with small internal storage. This was supposedly part of their Android Go initiative. They immediately pulled it out for some reason, but now it’s back again, although it is still marked as beta and “unreleased”, so if you don’t like buggy and unstable apps, download at your own risk.&lt;/p&gt;
+
+
+&lt;p&gt;But if you would like to see what the storage manager app can do and test it out to help Google improve, then you can download it. Well, only if you’re part of the “few more of you” that Caesar Sengupta, Google VP of the “Next Billion Users” team, mentioned in his tweet. It seems this time around they’re expanding access to the app probably in order to get more feedback before releasing it in its final, stable version. There’s no indication as to which territories will be able to access the app though, so just try it first if you can (this writer apparently cannot).&lt;/p&gt;
+&lt;p&gt;If you weren’t aware of what the Files Go app is all about, it is a simple and not space and data hungry app that will allow you to free up more space on your device. It suggests apps and files that you can delete (either because they’re duplicates or they’re not being used) and tells you to clear your cache and other things you probably know but forget to do. The Files section groups your files into photos, videos, and audio, and then sub-categorizes each into its sources like camera, chat, etc.&lt;/p&gt;
+&lt;p&gt;Another feature that might appeal to users is the ability to transfer files quickly and offline, probably through Bluetooth. If the app is available where you are, try to download and test it out from the &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files&amp;amp;hl=en&amp;amp;rdid=com.google.android.apps.nbu.files&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Google Play Store&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 15:00:01 +0000</pubDate>
+<dc:creator>Ida Torres</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/google-files-go.jpg</og:image>
+<og:type>article</og:type>
+<og:title>Files Go now out on Beta for more Android users</og:title>
+<og:url>https://androidcommunity.com/files-go-now-out-on-beta-for-more-android-users-20171110/</og:url>
+<og:description>When Google first put up the Files Go on the Google Play Store, it was to test out the file-transfer and file-management app for certain markets, particularly those with slow Internet and with devi…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/files-go-now-out-on-beta-for-more-android-users-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>Apps</category>
+</item>
+<item>
+<title>Twitter now gives you 50 characters for your display name</title>
+<link>https://androidcommunity.com/twitter-now-gives-you-50-characters-for-your-display-name-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/twitter-now-gives-you-50-characters-for-your-display-name-20171110/</guid>
+<description>&lt;p&gt;In case you’re living under a rock or if you’re not that much of a &lt;a href=&quot;https://androidcommunity.com/tag/twitter/&quot;&gt;Twitter&lt;/a&gt; user, the social media world was all abuzz about the decision of the app to let go of its iconic 140-character limit and increase it to double the size at 280 characters. Not everyone was happy about it (including a certain author of a best-selling series about wizards) but as some people have emphasized, you don’t need to use all 280 characters if you don’t want to. Oh, and now, Twitter is allowing users to have 50 characters on their display.&lt;/p&gt;
+
+
+&lt;p&gt;The display name is different from your username. It’s the displayed name on your tweets next to your constant @username. Previously, you could only use up to 20 characters, which some found to be limiting, while some found it to be enough. But Twitter said, “Here, have some more freedom to express yourself. You can now make it 50 characters! Oh, and add an emoji there somewhere!”. Yes, you can add glyphs and emojis to your display name now, aside from the boring old alphanumeric characters that everybody can understand and pronounce.&lt;/p&gt;
+&lt;p&gt;No reason was officially given as to why they’ve expanded the limit to the display name. When they made the 280-character rollout, they had a long, almost scientific explanation as to why they were doing so (although not everyone really bought it). This time though, it was just a tweet saying you can now add your middle name or a few emojis to your display name.&lt;/p&gt;
+&lt;p&gt;Having these two major changes aren’t sitting well with everyone, but let’s see if this can somehow save the drowning ship that is Twitter. What we really want to know though is when they will allow us to edit our tweets after posting because so many typos and regrettable statuses can never be taken back, unless you delete and correct-repost.&lt;/p&gt;
+&lt;p&gt;SOURCE: &lt;a href=&quot;https://twitter.com/TwitterSupport/status/928777729180254208&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 14:00:30 +0000</pubDate>
+<dc:creator>Ida Torres</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/TWITTER-1.jpg</og:image>
+<og:type>article</og:type>
+<og:title>Twitter now gives you 50 characters for your display name</og:title>
+<og:url>https://androidcommunity.com/twitter-now-gives-you-50-characters-for-your-display-name-20171110/</og:url>
+<og:description>In case you’re living under a rock or if you’re not that much of a Twitter user, the social media world was all abuzz about the decision of the app to let go of its iconic 140-character limit and i…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/twitter-now-gives-you-50-characters-for-your-display-name-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>Apps</category>
+<category>twitter</category>
+<category>Update</category>
+</item>
+<item>
+<title>Samsung Galaxy X prototype, dual-screen images shown off</title>
+<link>https://androidcommunity.com/samsung-galaxy-x-prototype-dual-screen-images-shown-off-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/samsung-galaxy-x-prototype-dual-screen-images-shown-off-20171110/</guid>
+<description>&lt;p&gt;You know Samsung is working on something really important when there are already numerous leaks not just the past few months but years before the actual launch. It doesn’t mean the South Korean tech giant is slow in research and development. Perfecting the next display technology is not an easy feat especially if you’re one of the first doing it.&lt;/p&gt;
+
+
+&lt;p&gt;We remember that &lt;a href=&quot;https://androidcommunity.com/samsung-galaxy-x-foldable-display-teased-ahead-of-official-announcement-20160523/&quot;&gt;Samsung Galaxy X Foldable Display&lt;/a&gt;. We’ve been anticipating some &lt;a href=&quot;https://androidcommunity.com/samsung-to-release-two-smartphones-with-bendable-screens-rollable-display-20160607/&quot;&gt;bendable screens with rollable display&lt;/a&gt; but we have no idea yet when the technology will be introduced. We also know Samsung has been working on a &lt;a href=&quot;https://androidcommunity.com/samsung-working-on-a-dual-screen-smartphone-prototype-20170412/&quot;&gt;dual-screen smartphone prototype&lt;/a&gt;. The latest information we got was a &lt;a href=&quot;https://androidcommunity.com/samsung-foldable-smartphone-spotted-getting-certification-yet-again-20170925/&quot;&gt;foldable smartphone spotted getting certification&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We also saw the &lt;a href=&quot;https://androidcommunity.com/samsung-galaxy-x-sketches-patent-application-discovered-20171027/&quot;&gt;Samsung Galaxy X sketches&lt;/a&gt; and discovered a patent application. This time around, a new set of images shows the interface of a dual-screen ‘Galaxy X’. It’s only a prototype but we can tell it’s working.&lt;/p&gt;
+&lt;p&gt;We have some ideas about how the folding smartphone will look like based on early illustrations and leaks but nothing is final yet. The screenshots below are for the dual-screen interface. We see a pair of displays that can be used vertically or horizontally (portrait or landscape mode) both at once.&lt;/p&gt;
+&lt;p&gt;The Samsung Galaxy X screenshots show us different layout combinations of apps, cameras, and keyboard. The phone appears to have a really massive display. One screen can be extended with a secondary display but unlike with other phones, it is almost the same size as the main screen. Not much information has been shared but the picture below are enough to convince us:&lt;/p&gt;
+
+&lt;p&gt;VIA: &lt;a href=&quot;https://www.galaxyclub.nl/2017/11/galaxy-x-interface-patent-screenshots&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Galaxy Club&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;related-posts&quot;&gt;
+&lt;div id=&quot;related-posts-MRP_all&quot; class=&quot;related-posts-type&quot;&gt;
+&lt;h4&gt;Story Timeline&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 13:00:03 +0000</pubDate>
+<dc:creator>Rei Padla</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/Samsung-Galaxy-X-Interface-6.jpg</og:image>
+<og:type>article</og:type>
+<og:title>Samsung Galaxy X prototype, dual-screen images shown off</og:title>
+<og:url>https://androidcommunity.com/samsung-galaxy-x-prototype-dual-screen-images-shown-off-20171110/</og:url>
+<og:description>You know Samsung is working on something really important when there are already numerous leaks not just the past few months but years before the actual launch. It doesn’t mean the South Kore…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/samsung-galaxy-x-prototype-dual-screen-images-shown-off-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>Samsung</category>
+<category>Samsung Galaxy X</category>
+</item>
+<item>
+<title>Having Pixel 2 mic issues? Blowing into the speaker gets the job done</title>
+<link>https://androidcommunity.com/having-pixel-2-mic-issues-blowing-into-the-speaker-gets-the-job-done-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/having-pixel-2-mic-issues-blowing-into-the-speaker-gets-the-job-done-20171110/</guid>
+<description>&lt;p&gt;While you probably mainly use your smartphone to take pictures, watch videos and post on social media, some people actually use their devices to make calls. So when your phone, especially a pretty expensive one, doesn’t properly work when it comes to making calls, then it can get frustrating, The Pixel 2 has been pretty well-reviewed except for this part. Users have reported that the bottom mic is not working. But now a user has suggested something pretty old-school: blow on the mic and it will work.&lt;/p&gt;
+
+
+&lt;p&gt;For anyone who was alive during the time of the Nintendo Family Computer era, when your game would hang or not work, what you probably did was take the cartridge out tap it a little and blow on the bottom part. Apparently, this “solution” has carried over to the newest made by Google smartphone. A user named Adam Zeird posted on the thread about this defective mic on the &lt;a href=&quot;https://productforums.google.com/forum/#!msg/phone-by-google/KdeLHq3G4PM/thwUIONiAQAJ&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Google Products page&lt;/a&gt; that his solution was to blow on to the bottom speaker.&lt;/p&gt;
+&lt;p&gt;Every time the mic would stop working for voice calls, voice recognition, and recording sound, he would blow on it and it would suddenly work. However, if the microphone is working and he blows on it again, then it would stop working. This isn’t a very permanent solution, not to mention it’s pretty unhygienic, so the other option would actually be to try and return or exchange the device through an RMA.&lt;/p&gt;
+&lt;p&gt;Since not all users are having this problem, Google seems to not have an official statement yet. They are probably trying to figure out the cause of this issue and then how to properly respond to users having issues.&lt;/p&gt;
+&lt;p&gt;VIA: &lt;a href=&quot;http://www.androidpolice.com/2017/11/08/pixel-2s-muted-mic-issue-may-fixed-blowing-bottom-speaker-nintendo-style/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Android Police&lt;/a&gt;&lt;/p&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 12:00:39 +0000</pubDate>
+<dc:creator>Ida Torres</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/pixel-2-1.jpg</og:image>
+<og:type>article</og:type>
+<og:title>Having Pixel 2 mic issues? Blowing into the speaker gets the job done</og:title>
+<og:url>https://androidcommunity.com/having-pixel-2-mic-issues-blowing-into-the-speaker-gets-the-job-done-20171110/</og:url>
+<og:description>While you probably mainly use your smartphone to take pictures, watch videos and post on social media, some people actually use their devices to make calls. So when your phone, especially a pretty …</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/having-pixel-2-mic-issues-blowing-into-the-speaker-gets-the-job-done-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>Google</category>
+<category>Pixel 2</category>
+<category>Smartphone</category>
+</item>
+<item>
+<title>T-Mobile to launch Nest security package, also exclusive cellular backup</title>
+<link>https://androidcommunity.com/t-mobile-to-launch-nest-security-package-also-exclusive-cellular-backup-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/t-mobile-to-launch-nest-security-package-also-exclusive-cellular-backup-20171110/</guid>
+<description>&lt;p&gt;Your security systems at home mostly rely on WiFi connection, but of course, you need to have cellular backup just in case something goes wrong, like if the power goes out or the WiFi experiences intermittent connection. &lt;a href=&quot;https://androidcommunity.com/tag/nest/&quot;&gt;Nest&lt;/a&gt; Secure has announced that &lt;a href=&quot;https://androidcommunity.com/tag/t-mobile/&quot;&gt;T-Mobile&lt;/a&gt; is their official and exclusive cellular backup in the US. In connection to this, the un-carrier has also announced that they will be releasing a Nest security package, making them the first mobile carrier to offer this, even offering financing for their customers.&lt;/p&gt;
+
+
+&lt;p&gt;The T-Mobile Nest security package contains products from the security expert as well as data coverage exclusively for the products. The package includes the Nest Secure alarm system and its various components: a Nest Guard base, 2 units of Nest Detect motion and open/close sensors, 2 pieces of Nest Tag key fobs. It also has the Nest Cam indoor security camera which also includes the Nest Aware service, which gives you “intelligent alerts” and 10 days of continuous video recording.&lt;/p&gt;
+&lt;p&gt;Normally, this Nest Secure would cost $500 if purchased through Nest. If you get it through T-Mobile, you will have to make a downpayment of $240 and then $10 per month through the carrier’s Equipment Installment Plan. You will pay the $10 per month until you reach $480. However, you also still need to get the T-Mobile Nest Plan which will cost you $15 per month or $10 per month after $5 bill credit.&lt;/p&gt;
+&lt;p&gt;Once you’re done paying for the equipment, you still have to continue paying the $10 per month T-Mobile Nest plan of course unless you decide to not have cellular backup. But Nest also announced that you will be able to get Nest Secure cellular backup for $5 a month or $50 per year. Let’s wait for further clarifications.&lt;/p&gt;
+&lt;p&gt;VIA: &lt;a href=&quot;https://www.slashgear.com/nest-secure-cellular-backup-taps-t-mobile-for-coverage-08507350/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;SlashGear&lt;/a&gt;&lt;/p&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 11:00:48 +0000</pubDate>
+<dc:creator>Ida Torres</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/Nest.jpg</og:image>
+<og:type>article</og:type>
+<og:title>T-Mobile to launch Nest security package, also exclusive cellular backup</og:title>
+<og:url>https://androidcommunity.com/t-mobile-to-launch-nest-security-package-also-exclusive-cellular-backup-20171110/</og:url>
+<og:description>Your security systems at home mostly rely on WiFi connection, but of course, you need to have cellular backup just in case something goes wrong, like if the power goes out or the WiFi experiences i…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/t-mobile-to-launch-nest-security-package-also-exclusive-cellular-backup-20171110/</dc:identifier>
+<category>Archive</category>
+<category>accessories</category>
+<category>Android</category>
+<category>Nest</category>
+<category>T-Mobile</category>
+</item>
+<item>
+<title>Red Sony Xperia XZ Premium discounted on Amazon</title>
+<link>https://androidcommunity.com/red-sony-xperia-xz-premium-discounted-on-amazon-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/red-sony-xperia-xz-premium-discounted-on-amazon-20171110/</guid>
+<description>&lt;p&gt;Another Sony Xperia smartphone is getting a price cut. After the &lt;a href=&quot;https://androidcommunity.com/sony-xperia-xa1-ultra-32gb-unlocked-variant-gets-a-lower-price-tag-20171108/&quot;&gt;Sony Xperia XA1 Ultra 32GB Unlocked variant&lt;/a&gt; and the &lt;a href=&quot;https://androidcommunity.com/sony-xperia-xz1-unlocked-now-discounted-on-amazon-20171106/&quot;&gt;Sony Xperia XZ1&lt;/a&gt;, here’s the &lt;a href=&quot;https://androidcommunity.com/tag/sony-xperia-xz-premium/&quot;&gt;Xperia XZ Premium&lt;/a&gt; being listed with a $100 discount. The &lt;a href=&quot;https://androidcommunity.com/oreo-coming-to-sony-xperia-xz-premium-soon-red-version-out-in-japan-20171020/&quot;&gt;Red version&lt;/a&gt; which was released in Japan last month now costs $599, down from $699. This is already the second price cut because the same phone was already &lt;a href=&quot;https://androidcommunity.com/sony-xperia-xz-premium-gets-a-price-cut-on-amazon-bh-and-best-buy-20170809/&quot;&gt;discounted&lt;/a&gt; on Best Buy, B&amp;amp;H, and Best Buy back in August from $799 to $699.&lt;/p&gt;
+
+
+&lt;p&gt;The Sony Xperia XZ Premium is a much-celebrated flagship phone from the Japanese company. It boasts of a &lt;a href=&quot;https://androidcommunity.com/sony-xperia-xz-premium-boasts-of-4k-hdr-smarter-camera-20170227/&quot;&gt;4K HDR and smarter camera&lt;/a&gt;, &lt;a href=&quot;https://androidcommunity.com/sony-xperia-xz-premium-now-has-netflix-hdr-support-20170807/&quot;&gt;Netflix HDR support&lt;/a&gt;, &lt;a href=&quot;https://androidcommunity.com/sony-xperia-xz-premium-brings-super-slow-motion-to-your-mobile-20170303/&quot;&gt;super slow motion video&lt;/a&gt;, and &lt;a href=&quot;https://androidcommunity.com/android-oreo-update-finally-ready-for-the-sony-xperia-xz-premium-20171024/&quot;&gt;Android Oreo&lt;/a&gt;. The device is impressive but it’s not perfect with that &lt;a href=&quot;https://androidcommunity.com/sony-xperia-xz-premiums-camera-distortion-issue-gets-a-fix-20171024/&quot;&gt;camera distortion&lt;/a&gt; which recently received a &lt;a href=&quot;https://androidcommunity.com/next-update-will-fix-sony-xperia-xz-premiums-camera-issue-20171102/&quot;&gt;fix&lt;/a&gt;. The &lt;a href=&quot;https://androidcommunity.com/pink-and-chrome-sony-xperia-xz-premium-now-on-sale-20171018/&quot;&gt;Pink and Chrome versions&lt;/a&gt; already recently went on sale.&lt;/p&gt;
+&lt;p&gt;The Red version is now ready for purchase at a lower price. It comes complete with a 5.5-inch 4K HDR Triluminous display, Gorilla Glass 5, 19MP motion Eye image sensor, 960 fps super slow-motion video, predictive capture, Snapdragon 835 processor, 4GB RAM, 64GB Onboard memory, Micro SD card slot, LTE Cat16, and a 3230mAh battery. This is the unlocked variant so you can use any SIM from T-Mobile, AT&amp;amp;T, Cricket Wireless, MetroPCS, Simple Mobile, and Straight Talk.&lt;/p&gt;
+
+&lt;p&gt;SOURCE: &lt;a href=&quot;https://www.amazon.com/dp/B075S66YWP?linkCode=as2&amp;amp;tag=slas0a-20&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Amazon&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;related-posts&quot;&gt;
+&lt;div id=&quot;related-posts-MRP_all&quot; class=&quot;related-posts-type&quot;&gt;
+&lt;h4&gt;Story Timeline&lt;/h4&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+</description>
+<pubDate>Fri, 10 Nov 2017 09:00:44 +0000</pubDate>
+<dc:creator>Rei Padla</dc:creator>
+<og:image>https://scdn.androidcommunity.com/wp-content/uploads/2017/11/Sony-Xperia-XZ-Premium-Red-Amazon.jpg</og:image>
+<og:type>article</og:type>
+<og:title>Red Sony Xperia XZ Premium discounted on Amazon</og:title>
+<og:url>https://androidcommunity.com/red-sony-xperia-xz-premium-discounted-on-amazon-20171110/</og:url>
+<og:description>Another Sony Xperia smartphone is getting a price cut. After the Sony Xperia XA1 Ultra 32GB Unlocked variant and the Sony Xperia XZ1, here’s the Xperia XZ Premium being listed with a $100 dis…</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://androidcommunity.com/red-sony-xperia-xz-premium-discounted-on-amazon-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Amazon</category>
+<category>Android</category>
+<category>Smartphone</category>
+<category>sony</category>
+<category>Sony Xperia</category>
+<category>Sony Xperia XZ Premium</category>
+</item>
+<item>
+<title>Samsung unveils Burgundy Red Galaxy S8 in South Korea</title>
+<link>https://androidcommunity.com/samsung-unveils-burgundy-red-galaxy-s8-in-south-korea-20171110/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/samsung-unveils-burgundy-red-galaxy-s8-in-south-korea-20171110/</guid>
+<description>[unable to retrieve full-text content]Samsung has this tradition of releasing new colors for its flagship devices and the Galaxy S8 is no exception. This time around, they have released a Burgundy Red color variant just in time for the arrival of fall. It may seem weird to choose this color given the iPhone Red from last year, but it [&amp;#8230;]</description>
+<pubDate>Fri, 10 Nov 2017 08:00:41 +0000</pubDate>
+<dc:creator>Ida Torres</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://androidcommunity.com/samsung-unveils-burgundy-red-galaxy-s8-in-south-korea-20171110/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>Samsung</category>
+<category>Samsung Galaxy S8</category>
+<category>Smartphone</category>
+</item>
+<item>
+<title>Pixel 2 XL screen flashes whenever you lock or unlock</title>
+<link>https://androidcommunity.com/pixel-2-xl-screen-flashes-whenever-you-lock-or-unlock-20171109/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/pixel-2-xl-screen-flashes-whenever-you-lock-or-unlock-20171109/</guid>
+<description>[unable to retrieve full-text content]We&amp;#8217;re not done with the Pixel 2. Together with its bigger sibling, the Pixel 2 XL, these next-gen Pixel phones have been the subject of numerous discussions and reviews. A consumer rights firm begun looking into several Pixel 2-related complaints already including units shipping without Android, installation issues, empty tray for a wired Pixel Buds, unimpressive [&amp;#8230;]</description>
+<pubDate>Thu, 09 Nov 2017 22:00:59 +0000</pubDate>
+<dc:creator>Rei Padla</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://androidcommunity.com/pixel-2-xl-screen-flashes-whenever-you-lock-or-unlock-20171109/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>Pixel 2</category>
+<category>Pixel 2 XL</category>
+</item>
+<item>
+<title>Chrome 64 mobile browser updated, ready to block some redirects</title>
+<link>https://androidcommunity.com/chrome-64-mobile-browser-updated-ready-to-block-some-redirects-20171109/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/chrome-64-mobile-browser-updated-ready-to-block-some-redirects-20171109/</guid>
+<description>[unable to retrieve full-text content]Redirection is not unusual. In the world wide web, it is probably one of the most annoying behaviors you don’t want from a website. It is an old trick that netizens today never want to experience. Browsing must be fast at all times and one redirect is not welcome. Good thing there are web developers [&amp;#8230;]</description>
+<pubDate>Thu, 09 Nov 2017 21:01:59 +0000</pubDate>
+<dc:creator>Rei Padla</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://androidcommunity.com/chrome-64-mobile-browser-updated-ready-to-block-some-redirects-20171109/</dc:identifier>
+<category>Archive</category>
+<category>Android</category>
+<category>Chrome</category>
+<category>Google</category>
+<category>Mobile Browser</category>
+</item>
+<item>
+<title>Amazon Key app now live on Google Play</title>
+<link>https://androidcommunity.com/amazon-key-app-now-live-on-google-play-20171109/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/amazon-key-app-now-live-on-google-play-20171109/</guid>
+<description>[unable to retrieve full-text content]Regardless of how you feel about Amazon’s newest thing that will allow you to have your goods delivered right inside your door, it has now officially begun. The in-home delivery service kit should have started shipping as of today and now, the app that will help you monitor that service among other things is now [&amp;#8230;]</description>
+<pubDate>Thu, 09 Nov 2017 20:00:02 +0000</pubDate>
+<dc:creator>Ida Torres</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://androidcommunity.com/amazon-key-app-now-live-on-google-play-20171109/</dc:identifier>
+<category>Archive</category>
+<category>Amazon</category>
+<category>Android</category>
+<category>Apps</category>
+</item>
+<item>
+<title>Train to pass several Cisco Network Certification exams [DEALS]</title>
+<link>https://androidcommunity.com/train-to-pass-several-cisco-network-certification-exams-deals-20171109/</link>
+<guid isPermaLink="true" >https://androidcommunity.com/train-to-pass-several-cisco-network-certification-exams-deals-20171109/</guid>
+<description>[unable to retrieve full-text content]Want a career in computers? Train to earn valuable professional credentials with a lifetime subscription to the Ultimate Cisco Certification Super Bundle, 98% off the regular price for a limited time. With this bundle, virtually anyone can prepare for a career as a computer network pro. It includes lifetime access to nine courses that cover [&amp;#8230;]</description>
+<pubDate>Thu, 09 Nov 2017 19:00:51 +0000</pubDate>
+<dc:creator>Juan Carlos Torres</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://androidcommunity.com/train-to-pass-several-cisco-network-certification-exams-deals-20171109/</dc:identifier>
+<category>Archive</category>
+<category>Deals</category>
+<category>Android</category>
+<category>Deal</category>
+<category>deals</category>
+</item>
+</channel>
+</rss>

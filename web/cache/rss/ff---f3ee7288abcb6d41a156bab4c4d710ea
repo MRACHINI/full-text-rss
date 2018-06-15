@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:og="http://ogp.me/ns#">
+<channel>
+<atom:link rel="self" href="http://ftr.rachini.com/makefulltextfeed.php?url=nickology.com%2Ffeed%2F" />
+<atom:link rel="alternate" title="Source URL" href="http://nickology.com/feed/" />
+<atom:link rel="related" title="Subscribe to feed" href="http://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dnickology.com%252Ffeed%252F&amp;back=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dnickology.com%252Ffeed%252F" />
+<title>Nickology.com</title>
+<link>http://nickology.com</link>
+<description>Perpetual Discovery</description>
+<item>
+<title>Tutorial – Create a POST hook on BitBucket</title>
+<link>http://nickology.com/2015/01/23/tutorial-creating-a-post-hook-on-bitbucket/</link>
+<guid isPermaLink="true" >http://nickology.com/2015/01/23/tutorial-creating-a-post-hook-on-bitbucket/</guid>
+<description>&lt;p&gt;A powerful tool offered by both GitHub (GH) and BitBucket (BB) are so-called “Hooks” which allow certain actions in your repository to trigger other actions. BitBucket’s definition:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;Hooks allow you to extend what Bitbucket does when the repository changes (for example, new code is pushed or a pull request is merged).&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;There are many different kinds of Hooks and I invite you to check out &lt;a href=&quot;https://developer.github.com/v3/repos/hooks/&quot; title=&quot;GitHub Hooks&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://confluence.atlassian.com/display/BITBUCKET/Manage+Bitbucket+hooks&quot; title=&quot;BitBucket Hooks&quot; target=&quot;_blank&quot;&gt;Bitbucket&lt;/a&gt;‘s documentations for a full list of possible options and how to implement them.&lt;/p&gt;&amp;#13;
+&lt;p&gt;In this tutorial, I’m going to set up a &lt;a href=&quot;https://confluence.atlassian.com/display/BITBUCKET/POST+hook+management&quot; target=&quot;_blank&quot;&gt;BitBucket “POST” hook&lt;/a&gt;. My goal is to force all of my front-end machines to update their local clones of the main repository when a &lt;code&gt;git push&lt;/code&gt; is done on the &lt;code&gt;Master&lt;/code&gt; branch.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;span id=&quot;more-502&quot;/&gt; &lt;small&gt;&lt;em&gt;NB: This is for a small side project and my personal rule is that all code development is done on one dev machine and a “deployment” consists of the production machines doing a &lt;code&gt;git pull&lt;/code&gt;. Though this method works for me (one-member team, 3 servers, 1 repo containing the entire app), it is certainly not the best way to update your fronts and completely skips the “staging” phase.&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;&amp;#13;
+&amp;#13;
+&lt;h2&gt;SSH Keys (optional)&lt;/h2&gt;&amp;#13;
+&lt;p&gt;If you want to be able to interact with BitBucket (or GitHub) without using passwords, you’ll have to provide the public key of each machine you need this for. Follow &lt;a href=&quot;https://confluence.atlassian.com/pages/viewpage.action?pageId=270827678&quot; target=&quot;_blank&quot;&gt;this tutorial&lt;/a&gt; to set that up.&lt;/p&gt;&amp;#13;
+&lt;h3&gt;Firewall&lt;/h3&gt;&amp;#13;
+&lt;p&gt;In some cases, you may need to allow BitBucket’s IPs to access your server. BB provides a list of IPs they use &lt;a href=&quot;https://confluence.atlassian.com/display/BITBUCKET/What+are+the+Bitbucket+IP+addresses+I+should+use+to+configure+my+corporate+firewall&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. You can allow these IPs to access your server by modifying the iptables:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;iptables -A INPUT -s 131.103.20.165 -j ACCEPT&lt;br/&gt;&amp;#13;
+iptables -A INPUT -s 131.103.20.166 -j ACCEPT&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;h3&gt;Nginx Rules (Apply equivalent idea for Apache)&lt;/h3&gt;&amp;#13;
+&lt;p&gt;Personally, I prefer dedicating a folder for 3rd party callbacks. For this tutorial, that folder is &lt;strong&gt;/ping&lt;/strong&gt; and the script I want BB to call back is &lt;em&gt;p.php&lt;/em&gt;. We’re going to password protect that folder (obviously). To do so, create a user that BB will use to access this folder. In this example, the username is &lt;em&gt;bucket&lt;/em&gt; and I’m using &lt;em&gt;roobar&lt;/em&gt; as a password.&lt;/p&gt;&amp;#13;
+&lt;p&gt;If you don’t already have a &lt;em&gt;.htpasswd&lt;/em&gt; file, or if you want to use a different one for this purpose, create one (with the &lt;strong&gt;-c&lt;/strong&gt; argument). I’m using /etc/nginx but you can put it where-ever you want.&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;htpasswd -c /etc/nginx/.htpasswd bucket&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;If you want to use an existing password file, just add the new user to that file:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;htpasswd /etc/nginx/.htpasswd bucket&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;In both cases, you will be prompted to enter a password for the user.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Once the user is created, we need to tell nginx that folder &lt;strong&gt;/ping&lt;/strong&gt; is protected by passwords located in &lt;strong&gt;/etc/nginx/.htpasswd&lt;/strong&gt;:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;location ~ /\. { deny all; }&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;location ^~ /ping {&lt;br/&gt;&amp;#13;
+auth_basic &quot;Restricted&quot;;&lt;br/&gt;&amp;#13;
+auth_basic_user_file &lt;strong&gt;/etc/nginx/.htpasswd&lt;/strong&gt;;&lt;br/&gt;&amp;#13;
+fastcgi_pass php;&lt;br/&gt;&amp;#13;
+}&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;small&gt;&lt;em&gt;NB: I’m using a NGINX+PHP-FPM setup. The first location rule prevents any access to any files that start with a period.&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;To make sure you have not broken anything, save and then do &lt;code&gt;service nginx configtest&lt;/code&gt;. If that goes well, then do &lt;code&gt;service nginx reload&lt;/code&gt; so that the new rules are in place.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Test that your folder is password protected by attempting to access p.php from your browser. You should be prompted for a username and password.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/auth-300x160.jpg&quot; alt=&quot;auth&quot; width=&quot;300&quot; height=&quot;160&quot; class=&quot;aligncenter size-medium wp-image-510&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/auth-300x160.jpg 300w, http://nickology.com/wordpress/wp-content/uploads/auth-500x266.jpg 500w, http://nickology.com/wordpress/wp-content/uploads/auth.jpg 836w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;Finally, to test that your server is ready to be pinged by BB, you can use curl from machine:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;curl -i --user &lt;em&gt;bucket:roobar&lt;/em&gt; -H &quot;Content-Type: application/x-www-form-urlencoded&quot; -X POST -d 'payload=%7B%22person%22%3A%7B%22name%22%3A%22bob%22%7D%7D' http://yourdomain.com/ping/p.php&lt;br/&gt;&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;Make your script echo a Hello World or something and you’ll be set.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;u&gt;Important&lt;/u&gt;: The content-type is important and BB will actually send you a URL encoded payload.&lt;/p&gt;&amp;#13;
+&amp;#13;
+&lt;p&gt;Hooks are created on a per-repository basis. So, enter the repository you want to create a hook for and navigate to the Hooks section:&lt;/p&gt;&amp;#13;
+&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_23_01_15_15_15-886x1024.png&quot; alt=&quot;BitBucket Settings Hooks&quot; width=&quot;584&quot; height=&quot;674&quot; class=&quot;size-large wp-image-512&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_23_01_15_15_15-886x1024.png 886w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_23_01_15_15_15-259x300.png 259w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_23_01_15_15_15.png 1032w&quot; sizes=&quot;(max-width: 584px) 100vw, 584px&quot;/&gt;Open repository, go to Settings, click on Hooks&amp;#13;
+&lt;p&gt;In the drop-down menu, select &lt;strong&gt;POST&lt;/strong&gt; and click on “&lt;strong&gt;Add Hook&lt;/strong&gt;.”&lt;/p&gt;&amp;#13;
+&lt;p&gt;You will be prompted to enter the URL which should be of form &lt;code&gt;http://user:password@url_or_ip.com/ping/p.php&lt;/code&gt;. For this tutorial, it would translate to &lt;code&gt;&lt;strong&gt;http://bucket:roobar@domain.com/ping/p.php&lt;/strong&gt;&lt;/code&gt;.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Repeat this step as many times as necessary (ie/ for every server you wish to ping).&lt;/p&gt;&amp;#13;
+&lt;p&gt;At this point, your hook is set up and should work. Anytime you do anything with this repository, BB will call p.php and in the &lt;strong&gt;$_POST[‘payload’]&lt;/strong&gt; variable, there will be a JSON describing what was done. You can get more details about what is contained in this JSON &lt;a href=&quot;https://confluence.atlassian.com/display/BITBUCKET/POST+hook+management&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Once you get pinged, you’re free to to whatever you want!&lt;/p&gt;&amp;#13;
+</description>
+<pubDate>Fri, 23 Jan 2015 17:25:08 +0000</pubDate>
+<dc:creator>Nick</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://nickology.com/2015/01/23/tutorial-creating-a-post-hook-on-bitbucket/</dc:identifier>
+<category>BitBucket</category>
+<category>Git</category>
+<category>GitHub</category>
+<category>Linux</category>
+<category>Nginx</category>
+<category>PHP</category>
+<category>Programming</category>
+<category>Tutorial</category>
+<category>Web Development</category>
+<category>bitbucket</category>
+<category>git</category>
+<category>github</category>
+<category>hook</category>
+<category>hooks</category>
+<category>nginx</category>
+<category>tutorial</category>
+</item>
+<item>
+<title>Tutoriel – Connecter son iPhone/iPad/Mac au serveur VPN de la Freebox via PPTP</title>
+<link>http://nickology.com/2014/06/28/tutoriel-connecter-son-iphoneipadmac-au-serveur-vpn-de-la-freebox-via-pptp/</link>
+<guid isPermaLink="true" >http://nickology.com/2014/06/28/tutoriel-connecter-son-iphoneipadmac-au-serveur-vpn-de-la-freebox-via-pptp/</guid>
+<description>&lt;p&gt;Je suis en vacances, c’est la Coupe du Monde, je veux suivre les matchs via une application iPhone/iPad, mais celle-ci bloque le flux vidéo car je ne suis pas en France… solution: le serveur VPN de ma Freebox! Ce tuto vous explique pas à pas comment faire fonctionner tout çà entre iPhone/iPad/Mac et Freebox… l’esprit est le même sur d’autres appareils!&lt;br/&gt;&lt;span id=&quot;more-443&quot;/&gt;&lt;br/&gt;&lt;strong&gt;Pré-requis pour ce tutoriel&lt;/strong&gt; :&lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Une Freebox v6 avec la version 2.1.0 sur le Serveur (la box qui affiche l’heure)&lt;/li&gt;&amp;#13;
+&lt;li&gt;Une bonne connexion (fibre optique de préférence) si vous comptez faire visionner de la vidéo&lt;/li&gt;&amp;#13;
+&lt;li&gt;Un iPhone/iPad avec iOS 7 ou ultérieur ET/OU un mac récent (le tuto utilise Mavericks sur un MBP)&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;h2&gt;Etape 1 – Configuration de la Freebox&lt;/h2&gt;&amp;#13;
+&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Connectez-vous sur votre Freebox&lt;/strong&gt;. Si vous êtes chez vous, tapez simplement mafreebox.free.fr dans votre navigateur web. Si vous n’êtes pas chez vous, entrez l’adresse IP publique de votre freebox.&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Séléctionnez Paramètres de la Freebox &lt;/strong&gt;&lt;span&gt;&lt;strong&gt;⇒ Mode Avancé&lt;/strong&gt;.&lt;/span&gt;&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_01_48.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-444&quot; src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_01_48.png&quot; alt=&quot;Freebox_ServeurVPN_1&quot; width=&quot;940&quot; height=&quot;388&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_01_48.png 940w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_01_48-300x123.png 300w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_01_48-500x206.png 500w&quot; sizes=&quot;(max-width: 940px) 100vw, 940px&quot;/&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Créez un utilisateur&lt;/strong&gt;. Cliquez sur “&lt;em&gt;Utilisateurs&lt;/em&gt;” puis sur “&lt;em&gt;Ajouter un utilisateur&lt;/em&gt;“. Renseignez les deux champs “&lt;em&gt;Login&lt;/em&gt;” et “&lt;em&gt;Mot de passe&lt;/em&gt;“. Ceux-ci seront utilisés pour vous connecter depuis votre iPhone/iPad ou Mac. Une fois terminé, cliquez sur “&lt;em&gt;Sauvegarder&lt;/em&gt;“.&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_01_53.png&quot;&gt;&lt;img class=&quot;aligncenter wp-image-446 size-full&quot; src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_01_53.png&quot; alt=&quot;Freebox_ServeurVPN_2_nickology.com&quot; width=&quot;1488&quot; height=&quot;520&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_01_53.png 1488w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_01_53-300x104.png 300w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_01_53-1024x357.png 1024w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_01_53-500x174.png 500w&quot; sizes=&quot;(max-width: 1488px) 100vw, 1488px&quot;/&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Activer la configuration PPTP&lt;/strong&gt;. Cliquez sur &lt;em&gt;PPTP&lt;/em&gt;, cochez la case “Activer”, et veillez à ce que le “&lt;em&gt;Mode chiffrement&lt;/em&gt;” soit “&lt;em&gt;Obligatoire&lt;/em&gt;“. &lt;span&gt;Cliquez sur &lt;em&gt;OK&lt;/em&gt;&lt;/span&gt;.&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_02_02.png&quot;&gt;&lt;img class=&quot;aligncenter size-full wp-image-447&quot; src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_02_02.png&quot; alt=&quot;Freebox_ServeurVPN_1_nickologycom&quot; width=&quot;1642&quot; height=&quot;422&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_02_02.png 1642w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_02_02-300x77.png 300w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_02_02-1024x263.png 1024w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_02_02-500x128.png 500w&quot; sizes=&quot;(max-width: 1642px) 100vw, 1642px&quot;/&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;/ol&gt;&lt;h2&gt;Etape 2a – Configuration de l’iPhone/iPad&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Note: Cette étape est nécessaire uniquement si vous souhaitez connecter votre iPhone ou iPad via VPN.&lt;/p&gt;&amp;#13;
+&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Allez dans Réglages ⇒ VPN ⇒ Ajouter une configuration VPN… &lt;/strong&gt;Sélectionnez l’onglet PPTP.&amp;#13;
+&lt;ul&gt;&lt;li&gt;Mettez une description qui vous parle.&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Description&lt;/strong&gt; : Mettez une description (sans importance technique)&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Serveur&lt;/strong&gt; : L’adresse IP publique de votre Freebox&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Compte&lt;/strong&gt; : Le nom d’utilisateur que vous avez créé dans l’Etape 1.3&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;RSA SecurID&lt;/strong&gt; : Laissez le désactivé&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Mot de passe&lt;/strong&gt; : Pour éviter d’avoir à le remettre à chaque utilisation, renseignez le mot de passe que vous avez créé dans l’étape 1.3&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Niv. de chiffrement&lt;/strong&gt; : maximum&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Tout envoyer&lt;/strong&gt; : Oui&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;p&gt;Laissez le PROXY désactivé puis Enregistrer ces paramètres (en haut à droite).&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_02_371.png&quot;&gt;&lt;img class=&quot;aligncenter wp-image-451&quot; src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_14_02_371-623x1024.png&quot; alt=&quot;Freebox_ServeurVPN_4_nickology&quot; width=&quot;298&quot; height=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;/li&gt;&amp;#13;
+&lt;/ol&gt;&lt;h2&gt;Etape 2b – Configuration du Mac&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Note: Cette étape est nécessaire uniquement si vous souhaitez connecter votre Mac via VPN.&lt;/p&gt;&amp;#13;
+&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Allez dans Préférences Système ⇒ Réseau ⇒ +&lt;/strong&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Interface : &lt;strong&gt;VPN&lt;/strong&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;Type de VPN : &lt;strong&gt;PPTP&lt;/strong&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;Nom du service : Entrez un nom pour décrire cette connexion&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;p&gt;Cliquez sur “&lt;em&gt;Créer&lt;/em&gt;“.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_22_01.png&quot;&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_22_01-1024x809.png&quot; alt=&quot;Freebox_ServeurVPN_11_nickology&quot; width=&quot;584&quot; height=&quot;461&quot; class=&quot;aligncenter size-large wp-image-470&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_22_01-1024x809.png 1024w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_22_01-300x237.png 300w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_22_01-379x300.png 379w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_22_01.png 1336w&quot; sizes=&quot;(max-width: 584px) 100vw, 584px&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Renseignez “&lt;em&gt;Adresse du serveur&lt;/em&gt;” et “&lt;em&gt;Nom de compte&lt;/em&gt;“&lt;/strong&gt;. Utilisez les mêmes paramètres que dans la première étape. Renseignez votre mot de passe dans la section “Paramètres d’authentification…”. Ensuite cliquez sur “&lt;strong&gt;Avancé&lt;/strong&gt;“.&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_051.png&quot;&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_051-1024x892.png&quot; alt=&quot;Freebox_ServeurVPN_6_nickology&quot; width=&quot;584&quot; height=&quot;508&quot; class=&quot;aligncenter size-large wp-image-459&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_051-1024x892.png 1024w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_051-300x261.png 300w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_051-344x300.png 344w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_051.png 1336w&quot; sizes=&quot;(max-width: 584px) 100vw, 584px&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Cochez la case “Envoyer tout le trafic sur la connexion VPN”&lt;/strong&gt;. Puis cliquez sur “&lt;em&gt;OK&lt;/em&gt;“.&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_29.png&quot;&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_29-1024x449.png&quot; alt=&quot;Freebox_ServeurVPN_7_nickology&quot; width=&quot;584&quot; height=&quot;256&quot; class=&quot;aligncenter size-large wp-image-460&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_29-1024x449.png 1024w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_29-300x131.png 300w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_29-500x219.png 500w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_29.png 1112w&quot; sizes=&quot;(max-width: 584px) 100vw, 584px&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;(Facultatif) Afficher l’état VPN&lt;/strong&gt;. Je conseille l’activation de l’option “&lt;em&gt;Afficher l’état VPN dans la barre des menus&lt;/em&gt;“. Vous verrez ainsi un icône s’afficher dans cette barre qui vous permettra de facilement vous connecter au serveur VPN.&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_37.png&quot;&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_37.png&quot; alt=&quot;Freebox_ServeurVPN_8_nickology&quot; width=&quot;676&quot; height=&quot;210&quot; class=&quot;aligncenter size-full wp-image-461&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_37.png 676w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_37-300x93.png 300w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_20_37-500x155.png 500w&quot; sizes=&quot;(max-width: 676px) 100vw, 676px&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;/li&gt;&amp;#13;
+&lt;/ol&gt;&lt;h2&gt;Etape 3a – Connexion au VPN depuis un iPhone/iPad&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Le plus dur est fait! Reste plus qu’à …&lt;/p&gt;&amp;#13;
+&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Allez dans Réglages ⇒ VPN&lt;/strong&gt;. Veillez à ce que la bonne configuration soit choisie. Ensuite, activez le VPN.&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_22_06.png&quot;&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_22_06-576x1024.png&quot; alt=&quot;Freebox_ServeurVPN_9_nickology&quot; width=&quot;288&quot; height=&quot;512&quot; class=&quot;aligncenter wp-image-472&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_22_06-576x1024.png 576w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_22_06-169x300.png 169w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_22_06.png 640w&quot; sizes=&quot;(max-width: 288px) 100vw, 288px&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;Vous devriez voir l’icône “VPN” s’afficher sur votre iPhone. Vous pouvez vérifier que les données de votre iPhone/iPad passent bien par le serveur VPN de votre Freebox en consultant la console Serveur VPN depuis l’interface Freebox OS. &lt;a href=&quot;http://nickology.com/2014/06/28/tutoriel-connecter-son-iphoneipadmac-au-serveur-vpn-de-la-freebox-via-pptp/#connections&quot;&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;/li&gt;&amp;#13;
+&lt;/ol&gt;&lt;h2&gt;Etape 3b – Connexion au VPN depuis un Mac&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Le plus dur est fait! Reste plus qu’à …&lt;/p&gt;&amp;#13;
+&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Allez dans Préférence Systèmes ⇒ Réseau&lt;/strong&gt;. Sélectionnez la configuration que vous avez créé, puis cliquez sur “&lt;em&gt;Se connecter&lt;/em&gt;“. Ou sinon, depuis la barre des menus, cliquez sur l’îcone VPN (si vous avez activé son affichage) et sélectionnez le la connexion via le réseau VPN. Si tout va bien, tout votre traffic vous pourrez voir le temps de connexion et les données envoyés et reçus.&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_21_18.png&quot;&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_21_18-1024x374.png&quot; alt=&quot;Freebox_ServeurVPN_10_nickology&quot; width=&quot;584&quot; height=&quot;213&quot; class=&quot;aligncenter size-large wp-image-467&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_21_18-1024x374.png 1024w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_21_18-300x109.png 300w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_21_18-500x182.png 500w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_21_18.png 1336w&quot; sizes=&quot;(max-width: 584px) 100vw, 584px&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;/li&gt;&amp;#13;
+&lt;/ol&gt;&lt;p&gt;Vous pouvez vérifier que les données de votre iPhone/iPad passent bien par le serveur VPN de votre Freebox en consultant la console Serveur VPN depuis l’interface Freebox OS. &lt;a href=&quot;http://nickology.com/2014/06/28/tutoriel-connecter-son-iphoneipadmac-au-serveur-vpn-de-la-freebox-via-pptp/#connections&quot;&gt;En savoir plus&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&amp;#13;
+&amp;#13;
+&lt;p&gt;&lt;br/&gt;&amp;#13;
+Si vous rencontrez des problèmes, il convient de regarder sur l’interface Freebox OS de votre Freebox si vos appareils (iPhone, iPad, Mac, ou autre) arrivent à communiquer avec votre Freebox. Il suffit de :&lt;/p&gt;&amp;#13;
+&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Allez dans le menu Serveur VPN sur votre Freebox&lt;/strong&gt;. (Suivez les instructions de l’Etape 1 si vous ne voyez pas où c’est).&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Cliquez sur “&lt;em&gt;Connexions&lt;/em&gt;“&lt;/strong&gt;. Vous devriez voir votre utilisateur authentifié et les compteurs “Émis” et “Reçu” positifs.&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_21_31.png&quot;&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_21_31-1024x210.png&quot; alt=&quot;Freebox_ServeurVPN_12_nickology&quot; width=&quot;584&quot; height=&quot;119&quot; class=&quot;aligncenter size-large wp-image-476&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_21_31-1024x210.png 1024w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_21_31-300x61.png 300w, http://nickology.com/wordpress/wp-content/uploads/Pasted_Image_28_06_2014_21_31-500x102.png 500w&quot; sizes=&quot;(max-width: 584px) 100vw, 584px&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;/li&gt;&amp;#13;
+&lt;/ol&gt;&lt;h2&gt;Conclusion&lt;/h2&gt;&amp;#13;
+&lt;p&gt;En suivant ces instructions, j’espère vous avoir aider à configurer votre iPhone, iPad, Mac, ou tout autre appareil à se connecter au serveur VPN se trouvant sur votre Freebox. N’hésitez-pas à laisser des commentaires si vous avez des questions ou des commentaires.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Pour ma part, j’utilise le serveur VPN de ma Freebox principalement pour pouvoir simuler une adresse IP française lorsque je suis à l’étranger ce qui me permet de continuer à utiliser certaines applications et certains sites web qui ne fonctionnent que depuis la France. Mais un serveur VPN peut servir à bien plus que çà alors n’hésitez-pas à en faire bon usage ! Par exemple, il est conseillé d’utiliser un serveur VPN pour accéder à des machines de façon sécurisée, sans que celles-ci soient exposées à l’internet.&lt;/p&gt;&amp;#13;
+</description>
+<pubDate>Sat, 28 Jun 2014 19:17:51 +0000</pubDate>
+<dc:creator>Nick</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://nickology.com/2014/06/28/tutoriel-connecter-son-iphoneipadmac-au-serveur-vpn-de-la-freebox-via-pptp/</dc:identifier>
+<category>Free (FAI)</category>
+<category>Freebox</category>
+<category>flux</category>
+<category>freebox</category>
+<category>ipad</category>
+<category>iphone</category>
+<category>m6</category>
+<category>mac</category>
+<category>openvpn</category>
+<category>pptp</category>
+<category>serveur</category>
+<category>tf1</category>
+<category>tv5</category>
+<category>videos</category>
+<category>vpn</category>
+<category>w9</category>
+<category>wat</category>
+</item>
+<item>
+<title>View xdebug cachegrind files on Mac OS</title>
+<link>http://nickology.com/2014/04/16/view-xdebug-cachegrind-files-on-mac-os/</link>
+<guid isPermaLink="true" >http://nickology.com/2014/04/16/view-xdebug-cachegrind-files-on-mac-os/</guid>
+<description>&lt;p&gt;Xdebug is key when it comes to optimizing PHP code. Today, I heard my colleague boot up a Windows machine just to run an application that could interpret a cachegrind file generated by our development server… surely there must be a Mac equivalent! The following instructions will let you interpret cachegrind files locally on your Mac. &lt;span id=&quot;more-428&quot;/&gt;You’ll still have to download the cachegrind file locally from your server.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Note that I’m doing this on Mavericks 10.9.2. I will not explain how to install Xdebug on your server or how to create the cachegrind file.&lt;/p&gt;&amp;#13;
+&lt;p&gt;First, install &lt;a href=&quot;http://brew.sh/&quot; target=&quot;_blank&quot;&gt;Homebrew&lt;/a&gt; on your machine. From your terminal, run :&lt;br/&gt;&amp;#13;
+[shell]&lt;br/&gt;&amp;#13;
+ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”&lt;br/&gt;&amp;#13;
+[/shell]&lt;/p&gt;&amp;#13;
+&lt;p&gt;Then, run :&lt;br/&gt;&amp;#13;
+[shell]&lt;br/&gt;&amp;#13;
+brew install qcachegrind&lt;br/&gt;&amp;#13;
+brew install graphviz&lt;br/&gt;&amp;#13;
+[/shell]&lt;/p&gt;&amp;#13;
+&lt;p&gt;Then, download your cachegrind file locally to your machine and, to view the output, simply execute&lt;/p&gt;&amp;#13;
+&lt;p&gt;[shell]qcachegrind cachegrind.out.26620[/shell]&lt;/p&gt;&amp;#13;
+&lt;p&gt;You will get something that looks like this :&lt;/p&gt;&amp;#13;
+&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/qcachegrind_nickologycom.png&quot;&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/qcachegrind_nickologycom.png&quot; alt=&quot;Screenshot of what qcachegrind produces.&quot; width=&quot;1760&quot; height=&quot;1142&quot; class=&quot;size-full wp-image-429&quot;/&gt;&lt;/a&gt;Screenshot of what qcachegrind produces.&amp;#13;
+&lt;p&gt;Optimize away!&lt;/p&gt;&amp;#13;
+&lt;p&gt;PS: For live debugging via xdebug, I use &lt;a href=&quot;http://codebugapp.com&quot; target=&quot;_blank&quot;&gt;codebugapp.com&lt;/a&gt;.&lt;/p&gt;&amp;#13;
+</description>
+<pubDate>Wed, 16 Apr 2014 10:41:31 +0000</pubDate>
+<dc:creator>Nick</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://nickology.com/2014/04/16/view-xdebug-cachegrind-files-on-mac-os/</dc:identifier>
+<category>PHP</category>
+<category>Programming</category>
+<category>cachegrind</category>
+<category>php</category>
+<category>xcache</category>
+<category>xdebug</category>
+</item>
+<item>
+<title>[Update x5] DisplayLink OSX 10.9 Mavericks/10.10 Yosemite/10.11 El Capitan Resolution Display Fix</title>
+<link>http://nickology.com/2013/11/21/displaylink-mavericks-osx-10-9-resolution-display-fix/</link>
+<guid isPermaLink="true" >http://nickology.com/2013/11/21/displaylink-mavericks-osx-10-9-resolution-display-fix/</guid>
+<description>&lt;p&gt;&lt;strong&gt;Update December 17th 2015&lt;/strong&gt; : &lt;a href=&quot;http://www.displaylink.com/support/mac_downloads.php&quot; target=&quot;_blank&quot;&gt;DisplayLink 2.5 driver for Mac&lt;/a&gt; is now available (stable version). It makes sure everything works on OS X 10.11 El Capitan though I’m still seeing one screen that won’t reach its full resolution.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Update August 26th 2015&lt;/strong&gt; : &lt;a href=&quot;http://www.displaylink.com/support/mac_downloads.php&quot; target=&quot;_blank&quot;&gt;DisplayLink 2.4 driver for Mac&lt;/a&gt; is now available (stable version). Haven’t tried it myself yet but claims that many of the issues from the beta have been resolved or have workarounds.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Update June 29th 2015&lt;/strong&gt; : A new &lt;a href=&quot;http://www.displaylink.com/support/mac_downloads.php&quot; target=&quot;_blank&quot;&gt;DisplayLink 2.4 BETA2 driver for Mac&lt;/a&gt; is available (released June 3rd 2015). It claims that &lt;em&gt;“includes workarounds for some of the most severe defects in OS X 10.9 and 10.10”&lt;/em&gt; and links &lt;a href=&quot;http://support.displaylink.com/knowledgebase/articles/528023&quot; target=&quot;_blank&quot;&gt;this&lt;/a&gt; article with known issues.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Update December 12th 2014&lt;/strong&gt; : A new &lt;a href=&quot;http://www.displaylink.com/support/mac_downloads.php&quot; target=&quot;_blank&quot;&gt;DisplayLink 2.3 BETA driver for Mac&lt;/a&gt; is available (released October 10th 2014). It’s only a beta but it makes a HUGE difference in terms of performance on Mac OSX 10.10 Yosemite. If switching windows has been clunky and if your system has been overall slower than on Mavericks, then I highly recommend you give this patch a try.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Update June 17th 2014&lt;/strong&gt; : There’s a new &lt;a href=&quot;http://www.displaylink.com/support/mac_downloads.php&quot; target=&quot;_blank&quot;&gt;DisplayLink 2.2 driver for Mac&lt;/a&gt; available (released June 10th).&lt;/p&gt;&amp;#13;
+&lt;p&gt;I use a DisplayLink system to hook up a 3rd monitor to my laptop via USB. When Mavericks was released, the &lt;a href=&quot;http://www.displaylink.com/support/ticket.php?id=354&quot; target=&quot;_blank&quot;&gt;whole system broke&lt;/a&gt; but a beta driver was released (&lt;a href=&quot;http://www.displaylink.com/support/sla.php?fileid=87&quot; target=&quot;_blank&quot;&gt;version 2.0&lt;/a&gt;) which seems to bring back the extra display even if very quirky. Then, &lt;a href=&quot;http://www.displaylink.com/support/sla.php?fileid=102&quot; target=&quot;_blank&quot;&gt;version 2.1&lt;/a&gt; was released but introduced a screen resolution problem.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;span id=&quot;more-414&quot;/&gt;&lt;br/&gt;&amp;#13;
+The new driver has greatly improved mouse reactivity and screen refresh rate BUT the only option it gave me in terms of screen resolution was 1280×1024 (painful!) on a screen that can go to 1680×1050:&lt;/p&gt;&amp;#13;
+&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/DisplayLink1280res.png&quot; alt=&quot;Resolution offered by DisplayLink's 2.1 driver for OSX 10.9 (Mavericks) on a screen that can go up to 1680x1050&quot; width=&quot;682&quot; height=&quot;428&quot; class=&quot;size-full wp-image-415&quot;/&gt;Resolution offered by DisplayLink’s 2.1 driver for OSX 10.9 (Mavericks) on a screen that can go up to 1680×1050&amp;#13;
+&lt;p&gt;I knew there must be a way to force the screen resolution by messing with OS settings at the plist level but it turns out there’s a much easier option:&lt;/p&gt;&amp;#13;
+&lt;p&gt;In the &lt;strong&gt;Displays&lt;/strong&gt; panel of &lt;em&gt;System Preferences&lt;/em&gt;, hold the &lt;em&gt;alt/option&lt;/em&gt; key while you click on the “&lt;em&gt;Scaled&lt;/em&gt;” radio button and all of your screen’s supported resolution will appear:&lt;/p&gt;&amp;#13;
+&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/DisplayLink1680res21.png&quot; alt=&quot;Hold alt/option key while clicking on &amp;quot;Scaled&amp;quot; to refresh the resolution options of your display&quot; width=&quot;761&quot; height=&quot;480&quot; class=&quot;size-full wp-image-420&quot;/&gt;Hold alt/option key while clicking on “Scaled” to refresh the resolution options of your display&amp;#13;
+&lt;p&gt;You can now select whichever resolution you desire. I set mine to the maximum possible. It’s true that the screen refresh rate decreased a bit but it is acceptable given my uses of this third monitor.&lt;/p&gt;&amp;#13;
+&lt;p&gt;I hope this helped you! Please leave a comment if you have other tips to share.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;u&gt;Sources:&lt;/u&gt;&lt;/p&gt;&amp;#13;
+</description>
+<pubDate>Thu, 21 Nov 2013 09:12:52 +0000</pubDate>
+<dc:creator>Nick</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://nickology.com/2013/11/21/displaylink-mavericks-osx-10-9-resolution-display-fix/</dc:identifier>
+<category>Apple</category>
+<category>OSX</category>
+<category>10.9</category>
+<category>displaylink</category>
+<category>mavericks</category>
+</item>
+<item>
+<title>Tutorial – How to set up BitTorrent Sync on a Linux server to create a Dropbox-like syncing solution</title>
+<link>http://nickology.com/2013/05/06/bitorrent/</link>
+<guid isPermaLink="true" >http://nickology.com/2013/05/06/bitorrent/</guid>
+<description>&lt;p&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/btsync_diagram.png&quot; alt=&quot;btsync_diagram&quot; width=&quot;270&quot; height=&quot;236&quot; class=&quot;alignright size-full wp-image-333&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Update (August 13th, 2017) : BT Sync has now become &lt;a href=&quot;https://www.resilio.com/individuals/?utm_source=navbar&amp;amp;utm_medium=synchome&quot; target=&quot;_blank&quot;&gt;Resilio&lt;/a&gt;. I’ll be writing a new post about another way to get this to work soon.&lt;/strong&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Update (August 28th, 2013) : The iOS BT Sync app is now available for download. &lt;a href=&quot;http://getap.ps/+665156116/+nickology&quot;&gt;Try it out&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;BitTorrent Sync (BTSync) is a “Private Dropbox” of sorts in that it offers the same functionality (syncing your files across devices) but without going through a third-party’s servers. Mac and Windows clients are available for &lt;a href=&quot;http://bit.ly/104YIEE&quot;&gt;download&lt;/a&gt; and have some nifty features such as one-time share keys and read-only syncing options. The advantage of BTSync is better handling of large files (especially if you sync across multiple devices) and you don’t have your files hosted on someone else’s server(s).&lt;/p&gt;&amp;#13;
+&lt;p&gt;The advantage of Dropbox is that should you lose all your machines that were syncing to Dropbox, you would still have a copy in the Cloud that you would be able to download on a new machine. This is undoubtedly BTSync’s biggest disadvantage if you don’t have at least two machines on all the time. If, however, you have a server, you can set up BTSync on that server thus creating your own “always-on” sync machine that will create a copy of the files you wish to sync immediately. Let’s get started…&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;span id=&quot;more-287&quot;/&gt;&lt;br/&gt;&lt;strong&gt;Assumptions:&lt;/strong&gt; This tutorial does not aim to teach you how to use the BTSync Mac/Windows clients. For the rest of the tutorial, I recommend creating a test folder on your computer, generating a BTSync key for that folder, and then adding that key to the new BTSync instance you’re about to create on your Linux-based server.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Requirements:&lt;/strong&gt; This tutorial assumes you have a Linux-based server. It does not have to be a dedicated server but you do need to have enough rights to download and install stuff.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Step 1 – Download the right version&lt;/strong&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;Download the Linux BTSync version that is appropriate for your server &lt;a href=&quot;http://labs.bittorrent.com/experiments/sync.html&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;. You’ll notice that there are several versions available:&lt;/p&gt;&amp;#13;
+&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/linux_options.png&quot;&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/linux_options.png&quot; alt=&quot;BitTorrent Sync Linux Download Options&quot; width=&quot;420&quot; height=&quot;131&quot; class=&quot;size-full wp-image-295&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/linux_options.png 420w, http://nickology.com/wordpress/wp-content/uploads/linux_options-300x93.png 300w&quot; sizes=&quot;(max-width: 420px) 100vw, 420px&quot;/&gt;&lt;/a&gt;BitTorrent Sync Linux Download Options&amp;#13;
+&lt;p&gt;If you’re not sure which one is for you, print out your system information using this command:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;uname --all&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;or&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;uname -p&lt;/code&gt; to get your processor.&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;These commands will output something like:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;Linux s123456789.domainepardefaut.fr 2.1.32-042stab076.5 #1 SMP Mon Mar 18 20:41:34 MSK 2013 x86_64 x86_64 x86_64 GNU/Linux&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;x86_64&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;For the above output, I downloaded the &lt;a href=&quot;http://btsync.s3-website-us-east-1.amazonaws.com/btsync_x64.tar.gz&quot; target=&quot;_blank&quot;&gt;Linux_x64&lt;/a&gt; version. From the server:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;cd /tmp&lt;br/&gt;&amp;#13;
+mkdir btsync&lt;br/&gt;&amp;#13;
+cd btsync&lt;br/&gt;&amp;#13;
+wget http://btsync.s3-website-us-east-1.amazonaws.com/btsync_x64.tar.gz .&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Step 2 – Install BitTorrent Sync&lt;/strong&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;Ready? It’s as easy as 1-2-3:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;tar -xvzf btsync_x64.tar.gz&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;This will extract &lt;em&gt;btsync&lt;/em&gt; which is the executable. Since we’re still in /tmp, now’s a good time to move the btsync executable somewhere safer. I chose to create a folder at the root level “/BTSync”:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;mkdir /BTSync&lt;br/&gt;&amp;#13;
+mv /tmp/btsync/btsync /BTSync&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;Note that by default, the files that will later be synced to your server will be located in a folder called &lt;em&gt;.sync&lt;/em&gt; which will be located in the same folder where btsync runs. Later on, we’ll take a look at some configuration options that can help you modify this behavior.&lt;/p&gt;&amp;#13;
+&lt;p&gt;You’re done. To start BTSync, run:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;./btsync&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;At this point, you should be able to point your web browser to port 8888 on your server and you will see the BTSync GUI (http://youripaddress:8888).&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/btsyncgui.png&quot;&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/btsyncgui.png&quot; alt=&quot;btsyncgui&quot; width=&quot;979&quot; height=&quot;303&quot; class=&quot;aligncenter size-full wp-image-307&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/btsyncgui.png 979w, http://nickology.com/wordpress/wp-content/uploads/btsyncgui-300x92.png 300w, http://nickology.com/wordpress/wp-content/uploads/btsyncgui-500x154.png 500w&quot; sizes=&quot;(max-width: 979px) 100vw, 979px&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;From here, you can easily sync folders with your server as you normally would by simply adding the shared secret keys that you have set up on your PC. The GUI is simple and easy to use. Though everything “just works” now, I did not want to keep the default port (8888) and password settings that come installed with the GUI. Let’s change that…&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Step 3 – Set up a password, change the port (optional)&lt;/strong&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;BTSync allows you to configure some settings, including a password to protect the GUI. To create a configuration file, create a &lt;em&gt;btsync.conf&lt;/em&gt; file in the same folder where the btsync executable is located. In my example, that would be in /BTSync. If you want to get an example configuration file, you can execute:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;./btsync --dump-sample-config&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;For convenience’s sake, I’ve made one available for download &lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/btsync_config_default.config&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&amp;#13;
+&lt;p&gt;To set a username/password, create or edit the config file, &lt;em&gt;btsync.config&lt;/em&gt; and edit these lines with whatever values make sense for you:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;“webui” :&lt;br/&gt;&amp;#13;
+{&lt;br/&gt;&amp;#13;
+“listen” : “&lt;strong&gt;0.0.0.0&lt;/strong&gt;:&lt;strong&gt;8888&lt;/strong&gt;“,&lt;br/&gt;&amp;#13;
+“login” : “&lt;strong&gt;YOUR_LOGIN_USERNAME&lt;/strong&gt;“,&lt;br/&gt;&amp;#13;
+“password” : “&lt;strong&gt;YOUR_LOGIN_PASSWORD&lt;/strong&gt;”&lt;br/&gt;&amp;#13;
+}&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;Replace the bold values by whatever is convenient for you. When you’re done, you’ll need to restart the BTSync server and pass the configuration file as a parameter. To do so, kill the btsync process that you started earlier and restart it using &lt;code&gt;./btsync --config btsync.config&lt;/code&gt;. To get the process ID, simply try to start the btsync process; if it is already running, it will print out its PID:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;./btsync --config btsync.config&lt;br/&gt;&amp;#13;
+Can't lock pid file. It seems BitTorrent Sync is already running with pid 1857&lt;br/&gt;&amp;#13;
+kill -9 1857&lt;br/&gt;&amp;#13;
+./btsync --config btsync.config&lt;br/&gt;&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Update: As pointed out by Arnaud in the comments, you could also just use &lt;em&gt;killall btsync&lt;/em&gt;.&lt;/strong&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted-Image-5613-1033-AM.png&quot;&gt;&lt;img src=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted-Image-5613-1033-AM-300x188.png&quot; alt=&quot;BTSync Authentication&quot; width=&quot;300&quot; height=&quot;188&quot; class=&quot;alignright size-medium wp-image-335&quot; srcset=&quot;http://nickology.com/wordpress/wp-content/uploads/Pasted-Image-5613-1033-AM-300x188.png 300w, http://nickology.com/wordpress/wp-content/uploads/Pasted-Image-5613-1033-AM-478x300.png 478w, http://nickology.com/wordpress/wp-content/uploads/Pasted-Image-5613-1033-AM.png 529w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;Now, when you close and re-open the GUI, you should get a password prompt.&lt;/p&gt;&amp;#13;
+&lt;p&gt;For more information about BitTorrent Sync and the different configuration options available, visit the &lt;a href=&quot;http://bit.ly/104YIEE&quot; title=&quot;official website&quot; target=&quot;_blank&quot;&gt;official website&lt;/a&gt;. To download BitTorrent Sync for Windows or OSX, click &lt;a href=&quot;http://bit.ly/ZZwhYC&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;I’m a big fan of DropBox and I’m happy to see similar services popping up. For most users, I’d say these services have an amazing offer, are easy to use, and are relatively cheap if not free – so if it works for you, stick to them! For power users, or for users who have lots of data they want to sync across several machines, BTSync provides a few advantages at the cost of some user friendliness (for now) and a more complex set up process. By setting up BTSync on a server with very high availability, you eliminate BTSync’s weakest point by allowing for a copy of your synced file(s) to be created almost immediately. You gain the privacy of your own server but you must also keep in mind that your sync capacity and reliability is entirely your responsibility. Finally, if you need to sync very large files, BTSync’s technology is the way to go. (You can read more about the technology used &lt;a href=&quot;http://bit.ly/12GZLZ1&quot;&gt;here&lt;/a&gt;.) At time of writing, it seems that mobile versions of BTSync are also being developed making BTSync a very powerful all-round syncing solution.&lt;/p&gt;&amp;#13;
+</description>
+<pubDate>Mon, 06 May 2013 12:00:50 +0000</pubDate>
+<dc:creator>Nick</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://nickology.com/2013/05/06/bitorrent/</dc:identifier>
+<category>Bittorrent</category>
+</item>
+<item>
+<title>Building an iPhone 5 Dock</title>
+<link>http://nickology.com/2012/11/21/building-an-iphone-5-dock/</link>
+<guid isPermaLink="true" >http://nickology.com/2012/11/21/building-an-iphone-5-dock/</guid>
+<description>&lt;p&gt;Since iPhone 5 docks are not yet readily available, I thought I’d take a shot at making my own. The end result is a lot worse than what I had set out to do but it works well none-the-less. Check out the video.&lt;/p&gt;&amp;#13;
+&lt;center&gt;&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;http://www.youtube.com/embed/p9KeGkX-PH4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;[embedded content]&lt;/iframe&gt;&lt;/center&gt;&amp;#13;
+</description>
+<pubDate>Wed, 21 Nov 2012 10:43:41 +0000</pubDate>
+<dc:creator>Nick</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://nickology.com/2012/11/21/building-an-iphone-5-dock/</dc:identifier>
+<category>Apple</category>
+<category>iPhone</category>
+</item>
+<item>
+<title>Pikachu</title>
+<link>http://nickology.com/2012/11/13/pikachu/</link>
+<guid isPermaLink="true" >http://nickology.com/2012/11/13/pikachu/</guid>
+<description>&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Pikachu&lt;/strong&gt;: Something that cops should yell when tazing someone.&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+</description>
+<pubDate>Tue, 13 Nov 2012 18:06:31 +0000</pubDate>
+<dc:creator>Nick</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://nickology.com/2012/11/13/pikachu/</dc:identifier>
+<category>Uncategorized</category>
+</item>
+<item>
+<title>Network Link Conditioner Built right into iOS6</title>
+<link>http://nickology.com/2012/09/25/network-link-conditioner-built-right-into-ios6/</link>
+<guid isPermaLink="true" >http://nickology.com/2012/09/25/network-link-conditioner-built-right-into-ios6/</guid>
+<description>&lt;p&gt;A few months ago, I discussed how you could use the &lt;a href=&quot;http://nickology.com/2012/02/26/simulate-different-network-connectivity-conditions-with-osx/&quot; target=&quot;_blank&quot;&gt;Network Link Conditioner on your Mac to simulate different network connections&lt;/a&gt;. As of iOS6, Apple has added a Network Link Conditioner right into the OS meaning that you can set the quality of the network you wish to simulate right from your device allowing for even more accurate testing.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;span id=&quot;more-244&quot;/&gt;&lt;br/&gt;&amp;#13;
+This section is located in &lt;em&gt;Settings&lt;/em&gt; &amp;gt; &lt;em&gt;Developer&lt;/em&gt; under &lt;strong&gt;Network Link Conditioner&lt;/strong&gt; and looks like this :&lt;/p&gt;&amp;#13;
+&lt;div&gt;&lt;img width=&quot;50%&quot; height=&quot;50%&quot; src=&quot;https://pbs.twimg.com/media/A3oQee9CYAEsIi6.png:large&quot; alt=&quot;&quot;/&gt;&lt;/div&gt;&amp;#13;
+&lt;p&gt;Usage is pretty self-explanatory but &lt;strong&gt;make sure you disable it&lt;/strong&gt; when you’re done testing!&lt;/p&gt;&amp;#13;
+&lt;p&gt;For those of you who landed here because of Twitter, here’s the original tweet:&lt;/p&gt;&amp;#13;
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot;&gt;&amp;#13;
+&lt;p&gt;Awesome! Network Link Conditioner built into iOS6. @&lt;a href=&quot;https://twitter.com/ylechelle&quot;&gt;ylechelle&lt;/a&gt; @&lt;a href=&quot;https://twitter.com/alikaragoz&quot;&gt;alikaragoz&lt;/a&gt; @&lt;a href=&quot;https://twitter.com/vinzius&quot;&gt;vinzius&lt;/a&gt; &lt;a href=&quot;http://t.co/zkcrUKmQ&quot; title=&quot;http://twitter.com/njouannem/status/250530845159481344/photo/1&quot;&gt;twitter.com/njouannem/stat…&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;— Nick Jouannem (@njouannem) &lt;a href=&quot;https://twitter.com/njouannem/status/250530845159481344&quot; data-datetime=&quot;2012-09-25T09:43:03+00:00&quot;&gt;September 25, 2012&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+</description>
+<pubDate>Tue, 25 Sep 2012 10:12:49 +0000</pubDate>
+<dc:creator>Nick</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://nickology.com/2012/09/25/network-link-conditioner-built-right-into-ios6/</dc:identifier>
+<category>iOS</category>
+<category>iPad</category>
+<category>iPhone</category>
+<category>Programming</category>
+</item>
+<item>
+<title>Fix “/tmp/.tmp.err” error on your website</title>
+<link>http://nickology.com/2012/09/20/fix-tmp-tmp-err-error-on-your-website/</link>
+<guid isPermaLink="true" >http://nickology.com/2012/09/20/fix-tmp-tmp-err-error-on-your-website/</guid>
+<description>&lt;p&gt;I woke up one morning to find that all the websites hosted on my server (VPS-based) were returning an error that looked something like this :&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;Warning: Unknown: SAFE MODE Restriction in effect. The script whose uid is 10012 is not allowed to access /tmp/.tmp.err owned by uid 0 in Unknown on line 0&lt;br/&gt;&amp;#13;
+Warning: Unknown: failed to open stream: No such file or directory in Unknown on line 0&lt;br/&gt;&amp;#13;
+Warning: Unknown: SAFE MODE Restriction in effect. The script whose uid is 10012 is not allowed to access /tmp/.tmp.err owned by uid 0 in Unknown on line 0&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;Fixing this turned out to be quite easy but not necessarily obvious.&lt;br/&gt;&lt;span id=&quot;more-229&quot;/&gt;&lt;br/&gt;&amp;#13;
+To be clear, I had not touched or installed anything new – this problem just appeared and as you can see, it doesn’t say much. I did notice that the server on which my VPS is hosted was rebooted a short while ago, possibly to allow my provider to update Plesk. In any case, after some digging around, I found a very strange line in my &lt;em&gt;httpd.conf&lt;/em&gt; (located in &lt;em&gt;/etc/httpd/conf&lt;/em&gt;).&lt;/p&gt;&amp;#13;
+&lt;p&gt;The fix is simply to open the httpd.conf file and go to the very bottom. You’ll find a strange bit of configuration that looks like this:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;&amp;lt;FilesMatch &quot;\.(php|php5|php4|htm|html|jsp|shtml|asp|aspx)$&quot;&amp;gt;&lt;br/&gt;&amp;#13;
+php_value auto_prepend_file &quot;/tmp/.tmp.err&quot;&lt;br/&gt;&amp;#13;
+&amp;lt;/FilesMatch&amp;gt;&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;PHP docs for &lt;a href=&quot;http://www.php.net/manual/en/ini.core.php#ini.auto-prepend-file&quot; title=&quot;auto_prepend_file&quot; target=&quot;_blank&quot;&gt;auto_prepend_file&lt;/a&gt; define this as:&lt;/p&gt;&amp;#13;
+&lt;blockquote&gt;&amp;#13;
+&lt;p&gt;Specifies the name of a file that is automatically parsed before the main file. The file is included as if it was called with the require function, so include_path is used.&lt;/p&gt;&amp;#13;
+&lt;p&gt;The special value &lt;em&gt;none&lt;/em&gt; disables auto-prepending.&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;&amp;#13;
+&lt;p&gt;I can’t find any reason why I would want this to happen. I chose to use the value &lt;em&gt;none&lt;/em&gt; suggested by the PHP docs, saved the configuration file, and did a quick &lt;em&gt;apachectl restart&lt;/em&gt; (or &lt;em&gt;service httpd restart&lt;/em&gt;). The final configuration looked like this:&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;&amp;lt;FilesMatch &quot;\.(php|php5|php4|htm|html|jsp|shtml|asp|aspx)$&quot;&amp;gt;&lt;br/&gt;&amp;#13;
+php_value auto_prepend_file none&lt;br/&gt;&amp;#13;
+&amp;lt;/FilesMatch&amp;gt;&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;and all the sites instantly came back online.&lt;/p&gt;&amp;#13;
+</description>
+<pubDate>Wed, 19 Sep 2012 22:13:18 +0000</pubDate>
+<dc:creator>Nick</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://nickology.com/2012/09/20/fix-tmp-tmp-err-error-on-your-website/</dc:identifier>
+<category>PHP</category>
+</item>
+<item>
+<title>Fixing a broken iMessages Beta that won’t start</title>
+<link>http://nickology.com/2012/09/10/fixing-a-broken-imessages-beta-that-wont-start/</link>
+<guid isPermaLink="true" >http://nickology.com/2012/09/10/fixing-a-broken-imessages-beta-that-wont-start/</guid>
+<description>&lt;p&gt;I currently use Lion on one of my machines and still use the beta version of iMessages. As any beta, it has its bag of issues but overall, it’s very stable. That being said, I ran into a situation this morning in which one of my conversations was constantly showing an unread message. Naturally, I tried restarting the app in hopes that this would fix this issue only to discover that I could no longer see my conversations window or start a new conversation at all. It’s as if the program was stuck. Restarting multiple times and re-installing did not help.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Long story short, the simple solution was to launch Activity Monitor and kill a process called &lt;em&gt;imagent&lt;/em&gt;. As soon as I did that, all my previous conversations re-appeared and everything was back in order.&lt;/p&gt;&amp;#13;
+</description>
+<pubDate>Mon, 10 Sep 2012 09:58:18 +0000</pubDate>
+<dc:creator>Nick</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://nickology.com/2012/09/10/fixing-a-broken-imessages-beta-that-wont-start/</dc:identifier>
+<category>Uncategorized</category>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:og="http://ogp.me/ns#">
+<channel>
+<atom:link rel="self" href="http://ftr.rachini.com/makefulltextfeed.php?url=feeds.feedburner.com%2Fdevthought" />
+<atom:link rel="alternate" title="Source URL" href="http://feeds.feedburner.com/devthought" />
+<atom:link rel="related" title="Subscribe to feed" href="http://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dfeeds.feedburner.com%252Fdevthought&amp;back=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dfeeds.feedburner.com%252Fdevthought" />
+<title>Guillermo Rauch&amp;#039;s Devthought</title>
+<link>http://www.devthought.com</link>
+<description></description>
+<item>
+<title>The modular approach to testing</title>
+<link>http://feedproxy.google.com/~r/devthought/~3/_0RK3ZEvNuw/</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/devthought/~3/_0RK3ZEvNuw/</guid>
+<description>[unable to retrieve full-text content]I&amp;#8217;m writing this blog post to explain why I no longer consider assertion testing through projects like should.js, expect.js or chai ideal. For the uninitiated, these modules allow you to write assertions in a very clear english-like way: // my &amp;#8230; &lt;a href=&quot;http://www.devthought.com/2014/02/26/the-modular-approach-to-testing/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Wed, 26 Feb 2014 16:38:09 +0000</pubDate>
+<dc:creator>Guillermo Rauch</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>http://www.devthought.com/2014/02/26/the-modular-approach-to-testing/</dc:identifier>
+<category>Blog</category>
+<category>General</category>
+</item>
+<item>
+<title>OSX 10.9 Developer Preview Notes</title>
+<link>http://feedproxy.google.com/~r/devthought/~3/HCxB1M-6TXY/</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/devthought/~3/HCxB1M-6TXY/</guid>
+<description>[unable to retrieve full-text content]I recently upgraded to OSX 10.9 Developer Preview announced at the WWDC 2013. I highly recommend trying it out if you&amp;#8217;re enrolled in the Mac Developer program and want to benefit from lots of substantial speed, security and reliability gains. &amp;#8230; &lt;a href=&quot;http://www.devthought.com/2013/06/14/osx-10-9-developer-preview-notes/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Fri, 14 Jun 2013 17:01:09 +0000</pubDate>
+<dc:creator>Guillermo Rauch</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>http://www.devthought.com/2013/06/14/osx-10-9-developer-preview-notes/</dc:identifier>
+<category>Uncategorized</category>
+</item>
+<item>
+<title>Chrome’s new URL Suggestions Bar</title>
+<link>http://feedproxy.google.com/~r/devthought/~3/tUOn4KeOOiQ/</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/devthought/~3/tUOn4KeOOiQ/</guid>
+<description>[unable to retrieve full-text content]The Chrome Dev Channel has recently introduced a revamped home screen that features a search box alongside the top sites. In addition, I noticed that the suggestions offered as you type now became part of the body of the page. &amp;#8230; &lt;a href=&quot;http://www.devthought.com/2013/04/30/chromes-new-url-suggestions-bar/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Tue, 30 Apr 2013 15:32:38 +0000</pubDate>
+<dc:creator>Guillermo Rauch</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>http://www.devthought.com/2013/04/30/chromes-new-url-suggestions-bar/</dc:identifier>
+<category>Blog</category>
+<category>General</category>
+</item>
+<item>
+<title>Getting rid of stale transactional email</title>
+<link>http://feedproxy.google.com/~r/devthought/~3/ENhzSNeBikQ/</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/devthought/~3/ENhzSNeBikQ/</guid>
+<description>[unable to retrieve full-text content]Email you receive on a daily basis falls into two primary categories: A. Mail written by someone on a Mail User Agent (MUA), like iOS Mail or Gmail. B. Mail written by a computer program, normally transactional email. Almost every &amp;#8230; &lt;a href=&quot;http://www.devthought.com/2013/02/02/getting-rid-of-stale-transactional-email/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Sat, 02 Feb 2013 20:17:55 +0000</pubDate>
+<dc:creator>Guillermo Rauch</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>http://www.devthought.com/2013/02/02/getting-rid-of-stale-transactional-email/</dc:identifier>
+<category>Blog</category>
+<category>General</category>
+</item>
+<item>
+<title>Understanding the iOS6 AJAX bugs</title>
+<link>http://feedproxy.google.com/~r/devthought/~3/3FWqDpRJdmA/</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/devthought/~3/3FWqDpRJdmA/</guid>
+<description>[unable to retrieve full-text content]tl;DR: only 2/3 bugs have an impact, one has a trivial workaround (jQuery snippet included below), the other one is UX related. Socket.IO needs no updates. In the past 48 hours a lot has been written about the introduction of &amp;#8230; &lt;a href=&quot;http://www.devthought.com/2012/09/22/understanding-the-ios6-ajax-bugs/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Sat, 22 Sep 2012 20:22:19 +0000</pubDate>
+<dc:creator>Guillermo Rauch</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>http://www.devthought.com/2012/09/22/understanding-the-ios6-ajax-bugs/</dc:identifier>
+<category>Blog</category>
+<category>Client side</category>
+</item>
+<item>
+<title>A common MongoDB replSet config error</title>
+<link>http://feedproxy.google.com/~r/devthought/~3/17O7tojkCu4/</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/devthought/~3/17O7tojkCu4/</guid>
+<description>[unable to retrieve full-text content]If MongoDB rs.status() displays the following error: &gt; rs.status() { &quot;startupStatus&quot; : 4, &quot;errmsg&quot; : &quot;all members and seeds must be reachable to initiate set&quot;, &quot;ok&quot; : 0 } The first course of action is to look at the MongoDB &amp;#8230; &lt;a href=&quot;http://www.devthought.com/2012/09/18/fixing-mongodb-all-members-and-seeds-must-be-reachable-to-initiate-set/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Tue, 18 Sep 2012 18:57:47 +0000</pubDate>
+<dc:creator>Guillermo Rauch</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>http://www.devthought.com/2012/09/18/fixing-mongodb-all-members-and-seeds-must-be-reachable-to-initiate-set/</dc:identifier>
+<category>Blog</category>
+<category>Server side</category>
+</item>
+<item>
+<title>The Realtime Engine</title>
+<link>http://feedproxy.google.com/~r/devthought/~3/dTRJuXzw7EE/</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/devthought/~3/dTRJuXzw7EE/</guid>
+<description>[unable to retrieve full-text content]On Monday I had the pleasure of speaking once again at NodeConf in Portland. On this glorious second edition, several talks were dedicated to the topic of realtime, covering angles such as its inception and future, scalability, backend messaging and &amp;#8230; &lt;a href=&quot;http://www.devthought.com/2012/07/07/the-realtime-engine/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Sat, 07 Jul 2012 06:09:30 +0000</pubDate>
+<dc:creator>Guillermo Rauch</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>http://www.devthought.com/2012/07/07/the-realtime-engine/</dc:identifier>
+<category>Blog</category>
+<category>Projects</category>
+</item>
+<item>
+<title>Richard Stallman has his bag stolen in Argentina</title>
+<link>http://feedproxy.google.com/~r/devthought/~3/ezkz6Fs4bZw/</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/devthought/~3/ezkz6Fs4bZw/</guid>
+<description>[unable to retrieve full-text content]As a conference curator and fellow argentinian, and due to the lack of any reports in English, I thought I&amp;#8217;d share a brief summary of a very unfortunate occurrence: Richard Stallman, father of the FSF, had his bag containing his &amp;#8230; &lt;a href=&quot;http://www.devthought.com/2012/06/09/richard-stallman-robbed-in-argentina/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Sat, 09 Jun 2012 17:26:09 +0000</pubDate>
+<dc:creator>Guillermo Rauch</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>http://www.devthought.com/2012/06/09/richard-stallman-robbed-in-argentina/</dc:identifier>
+<category>Blog</category>
+<category>General</category>
+</item>
+<item>
+<title>Introducing codestre.am</title>
+<link>http://feedproxy.google.com/~r/devthought/~3/7BLWCMs_QMw/</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/devthought/~3/7BLWCMs_QMw/</guid>
+<description>[unable to retrieve full-text content]At LearnBoost, I wrote a project that sits on the intersection between two of my passions: code and education. The basic premise is that with one command you can stream your terminal to the world, and record it as a &amp;#8230; &lt;a href=&quot;http://www.devthought.com/2012/04/01/introducing-codestre-am/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Sun, 01 Apr 2012 20:50:37 +0000</pubDate>
+<dc:creator>Guillermo Rauch</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>http://www.devthought.com/2012/04/01/introducing-codestre-am/</dc:identifier>
+<category>Blog</category>
+<category>Projects</category>
+</item>
+<item>
+<title>A better console.log</title>
+<link>http://feedproxy.google.com/~r/devthought/~3/wribJNqY7lU/</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/devthought/~3/wribJNqY7lU/</guid>
+<description>[unable to retrieve full-text content]I just created a module named console-trace that does one very simple yet very useful thing: prepend the line number and filename to console calls. To leverage it you just need to require('console-trace') and prepend a flag: console.trace.error('Test'); console.t.log('Test'); // &amp;#8230; &lt;a href=&quot;http://www.devthought.com/2012/03/26/a-better-console-log/&quot;&gt;Continue reading &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Mon, 26 Mar 2012 14:56:53 +0000</pubDate>
+<dc:creator>Guillermo Rauch</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>http://www.devthought.com/2012/03/26/a-better-console-log/</dc:identifier>
+<category>Projects</category>
+</item>
+</channel>
+</rss>

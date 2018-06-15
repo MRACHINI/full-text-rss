@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:og="http://ogp.me/ns#">
+<channel>
+<atom:link rel="self" href="http://ftr.rachini.com/makefulltextfeed.php?url=www.snapfiles.com%2Ffeeds%2Fsnapfiles.xml" />
+<atom:link rel="alternate" title="Source URL" href="http://www.snapfiles.com/feeds/snapfiles.xml" />
+<atom:link rel="related" title="Subscribe to feed" href="http://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dwww.snapfiles.com%252Ffeeds%252Fsnapfiles.xml&amp;back=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dwww.snapfiles.com%252Ffeeds%252Fsnapfiles.xml" />
+<title>SnapFiles latest downloads</title>
+<link>http://www.snapfiles.com/</link>
+<description>The latest shareware and freeware downloads</description>
+<item>
+<title>Update -  Freeware -  Opera   v49.0.2725.34</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=102506&amp;x=7119856&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=102506&amp;x=7119856&amp;feed=1</guid>
+<description>&lt;div readability=&quot;38&quot;&gt;I have used Opera over the years, but it has now reached the point where it is more trouble than I need. First, you can't export bookmarks without an extension and then it flattens your bookmarks folders if they are nested. Second, with the Version 45 update on 5-18-17 I ran into several problems which I couldn't solve. You now cannot install an earlier version and block automatic updates to the program while waiting on a fix. What program doesn't give you an option to refuse an update. A search on the internet gives a solution where you have to add a change to system environment to stop the update. Who needs this headache. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;41&quot;&gt;When Opera dropped its Presto browser engine and adopted the BlinkChrome engine, things were looking good...until you visit websites. Most websites are visible, but I had problems with Youtube not loading videos. Any other browser I use is fine and loads videos, but Opera loads and loads...It's a pretty good browser if you want an alternative to Google Chrome, but I can't recommend it because of its buggy performance with Youtube(if you care). Some of the features that Opera once had hasn't been included yet and maybe never. If you don't care much about those cons then give it a try. But, I recommend you try Vivaldi browser instead, it's the REAL Opera. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;40&quot;&gt;This late May 2016 Opera37.0.2178.43 release immediately annoyed me because it set itself as my Win7 Default Browser, didn't ask, no notice given. The easy way out was running Firefox again, and it asked, as is polite. The other minor trivial annoyance was opening in full screen. Why do they assume that? I uninstalled it, maybe better next time. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>Opera - a fast and secure web browser</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/opera.png</og:image>
+<og:description>a fast and secure web browser</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/opera.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  Avast Free Antivirus 2017   v17.8</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=105009&amp;x=7114399&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=105009&amp;x=7114399&amp;feed=1</guid>
+<description>&lt;div readability=&quot;35&quot;&gt;I've been using avast! for years I used to recommend it when asked without hesitation but recent developments are getting me to consider alternatives. It still works well and provides excellent protection BUT the software is getting more like AdWare by the week with ever increasing pop-ups nagging you to upgrade or buy something else add to that the inclusion of a new browser that it don't want and didn't ask for and the irritations are piling up. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;41&quot;&gt;I have tried AVG, Panda, and some other antivirus programs...all free. Avast is the best of the bunch. It can be scheduled to run whenever I want it to....usually taking about 37 minutes for a Full Scan. I have it set for 3 times a week, around 2 am. It updates when new definitions are available. I disabled the full browser scan or &quot;lookout&quot;, cause it slows down my Firefox and Chrome every time! I use the File System Shield, and Mail Shield. NOT using the browsing Shield....that's what slows it down so much. I had to re-install the program the first time, unchecking the Browsing Shield. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;45&quot;&gt;Avast is great, especially compared to Norton. Norton injects a virus only they can get rid of, and sometimes they can't even fix their own virus. Norton users switched to Avast, but I do recommend once you have your 30 days, switch to AVG and Malware Bytes, preferably Spybot. Avast is good for temp. use, as it's free and it obviously misses somethings, slows down performance, etc. Be careful how you use Avast, and don't depend on it. If you do, it can come back and bite you. Be wary. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>Avast Free Antivirus 2017 - anti-virus scanner</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/avast.png</og:image>
+<og:description>anti-virus scanner</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/avast.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  HazteK TrueIP   v2.0.5.0</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=105133&amp;x=7112848&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=105133&amp;x=7112848&amp;feed=1</guid>
+<description>&lt;div readability=&quot;34&quot;&gt;Great software. Does what it says. Simple clear interface. Easy to use. Fine notifications. Forget any other software, just use this! &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;38&quot;&gt;Thx, Great Program, I especially like the e-mail everytime the pc is turned on or rebooted, i do things remotely for family members, it just makes it easier for me, thx again &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;36&quot;&gt;I hope not. Another small yet extremely useful program by Haztek. I like their software, it's always simple yet something handy, what more can you ask for? Oh yeah, it's free too. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>HazteK TrueIP - Ip address monitor</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/haztekip.png</og:image>
+<og:description>Ip address monitor</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/haztekip.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  BackUp Maker   v7.300</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=106753&amp;x=7119300&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=106753&amp;x=7119300&amp;feed=1</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;backup tool&lt;/em&gt; BackUp Maker is a personal backup tool that can create backups in ZIP format. It can optionally backup the files directly to a CD-RW or DVD drive, a local folder, or a remote FTP server. The program comes with most of the common options like file exclusions, scheduled backups, dated files, incremental backups, password protection and more. It also offers password protection for the zip files and supports spanning across multiple disks. BackUp Maker lets you create quick one-time backups as well as scheduled backups that occur on a regular basis. The interface is easy to use and offers an advanced mode that reveals the additional features (file masks, exclusions etc.). &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=106753&amp;amp;a=7119300&amp;amp;loc=2&quot; title=&quot;Download BackUp Maker&quot;&gt;Download BackUp Maker&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>BackUp Maker - backup tool</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/backupmaker.png</og:image>
+<og:description>backup tool</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/backupmaker.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  McAfee Stinger   v12.1.0.2569</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=107401&amp;x=7120939&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=107401&amp;x=7120939&amp;feed=1</guid>
+<description>&lt;div readability=&quot;35&quot;&gt;This seems to update practically every day, taking up precious screen and mental turf. Why can't it update itself as so many other utilities do? Or just prompt the user that an update is available? This almost spoils the Snapfiles experience. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;39&quot;&gt;Stinger may provide help, getting rid of specific malware. And the specific malware threats are listed. But beware. Setting the &quot;GTI&quot; sensitivity to high or very high will lead to a lot of false positives (malware you won't see on the threat list). If you set the sensitivity to high or very high, MAKE SURE stinger is set to &quot;report&quot; (not &quot;remove&quot; or &quot;repair&quot;). Being a novice, I reloaded my OS on the first false positive. After a series of false positives, I decided to do a little research on how the program works and no longer use highvery high sensitivity scans. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;35&quot;&gt;Be aware that that tool scans only for a limited number of viruses and variants but it do it well. Fast but need a lot of system resources. No sufficient upgrades, so for the well-know viruses this is ok but for the rest ... &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>McAfee Stinger - portable anti-virus scanner</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/stinger.png</og:image>
+<og:description>portable anti-virus scanner</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/stinger.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  Wise Disk Cleaner Free   v9.58</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=111128&amp;x=7133842&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=111128&amp;x=7133842&amp;feed=1</guid>
+<description>&lt;div readability=&quot;37&quot;&gt;I needed to remove junk files from my laptop because my disk drive was almost filled up to capacity and i do not know what junk files need to be removed, i looked up wise disk cleaner installed it, and wow!!! it removed a lot of junk files i had and my disk drive had more room!!! and it defrags better then disk defragment that i was using from my laptop. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;38&quot;&gt;I have been using Wise Disk Cleaner for some time now. I also started using Chrome Browser, along with my Firefox browser. CCleaner will clean out everything for both browsers. However, Wise Disk Cleaner does NOT clean the Chrome Cache, even with it checked to be deleted !! It also does not delete the Chrome Sessions. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;38&quot;&gt;As a PC Technician I use this all the time, never had any problems with Office or Firefox (or any other program for that matter)there are indeed options to clean the Recycle bin and many other areas of your Operating System, just click the arrow head to the left of each item and tick any items not selected by default, cleans tons of crap. In my opinion its the best out there and that includes CCleaner &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>Wise Disk Cleaner Free - find and remove junk files</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/wisediskcleaner.png</og:image>
+<og:description>find and remove junk files</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/wisediskcleaner.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  DiskBoss Free   v8.6.18</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=111241&amp;x=7135058&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=111241&amp;x=7135058&amp;feed=1</guid>
+<description>&lt;div readability=&quot;37&quot;&gt;I have used this software for several months and it's one of the best file managers programs available. Easy to use, detailed, fast and efficient, I highly recommend this program for keeping file systems in order and its free! &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;40&quot;&gt;Many, many features, some of which I look forward to using. A single installation can be used on disks, directories and network drives. Features I have used perform great. Synchronization works well, as does duplicate file find and cleanup, bulk file delete and data wiping. Very useful suite of tools. Detailed help is available online. My only suggestion is to include some help in the program itself. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;42&quot;&gt;No way to explain everything you can do in this review but yes, it's a great utility analyzing disk space usage. You can also sync your files, clean some junk files, categorize and more. It's very fast, easy to browse directories, shows hierarchy of largest files or folders as you go. Works great, free, 5. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>DiskBoss Free - file management toolkit</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/diskboss.png</og:image>
+<og:description>file management toolkit</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/flextkexpress.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  Calibre   v3.12.0</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=112182&amp;x=7141491&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=112182&amp;x=7141491&amp;feed=1</guid>
+<description>&lt;div readability=&quot;37&quot;&gt;I've been using this program for a while now and they just keep adding support and it just works. On conversions, you have to play with it to get the layout you would like for your device you read eBooks on but other than that it is point and click. It has it easy interface to follow both ICONs and Menu, the display is straight forward displaying all the relevant book information. Love it! &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;40&quot;&gt;Go ahead. Try to find a better e-book manager/reader. You may find some good ones, but still not as good as Calibre. It is the most complete e-book manager/reader that I have used. Anything that you could possibly want to do with your e-books can be done on Calibre, so there really is no reason to mention the functionality here. If a feature is not in Calibre, you can bet that it will be included sometime in the future. Development support is constant with continuous updates frequently available. There is no need to use another e-boook manager/reader unless your favorite e-book store forces you to use their own. The worst thing that I can say about Calibre is that there should be a &quot;skin&quot; or GUI option. The current icons used are unappealing. Various icons are used from different icon sets, so Calibre has no themed look to it. If you are handy at changing themes, it can be done manually by changing the Resource/Image folder in the Programs folder. But most users would not know how to or bother to do it. So overall Calibre is definitely your one stop solution to all your e-book needs. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;49&quot;&gt;I am amazed that this is a free program. I have about 150 e-books entered into the database and this program allows me to keep track of everything. You can add tags(even custom tags) to each book to help you find them by category. You can customize what information is shown about each book. One of the handiest features is the ability to download metadata about each book from online sources (Amazon, Barnes &amp;amp; Noble, Google, etc.). This feature will automatically fill in the author, publication date, ISBN number, tags, etc. as well as fill in a summary of the book plot. Of course you can manually enter any or all of this data if you prefer. This gives you an opportunity to add your own notes about the book. The program interfaces seamlessly with my Nook Simple Touch, allowing me to easily transfer books to or from the reader. There is a large internet community using this program, so there is lots of support and very active development with new features, bug fixes, etc. I have not found any program instability or bugs in my use. Because this program can do so much, there is a small learning curve (about 30 minutes) to get up to speed on the various features. Online help is very good. Once you understand it's basic organization, it's very easy to use. If you desire, you can also enter your non-ebook (paperback) books into the database to keep track of what you've read. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>Calibre - e-book manager and reader</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/calibre.png</og:image>
+<og:description>e-book manager and reader</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/calibre.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  Dont Sleep   v4.16</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=112208&amp;x=7139683&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=112208&amp;x=7139683&amp;feed=1</guid>
+<description>&lt;div readability=&quot;40&quot;&gt;I always use an aggressive power scheme for all my systems but I still use the screen saver and set the monitor off at a specific interval... but there are times when I don't want the screen saver to run or the monitor to be turned off, and I don't want to change the power scheme or go trough the problem of changing or disabling the screen saver. Some times the system going standby is just a headache. There are other times when I don't want anyone to log me off. This little tool does the trick fast and with just a minimal intervention or configuration. Also, it can be easily activated and deactivated without loading and unloading it every time, and yes, it runs from any USB drive. It is fast, convenient and just take a small amount of RAM and a negligible CPU time. I love when some little app teaches my system new tricks... &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;36&quot;&gt;My company has removed the screen saver option and forces it to come on after 7 minutes. Well that will just not do. This little bitty software does the trick. Just start it up and you have a list of options to chose from. I just use the basic function and it works just fine. No more screen saver to worry about. This little package works off a portable USB drive and is great. So if your company has forced your hand, time to get a little help! &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;37&quot;&gt;This author writes highly functional little programs. I use aggressive power management to stretch my laptop battery's life, and Don't Sleep is great for keeping everything active when I'm viewing a webcast, for example. It has several other capabilities in a tiny package. Highly recommended. DesktopOK is another gem from the same site. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>Dont Sleep - temporarily suspend power management</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/dontsleep.png</og:image>
+<og:description>temporarily suspend power management</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/dontsleep.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  Safe In Cloud   v17.4.3</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=113506&amp;x=7151228&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=113506&amp;x=7151228&amp;feed=1</guid>
+<description>When I discovered this software program, I was--and still am--amazed. I had zero problems installing; and, I was able to figure out the software UI in a few minutes without looking for HELP. The program allows you to store website logons and passwords, software license keys, bank accounts with logons, credit card data with logons, email accounts, generic notes, and custom account data. The program allows customized categories (unlimited as far as I can tell), and has 9 data field types: Login, Password, PIN, Text, Number, Phone, Date, Email, and Website URL (10 data types if you include the Note field). It comes with about 7 template files that can be edited for different account types, and it seems ready to accept all the templates I want. One of the best things about the program is the note field is on a separate tab--allowing plenty of space for notes for each account. The program can sync with a Google Drive, Dropbox or Skydrive account. You can start your new database file by importing existing data from so many different password programs or from a CSV file (Excel). Android and iOS apps are available (Mac coming soon). It's ridiculously easy to use but if you need help, the HELP web page looked to be very thorough also. OH, and when used with either the Firefox or Chrome extension, you can auto-log into your web pages. And all this for free! The only thing it is lacking: it won't allow you to choose the hard drive destination for the database file. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;</description>
+<og:title>Safe In Cloud - secure password manager</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/safeincloud.png</og:image>
+<og:description>secure password manager</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/safeincloud.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  grepWin   v1.7.1</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=113701&amp;x=7151227&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=113701&amp;x=7151227&amp;feed=1</guid>
+<description>&lt;div readability=&quot;34&quot;&gt;This is a great tool to add to your portable USB utilities. It works well but once you get used to the interface you can get what you need done quickly. Nice set of options in a small package and a great tool. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;33&quot;&gt;Super fast search within files. Much faster than most other tools. A must have utility for anyone that works with files. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>grepWin - advanced text search and replace</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/grepwin.png</og:image>
+<og:description>advanced text search and replace</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/grepwin.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  Novabench   v4.0.3</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114052&amp;x=7151592&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114052&amp;x=7151592&amp;feed=1</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;test and compare computer performance&lt;/em&gt; Novabench is a benchmarking utility that tests your computer's performance. You can benchmark your computer in a matter of minutes by testing the CPU and GPU speed, Direct3D 11 / Metal graphics performance, OpenCL computing, memory transfer speed and disk read and write speeds. Once the tests have completed running, your computer will be assigned a score for each test as well as an overall score. To make these scores more meaningful, you can compare your scores to others online. Each time you run a benchmark, the results are saved and you can compare your current results with those from a previous benchmark. Other features include options run individual tests and export results to CSV format. You can optionally upgrade to a Pro version for additional features like temperature monitoring, scheduled benchmarks and more. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114052&amp;amp;a=7151592&amp;amp;loc=2&quot; title=&quot;Download Novabench&quot;&gt;Download Novabench&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Novabench - test and compare computer performance</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/novabench.png</og:image>
+<og:description>test and compare computer performance</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/novabench.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  PlayOn   v4.3.58</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=112636&amp;x=7144104&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=112636&amp;x=7144104&amp;feed=1</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;stream videos from your PC to your TV&lt;/em&gt; PlayOn is a media streaming server that enables you to watch Internet videos from Hulu, Netflix, Amazon, YouTube, MTV etc. on your TV. The program streams the content from your PC to your game console (Xbox, Wii, PlayStation 3) or set-top device like Netgear EVA, Moxi, Google TV and others. You can also use the free iPhone/iPad app to stream directly to your mobile device.PlayOn is easy to use and does not require any technical knowledge. It automatically configures your router and is ready to use immediately. You can choose the channels to make available and also set optional parental controls. PlayOn also includes a feature that allows you to stream media files directly from your computer. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;limitations&quot;&gt;&lt;strong&gt;Trial Limitations:&lt;/strong&gt; 14 day trial, no limitations&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=112636&amp;amp;a=7144104&amp;amp;loc=2&quot; title=&quot;Download PlayOn&quot;&gt;Download PlayOn&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>PlayOn - stream videos from your PC to your TV</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/playon.jpg</og:image>
+<og:description>stream videos from your PC to your TV</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/playon.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  Take Command   v21.1.58</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=103378&amp;x=7123914&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=103378&amp;x=7123914&amp;feed=1</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;advanced command line interface&lt;/em&gt; Take Command combines advanced command-line technology with the look and feel of Windows, thereby provides you with a new command prompt that you can use every day - for everything from launching applications to serious file management and scripting. Take Command does everything the standard Windows command prompt does and adds a ton of extra features, not to mention the advantages and conveniences of a graphical interface. Some of the features include the option to modify and re-execute previous commands, redefine commands, create new commands for your regular tasks, even assign frequently used commands to a single keystroke. The program also includes many additional commands and options for batch file runs, including IF/THEN/ELSE logic, SWITCH, exception handling, and more than 60 internal commands as well as Full-loop control, error handling and more. Additional features include colorized text displays, customizable toolbar, tab file name completion that lets you enter any file name with just a few keystrokes and fast system-wide directory navigation. If you find yourself using the command line frequently to perform various tasks, then Take Command is a must-try! &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;limitations&quot;&gt;&lt;strong&gt;Trial Limitations:&lt;/strong&gt; 30 day trial. Some features disabled.&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=103378&amp;amp;a=7123914&amp;amp;loc=2&quot; title=&quot;Download Take Command&quot;&gt;Download Take Command&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Take Command - advanced command line interface</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/takecommand.gif</og:image>
+<og:description>advanced command line interface</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/takecommand.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  Bulk Image Downloader   v5.17.0</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=111123&amp;x=7135128&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=111123&amp;x=7135128&amp;feed=1</guid>
+<description>&lt;div readability=&quot;47&quot;&gt;I have really tried for 2 weeks to understand the quirks in this app. There are some sites where it works very well. There are other sites, too many, where the operation is very flakey, or abortive. I have repeatedly been told that it downloaded xx files and go to the folder to find almost anything - thumbnails, banners, all kinds of garbage in addition to, usually but not always, jpegs that I selected. I just finished a round where I got none that I selected even though the pix were listed as downloaded. I have Win 7, 64 bit, just reinstalled in an attempt to get some of my other flakey apps to settle down, but either BID is incompatible or it's a beta version. I'm thinking of making XP a 2nd OS so I can use Reget Pro which has been a trusted app for years, but not with MS new crap OS's, like many other apps which I have depended on for a long time. Thank God Collomb updated &quot; unlocker &quot; to help me defend against those Redmond morons. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;34&quot;&gt;Overall a very good program. Only had a few websites it has not been able to download from. Does all the basics very well. Would like to be able to set minimum picture size but except for that can't really fault it. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>Bulk Image Downloader - download images from galleries</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/bulkimgdl.gif</og:image>
+<og:description>download images from galleries</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/bulkimgdl.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  DiskBoss Ultimate   v8.6.18</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=111594&amp;x=7135058&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=111594&amp;x=7135058&amp;feed=1</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;advanced file management toolkit&lt;/em&gt; DiskBoss Ultimate (formerly FlexTk Ultimate) is an advanced file management toolkit that enables you to classify and categorize files, find duplicates, free-up storage space, copy/move or synchronize large numbers of files and much more. You can scan drives or folders and view a report of how your storage space is utilized by file type. The program automatically categorizes your files by general types (e.g. multimedia files, executables, documents etc.) and allows you to drill down further to view results for individual files types and eventually a list of all files within the group. DiskBoss Ultimate also offers rule-based file copy and data migration, real-time disk monitoring to detect file changes, duplicate file search, disk cleanup features, MD5, SHA1 or SHA256 and more. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;limitations&quot;&gt;&lt;strong&gt;Trial Limitations:&lt;/strong&gt; 30 day trial. Fully functional.&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=111594&amp;amp;a=7135058&amp;amp;loc=2&quot; title=&quot;Download DiskBoss Ultimate&quot;&gt;Download DiskBoss Ultimate&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>DiskBoss Ultimate - advanced file management toolkit</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/diskbossu.png</og:image>
+<og:description>advanced file management toolkit</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/flextkulti.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  Acoustica   v7.0.35</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=107801&amp;x=7122104&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=107801&amp;x=7122104&amp;feed=1</guid>
+<description>It's a really great audio editing, etc.... software. However, the lack of MP3 among other things sort of bothers me. I popped in my ipod, it crashed when trying to read the files? Hmmmmm. Ok, less impressed now. I also worked the noise reduction and didn't find, unless you have super human ears, the difference between Audacity and this. That said, it has some things Audacity doesn't , BUT one that's not so good would be the price. Audacity is free, AconDigital Acoustica is not. Is it worth paying for? In my opinion, only if there is nothing else out there that compares and is free. It is a very nice audio editing utility though. I wish some things like mentioned above would get fixed, drop the price as well, maybe 19.99??? In my opinion, it's not worth much more. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;</description>
+<og:title>Acoustica - audio editor</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/acoustica.gif</og:image>
+<og:description>audio editor</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/acoustica.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  WYSIWYG Web Builder   v12.2.3</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=109813&amp;x=7126383&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=109813&amp;x=7126383&amp;feed=1</guid>
+<description>&lt;div readability=&quot;46&quot;&gt;I bought this program, and have some regrets. Working at a fairly simple level within WYSIWYG Web Builder, it works at advertised, and that is all that most people will need. However, importing anything is bad news. The program claims to import HTML, and indeed it does. However once you do that, then try to publish, the headaches begin. No matter how you play with imported content, no matter what the property menu says, and no matter what it looks like within the program, imported content once republished will not retain proper positioning or much formatting. Old fashioned cut and paste (which destroys all formatting) is the only reliable way to get content into this program. A second big issue is that long CSS text blocks in the program do bad things when they are published into a website. Since my own website has been growing for 15 years and is text intensive, using WYSIWYG Web Builder to give it a modern look has become a dubious process. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;36&quot;&gt;I've used WYSIWYG Web Builder for several months now. During that time I've designed and uploaded three web pages with this program. I can't say enough good things about it. It's loaded with every utility you would ever need in designing a web page, plus many other features. The interface is comfortable to work in and the FTP program is a breeze to use. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;37&quot;&gt;I thought by going to Net Objects I was getting the best I could afford. But it has proved a tricky program to use. I often felt I had to look at the help file. Finally I decided enough was enough and looked round for something better. WYSIWYG Web Builder is not just better it is stunning. It is just like a word processor - just as easy plus every sort of add on you need - look at the Lightbox for example. The product is stunning, the price is stunning. I compared it with the Sourceforge products which are free. WYSIWYG Web Builder is worth every penny of the price. Highly recommended, try it out you will be convinced. &lt;span class=&quot;toggletext&quot;&gt;Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>WYSIWYG Web Builder - create a website without coding</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/wysiwygwbuilder.jpg</og:image>
+<og:description>create a website without coding</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/wysiwygwbuilder.html</dc:identifier>
+</item>
+<item>
+<title>NEW -  Freeware -  ControlMyMonitor  v1.00</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114073&amp;x=7114139&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114073&amp;x=7114139&amp;feed=1</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;modify the setting of your monitor&lt;/em&gt; ControlMyMonitor enables you to view and modify most settings of your monitor, (brightness, contrast, sharpness, red/green/blue color balance, etc.) without the need to use the OSD. You can modify the settings from the application interface or from the command-line, and also export all settings into a config file and later reload them to quickly switch between monitor configurations. ControlMyMonitor works with any monitor that supports DDC/CI. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114073&amp;amp;a=7114139&amp;amp;loc=2&quot; title=&quot;Download ControlMyMonitor&quot;&gt;Download ControlMyMonitor&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>ControlMyMonitor - modify the setting of your monitor</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/controlmymonitor.png</og:image>
+<og:description>modify the setting of your monitor</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/controlmymonitor.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  TorrentRover   v1.2.5 beta</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=113633&amp;x=7151318&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=113633&amp;x=7151318&amp;feed=1</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;Torrent search tool and manager&lt;/em&gt; TorrentRover is a torrent search tool that works with your favorite torrent client to help you find and manage your torrent downloads. Simply type in what you're searching for and TorrentRover will produce a list of organized results from several popular sites. You can initiate a download directly from the search results - the program will launch your existing torrent client to download the files. You can also create automatic, recurring rovers that can check for new episodes (e.g. each week) and automatically download new content, if available. Other features include customizable search settings and filters, scheduled downloads and more. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=113633&amp;amp;a=7151318&amp;amp;loc=2&quot; title=&quot;Download TorrentRover&quot;&gt;Download TorrentRover&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>TorrentRover - Torrent search tool and manager</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/torrentrover.png</og:image>
+<og:description>Torrent search tool and manager</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/torrentrover.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  nomacs   v3.8.0</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=113715&amp;x=7151394&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=113715&amp;x=7151394&amp;feed=1</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;image viewer with RAW and PSD support&lt;/em&gt; nomacs is a fully featured image viewer that supports all common image formats as well as many RAW formats and .psd (Photoshop) files. The viewer offers a customizable display that can run full-screen and distraction free or with additional overlays to show metadata, histogram, image notes and other details. nomacs also includes thumbnail previews of files in the current folders, as well as a file explorer to navigate between folders. nomacs also offers a unique synchronization feature that allows you to sync the current image display with another instance of nomacs on the same network. Other features include basic image adjustments (color, brightness, hue etc.), batch processing, mosaic image creation, Google maps integration (for GPS tagged images), plug-in support, and more. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+
+</description>
+<og:title>nomacs - image viewer with RAW and PSD support</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/nomac.jpg</og:image>
+<og:description>image viewer with RAW and PSD support</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/nomac.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  Plex Media Server   v1.9.6.4429</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=113530&amp;x=7151250&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=113530&amp;x=7151250&amp;feed=1</guid>
+<description>&lt;div readability=&quot;51&quot;&gt;For me (YMMV) this latest v1.3.3.3148 from Jan 20, 2017 didn't correctly identify my local media in my folders I pointed it at - videos, photos, music. It did allow me to do the pointing to these folders on my media storage drive, without complaint, good. But then when browsing on the Win7 PC or on the big TV, the videos folder was full of photos and music as well, a mishmash of media. Same thing when viewing the photos or music folders. Thank god it didn't touch my actual files, it just built its own database wrong. Maybe it would work better if you have the default My Photos etc on C. Or maybe it's a result of the Plex program insisting on a libraries and playlist model, like iTunes, instead of being user-folders oriented. No such problem with Serviio, flawless in that regard. The other problem, more of a small annoyance, is that when first run nothing showed up on the Win7 Taskbar except a tray icon. Popping that and opening PLEX, nothing happened. It turns out one has to not only have a Plex online 'account', but one has to be logged in there, and then the UI works. It's all in the browser. No such problem with Serviio. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;45&quot;&gt;This is an awesome local application that uses a robust media server to let other devices stream content from the server. Once installed you can manage all your movie/video content from the server computer, then access the content from multiple devices, or from the web, or from cloud space. Some of the features are limited in the Free version, mainly the number of devices you can stream from, and some of the other features like Movie Trailers, Previews, Cloud access, etc. All of the features are enabled with a Plex Membership, which is a very nice value at 39.99 per year. Even without a Plex membership (Plex Pass) you can do quite a lot with it. I use it mainly with my samsung smart TV. The samsung smart TV has a Plex app which makes playing the content very easy. I also have a Win7 Plex player on my laptop, and a Plex player on my Android &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>Plex Media Server - streaming media server</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/plex.jpg</og:image>
+<og:description>streaming media server</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/plex.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  LibreOffice   v5.4.3</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=112893&amp;x=7148880&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=112893&amp;x=7148880&amp;feed=1</guid>
+<description>&lt;div readability=&quot;43&quot;&gt;LibreOffice never fails to impress me with its rapid development cycle and continuous addition of (useful!) new features. By now it already incorporates all essential and convenience (like &quot;hide empty space&quot;) features I like in other office suites, and there are some &quot;hidden&quot; gems in it, like the excellent LibreLogo programming language to create drawings. Stability-wise it is on par or better than Microsoft Office. Its user interface uses the now &quot;old school&quot; multi-toolbar and menu-oriented access, but for me, as a long time computer user, it is a plus. (Still, since the new 5.2 version they even implemented a single-toolbar mode.) Interoperability with Microsoft Office can be a bit of a problem, but it is possible. It is best to use LibreOffice on its own. Since it is multi-platform, collaborating on Windows and Linux can be done seamlessly. One of the best freeware ever created. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;42&quot;&gt;It is a most excellent office suite. And, as I always tell people I recommend it to, the ONLY item missing is a built in email client. But as I also tell them, that can be best remedied bu using Thunderbird. Also, the other item is also an EXTREMELY big plus, you can EASILY share/work on your docs in Windows AND Linux. Easily. With MS Office, not so easily, if at all. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;47&quot;&gt;I and others have used this numerous times and yes, there are some bugs but I can't give it lower than a 4 star for what this offers. Some respect on my part for the complexity of this application for free. As far as usage, It handles it's own documents as well as office documents, .docx and others just fine. The problem, one time I can import a docx and it will format it fine, headings, etc... but sometimes it won't. (one bug example). There have been other hiccups along the way but really, if looking for a free full featured office software, this is. I won't say I will use it over others because I won't. OpenOffice and AbiWord I'll use over this, even MS Word. I can't fault other peoples' reviews on this either, if it won't work as an office software(which it was intended), it's not much good then. I still feel it's better than it has been, and still a great substitute for Word if need be. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>LibreOffice - complete office productivity suite</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/libreoffice.png</og:image>
+<og:description>complete office productivity suite</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/libreoffice.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  Sleipnir   v6.2.9</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=113264&amp;x=7151093&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=113264&amp;x=7151093&amp;feed=1</guid>
+<description>At first you may be a little confused by the interface. Actually the interface is set-up more similar to Opera than Chrome. The setting button(like Opera's) is on the left instead of the right. All ChromeBlink option's are there with the ability to sync devices and pretty much feels like Chrome. But there are some differences. The biggest difference is that the tabs have a website thumbnail on the tab, so you can distinguish each website tab. Also it has a &quot;tab-stash&quot; feature that was similar to Opera/Blink's when they tried to replace bookmarks(now discontinued in OperaBlink). You can create tab pages and &quot;stash&quot; your favorite websites on them; kind of like speed-dial tabs. Each tab looks like a speed-dial tab, but they are really opened website tabs. Very useful if you like to keep a lot of tabs open. I'd say it was a good idea that they dropped the Explorer/Firefox browser cap and created their own browser. Now they have the opportunity to be creative and innovative rather than riding on Explorer's and Firefox's back. I'd like to see more unique features to be added. I recommend that you give it a try. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;</description>
+<og:title>Sleipnir - dual-engine web browser</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/sleipnir.png</og:image>
+<og:description>dual-engine web browser</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/sleipnir.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  SynciOS Manager   v6.2.5</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=113482&amp;x=7141472&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=113482&amp;x=7141472&amp;feed=1</guid>
+<description>&lt;div readability=&quot;46&quot;&gt;Be VERY careful with this and do multiple backups from different vendors if I were you. I paid for this app so I expect a certain level of quality. I lost ALLOT of very personal data, some apps didn't even copy, I lost ALL my app data. Apps like CityMapper that has had months and months of data being entered into it, gone. My WhatsApp history which I rely heavily on to stay in contact with family, 95 gone andor all jumbled up. Some WhatsApp groups were lost, I have so many I cannot identify just how bad the damage is. I also lost a number of my contacts but again no idea just how many. I have accumulated many years of contacts. The worst thing, my entire photo collection had the dates wiped. I lost all metadata from the birth of my child. Very precious, personal information which as a first time parent you hold onto. All dates and location info, gone :( ...makes me really sad I won't have this to share with my daughter when she gets older. I wouldn't rely on the stability of this application until it has gone through more testing. For most people, the mobile is a very personal extension of themselves so you should think very hard about just who you are placing your trust in when allowing them to restore your world. Just to clarify, I wasn't doing anything unusual... a simple backup of the s6 prior to phone being replaced. I don't run anything strange or taxing that alters the phone setup in anyway. Very disappointing. If you try this, use two backup vendors for safety &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;34&quot;&gt;Tried using again after the last updates and found it's better now then some of previous posts people have made. It's a great alternative to Itunes and has better features. would recommend to friends and family. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;43&quot;&gt;I've tried a few other programs to get around using iTunes, and most were pretty lame. While this does require you to install iTunes to operate, once you do you'll never use iTunes again to connect to your device. This is so much simpler - using categories for what is on the device so you don't have to move, install, copy everything. One recommendation - create a folder on your hard drive to manage the files, since this program cannot. Then once you have a folder (and iTunes installed) launch SyncIOS and manage away - backup your iPod or phone to your drive, move media on and off, etc. Far better and easier than iTunes, and no more nagging to update every time you load it like iTunes does. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>SynciOS Manager - iPod/iPhone/iPad Manager</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/syncios.png</og:image>
+<og:description>iPod/iPhone/iPad Manager</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/syncios.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  Fractal Zoomer   v1.0.6.6</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=113492&amp;x=7151216&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=113492&amp;x=7151216&amp;feed=1</guid>
+<description>&lt;div readability=&quot;35&quot;&gt;I have never used software like this and i must say that it's entertaining and easy to use. It has thousand of combination that you can apply that i can probably use for a couple of years and still have thousand more to discover. I see that their is no limit to what can be done with the tool. I will have to educate myself to get the best out of it. Lots of mathematical terms not familiar with or just plain forgot. You should try it... its fun and easy..... &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;36&quot;&gt;This one made me re-install Java on my Windows 7 again because i really like Fractals and read the review, saw the amazing screenshots and decided that it was well worth installing Java. I play with fractals since 1987 on my Atari STE computer and it had a program very similar to this one except it was way slower rendering (CPU 8 Mhz!!!) and had not this many mathematical functions. The options to save to jpeg or other formats make this an amazing creative tool. It's an excellent program and i will keep Java to use Fractal Zoomer because I love it's simplicity and available mathematical depth. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;39&quot;&gt;I created some cool fractals in not too much time but there are so many combinations, variations, formulas that it could make your head spin. But that is a GOOD thing. It's really quite limitless in combinations and I would urge anyone who hasn't worked with fractal software before to do plenty of reading but you won't be disappointed when you learn to control these fractals and come up with some pretty amazing patterns. Yeah, definitely one of the better fractal softwares I've used, a keeper and a 5. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>Fractal Zoomer - create fractal images</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/fractalzoomer.jpg</og:image>
+<og:description>create fractal images</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/fractalzoomer.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  Flagfox   v5.2.3</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=112614&amp;x=7143762&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=112614&amp;x=7143762&amp;feed=1</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;shows which country sites are located in&lt;/em&gt; Flagfox is a handy add-on for Firefox that automatically retrieves the geographical location of the current website and displays the country's flag icon in the Firefox address bar. In addition, you can right-click on the flag icon to quickly query the URL with various online service, including Google Cache, Alexa, WOT, SiteAdvisor, Whois, Wikipedia and others. You can also customize the menu items and add your own action by using the URL, country, IP address and other site specific details as variables in a query string. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=112614&amp;amp;a=7143762&amp;amp;loc=2&quot; title=&quot;Download Flagfox&quot;&gt;Download Flagfox&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Flagfox - shows which country sites are located in</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/flagfox.gif</og:image>
+<og:description>shows which country sites are located in</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/flagfox.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  Metatogger   v5.8.3.0</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=111361&amp;x=7136659&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=111361&amp;x=7136659&amp;feed=1</guid>
+<description>&lt;div readability=&quot;41&quot;&gt;Prior, MetatOGGer gave me trouble and I posted a not so good review but I have since changed that view and there have been numerous improvements made to this now excellent software. &lt;em class=&quot;para&quot;&gt;I have 10 gigs of music, not much by most peoples' standards these days but still a fair share of tunes to sort and yes, they were all messy. I ran MetatOGGer, it tagged from sources of my choosing, which I like the footprint option and found info on nearly every song.&lt;/em&gt; As well, it put everything neatly into correct named folders for me when using the Organize option. This saved me a lot of time and is now an awesome music tagger + many other things and definitely worth checking out. For a software to not only gain my trust again, but for me to actually love using it after a downfall says a lot. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;33&quot;&gt;It makes it so much easier to edit large amount of music titles at once. I am definitely keeping this program! &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>Metatogger - audio tagging and renaming tool</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/metaogger.png</og:image>
+<og:description>audio tagging and renaming tool</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/metatogger.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  NoScript   v5.1.5</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=111726&amp;x=7139416&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=111726&amp;x=7139416&amp;feed=1</guid>
+<description>&lt;div readability=&quot;37&quot;&gt;NoScript started out with some problems but has progressed to becoming much more stabilized. The latest upgrades show much improvement and can help users to stay afloat and fight rogue websites, etc. that want to become invasive on your computer. Overall, it is a very good product that should be used if you care enough about helping to protect your computer from invasions in JavaScript that can be shielded and fought off. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;40&quot;&gt;Here's the thing. It's brilliant and your web pages do very well with it and it's faster and all that. Problem is that today javascript is so pervasive that in order to do ANYTHING including view most pages, print, you have to turn on SOME Javascript. And by the time you sift through the PAGES, the 30 or 40 different Javascripts, the nested layers of recursive script, you may as well saved yourself some time and simply turned off the add-on and loaded it all. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;47&quot;&gt;This comes in very handy to help block harmful scripts from getting on your system. Some claim you have to be highly technical to use it, not true, it sort of learns as you go. If you get to a web page you trust or need to allow something you know is good, you do that. If you don't need it, let it be blocked. &lt;em class=&quot;para&quot;&gt;There is the argument that some sites depend on advertisement but that's a moral debate, not whether this is a good app or not. It does it's job and does it well. The more you use it the less you will see of it. Only once in a while does mine come up with warnings. I go to specific sites mainly so it rarely alerts me unless there is a changed or malicious script.&lt;/em&gt; This is how many infections get on a PC, through a script, so the math is easy, blocking a script at the source as opposed to trying to rid yourself of an infection later makes the most sense. Most of the time I don't even know it's there anymore but when it is, I thank it. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>NoScript - block JavaScript and Flash in Firefox</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/noscript.gif</og:image>
+<og:description>block JavaScript and Flash in Firefox</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/noscript.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  DesktopOK   v4.88</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=111901&amp;x=7139683&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=111901&amp;x=7139683&amp;feed=1</guid>
+<description>&lt;div readability=&quot;35&quot;&gt;Works well as long as you dont have the Auto arrange icons option ticked which if enabled takes precedence over all other ways off arranging icons. If after using DesktopOK you or someone else does enable the Auto arrange icons option and the icons are scrambled even if you untick Auto arrange icons DesktopOK wont work unless you first manually move an icon. Doing this breaks the lock that Auto arrange icons has and then DesktopOK will restore your preferred icon arrangement. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;38&quot;&gt;Nenad Hrg is has some great tools and amazing programmer. This one can save you Desktop Bacon! How many times can I count where Windows does an update or whatever then messes up your desktop icons. In XP I used a different tool to save my icons and display setting but it does not work in Windows 7 this one does. It has many great features, the autosave is a nice touch. If you like to keep your desktop the way you want it and not the way windows could change it then this is a tool you should have. Two-Thumbs Up! Get it, use it, rate it! &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;33&quot;&gt;Every other reviewer is exactly right. Excellent software, performs flawlessly. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>DesktopOK - save and restore your desktop icons</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/desktopok.png</og:image>
+<og:description>save and restore your desktop icons</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/desktopok.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Freeware -  Uranium Backup Free   v9.4.2.6714</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=111199&amp;x=7134037&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=111199&amp;x=7134037&amp;feed=1</guid>
+<description>&lt;div readability=&quot;45&quot;&gt;I have been using Uranium since 4 years and I often download new versions from your website, that's really clear and always updated. Now I would like to express my opinion about this great software. As I said, I've been using it since 4 years, and it never failed a backup. It's perfect if you have a NAS or external hard drives, very fast, a small program but definitely solid. Last but not least, it's not only a simple backup application, but also includes many useful functions, such as file encryption, running of external programs and scripts, zip compression and a lot of options. It's worth to be tried. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;41&quot;&gt;Two seconds to install it, clean interface, no weight on the system. I was searching for a program to transfer a large amount of data across my network, so I needed a very fast and reliable program. I found Uranium and I was impressed by its efficiency. In a completely free program, I've also a great set of options for e-mail notifications, the log files are very detailed and clear, and there are many many features for a fine tuning of all tasks. One of the best freeware data transfer utility. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;41&quot;&gt;Since I've installed Uranium for the first time, my impression is of a very solid program, first of all because of its installation, that is small and fast. Then I very appreciated the large number of features and options. Practically Uranium can be used to do many kinds of data transfer tasks and it does them with good accuracy and speed. I think Uranium is one of the best programs in its category to make data copies, also thanks to its low impact on the system. A wizard to create the backups could be useful for newbies, hope it will be added in future releases. Although some useful features are only in the commercial versions, the freeware version remains an optimal and fast choice for whom needs to replicate data on multiple hard drives and in the network. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>Uranium Backup Free - backup your files and folders</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/uraniumbackup.png</og:image>
+<og:description>backup your files and folders</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/uraniumbackup.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  FlySpeed SQL Query   v3.5.7.3</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=112102&amp;x=7127138&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=112102&amp;x=7127138&amp;feed=1</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;SQL query tool&lt;/em&gt; FlySpeed SQL Query is a SQL query tool with a visual query builder interface that allows you to create complex queries without having to type any SQL. You can build most queries by simply selecting tables and field names and the program will built the query code for you. You can further edit the query by using the customizable code editor with syntax highlighting and code completion. Other features include support for in-field editing of results, export to Excel, Text, CSV and XML format, customizable reports for printing or PDF export and more. FlySpeed SQL Query supports native connections to most local or remote database servers. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;limitations&quot;&gt;&lt;strong&gt;Trial Limitations:&lt;/strong&gt; No time limit. Printing and export disabled.&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=112102&amp;amp;a=7127138&amp;amp;loc=2&quot; title=&quot;Download FlySpeed SQL Query&quot;&gt;Download FlySpeed SQL Query&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>FlySpeed SQL Query - SQL query tool</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/flysql.gif</og:image>
+<og:description>SQL query tool</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/flysql.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  Replay Converter   v6.0.0.43</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=110211&amp;x=7122322&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=110211&amp;x=7122322&amp;feed=1</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;convert between popular video formats&lt;/em&gt; Replay Converter is an easy-to-use audio/video converter that enables you to convert between many popular formats, including a variety of iPod formats, PSP. Mobile 3GP, Flash, MPEG-4 and Windows Media. You can simply select the output format and quality from a menu that does not require you to configure any frame rates or other codec settings. Replay Converter can convert single or multiple files in batch mode. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;limitations&quot;&gt;&lt;strong&gt;Trial Limitations:&lt;/strong&gt; Watermark added to videos, audio conversions are limited.&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=110211&amp;amp;a=7122322&amp;amp;loc=2&quot; title=&quot;Download Replay Converter&quot;&gt;Download Replay Converter&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Replay Converter - convert between popular video formats</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/replayconverter.gif</og:image>
+<og:description>convert between popular video formats</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/ReplayConverter.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  NoteZilla   v8.0.29</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=110631&amp;x=7122802&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=110631&amp;x=7122802&amp;feed=1</guid>
+<description>&lt;div readability=&quot;32&quot;&gt;Excellent - easy to use and packed with features. Works great with Windows 7. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;34&quot;&gt;I've used numerous sticky utilities and somehow I am always unsatisfied, but this one's the ultimate sticky application. I can safely bet that you would not need any other. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>NoteZilla - sticky notes for your desktop</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/notezilla.gif</og:image>
+<og:description>sticky notes for your desktop</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/notezilla.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  GoodSync   v10.6.6</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=110932&amp;x=7126306&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=110932&amp;x=7126306&amp;feed=1</guid>
+<description>&lt;div readability=&quot;37&quot;&gt;It solves the most common backup problem in the world. I simply dont want a backup program that has to backup everything every time i make a backup. This software synchronizes folders just like a FTP program and has all options needed in the job-options menu for every new job you define on the fly or store for future use:-) The only thing I didnt understand at once was the that the job-options was related to a new job i first had to create. On the other hand this job defining solution gives you the opportunity to define and store different backup tasks for different folder structures and external disks. I downloaded it, tried it out, and bought it at once:-) &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;33&quot;&gt;But i needed to have something free so i had to go with something else but if i could've paid the 19.95 i would've kept it. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;39&quot;&gt;This program does it all. It's easy to set-up, easy to use and plain and simple...it just works. It literally took me 2 minutes to learn and figure out where the automatic settings were. Now all my files are synched-up automatically, which is good since I have a few GBs of photos, music, etc. I highly recommend this software. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>GoodSync - file synchronization tool</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/goodsync.png</og:image>
+<og:description>file synchronization tool</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/goodsync.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  UltraMon   v3.4.0</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=105560&amp;x=7115934&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=105560&amp;x=7115934&amp;feed=1</guid>
+<description>I was using this with my old CRT's back in the day. Now I use CineMastery on my new quad screen array from CineMassive Displays CineMastery appears to be some sort of more modern upgraded variant of the older Ultramon I knew and loved. Wonderful stuff. Works beautifully. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;</description>
+<og:title>UltraMon - manage multiple monitors</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/ultramon.png</og:image>
+<og:description>manage multiple monitors</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/ultramon.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  Reg Organizer   v8.03</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=102885&amp;x=7112464&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=102885&amp;x=7112464&amp;feed=1</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;registry and configuration editor&lt;/em&gt; Reg Organizer is an advanced tool to manage and optimize the Windows registry. In addition to a full featured registry editor, it offers Search and Replace of registry values and registry optimization features. Reg Organizer can also be used to run automatic or manual registry cleanups that will find and removed invalid registry entries, which may cause problems or degraded system performance. Other features include a disk cleaner to find and remove junk files on your PC, a software uninstaller, automatic registry backups and access to several Windows tweaks. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;limitations&quot;&gt;&lt;strong&gt;Trial Limitations:&lt;/strong&gt; 30 day trial. Some features disabled.&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=102885&amp;amp;a=7112464&amp;amp;loc=2&quot; title=&quot;Download Reg Organizer&quot;&gt;Download Reg Organizer&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Reg Organizer - registry and configuration editor</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/regorganizer.gif</og:image>
+<og:description>registry and configuration editor</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/regorganizer.html</dc:identifier>
+</item>
+<item>
+<title>Update -  Trial -  Bandicut   v2.8.2.380</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=113618&amp;x=7151576&amp;feed=1</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=113618&amp;x=7151576&amp;feed=1</guid>
+<description>&lt;div readability=&quot;36&quot;&gt;If you are looking for simple functions such as cutting, adding. Banicut is the right program you are looking for. I was searching for program which has simple functions but has to be user-friendly because I am not good at doing computer things. I found this program and I am still using this program but I haven't had issue or trouble when I use this program until now. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;&lt;div readability=&quot;38&quot;&gt;I originally juggled between my Mac and Windows using iMovie on the Mac and Windows Movie Maker on the Windows. It was a tough struggle to not have one operating system on both. After I ditched Mac, I decided to think of more professional editing software and found this amazing product. I usually confer with friends talking if this is a good product, and they said yes. So, a little while later I downloaded the trial as I thought this would just be a temporary fix. Bandicut blew me away with the extensive features and opportunities. &lt;span class=&quot;toggletext&quot;&gt; Review details&lt;/span&gt;
+&lt;/div&gt;</description>
+<og:title>Bandicut - simple video editing tool</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/bandicut.png</og:image>
+<og:description>simple video editing tool</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/bandicut.html</dc:identifier>
+</item>
+</channel>
+</rss>

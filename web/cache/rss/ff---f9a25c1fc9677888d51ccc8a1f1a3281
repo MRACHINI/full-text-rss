@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:og="http://ogp.me/ns#">
+<channel>
+<atom:link rel="self" href="http://ftr.rachini.com/makefulltextfeed.php?url=g2g.fm%2Fforum%2Fexternal.php%3Ftype%3DRSS" />
+<atom:link rel="alternate" title="Source URL" href="http://g2g.fm/forum/external.php?type=RSS" />
+<atom:link rel="related" title="Subscribe to feed" href="http://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dg2g.fm%252Fforum%252Fexternal.php%253Ftype%253DRSS&amp;back=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dg2g.fm%252Fforum%252Fexternal.php%253Ftype%253DRSS" />
+<title>g2g.fm - Portail d'informations</title>
+<link>http://g2g.fm/forum/external.php?type=RSS</link>
+<description>Content extracted from http://g2g.fm/forum/external.php?type=RSS</description>
+<item>
+<link>http://g2g.fm/forum/external.php?type=RSS</link>
+<title>g2g.fm - Portail d'informations</title>
+<guid isPermaLink="true" >http://g2g.fm/forum/external.php?type=RSS</guid>
+<description>By using our site, you consent to this privacy policy: This website allows third-party advertising companies for the purpose of reporting website traffic, statistics, advertisements, &quot;click-throughs&quot; and/or other activities to use Cookies and /or Web Beacons and other monitoring technologies to serve ads and to compile anonymous statistics about you when you visit this website. Cookies are small text files stored on your local internet browser cache. A Web Beacon is an often-transparent graphic image, usually no larger than 1 pixel x 1 pixel that is placed on a Web site. Both are created for the main purpose of helping your browser process the special features of websites that use Cookies or Web Beacons. The gathered information about your visits to this and other websites are used by these third party companies in order to provide advertisements about goods and services of interest to you. The information do not include any personal data like your name, address, email address, or telephone number. If you would like more information about this practice and to know your choices about not having this information used by these companies, click &lt;a href=&quot;http://www.networkadvertising.org/managing/opt_out.asp&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.</description>
+<dc:language>it</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://g2g.fm/forum/external.php?type=RSS</dc:identifier>
+</item>
+</channel>
+</rss>

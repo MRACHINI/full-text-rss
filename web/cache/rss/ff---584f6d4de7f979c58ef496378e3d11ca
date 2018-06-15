@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:og="http://ogp.me/ns#">
+<channel>
+<atom:link rel="self" href="http://ftr.rachini.com/makefulltextfeed.php?url=www.chainfire.eu%2F%3Fmode%3Drss" />
+<atom:link rel="alternate" title="Source URL" href="http://www.chainfire.eu/?mode=rss" />
+<atom:link rel="related" title="Subscribe to feed" href="http://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dwww.chainfire.eu%252F%253Fmode%253Drss&amp;back=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dwww.chainfire.eu%252F%253Fmode%253Drss" />
+<title>Chainfire</title>
+<link>http://www.chainfire.eu/?mode=rss</link>
+<description>Content extracted from http://www.chainfire.eu/?mode=rss</description>
+<item>
+<link>http://www.chainfire.eu/?mode=rss</link>
+<title>Chainfire</title>
+<guid isPermaLink="true" >http://www.chainfire.eu/?mode=rss</guid>
+<description>&lt;h5 class=&quot;white-text&quot;&gt;About&lt;/h5&gt;
+&lt;p class=&quot;grey-text text-lighten-4&quot;&gt;Hi! I'm a software developer and amateur photographer. I'm best known for my Android apps under the &lt;strong class=&quot;white-text&quot;&gt;Chainfire&lt;/strong&gt; name, but over the years I've been involved with many other projects as well.&lt;/p&gt;
+&lt;p class=&quot;grey-text text-lighten-4&quot;&gt;There used to be a real blog here, but these days I post all my articles on &lt;a class=&quot;white-text&quot; href=&quot;https://plus.google.com/+Chainfire&quot;&gt;&lt;strong&gt;Google Plus&lt;/strong&gt;&lt;/a&gt; and my random thoughts on &lt;a class=&quot;white-text&quot; href=&quot;https://twitter.com/ChainfireXDA&quot;&gt;&lt;strong&gt;Twitter&lt;/strong&gt;&lt;/a&gt;. This page now serves both as an index to those articles and as a way to satisfy old permalinks.&lt;/p&gt;
+</description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://www.chainfire.eu/?mode=rss</dc:identifier>
+</item>
+</channel>
+</rss>

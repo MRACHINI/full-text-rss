@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:og="http://ogp.me/ns#">
+<channel>
+<atom:link rel="self" href="http://ftr.rachini.com/makefulltextfeed.php?url=https%3A%2F%2Fblog.openshift.com%2Ffeed%2F" />
+<atom:link rel="alternate" title="Source URL" href="https://blog.openshift.com/feed/" />
+<atom:link rel="related" title="Subscribe to feed" href="http://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dhttps%253A%252F%252Fblog.openshift.com%252Ffeed%252F&amp;back=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dhttps%253A%252F%252Fblog.openshift.com%252Ffeed%252F" />
+<title>OpenShift Blog</title>
+<link>https://blog.openshift.com</link>
+<description></description>
+<item>
+<title>OpenShift Online Pro Tier Now Available in Europe and Asia Pacific</title>
+<link>https://blog.openshift.com/openshift-online-pro-tier-now-available-europe-asia-pacific/</link>
+<guid isPermaLink="true" >https://blog.openshift.com/openshift-online-pro-tier-now-available-europe-asia-pacific/</guid>
+<description>&lt;p&gt;We’re pleased to announce that OpenShift Online Pro tier clusters are now available in Europe and Asia Pacific. Now OpenShift Online users can purchase Pro tier accounts on these clusters to run applications in these regions. In addition to the two new regions, the Pro plan allows for hosting in North America as well.&lt;/p&gt;&amp;#13;
+&lt;h2&gt;OpenShift Online 3 Pro Tier&lt;/h2&gt;&amp;#13;
+&lt;p&gt;The OpenShift Pro Tier offers additional resources for professional projects and hosting:&lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Always On, Unlimited Usage&lt;/li&gt;&amp;#13;
+&lt;li&gt;Run your applications in production—24×7&lt;/li&gt;&amp;#13;
+&lt;li&gt;Additional resources&amp;#13;
+&lt;ul&gt;&lt;li&gt;10 Projects&lt;/li&gt;&amp;#13;
+&lt;li&gt;Memory included (for your apps), with up to 48GiB available&lt;/li&gt;&amp;#13;
+&lt;li&gt;Terminating Memory included (for builds, deployments, and jobs), with up to 20GiB available&lt;/li&gt;&amp;#13;
+&lt;li&gt;Up to 100GiB Storage available&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;Enhanced features&amp;#13;
+&lt;ul&gt;&lt;li&gt;Invite Collaborators to Projects&lt;/li&gt;&amp;#13;
+&lt;li&gt;Support for Custom Domains&lt;/li&gt;&amp;#13;
+&lt;li&gt;Scheduled Jobs&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;More information is available on the &lt;a href=&quot;https://www.openshift.com/pricing/index.html&quot;&gt;pricing page&lt;/a&gt;.&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;h2&gt;Pricing and Availability&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Developers can register for a Red Hat OpenShift Online account at &lt;a href=&quot;https://manage.openshift.com/&quot;&gt;https://manage.openshift.com/&lt;/a&gt;.&lt;br/&gt;&amp;#13;
+Red Hat OpenShift Online is now available in two offerings:&lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Starter:&lt;/strong&gt; A free service that includes 1GiB of memory, 1GiB terminating memory, and 1GiB storage for individual learning and experimenting.&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Pro:&lt;/strong&gt; A paid service that adds additional resources starting at $50/month, with additional memory available for $25/month per GiB and additional persistent storage available for $1/month per GiB. The Pro tier is available for purchase in more than 200 countries.&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;dl class=&quot;cat-tags clearfix row&quot;&gt;&lt;dt&gt;Categories&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/category/news/&quot; rel=&quot;category tag&quot;&gt;News&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/products/openshift-online/&quot; rel=&quot;category tag&quot;&gt;OpenShift Online&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;dt&gt;Tags&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/tag/v3/&quot; rel=&quot;tag&quot;&gt;v3&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;/dl&gt;</description>
+<pubDate>Tue, 07 Nov 2017 22:58:54 +0000</pubDate>
+<dc:creator>Sathish Balakrishnan</dc:creator>
+<og:type>article</og:type>
+<og:title>OpenShift Online Pro Tier Now Available in Europe and Asia Pacific – OpenShift Blog</og:title>
+<og:description>OpenShift Online Pro tier clusters are now available in Europe and Asia Pacific. Purchase Pro tier accounts on these clusters to run apps in these regions.</og:description>
+<og:url>https://blog.openshift.com/openshift-online-pro-tier-now-available-europe-asia-pacific/</og:url>
+<og:image>https://blog.openshift.com/wp-content/uploads/oso-3-launch-blog.png</og:image>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.openshift.com/openshift-online-pro-tier-now-available-europe-asia-pacific/</dc:identifier>
+<category>News</category>
+<category>OpenShift Online</category>
+<category>v3</category>
+</item>
+<item>
+<title>OpenShift Commons Briefing #106: Service Catalog on OpenShift 3.7 Deep Dive with Paul Morie (Red Hat)</title>
+<link>https://blog.openshift.com/openshift-commons-briefing-106-service-catalog-on-openshift-3-7-deep-dive/</link>
+<guid isPermaLink="true" >https://blog.openshift.com/openshift-commons-briefing-106-service-catalog-on-openshift-3-7-deep-dive/</guid>
+<description>&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;&lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;//www.youtube.com/embed/65cyANDCazY&quot; width=&quot;300&quot; height=&quot;150&quot;&gt;[embedded content]&lt;/iframe&gt;&lt;/div&gt;&amp;#13;
+&lt;h3&gt;OpenShift Commons Briefing Summary&lt;/h3&gt;&amp;#13;
+&lt;p&gt;In this briefing, Red Hat’s Paul Morie, one of the co-leads for the &lt;a href=&quot;https://github.com/kubernetes/community/tree/master/sig-service-catalog&quot;&gt;Kubernetes SIG Service Catalog&lt;/a&gt; went one step beyond his previous briefing on &lt;a href=&quot;https://youtu.be/U4RxHtETnEY&quot;&gt;Service Catalog (#105)&lt;/a&gt; and gave a great Deep Dive demonstration into the Service Catalog on OpenShift 3.7!&lt;/p&gt;&amp;#13;
+&lt;p&gt;Paul walked us thru Template Service Broker, Ansible Service Broker, and Enmasse Service Broker that are now all available via OpenShift 3.7. As well, he covers how to add a Service Broker to OpenShift and there’s some very good Q/A at the end—so listen to the entire video so you don’t miss a thing!&lt;/p&gt;&amp;#13;
+&lt;h3&gt;Additional Resources:&lt;/h3&gt;&amp;#13;
+&lt;h3&gt;Learn More at the Next OpenShift Commons Gathering in Austin Dec 5th!&lt;/h3&gt;&amp;#13;
+&lt;p&gt;Along with Paul Morie, many other Red Hatters, CNCF/Kubernetes project leads, and members of the OpenShift Commons will be gathering together in Austin for the upcoming OpenShift Commons Gathering co-located with Kubecon at the Austin Convention Center. &lt;a href=&quot;https://www.eventbrite.com/e/openshift-commons-gathering-austin-tickets-34581924467&quot;&gt;Register now to reserve your seat at this day-long event&lt;/a&gt;!&lt;/p&gt;&amp;#13;
+&lt;p&gt;More Austin Gathering details here: &lt;a href=&quot;http://openshiftgathering.com/openshiftgathering/austin&quot;&gt;http://openshiftgathering.com/openshiftgathering/austin&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;h3&gt;OpenShift Commons Briefings Playlist&lt;/h3&gt;&amp;#13;
+&lt;p&gt;You can find a playlist of all &lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqdIM7LtosKqi3LlYXyxjwnj&quot;&gt;previously recorded SIG meetings and OpenShift Commons Briefings on YouTube&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Don’t forget to leave your feedback and suggestions for each video on YouTube or in the comments section below. This will be incredibly important to shape this Special Interest Group and create sessions that fit the demands of all the OpenShift developers in the community.&lt;/p&gt;&amp;#13;
+&lt;h3&gt;About OpenShift Commons&lt;/h3&gt;&amp;#13;
+&lt;p&gt;OpenShift Commons is the place for organizations that are part of the OpenShift community to connect with peers and other related open source technology communities to communicate and collaborate across all OpenShift projects and stakeholders.&lt;/p&gt;&amp;#13;
+&lt;p&gt;The Commons’ goal is to foster collaboration and communication between OpenShift stakeholders to drive success for all members, and expand &amp;amp; facilitate points of connection between members for sharing knowledge and experience to help drive success for the platform and for participants: customers, users, partners, and contributors.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Join OpenShift Commons today &lt;strong&gt;&lt;a href=&quot;http://commons.openshift.org/#join&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;http://commons.openshift.org/#join&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&amp;#13;
+&lt;dl class=&quot;cat-tags clearfix row&quot;&gt;&lt;dt&gt;Categories&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/category/kubernetes/&quot; rel=&quot;category tag&quot;&gt;Kubernetes&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/openshift-commons/&quot; rel=&quot;category tag&quot;&gt;OpenShift Commons&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/technologies/service-catalog/&quot; rel=&quot;category tag&quot;&gt;Service Catalog&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/thought-leadership/&quot; rel=&quot;category tag&quot;&gt;Thought Leadership&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;dt&gt;Tags&lt;/dt&gt;&amp;#13;
+&lt;/dl&gt;</description>
+<pubDate>Mon, 06 Nov 2017 19:34:32 +0000</pubDate>
+<dc:creator>Diane Mueller</dc:creator>
+<og:type>article</og:type>
+<og:title>OpenShift Commons Briefing #106: Service Catalog on OpenShift 3.7 Deep Dive with Paul Morie (Red Hat) – OpenShift Blog</og:title>
+<og:description>Take a deep dive into the Service Catalog on OpenShift 3.7 with this demonstration from Red Hat's Paul Morie.</og:description>
+<og:url>https://blog.openshift.com/openshift-commons-briefing-106-service-catalog-on-openshift-3-7-deep-dive/</og:url>
+<og:image>https://blog.openshift.com/wp-content/uploads/commons-200x200-new-logo.png</og:image>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.openshift.com/openshift-commons-briefing-106-service-catalog-on-openshift-3-7-deep-dive/</dc:identifier>
+<category>Kubernetes</category>
+<category>OpenShift Commons</category>
+<category>Service Catalog</category>
+<category>Thought Leadership</category>
+</item>
+<item>
+<title>[Podcast] PodCTL #14 – Security: Hosts, Registries, Content and Pipelines</title>
+<link>https://blog.openshift.com/podcast-podctl-14-security-hosts-registries-content-pipelines/</link>
+<guid isPermaLink="true" >https://blog.openshift.com/podcast-podctl-14-security-hosts-registries-content-pipelines/</guid>
+<description>&lt;p&gt;&lt;img class=&quot;alignright size-medium wp-image-13230&quot; src=&quot;https://blog.openshift.com/wp-content/uploads/PodCTL-Logo-RedHat-300x226.png&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;226&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/PodCTL-Logo-RedHat-300x226.png 300w, https://blog.openshift.com/wp-content/uploads/PodCTL-Logo-RedHat-768x578.png 768w, https://blog.openshift.com/wp-content/uploads/PodCTL-Logo-RedHat-1024x770.png 1024w, https://blog.openshift.com/wp-content/uploads/PodCTL-Logo-RedHat.png 1514w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot;/&gt;What happened to Episode #13? We threw that one to the scrap pile of “don’t mess with bad superstitions”.&lt;/p&gt;&amp;#13;
+&lt;p&gt;This week we brought back the news from the Kubernetes community. Seems like everybody is now on the Kubernetes train, in one way or another. But not all Kubernetes data-sheet checkboxes are the same, so make sure you’re doing your homework on how the implementation will be delivered, maintained, and supported to your specific environments needs.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Finally, we started digging into the many layers of container security. There’s no way we could cover all of it in a single show, so we approached it from a layered model….since that’s a very logical and engineering-centric way to look at security. We covered container hosts, container registries, application content and application build-pipelines. We’ll cover additional layers of the security stack (Kubernetes, multi-cloud, etc.) in upcoming episodes.&lt;/p&gt;&amp;#13;
+&lt;p&gt;The show will always be available on this blog (&lt;a href=&quot;https://blog.openshift.com/search/?refinement=blog&amp;amp;query=PodCTL&quot;&gt;search: #PodCTL&lt;/a&gt;), as well as &lt;a href=&quot;http://bit.ly/2uWqaHe&quot;&gt;RSS Feeds&lt;/a&gt;, &lt;a href=&quot;https://itunes.apple.com/us/podcast/podctl-1-3-6-ways-to-love-kubernetes/id1270983443?i=1000390948443&amp;amp;mt=2&quot;&gt;iTunes&lt;/a&gt;, &lt;a href=&quot;http://bit.ly/2uIGoo5&quot;&gt;Google Play&lt;/a&gt;, &lt;a href=&quot;https://soundcloud.com/user-822729808&quot;&gt;SoundCloud&lt;/a&gt;, &lt;a href=&quot;http://bit.ly/2vWmZnG&quot;&gt;Stitcher&lt;/a&gt;, &lt;a href=&quot;https://tunein.com/radio/PodCTL---Containers--Kubernetes--OpenShift-p1024049/&quot;&gt;TuneIn&lt;/a&gt; and all your favorite podcast players.&lt;/p&gt;&amp;#13;
+&amp;#13;
+&amp;#13;
+&amp;#13;
+&lt;dl class=&quot;cat-tags clearfix row&quot;&gt;&lt;dt&gt;Categories&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/category/containers/&quot; rel=&quot;category tag&quot;&gt;Containers&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/kubernetes/&quot; rel=&quot;category tag&quot;&gt;Kubernetes&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/products/openshift-container-platform/&quot; rel=&quot;category tag&quot;&gt;OpenShift Container Platform&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/products/openshift-dedicated/&quot; rel=&quot;category tag&quot;&gt;OpenShift Dedicated&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/openshift-ecosystem/&quot; rel=&quot;category tag&quot;&gt;OpenShift Ecosystem&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/products/openshift-online/&quot; rel=&quot;category tag&quot;&gt;OpenShift Online&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/products/openshift-origin/&quot; rel=&quot;category tag&quot;&gt;OpenShift Origin&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/thought-leadership/&quot; rel=&quot;category tag&quot;&gt;Thought Leadership&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;dt&gt;Tags&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/tag/cgroups/&quot; rel=&quot;tag&quot;&gt;cgroups&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/container-registry/&quot; rel=&quot;tag&quot;&gt;Container Registry&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/containers/&quot; rel=&quot;tag&quot;&gt;containers&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/image-scanning/&quot; rel=&quot;tag&quot;&gt;Image Scanning&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/image-signing/&quot; rel=&quot;tag&quot;&gt;Image Signing&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/kubernetes/&quot; rel=&quot;tag&quot;&gt;Kubernetes&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/linux/&quot; rel=&quot;tag&quot;&gt;linux&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/namespaces/&quot; rel=&quot;tag&quot;&gt;Namespaces&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/podctl/&quot; rel=&quot;tag&quot;&gt;PodCTL&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/seccomp/&quot; rel=&quot;tag&quot;&gt;SECCOMP&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/security/&quot; rel=&quot;tag&quot;&gt;security&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/selinux/&quot; rel=&quot;tag&quot;&gt;SELinux&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;/dl&gt;</description>
+<pubDate>Mon, 06 Nov 2017 14:07:44 +0000</pubDate>
+<dc:creator>Brian Gracely</dc:creator>
+<og:type>article</og:type>
+<og:title>[Podcast] PodCTL #14 - Security: Hosts, Registries, Content and Pipelines – OpenShift Blog</og:title>
+<og:description>What happened to Episode #13? We threw that one to the scrap pile of “don’t mess with bad superstitions”. This week we brought back the news from the Kubernetes community. Seems like everybody is now on the Kubernetes train, in one way or another. But not all Kubernetes data-sheet checkboxes are the same, so make …</og:description>
+<og:url>https://blog.openshift.com/podcast-podctl-14-security-hosts-registries-content-pipelines/</og:url>
+<og:image>https://blog.openshift.com/wp-content/uploads/PodCTL-Logo-RedHat.png</og:image>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.openshift.com/podcast-podctl-14-security-hosts-registries-content-pipelines/</dc:identifier>
+<category>Containers</category>
+<category>Kubernetes</category>
+<category>OpenShift Container Platform</category>
+<category>OpenShift Dedicated</category>
+<category>OpenShift Ecosystem</category>
+<category>OpenShift Online</category>
+<category>OpenShift Origin</category>
+<category>Thought Leadership</category>
+<category>cgroups</category>
+<category>Container Registry</category>
+<category>containers</category>
+<category>Image Scanning</category>
+<category>Image Signing</category>
+<category>linux</category>
+<category>Namespaces</category>
+<category>PodCTL</category>
+<category>SECCOMP</category>
+<category>security</category>
+<category>SELinux</category>
+</item>
+<item>
+<title>Writing a Custom Controller in Python</title>
+<link>https://blog.openshift.com/writing-custom-controller-python/</link>
+<guid isPermaLink="true" >https://blog.openshift.com/writing-custom-controller-python/</guid>
+<description>&lt;p&gt;Have you ever wondered how controllers work in Kubernetes and wished you could make your own?&lt;br/&gt;&amp;#13;
+In this post, I will show you how to use the &lt;a href=&quot;https://github.com/kubernetes-incubator/client-python&quot;&gt;Python client-kubernetes library&lt;/a&gt; to interact with Kubernetes and build your own custom controller interacting with Custom Resource Definitions (CRD).&lt;/p&gt;&amp;#13;
+&lt;h2&gt;Requisites&lt;/h2&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;A running Kubernetes/OpenShift cluster (&lt;code&gt;oc cluster up&lt;/code&gt; is fine for that matter)&lt;/li&gt;&amp;#13;
+&lt;li&gt;Clone my &lt;a href=&quot;https://github.com/karmab/samplecontroller&quot;&gt;samplecontroller repo&lt;/a&gt; if you want to follow the code review&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;h2&gt;Context&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Our custom controller will be watching for &lt;em&gt;Guitar&lt;/em&gt; Objects. Upon creation, it will check their brand and put a corresponding comment. Note that the algorithm I use for reviewing guitars is fairly &lt;em&gt;simple&lt;/em&gt;, based on my own tastes (and some guitars I own).&lt;/p&gt;&amp;#13;
+&lt;h2&gt;Custom Resource Definitions&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Those &lt;em&gt;Guitar&lt;/em&gt; objects are defined as &lt;a href=&quot;https://kubernetes.io/docs/concepts/api-extension/custom-resources&quot;&gt;Custom Resource Definitions&lt;/a&gt;, which are a way to provide an abstraction layer on top of etcd and to easily define new objects on top of Kubernetes. They are the successor to ThirdPartyResources (TPRs), though they conceptually provide similar benefits.&lt;/p&gt;&amp;#13;
+&lt;p&gt;This is what a Custom Resource Definition looks like:&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;apiVersion: apiextensions.k8s.io/v1beta1&amp;#13;
+kind: CustomResourceDefinition&amp;#13;
+metadata:&amp;#13;
+  name: guitars.kool.karmalabs.local&amp;#13;
+spec:&amp;#13;
+  group: kool.karmalabs.local&amp;#13;
+  version: v1&amp;#13;
+  scope: Namespaced&amp;#13;
+  names:&amp;#13;
+    plural: guitars&amp;#13;
+    singular: guitar&amp;#13;
+    kind: Guitar&amp;#13;
+    shortNames:&amp;#13;
+     - guit&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;You can inject this definition with &lt;code&gt;oc create -f&lt;/code&gt; and you will then be able to create your own guitar “instances”. For instance, to define a &lt;a href=&quot;https://images.contentful.com/r1mvpfown1y6/3e1ybdSaRisyAW0cSi24WG/71cc103c934d9a4db7a7664015dbb577/stratocaster.jpg&quot;&gt;stratocaster&lt;/a&gt;, you can use the following yaml:&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;apiVersion: &quot;kool.karmalabs.local/v1&quot;&amp;#13;
+kind: Guitar&amp;#13;
+metadata:&amp;#13;
+  name: stratocaster&amp;#13;
+spec:&amp;#13;
+  brand: fender&amp;#13;
+  review: false&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;We can populate whatever fields we want in the spec part of the definition, although the custom controller part is needed to make any use of it&lt;/p&gt;&amp;#13;
+&lt;h2&gt;Running the Controller&lt;/h2&gt;&amp;#13;
+&lt;p&gt;The following commands will:&lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Create a dedicated project to hold the controller pod.&lt;/li&gt;&amp;#13;
+&lt;li&gt;Give enough privileges to this pod (this is needed only because I am checking guitars cluster wide).&lt;/li&gt;&amp;#13;
+&lt;li&gt;Deploy the custom controller (using the image I created for that matter).&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;pre&gt;&amp;#13;
+&lt;code&gt;oc new-project guitarcenter&amp;#13;
+oc adm policy add-cluster-role-to-user cluster-admin -z default -n guitarcenter&amp;#13;
+oc new-app karmab/samplecontroller&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;h2&gt;About the Code&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Let’s review relevant parts of the code:&lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;By checking whether &lt;code&gt;KUBERNETES_PORT&lt;/code&gt; environment variables are defined or not, we detect whether code is being run within a pod or outside. This allows us to use the same code to run manually (which is quite handy during development). At this step, we are authenticated and can talk to the Kubernetes API.&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;pre&gt;&amp;#13;
+&lt;code&gt;if 'KUBERNETES_PORT' in os.environ:&amp;#13;
+    config.load_incluster_config()&amp;#13;
+else:&amp;#13;
+    config.load_kube_config()&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;We check whether the Custom Resource Definition associated to the Guitar kind exists, or otherwise create it using a yaml file containing the same exact content indicated above.&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;pre&gt;&amp;#13;
+&lt;code&gt;definition = 'guitar.yml'&amp;#13;
+v1 = client.ApiextensionsV1beta1Api()&amp;#13;
+current_crds = [x['spec']['names']['kind'].lower() for x in v1.list_custom_resource_definition().to_dict()['items']]&amp;#13;
+if 'guitar' not in current_crds:&amp;#13;
+    print(&quot;Creating guitar definition&quot;)&amp;#13;
+    with open(definition) as data:&amp;#13;
+        body = yaml.load(data)&amp;#13;
+    v1.create_custom_resource_definition(body)&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;We enter a loop using a watch to monitor guitar objects. We also wrap the watch with an additional &lt;code&gt;while True&lt;/code&gt; to prevent unwanted timeouts.&lt;br/&gt;&amp;#13;
+I’m using &lt;code&gt;crds.list_cluster_custom_object&lt;/code&gt;, instead of methods limited to the current namespace, which is why my controller needs extra permissions.&lt;br/&gt;&amp;#13;
+Once we get a new object, we check its specs to see if it’s been reviewed and if not, and launch an auxiliar method to actually process it.&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;pre&gt;&amp;#13;
+&lt;code&gt;crds = client.CustomObjectsApi()&amp;#13;
+DOMAIN = &quot;kool.karmalabs.local&quot;&amp;#13;
+resource_version = ''&amp;#13;
+while True:&amp;#13;
+    stream = watch.Watch().stream(crds.list_cluster_custom_object, DOMAIN, &quot;v1&quot;, &quot;guitars&quot;, resource_version=resource_version)&amp;#13;
+    for event in stream:&amp;#13;
+        obj = event[&quot;object&quot;]&amp;#13;
+        operation = event['type']&amp;#13;
+        spec = obj.get(&quot;spec&quot;)&amp;#13;
+        if not spec:&amp;#13;
+            continue&amp;#13;
+        metadata = obj.get(&quot;metadata&quot;)&amp;#13;
+        resource_version = metadata['resourceVersion']&amp;#13;
+        name = metadata['name']&amp;#13;
+        print(&quot;Handling %s on %s&quot; % (operation, name))&amp;#13;
+        done = spec.get(&quot;review&quot;, False)&amp;#13;
+        if done:&amp;#13;
+            continue&amp;#13;
+        review_guitar(crds, obj)&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;h2&gt;How to Use&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Create some guitars using the provided yaml files and see the review made for you (notice how the comment field of the spec gets updated).&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;oc create -f crd/stratocaster.yml&amp;#13;
+oc create -f crd/lespaul.yml&amp;#13;
+oc get guitars -o yaml&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;h2&gt;Running the Additional UI&lt;/h2&gt;&amp;#13;
+&lt;p&gt;To ease testing, you can also use the provided UI so you can list, create, and delete guitars.&lt;br/&gt;&amp;#13;
+The UI uses flask and the same client. For that, we deploy an additional pod and expose its route.&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;oc new-app karmab/sampleui&amp;#13;
+oc expose svc sampleui&amp;#13;
+SAMPLEUI=$(oc get route sampleui -o jsonpath='{.spec.host}{&quot;\n&quot;}')&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;Now you can access the URL defined as &lt;code&gt;$SAMPLEUI&lt;/code&gt; and watch existing guitars and their corresponding review.&lt;br/&gt;&amp;#13;
+You can also create and delete additional guitars through the UI.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;img src=&quot;https://blog.openshift.com/wp-content/uploads/samplecontrollerbig.png&quot; alt=&quot;&quot; width=&quot;1868&quot; height=&quot;473&quot; class=&quot;alignnone size-full wp-image-14630&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/samplecontrollerbig.png 1868w, https://blog.openshift.com/wp-content/uploads/samplecontrollerbig-300x76.png 300w, https://blog.openshift.com/wp-content/uploads/samplecontrollerbig-768x194.png 768w, https://blog.openshift.com/wp-content/uploads/samplecontrollerbig-1024x259.png 1024w&quot; sizes=&quot;(max-width: 1868px) 100vw, 1868px&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;h2&gt;Running Your Own Code&lt;/h2&gt;&amp;#13;
+&lt;p&gt;To build your own controller using the same library, you can build your container on top of my &lt;em&gt;karmab/client-python-kubernetes&lt;/em&gt; docker image&lt;/p&gt;&amp;#13;
+&lt;h2&gt;Conclusion&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Custom controllers give you the ability to interact easily upon creation/deletion/update of objects in your cluster.&lt;br/&gt;&amp;#13;
+Combined with Custom Resource Definitions, they provide a nice abstraction to etcd and ease the design of your application (did someone say &lt;em&gt;microservices&lt;/em&gt;?) within the container platform.&lt;br/&gt;&amp;#13;
+If you felt like all of this required learning a bunch of golang, you now know you have a possible alternative to get started. So “go” for it! (Or Python it!)&lt;/p&gt;&amp;#13;
+&lt;dl class=&quot;cat-tags clearfix row&quot;&gt;&lt;dt&gt;Categories&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/category/news/&quot; rel=&quot;category tag&quot;&gt;News&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/products/openshift-container-platform/&quot; rel=&quot;category tag&quot;&gt;OpenShift Container Platform&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/openshift-ecosystem/&quot; rel=&quot;category tag&quot;&gt;OpenShift Ecosystem&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;dt&gt;Tags&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/tag/crd/&quot; rel=&quot;tag&quot;&gt;CRD&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/openshift/&quot; rel=&quot;tag&quot;&gt;openshift&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/python/&quot; rel=&quot;tag&quot;&gt;python&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;/dl&gt;</description>
+<pubDate>Fri, 03 Nov 2017 17:25:41 +0000</pubDate>
+<dc:creator>Karim Boumedhel</dc:creator>
+<og:type>article</og:type>
+<og:title>Writing a Custom Controller in Python – OpenShift Blog</og:title>
+<og:description>Use the Python client-kubernetes library to interact with Kubernetes and build your own custom controller interacting with Custom Resource Definitions.</og:description>
+<og:url>https://blog.openshift.com/writing-custom-controller-python/</og:url>
+<og:image>https://blog.openshift.com/wp-content/uploads/python.png</og:image>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.openshift.com/writing-custom-controller-python/</dc:identifier>
+<category>News</category>
+<category>OpenShift Container Platform</category>
+<category>OpenShift Ecosystem</category>
+<category>CRD</category>
+<category>openshift</category>
+<category>python</category>
+</item>
+<item>
+<title>OpenShift Commons Briefing #105: Service Catalog Update with Paul Morie (Red Hat)</title>
+<link>https://blog.openshift.com/openshift-commons-briefing105-service-catalog-update-paul-morie/</link>
+<guid isPermaLink="true" >https://blog.openshift.com/openshift-commons-briefing105-service-catalog-update-paul-morie/</guid>
+<description>&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;&lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;//www.youtube.com/embed/U4RxHtETnEY&quot; width=&quot;300&quot; height=&quot;150&quot;&gt;[embedded content]&lt;/iframe&gt;&lt;/div&gt;&amp;#13;
+&lt;h3&gt;OpenShift Commons Briefing Summary&lt;/h3&gt;&amp;#13;
+&lt;p&gt;In this briefing, Red Hat’s Paul Morie, one of the co-leads for the &lt;a href=&quot;https://github.com/kubernetes/community/tree/master/sig-service-catalog&quot;&gt;Kubernetes SIG Service Catalog&lt;/a&gt; gave a great update on the work being done around Kubernetes, Open Service Broker, and Service Catalog.&lt;/p&gt;&amp;#13;
+&lt;p&gt;The service-catalog project is currently in incubation to bring integration with service brokers to the Kubernetes ecosystem via the Open Service Broker API. A service broker is an endpoint that manages a set of software offerings called services. The end-goal of the service-catalog project is to provide a way for Kubernetes users to consume services from brokers and easily configure their applications to use those services, without needing detailed knowledge about how those services are created or managed.&lt;/p&gt;&amp;#13;
+&lt;p&gt;This session will give you a very good overview into the topic as well as an update on what’s in the Release Candidate 0.1.0 of Service Catalog!&lt;/p&gt;&amp;#13;
+&lt;p&gt;This session covered:&lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Open Service API Overview&lt;/li&gt;&amp;#13;
+&lt;li&gt;Service Catalog API Concepts – starts at 27:10&lt;/li&gt;&amp;#13;
+&lt;li&gt;Service Catalog in OpenShift 3.7 – starts at 50:30&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;p&gt;Here’s the link to the slide from the presentation:&lt;/p&gt;&amp;#13;
+&lt;h3&gt;Additional Resources:&lt;/h3&gt;&amp;#13;
+&lt;h3&gt;Learn More at the Next OpenShift Commons Gathering in Austin Dec 5th!&lt;/h3&gt;&amp;#13;
+&lt;p&gt;Along with Paul Morie, many other Red Hatters, CNCF/Kubernetes project leads, and members of the OpenShift Commons will be gathering together in Austin for the upcoming OpenShift Commons Gathering co-located with Kubecon at the Austin Convention Center. &lt;a href=&quot;https://www.eventbrite.com/e/openshift-commons-gathering-austin-tickets-34581924467&quot;&gt;Register now to reserve your seat at this day-long event&lt;/a&gt;!&lt;/p&gt;&amp;#13;
+&lt;p&gt;More Austin Gathering details here: &lt;a href=&quot;http://openshiftgathering.com/openshiftgathering/austin&quot;&gt;http://openshiftgathering.com/openshiftgathering/austin&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;h3&gt;OpenShift Commons Briefings Playlist&lt;/h3&gt;&amp;#13;
+&lt;p&gt;You can find a playlist of all &lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLaR6Rq6Z4IqdIM7LtosKqi3LlYXyxjwnj&quot;&gt;previously recorded SIG meetings and OpenShift Commons Briefings on YouTube&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Don’t forget to leave your feedback and suggestions for each video on YouTube or in the comments section below. This will be incredibly important to shape this Special Interest Group and create sessions that fit the demands of all the OpenShift developers in the community.&lt;/p&gt;&amp;#13;
+&lt;h3&gt;About OpenShift Commons&lt;/h3&gt;&amp;#13;
+&lt;p&gt;OpenShift Commons is the place for organizations that are part of the OpenShift community to connect with peers and other related open source technology communities to communicate and collaborate across all OpenShift projects and stakeholders.&lt;/p&gt;&amp;#13;
+&lt;p&gt;The Commons’ goal is to foster collaboration and communication between OpenShift stakeholders to drive success for all members, and expand &amp;amp; facilitate points of connection between members for sharing knowledge and experience to help drive success for the platform and for participants: customers, users, partners, and contributors.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Join OpenShift Commons today &lt;strong&gt;&lt;a href=&quot;http://commons.openshift.org/#join&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;http://commons.openshift.org/#join&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&amp;#13;
+&lt;dl class=&quot;cat-tags clearfix row&quot;&gt;&lt;dt&gt;Categories&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/category/kubernetes/&quot; rel=&quot;category tag&quot;&gt;Kubernetes&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/news/&quot; rel=&quot;category tag&quot;&gt;News&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/openshift-commons/&quot; rel=&quot;category tag&quot;&gt;OpenShift Commons&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/openshift-ecosystem/&quot; rel=&quot;category tag&quot;&gt;OpenShift Ecosystem&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/technologies/service-catalog/&quot; rel=&quot;category tag&quot;&gt;Service Catalog&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;dt&gt;Tags&lt;/dt&gt;&amp;#13;
+&lt;/dl&gt;</description>
+<pubDate>Thu, 02 Nov 2017 22:03:56 +0000</pubDate>
+<dc:creator>Diane Mueller</dc:creator>
+<og:type>article</og:type>
+<og:title>OpenShift Commons Briefing #105: Service Catalog Update with Paul Morie (Red Hat) – OpenShift Blog</og:title>
+<og:description>Get an update on the work being done around Kubernetes, Open Service Broker, and Service Catalog from Red Hat's Paul Morie.</og:description>
+<og:url>https://blog.openshift.com/openshift-commons-briefing105-service-catalog-update-paul-morie/</og:url>
+<og:image>https://blog.openshift.com/wp-content/uploads/commons-200x200-new-logo.png</og:image>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.openshift.com/openshift-commons-briefing105-service-catalog-update-paul-morie/</dc:identifier>
+<category>Kubernetes</category>
+<category>News</category>
+<category>OpenShift Commons</category>
+<category>OpenShift Ecosystem</category>
+<category>Service Catalog</category>
+</item>
+<item>
+<title>Deploying Instana APM Natively into an OpenShift Environment</title>
+<link>https://blog.openshift.com/deploying-instana-apm-natively-openshift-environment/</link>
+<guid isPermaLink="true" >https://blog.openshift.com/deploying-instana-apm-natively-openshift-environment/</guid>
+<description>&lt;h2&gt;Introduction to Instana APM in an OpenShift Environment&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Maintaining a handle on service quality in a highly distributed and dynamic environment is a challenge facing the managers of today’s containerized microservice architectures. Instana has built the next generation of application performance monitoring for modern containerised microservice applications, using automation and artificial intelligence to make this task possible. Without a high level of automation and the application of artificial intelligence, the monitoring will fail to keep up with the constant change in orchestrated microservice applications. If the monitoring configuration is not in synchronisation with the application, then it can not provide accurate information and error-free alerting.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Because automation is already used extensively in the development and deployment of applications, it makes sense to use it for monitoring as well. Instana provides continuous automatic discovery of both technology stacks and services, resulting in the monitoring always being aligned with the application under management. Metric data is captured at a 1 second granularity and every request is traced end to end, ensuring nothing is overlooked in the ever-changing structure of orchestrated microservice applications. Instana’s artificial intelligence already knows which KPIs to monitor for each technology and it soon learns the normal patterns for your application, intelligently alerting on abnormalities. Not only is the discovery of the technology stack automatic, the understanding of service quality is automatic as well.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;img src=&quot;https://blog.openshift.com/wp-content/uploads/image5-1.png&quot; alt=&quot;&quot; width=&quot;625&quot; height=&quot;623&quot; class=&quot;aligncenter size-full wp-image-14568&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/image5-1.png 625w, https://blog.openshift.com/wp-content/uploads/image5-1-150x150.png 150w, https://blog.openshift.com/wp-content/uploads/image5-1-300x300.png 300w&quot; sizes=&quot;(max-width: 625px) 100vw, 625px&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;h2&gt;Getting Started with Instana and OpenShift&lt;/h2&gt;&amp;#13;
+&lt;p&gt;For this walkthrough, I am using &lt;a href=&quot;https://github.com/minishift/minishift&quot;&gt;Minishift&lt;/a&gt; along with &lt;a href=&quot;https://www.virtualbox.org/&quot;&gt;VirtualBox&lt;/a&gt; to run the OpenShift stack on my MacBook Pro. If you want to try it for yourself you can sign up for a free time limited trial of &lt;a href=&quot;http://bit.ly/2y6RXeI&quot;&gt;Instana&lt;/a&gt; on the website.&lt;/p&gt;&amp;#13;
+&lt;p&gt;I have signed into the OpenShift web console and selected &lt;strong&gt;Applications -&amp;gt; Pods&lt;/strong&gt;. Below are the pods making up my simple microservices application. It consists of:&lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;NGINX hosting static resources (AngularJS web app) and a reverse proxy to the API service&lt;/li&gt;&amp;#13;
+&lt;li&gt;3 replicas of the Python Flask API service&lt;/li&gt;&amp;#13;
+&lt;li&gt;MongoDB for persistent data storage&lt;/li&gt;&amp;#13;
+&lt;li&gt;Redis provides some caching&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;p&gt;&lt;img src=&quot;https://blog.openshift.com/wp-content/uploads/image3-2.png&quot; alt=&quot;&quot; width=&quot;1600&quot; height=&quot;507&quot; class=&quot;aligncenter size-full wp-image-14572&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/image3-2.png 1600w, https://blog.openshift.com/wp-content/uploads/image3-2-300x95.png 300w, https://blog.openshift.com/wp-content/uploads/image3-2-768x243.png 768w, https://blog.openshift.com/wp-content/uploads/image3-2-1024x324.png 1024w&quot; sizes=&quot;(max-width: 1600px) 100vw, 1600px&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;h3&gt;Installing Instana in an OpenShift Environment&lt;/h3&gt;&amp;#13;
+&lt;p&gt;With the following steps, it is simple to deploy the Instana agent into OpenShift. Once installed, it automatically discovers all the technology stacks and services and starts tracing every request. Due to the enhanced security of OpenShift, the Instana agent requires higher privileges to perform automatic discovery.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Edit &lt;a href=&quot;https://gist.github.com/steveww/1fbd03eea9d53086d2c1201c2864c4f0&quot;&gt;instana-agent-os.yml&lt;/a&gt; and add in your &lt;a href=&quot;https://docs.instana.io/quick_start/agent_configuration/&quot;&gt;connection&lt;/a&gt; details. Get your agent key from your Instana console, then encode it via base64.&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;$ echo “your agent key” | base64&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;Set the endpoint depending on your location. Now install the agent into OpenShift.&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;$ oc login -u system:admin&amp;#13;
+$ oc create -f instana-agent-os.yml&amp;#13;
+$ oc project instana-agent&amp;#13;
+$ oc adm policy add-scc-to-user privileged -z instana-admin&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;That’s a lot of commands, what did we just do?&lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;Become the superuser on OpenShift&lt;/li&gt;&amp;#13;
+&lt;li&gt;Create the Instana agent project, daemonset, and admin user&lt;/li&gt;&amp;#13;
+&lt;li&gt;Switch projects&lt;/li&gt;&amp;#13;
+&lt;li&gt;Add privileged permissions to the Instana admin user who owns the daemonset&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;p&gt;Now, let’s take a look at the daemonset:&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;$ oc get daemonset&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;The agent is installed as a daemonset. This mechanism enables running one instance of the agent container on each targeted node. The &lt;code&gt;NODE-SELECTOR&lt;/code&gt; is set to “agent=instana” which tells OpenShift on which nodes to run the daemonset agent (that is, those nodes that are labeled with “agent=instana”). At the moment, there are not any nodes that match. Now label up the node(s) where you want the agent to run.&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;$ oc label node &amp;lt;nodename&amp;gt; agent=instana&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;When new nodes are added to the OpenShift cluster, if they are labeled with “agent=instana” the Instana agent will be automatically started on that node.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Wait a couple of minutes for the agent to start and do its automatic discovery, then take a look at the Instana dashboard to see the results. If you want to see the instana-agent project in the OpenShift console, give the developer user admin rights.&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;$ oc adm policy add-role-to-user admin developer -n instana-agent&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;&lt;img src=&quot;https://blog.openshift.com/wp-content/uploads/image2-2.png&quot; alt=&quot;&quot; width=&quot;1600&quot; height=&quot;802&quot; class=&quot;aligncenter size-full wp-image-14579&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/image2-2.png 1600w, https://blog.openshift.com/wp-content/uploads/image2-2-300x150.png 300w, https://blog.openshift.com/wp-content/uploads/image2-2-768x385.png 768w, https://blog.openshift.com/wp-content/uploads/image2-2-1024x513.png 1024w&quot; sizes=&quot;(max-width: 1600px) 100vw, 1600px&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;h2&gt;Conclusion: It’s Easy To Add Performance Monitoring into OpenShift with Instana&lt;/h2&gt;&amp;#13;
+&lt;p&gt;That was easy. Now that the Instana agent is deployed to your OpenShift environment, it will continuously discover all the running technology stacks and services automatically, tracing every request along the way. This is fully &lt;a href=&quot;https://www.instana.com/blog/making-continuous-delivery-work-instanas-continuous-discovery-technology/&quot;&gt;automatic monitoring&lt;/a&gt;, meaning you will no longer have to update the monitoring whenever your application environment changes. You already have invested in automation for the development and deployment steps of the application lifecycle, now you can maintain that velocity with live application monitoring.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;img src=&quot;https://blog.openshift.com/wp-content/uploads/image4-1.png&quot; alt=&quot;&quot; width=&quot;1591&quot; height=&quot;337&quot; class=&quot;aligncenter size-full wp-image-14580&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/image4-1.png 1591w, https://blog.openshift.com/wp-content/uploads/image4-1-300x64.png 300w, https://blog.openshift.com/wp-content/uploads/image4-1-768x163.png 768w, https://blog.openshift.com/wp-content/uploads/image4-1-1024x217.png 1024w&quot; sizes=&quot;(max-width: 1591px) 100vw, 1591px&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;Adding performance monitoring into your orchestrated environment makes your orchestration more powerful, allowing resource allocation to be tied directly to maintaining service quality. The better the data is, the better the integration will be. With Instana, you get time series data with &lt;a href=&quot;https://www.instana.com/blog/one-second-matters-monitoring-applications/&quot;&gt;1 second&lt;/a&gt; resolution; and end to end tracing of every request.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;img src=&quot;https://blog.openshift.com/wp-content/uploads/image1-6.png&quot; alt=&quot;&quot; width=&quot;1600&quot; height=&quot;802&quot; class=&quot;aligncenter size-full wp-image-14581&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/image1-6.png 1600w, https://blog.openshift.com/wp-content/uploads/image1-6-300x150.png 300w, https://blog.openshift.com/wp-content/uploads/image1-6-768x385.png 768w, https://blog.openshift.com/wp-content/uploads/image1-6-1024x513.png 1024w&quot; sizes=&quot;(max-width: 1600px) 100vw, 1600px&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;All this data enables Instana to provide AI-powered alerting that allows you to focus in on any performance or quality problems that may occur with your microservices application. For more information, check out the Instana white paper on &lt;a href=&quot;http://bit.ly/2zF9vuW&quot;&gt;Applying AI to APM&lt;/a&gt;.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Steve Waterworth is the Instana Technical Marketing Manager.&lt;/p&gt;&amp;#13;
+&lt;dl class=&quot;cat-tags clearfix row&quot;&gt;&lt;dt&gt;Categories&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/category/openshift-ecosystem/&quot; rel=&quot;category tag&quot;&gt;OpenShift Ecosystem&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;dt&gt;Tags&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/tag/instana/&quot; rel=&quot;tag&quot;&gt;Instana&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/monitoring/&quot; rel=&quot;tag&quot;&gt;monitoring&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;/dl&gt;</description>
+<pubDate>Wed, 01 Nov 2017 15:50:57 +0000</pubDate>
+<dc:creator>Steve Waterworth</dc:creator>
+<og:type>article</og:type>
+<og:title>Deploying Instana APM Natively into an OpenShift Environment – OpenShift Blog</og:title>
+<og:description>Deliver automated performance management into your orchestrated environment with this step-by-step guide for deploying Instana on OpenShift.</og:description>
+<og:url>https://blog.openshift.com/deploying-instana-apm-natively-openshift-environment/</og:url>
+<og:image>https://blog.openshift.com/wp-content/uploads/image5-1.png</og:image>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.openshift.com/deploying-instana-apm-natively-openshift-environment/</dc:identifier>
+<category>OpenShift Ecosystem</category>
+<category>Instana</category>
+<category>monitoring</category>
+</item>
+<item>
+<title>How Full is My Cluster – Part 2: Protecting the Nodes</title>
+<link>https://blog.openshift.com/full-cluster-part-2-protecting-nodes/</link>
+<guid isPermaLink="true" >https://blog.openshift.com/full-cluster-part-2-protecting-nodes/</guid>
+<description>&lt;h3&gt;Introduction&lt;/h3&gt;&amp;#13;
+&lt;p&gt;This is the second part of the How Full is my Cluster series; you can find part one &lt;a href=&quot;https://blog.openshift.com/full-cluster-capacity-management-monitoring-openshift/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&amp;#13;
+&lt;p&gt;In part one, we covered some basic concepts and a series of recommendations to help OpenShift make informed decisions when scheduling pods.&lt;/p&gt;&amp;#13;
+&lt;p&gt;This alone is still not enough to guarantee that each individual node will not be overloaded by a pod's workload, causing the node to have to shut down pods or even worse, jeopardizing the stability of the node itself.&lt;/p&gt;&amp;#13;
+&lt;p&gt;A node may run out of resources when it is overcommitted and it will start killing pods when under resources pressure (that is, it's running out of resources). Pod eviction is a defense mechanism of the node and should be properly configured (by default, it's off).&lt;/p&gt;&amp;#13;
+&lt;h3&gt;Node Overcommitment&lt;/h3&gt;&amp;#13;
+&lt;p&gt;Technically a &lt;a href=&quot;https://docs.openshift.com/container-platform/latest/admin_guide/overcommit.html&quot;&gt;node is overcommitted&lt;/a&gt; when the sum of the limits is greater than the allocatable resources. In this situation, if all the pods of that node were to claim their limits, then the node would go under resource pressure.&lt;/p&gt;&amp;#13;
+&lt;p&gt;The following picture shows a node that is strongly overcommitted on CPU:&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;img src=&quot;https://blog.openshift.com/wp-content/uploads/image2-1.png&quot; alt=&quot;Overcommited node&quot; width=&quot;940&quot; height=&quot;252&quot; class=&quot;aligncenter size-full wp-image-14537&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/image2-1.png 940w, https://blog.openshift.com/wp-content/uploads/image2-1-300x80.png 300w, https://blog.openshift.com/wp-content/uploads/image2-1-768x206.png 768w&quot; sizes=&quot;(max-width: 940px) 100vw, 940px&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;Overcommitment is not a bad thing per se. In fact, it allows you to pack your workloads more densely. It works on the assumption that not all the pods will claim all of their usable resources at the same time (it's the same principle by which banks work: They assume that not all the customers will want to withdraw all their money at the same time).&lt;/p&gt;&amp;#13;
+&lt;p&gt;The right question to ask is then: By how much should we overcommit? And, also, how can we enforce that value?&lt;/p&gt;&amp;#13;
+&lt;p&gt;Organizations will have to find their correct overcommitment level. I recommend a cautious strategy to identify it. You could, for example, progressively increment the overcommitment level and observe your workload. When the rate of evicted pods starts to become unacceptable for you then that is the correct overcommitment level for the given workload.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Once you have defined your overcommitment policy, you can enforce it either at the project level or at the cluster level.&lt;/p&gt;&amp;#13;
+&lt;p&gt;On a per project level, you can use the &lt;code&gt;maxLimitRequestRation&lt;/code&gt; of the &lt;a href=&quot;https://docs.openshift.com/container-platform/3.6/admin_guide/limits.html&quot;&gt;LimitRange&lt;/a&gt; object.&lt;/p&gt;&amp;#13;
+&lt;p&gt;If you want to set this ratio at the &lt;a href=&quot;https://docs.openshift.com/container-platform/3.6/admin_guide/overcommit.html#configuring-masters-for-overcommitment&quot;&gt;cluster level&lt;/a&gt; you can use &lt;code&gt;memoryRequestToLimitPercent&lt;/code&gt; and &lt;code&gt;cpuRequestToLimitPercent&lt;/code&gt; from the &lt;code&gt;ClusterResourceOverride&lt;/code&gt; configuration object which can be specified in the master config file.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Recommendation&lt;/strong&gt;: Define and enforce your overcommitment policy.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Recommendation&lt;/strong&gt;: Develop the ability to create a report with your nodes and their level of commitment.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Recommendation&lt;/strong&gt;: Create an alert to notify you if a node is overcommitted beyond what you defined in your overcommitment policy.&lt;/p&gt;&amp;#13;
+&lt;h3&gt;Resource Types&lt;/h3&gt;&amp;#13;
+&lt;p&gt;In terms of behavior under resource pressure, there are two types of resources:&lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Compressible resources&lt;/strong&gt;: Resources that never run out as long as you have the time to wait for them. You may have access to a limited quantity of them in a given period of time, but if you are willing/able to wait there is an unlimited amount of them. Examples of this type of resource are CPU, block i/o, and network i/o.&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;strong&gt;Incompressible resources&lt;/strong&gt;: resources that are limited and when you run out of them, your application will not get any more of them. Examples of this type of resource are memory and disk space.&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;p&gt;It is important to keep this difference in mind when configuring settings for resources. Certain types of workloads may be more sensitive to one or the other. If memory and other incompressible resources are not set up correctly, pods may be killed. On the other hand, if CPU and other compressible resources are not set up correctly, workloads can starve.&lt;/p&gt;&amp;#13;
+&lt;h3&gt;Protecting a Node from Resource Pressure&lt;/h3&gt;&amp;#13;
+&lt;p&gt;As we have discussed, if a node is overcommitted, it could run out of resources. This situation is called resource pressure. If the node service realizes that it is under resource pressure, it stops accepting new pods and, if the resource is question is incompressible, then it starts trying to resolve the situation by &lt;a href=&quot;https://docs.openshift.com/container-platform/3.6/admin_guide/out_of_resource_handling.html#out-of-resource-eviction-policy&quot;&gt;evicting&lt;/a&gt; (that is, killing) pods. The pods to be evicted are chosen honoring the QoS of the pods.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Pod's Quality of Service&lt;/strong&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;The following &lt;a href=&quot;https://docs.openshift.com/container-platform/latest/admin_guide/overcommit.html#qos-classes&quot;&gt;Quality of Services&lt;/a&gt; (QoS) exist in OpenShift and are determined by how requests and limits are defined on the pod:&lt;/p&gt;&amp;#13;
+&lt;table class=&quot;table table-bordered table-striped&quot;&gt;&lt;tr&gt;&lt;th&gt;QoS&lt;/th&gt;&amp;#13;
+&lt;th&gt;When&lt;/th&gt;&amp;#13;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Guaranteed&lt;/td&gt;&amp;#13;
+&lt;td&gt;Request = Limit&lt;/td&gt;&amp;#13;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Burstable&lt;/td&gt;&amp;#13;
+&lt;td&gt;Request &amp;lt; Limit&lt;/td&gt;&amp;#13;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Best Effort&lt;/td&gt;&amp;#13;
+&lt;td&gt;Request and limit are not defined.&lt;/td&gt;&amp;#13;
+&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;Pods start to be evicted when a given resource passes the eviction threshold. Pods can be evicted immediately ( &lt;a href=&quot;https://docs.openshift.com/container-platform/3.6/admin_guide/out_of_resource_handling.html#out-of-resource-hard-eviction-thresholds&quot;&gt;hard eviction threshold&lt;/a&gt;) or by giving the pod time to shut down gracefully ( &lt;a href=&quot;https://docs.openshift.com/container-platform/3.6/admin_guide/out_of_resource_handling.html#out-of-resource-soft-eviction-thresholds&quot;&gt;soft eviction threshold&lt;/a&gt;). Soft eviction threshold also allows you to define an observation period that triggers when the resource usage passes the threshold. If at the end of the observation period the resource usage is still above the threshold, eviction is started.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Currently, eviction threshold can be defined for the following incompressible resources: &lt;a href=&quot;https://docs.openshift.com/container-platform/3.6/admin_guide/out_of_resource_handling.html#out-of-resource-create-config&quot;&gt;memory, node filesystem, image filesystem&lt;/a&gt; (this is the docker storage).&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Recommendation&lt;/strong&gt; : Always configure at least a hard eviction threshold for memory. For example:&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;kubeletArguments:&amp;#13;
+  eviction-hard:&amp;#13;
+  - memory.available&amp;lt;500Mi&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;In addition to defining an eviction threshold, you can also reserve &lt;a href=&quot;https://docs.openshift.com/container-platform/3.6/admin_guide/allocating_node_resources.html#allocating-node-settings&quot;&gt;resources&lt;/a&gt; for the node service specifically and for other OS-level services by configuring the following in the node service:&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;kubeletArguments:&amp;#13;
+  kube-reserved:&amp;#13;
+    - &quot;cpu=&amp;lt;cpu&amp;gt;,memory=&amp;lt;mem&amp;gt;&quot;&amp;#13;
+  system-reserved:&amp;#13;
+    - &quot;cpu=&amp;lt;cpu&amp;gt;,memory=&amp;lt;mem&amp;gt;&quot;&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Kube-reserved:&lt;/strong&gt; Reserves resources for the Kubelet service (or node service in OpenShift)&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;System-reserved:&lt;/strong&gt; Reserves resources for all the other non-pod processes (excluding the Kubelet service)&lt;/p&gt;&amp;#13;
+&lt;p&gt;Kube-reserved, system-reserved, and the eviction threshold together determine the allocatable level. The picture below shows how the final allocatable resources are calculated:&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;img src=&quot;https://blog.openshift.com/wp-content/uploads/image1-5-1024x104.png&quot; alt=&quot;Allocatable resources&quot; width=&quot;1024&quot; height=&quot;104&quot; class=&quot;aligncenter size-large wp-image-14536&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/image1-5-1024x104.png 1024w, https://blog.openshift.com/wp-content/uploads/image1-5-300x31.png 300w, https://blog.openshift.com/wp-content/uploads/image1-5-768x78.png 768w, https://blog.openshift.com/wp-content/uploads/image1-5.png 1078w&quot; sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Recommendation:&lt;/strong&gt; Always reserve some resource for your OS services through the use of the Kubelet arguments kube-reserved and system-reserved.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You can reserve resources for both memory and CPU, but you can define an eviction threshold only for memory.&lt;/p&gt;&amp;#13;
+&lt;p&gt;You can control these settings from the Ansible installer configuration file, here is an example:&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;openshift\_node\_kubelet\_args={''kube-reserved': ['cpu=xxxm,memory=xxxM'], 'system-reserved': ['cpu=xxxm,memory=xxxM']}&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;Coming up with a good default for these settings is difficult (you should profile the behavior of your systems to find the ideal settings for your installation); however, here is a formula that has worked for me for small-sized nodes:&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Kube-reserved cpu:&lt;/strong&gt; 5m x max number of pods per node&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Kube-reserved memory:&lt;/strong&gt; 5M x max number of pods per node&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;System-reserved cpu:&lt;/strong&gt; 5m x max number of pods per node&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;System-reserved memory:&lt;/strong&gt; 10M x max number of pods per node&lt;/p&gt;&amp;#13;
+&lt;p&gt;Note that max number of pods per node is by default 10 pods per vCPU (you can change this value).&lt;/p&gt;&amp;#13;
+&lt;h4&gt;Additional Considerations for Memory&lt;/h4&gt;&amp;#13;
+&lt;p&gt;For memory there is an additional defense mechanism: If the node service fails to recognize a memory pressure situation, for example, because the memory spike was so sudden the node service didn't have time to register it, then the &lt;a href=&quot;https://docs.openshift.com/container-platform/3.6/admin_guide/out_of_resource_handling.html#out-of-resource-node-out-of-resource-and-out-of-memory&quot;&gt;OOM&lt;/a&gt; kernel service will kill a process. The OOM can be advised on which priority to assign to processes, but it cannot be fully controlled and there is no guarantee that it will honor the OpenShift QoS. Even worse, the OOM can decide to kill non-pod related processes.&lt;/p&gt;&amp;#13;
+&lt;p&gt;The OOM may kill one of the key services that must be always up and running or else the node is lost (to the cluster): The node service itself, Docker, the SDN service.&lt;/p&gt;&amp;#13;
+&lt;p&gt;This is one of the reasons why it is always critical to protect the node from memory pressure.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;img src=&quot;https://blog.openshift.com/wp-content/uploads/image3-1-1024x600.png&quot; alt=&quot; Memory metrics single node&quot; width=&quot;1024&quot; height=&quot;600&quot; class=&quot;aligncenter size-large wp-image-14544&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/image3-1.png 1024w, https://blog.openshift.com/wp-content/uploads/image3-1-300x176.png 300w, https://blog.openshift.com/wp-content/uploads/image3-1-768x450.png 768w&quot; sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;This diagram represents various memory-related metrics for a single node over time.&lt;/p&gt;&amp;#13;
+&lt;p&gt;The blue line and orange line represent the total amount of memory and the allocatable (calculated as described above) memory respectively. The values of these two measures are constant.&lt;br/&gt;&amp;#13;
+The green line represents the sum of the requests of the pods allocated to this node. The scheduler will make sure that this measure is always below the amount of allocatable memory. The red line is the actual memory usage on the node and includes the sum of all the pods and the amount reserved by the node daemons. This measure fluctuates more than the sum of the requests depending on several factors, such as the way the applications are written and the current load. The final measure, illustrated by the yellow line, is the sum of the limits. Based on the way cgroups are organized, the actual memory usage will always be below the sum of the limits. However, the sum of the limits can become greater than the node allocatable if the workload is burstable. In this case, as we have seen, the node becomes overcommitted.&lt;br/&gt;&amp;#13;
+The two important events to consider in this diagram are when the actual amount of memory crosses the allocatable and when it touches the total available memory of the node. In the first case, an eviction event is triggered. In the latter, the OOM event is.&lt;/p&gt;&amp;#13;
+&lt;h4&gt;Additional Considerations for CPU&lt;/h4&gt;&amp;#13;
+&lt;p&gt;Some OpenShift clusters are built to target specifically burstable workloads. For example, typically big data, machine learning, or simply batch and asynchronous integration data science types of workload are inherently burstable.&lt;/p&gt;&amp;#13;
+&lt;p&gt;This means that those processes can run with the specified CPU request, but if there are resources available they can consume more, up to their limit, and terminate early.&lt;/p&gt;&amp;#13;
+&lt;p&gt;It is possible to &lt;a href=&quot;https://docs.openshift.com/container-platform/3.6/admin_guide/overcommit.html#enforcing-cpu-limits&quot;&gt;disable enforcing&lt;/a&gt; the limit on CPU. This will make burstable processes consume all the available resources. If two processes are competing for the same CPU resources fair scheduling is still guaranteed because it is calculated on the &lt;a href=&quot;https://docs.docker.com/engine/reference/run/#cpu-share-constraint&quot;&gt;request value&lt;/a&gt;.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Here is how you can disable enforcing the CPU limit:&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;kubeletArguments:&amp;#13;
+  cpu-cfs-quota:&amp;#13;
+    - &quot;false&quot;&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;h3&gt;Getting Started with Monitoring Nodes' Overcommitment&lt;/h3&gt;&amp;#13;
+&lt;p&gt;I have created a set of Grafana graphs to track the commitment of OpenShift cluster nodes. You can set them up following the instructions you can find &lt;a href=&quot;https://github.com/raffaelespazzoli/openshift-enablement-exam/tree/master/misc/prometheus&quot;&gt;here&lt;/a&gt;. This setup is a quick start with the objective to let someone study this problem space, it is not supposed to be a production quality monitoring solution.&lt;/p&gt;&amp;#13;
+&lt;h3&gt;Conclusions&lt;/h3&gt;&amp;#13;
+&lt;p&gt;In this post, we examined a series of best practices to protect the nodes from becoming over-allocated. Implementing these practices will improve the overall stability of the cluster.&lt;/p&gt;&amp;#13;
+&lt;dl class=&quot;cat-tags clearfix row&quot;&gt;&lt;dt&gt;Categories&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/category/products/openshift-container-platform/&quot; rel=&quot;category tag&quot;&gt;OpenShift Container Platform&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/products/openshift-dedicated/&quot; rel=&quot;category tag&quot;&gt;OpenShift Dedicated&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/products/openshift-online/&quot; rel=&quot;category tag&quot;&gt;OpenShift Online&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;dt&gt;Tags&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/tag/memory/&quot; rel=&quot;tag&quot;&gt;memory&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/monitoring/&quot; rel=&quot;tag&quot;&gt;monitoring&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/overcommit/&quot; rel=&quot;tag&quot;&gt;overcommit&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/pod/&quot; rel=&quot;tag&quot;&gt;pod&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/scheduling/&quot; rel=&quot;tag&quot;&gt;scheduling&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;/dl&gt;</description>
+<pubDate>Tue, 31 Oct 2017 14:40:42 +0000</pubDate>
+<dc:creator>Raffaele Spazzoli</dc:creator>
+<og:type>article</og:type>
+<og:title>How Full is My Cluster - Part 2: Protecting the Nodes – OpenShift Blog</og:title>
+<og:description>Examine a series of best practices to protect the nodes from becoming over-allocated and improve the overall stability of the cluster.</og:description>
+<og:url>https://blog.openshift.com/full-cluster-part-2-protecting-nodes/</og:url>
+<og:image>https://blog.openshift.com/wp-content/uploads/image2-1.png</og:image>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.openshift.com/full-cluster-part-2-protecting-nodes/</dc:identifier>
+<category>OpenShift Container Platform</category>
+<category>OpenShift Dedicated</category>
+<category>OpenShift Online</category>
+<category>memory</category>
+<category>monitoring</category>
+<category>overcommit</category>
+<category>pod</category>
+<category>scheduling</category>
+</item>
+<item>
+<title>Istio Traffic Management – Diving Deeper</title>
+<link>https://blog.openshift.com/istio-traffic-management-diving-deeper/</link>
+<guid isPermaLink="true" >https://blog.openshift.com/istio-traffic-management-diving-deeper/</guid>
+<description>&lt;p&gt;This post is a step-by-step guide to explain certain aspects of deploying a custom app on Istio, going beyond the commonly found BookInfo sample app tutorials.&lt;/p&gt;&amp;#13;
+&lt;p&gt;We’ll start with a high-level overview of what OpenShift currently supports when it comes to routing and traffic management, and then dive deeper into Istio by installing an example app and explaining what’s happening in detail.&lt;/p&gt;&amp;#13;
+&lt;p&gt;With that being said, it’s important to clarify that OpenShift does not officially support Istio, so this post is for technical evaluation purposes only.&lt;/p&gt;&amp;#13;
+&lt;h2&gt;Routing and Traffic Management Overview&lt;/h2&gt;&amp;#13;
+&lt;p&gt;OpenShift currently supports state of the art routing and traffic management capabilities via HAProxy, its default router, and F5 Router plugins running inside containers. Ingress traffic is proxied to a Kubernetes service associated with the actual route to the endpoints listening inside the containers.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Although F5’s are not natively able to run as an OpenShift node, they are generally able to scale independently of the cluster, as long as the load balancer pool is correctly managed and there are one or more ramp nodes available to tunnel any traffic to the internal SDN. In this scenario, router pods watch the Kube API for any new routes via labels and selectors and then pass this information to the load balancer API.&lt;/p&gt;&amp;#13;
+&lt;p&gt;However, customers often come up with certain deployment use cases which can add complexity to our recommended architectures for external load balancers: &lt;a href=&quot;http://playbooks-rhtconsulting.rhcloud.com/playbooks/installation/load_balancing.html&quot;&gt;http://playbooks-rhtconsulting.rhcloud.com/playbooks/installation/load_balancing.html&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;Deciding on whether to use ramp nodes or native integration also depends on the specific OpenShift – F5 BIG-IP version combination. This isn’t necessarily a big problem, but in certain environments it might add complexity, cost, and potentially raise concerns related to high availability and security.&lt;/p&gt;&amp;#13;
+&lt;h2&gt;About Istio Pilot: Envoy&lt;/h2&gt;&amp;#13;
+&lt;p&gt;In an attempt to unify and minimize operational overhead, load balancing pools and traffic management, comes &lt;a href=&quot;https://envoyproxy.github.io/&quot;&gt;Envoy&lt;/a&gt; – an API driven, protocol agnostic, data plane proxy deployed as a microservices mesh agent within the &lt;a href=&quot;https://blog.openshift.com/red-hat-istio-launch/&quot;&gt;Istio project.&lt;/a&gt; One of the main components of this project, &lt;a href=&quot;https://istio.io/docs/concepts/traffic-management/pilot.html&quot;&gt;Istio Pilot&lt;/a&gt;, is a service mesh orchestrator responsible for managing and propagating configuration to individual components. In this post I’m focusing on the default proxy agents, whose deployment is based on Envoy and &lt;a href=&quot;https://istio.io/docs/concepts/policy-and-control/mixer.html&quot;&gt;mixer&lt;/a&gt; filters.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Those &lt;a href=&quot;https://github.com/istio/pilot/blob/master/doc/proxy-controller.md&quot;&gt;proxy agents&lt;/a&gt; form the mesh—a software-defined, message passing channel for a distributed system composed of different upstream/downstream services and applications. As one of the main components of Istio, Envoy has an extensive list of features, although I’ll be focusing on its transparent proxy and routing deployment capabilities within OpenShift.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Hopefully, it is now easier to picture OpenShift as being a good match for this kind of deployment, since it already registers where every service is running and provides APIs to access this same information. Adding to that, Envoy already provides a Service Discovery Service (SDS) to dynamically configure where services can be found upstream. The premise is that applications shouldn’t be managing their own load balancing details, logic, and/or service discovery.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Furthermore, OpenShift takes care of automatically recovering, re-balancing or rescheduling Istio pods either when nodes fail or undergo any maintenance work. What follows is how to deploy a custom app on Istio on top of OpenShift.&lt;/p&gt;&amp;#13;
+&lt;h3&gt;Step 1: Istio Deployment&lt;/h3&gt;&amp;#13;
+&lt;p&gt;While writing this post, I’ve used Ansible to deploy Istio on top of an OpenShift Container Platform cluster running on AWS. For a local development environment on your laptop, feel free to use &lt;a href=&quot;https://github.com/rflorenc/Istio_OpenShift_demo&quot;&gt;https://github.com/rflorenc/Istio_OpenShift_demo&lt;/a&gt; everywhere and in any way, except in production. The playbooks support Fedora-based systems only. You’ll find all the deployments and services under the &lt;code&gt;examples&lt;/code&gt; directory.&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;strong&gt;$ ansible-playbook setup_istio_local.yml &lt;/strong&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;h4&gt;Environment setup&lt;/h4&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;strong&gt;$ oc version &lt;/strong&gt;&amp;#13;
+oc v3.7.0-0.143.2&amp;#13;
+kubernetes v1.7.0+80709908fd&amp;#13;
+features: Basic-Auth GSSAPI Kerberos SPNEGO&amp;#13;
+&amp;#13;
+openshift v3.7.0-0.143.2&amp;#13;
+kubernetes v1.7.0+80709908fd&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;After running &lt;code&gt;ansible-playbook setup_istio_local.yml&lt;/code&gt; we end up with a setup similar to the one below:&lt;/p&gt;&amp;#13;
+&amp;#13;
+&lt;img class=&quot;wp-image-14299 size-full&quot; src=&quot;https://blog.openshift.com/wp-content/uploads/skydive-1.png&quot; alt=&quot;&quot; width=&quot;573&quot; height=&quot;490&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/skydive-1.png 573w, https://blog.openshift.com/wp-content/uploads/skydive-1-300x257.png 300w&quot; sizes=&quot;(max-width: 573px) 100vw, 573px&quot;/&gt;Skydive view – Istio deployment on the OpenShift SDN.&amp;#13;
+&amp;#13;
+&lt;p&gt;Above we can see the control/data plane API pods: Mixer, Pilot, and Ingress/Egress.&lt;/p&gt;&amp;#13;
+&lt;p&gt;The mixer pod talks to every Istio-proxy side car container and is responsible for insulating Envoy from specific environment or back-end details.&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;strong&gt;$ oc get pods&lt;/strong&gt;&amp;#13;
+&amp;#13;
+NAME                             READY     STATUS    RESTARTS   AGE&amp;#13;
+grafana-2894277879-3x251         1/1       Running   0          5h&amp;#13;
+istio-ca-172649916-gqdzm         1/1       Running   0          5h&amp;#13;
+istio-egress-3074077857-cx0pg    1/1       Running   0          5h&amp;#13;
+istio-ingress-4019532693-w3w1r   1/1       Running   0          5h&amp;#13;
+istio-mixer-113835218-76n57      2/2       Running   0          5h&amp;#13;
+istio-pilot-401116135-vz9hv      1/1       Running   0          5h&amp;#13;
+prometheus-4086688911-5z9l5      1/1       Running   0          5h&amp;#13;
+servicegraph-3770494623-c58w2    1/1       Running   0          5h&amp;#13;
+skydive-agent-0nxjg              1/1       Running   0          3h&amp;#13;
+skydive-agent-c42w5              1/1       Running   0          3h&amp;#13;
+skydive-analyzer-1-t6zlt         2/2       Running   0          3h&amp;#13;
+zipkin-3660596538-8r363          1/1       Running   0          5h&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;h3&gt;Step 2: Diving Deeper&lt;/h3&gt;&amp;#13;
+&lt;p&gt;As mentioned before, Istio Pilot is a &lt;a href=&quot;https://github.com/istio/pilot/blob/master/doc/design.md&quot;&gt;control component&lt;/a&gt; of the mesh, converting routing rules into Envoy specific configurations and propagating them to the sidecars at runtime.&lt;/p&gt;&amp;#13;
+&lt;p&gt;It is worth mentioning that Istio proxy currently (v0.2.7) gets deployed in Kubernetes via Init containers and a sidecar container which is kube-injected through a &lt;a href=&quot;https://kubernetes.io/docs/admin/extensible-admission-controllers/&quot;&gt;Kubernetes Extensible Admission Controller&lt;/a&gt;. The admission controller is also called an &lt;a href=&quot;https://kubernetes.io/docs/admin/extensible-admission-controllers/#initializers&quot;&gt;Initializer&lt;/a&gt;, because it only operates at pod creation time.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;code&gt;$ istioctl kube-inject -f app_deployment.yaml -o injected_app_deployment.yaml&lt;/code&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;The above command alters the spec file to include the proxy sidecar.&lt;/p&gt;&amp;#13;
+&lt;p&gt;If you’re curious about how this is accomplished and about what is added to the spec in more detail, have a look here: &lt;a href=&quot;https://github.com/istio/pilot/blob/master/platform/kube/inject/inject.go&quot;&gt;https://github.com/istio/pilot/blob/master/platform/kube/inject/inject.go&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;The init container adds the necessary iptables rules inside the pod by running &lt;a href=&quot;https://github.com/istio/pilot/blob/master/docker/prepare_proxy.sh&quot;&gt;https://github.com/istio/pilot/blob/master/docker/prepare_proxy.sh&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;Looking at the code, we can see that all traffic gets redirected to the sidecar proxy attached to our service. Envoy will then handle only intra-cluster traffic. For a visual difference between a regular spec file and one that has been “kube-injected”, click &lt;a href=&quot;https://gist.github.com/rflorenc/ea8264ef09bdf47664dd167ed3d8e81d/revisions&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;&amp;#13;
+&lt;p&gt;This abstraction is useful because the application itself doesn’t need to know about certain details of authenticating a service to another, like mutual auth or cert chains. At the time of writing, kube-inject doesn’t consider OpenShift’s &lt;code&gt;DeploymentConfig&lt;/code&gt; resource type, so our spec should use plain Kubernetes objects:&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;strong&gt;apiVersion: extensions/v1beta1&lt;/strong&gt;&amp;#13;
+&lt;strong&gt;kind: Deployment&lt;/strong&gt;&lt;strong&gt;&amp;#13;
+&lt;/strong&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;When an application tries to communicate with another service inside the Envoy mesh, it actually first connects to the locally running Envoy instance inside the pod so that traffic is then forwarded to the target service.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Istio-proxy sidecars keep a representation of the configured, “discoverable” services and clusters. We can see the service registered by the Route Discovery Service (RDS) API by querying &lt;code&gt;localhost:15000/routes&lt;/code&gt;.&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;strong&gt;2.1&amp;#13;
+$ oc apply -f examples/composer.yaml&amp;#13;
+$ injected_pod=`oc get pods -l app=composer -o jsonpath={.items..metadata.name}`&lt;/strong&gt;&amp;#13;
+&lt;strong&gt;$ oc exec $injected_pod -c istio-proxy -- curl -s localhost:15000/routes | jq &lt;/strong&gt;&amp;#13;
+&amp;#13;
+{                                               &amp;#13;
+  &quot;version_info&quot;: &quot;hash_bbfd053f4074d403&quot;,     &amp;#13;
+  &quot;route_config_name&quot;: &quot;8080&quot;,                  &amp;#13;
+  &quot;cluster_name&quot;: &quot;rds&quot;,                        &amp;#13;
+  &quot;route_table_dump&quot;: {                         &amp;#13;
+    &quot;name&quot;: &quot;8080&quot;,                             &amp;#13;
+    &quot;virtual_hosts&quot;: [                          &amp;#13;
+      {                                                                              &amp;#13;
+        &quot;name&quot;: &quot;composer.istio-system.svc.cluster.local|http&quot;,                       &amp;#13;
+        &quot;domains&quot;: [                                                                 &amp;#13;
+          &quot;composer:8080&quot;,                                                            &amp;#13;
+          &quot;composer&quot;,                           &amp;#13;
+          &quot;composer.istio-system:8080&quot;,         &amp;#13;
+          &quot;composer.istio-system&quot;,              &amp;#13;
+          &quot;composer.istio-system.svc:8080&quot;,     &amp;#13;
+          &quot;composer.istio-system.svc&quot;,          &amp;#13;
+          &quot;composer.istio-system.svc.cluster:8080&quot;,&amp;#13;
+          &quot;composer.istio-system.svc.cluster&quot;,  &amp;#13;
+          &quot;composer.istio-system.svc.cluster.local:8080&quot;,&amp;#13;
+          &quot;composer.istio-system.svc.cluster.local&quot;,&amp;#13;
+          &quot;172.27.213.147:8080&quot;,                                                      &amp;#13;
+          &quot;172.27.213.147&quot;                      &amp;#13;
+        ],                                      &amp;#13;
+        &quot;routes&quot;: [                             &amp;#13;
+          {                                     &amp;#13;
+            &quot;match&quot;: {                          &amp;#13;
+              &quot;prefix&quot;: &quot;/&quot;                     &amp;#13;
+            },                                  &amp;#13;
+            &quot;route&quot;: {                                                               &amp;#13;
+              &quot;cluster&quot;: &quot;out.ec0366219152fbf81716c7003fb03b310968130e&quot;&amp;#13;
+            }&amp;#13;
+          }&amp;#13;
+        ]&amp;#13;
+      },&amp;#13;
+&amp;#13;
+(Optional)&amp;#13;
+&lt;strong&gt;$ oc expose svc composer&lt;/strong&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;If you’re accessing the service from outside the cluster, let’s say from your laptop, first expose the route and then place it under the /etc/hosts file, “pointing” to a reachable OpenShift router IP address.&lt;/p&gt;&amp;#13;
+&amp;#13;
+&lt;img class=&quot;wp-image-14295 size-full&quot; src=&quot;https://blog.openshift.com/wp-content/uploads/composer_playground.png&quot; alt=&quot;&quot; width=&quot;858&quot; height=&quot;572&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/composer_playground.png 858w, https://blog.openshift.com/wp-content/uploads/composer_playground-300x200.png 300w, https://blog.openshift.com/wp-content/uploads/composer_playground-768x512.png 768w&quot; sizes=&quot;(max-width: 858px) 100vw, 858px&quot;/&gt;Hyperledger Composer UI login page&amp;#13;
+&lt;h3&gt;Step 3. Visualizing the Service Mesh&lt;/h3&gt;&amp;#13;
+&lt;p&gt;At this point we should be able to do a few verification steps. Is the composer service receiving and reporting back traffic to the Mixer pod?&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;strong&gt;3.1&amp;#13;
+$ oc logs istio-mixer-podname -c mixer | grep -i composer&lt;/strong&gt;&amp;#13;
+&amp;#13;
+destination.service           : composer.istio-system.svc.cluster.local&amp;#13;
+destination.uid               : kubernetes://composer-2709687814-3rkk1.istio-system&amp;#13;
+request.headers               : map[x-b3-sampled:1 x-b3-spanid:00008c6be65ecd8c :authority:composer-istio-system.apps.rhcloud.com user-agent:curl/7.29.0 x-forwarded-host:composer-istio-system.apps.rhcloud.com :method:GET accept:*/* x-ot-span-context:00008c6be65ecd8c;00008c6be65ecd8c;0000000000000000 forwarded:for=54.191.235.23;host=composer-istio-system.apps.rhcloud.com;proto=http x-forwarded-for:54.191.235.23 :path:/login x-request-id:4766f3fe-2b8b-9423-803d-a93e5994563d x-forwarded-port:80 x-b3-traceid:00008c6be65ecd8c x-forwarded-proto:http]&amp;#13;
+&amp;#13;
+request.host                  : composer-istio-system.apps.rhcloud.com&amp;#13;
+destination.labels            : map[app:composer pod-template-hash:2709687814]&amp;#13;
+destination.service           : composer.istio-system.svc.cluster.local&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;And, after generating some traffic to the service endpoint, by running:&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;strong&gt;3.2&amp;#13;
+$ curl composer-istio-system.apps.rhcloud.com/login&lt;/strong&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;Is the added service visible in the service mesh?&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;strong&gt;3.3&amp;#13;
+$ curl servicegraph-istio-system.apps.rhcloud.com/graph      &lt;/strong&gt;                  &amp;#13;
+&amp;#13;
+{&quot;nodes&quot;:{&quot;composer.istio-system (unknown)&quot;:{},&quot;unknown (unknown)&quot;:{}},&quot;edges&quot;:[{&quot;source&quot;:&quot;unknown (unknown)&quot;,&quot;target&quot;:&quot;composer.istio-system (unknown)&quot;,&quot;labels&quot;:{&quot;reqs/sec&quot;:&quot;0.030508&quot;}}]}&amp;#13;
+&amp;#13;
+&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;img class=&quot;wp-image-14296 size-full&quot; src=&quot;https://blog.openshift.com/wp-content/uploads/composer_.png&quot; alt=&quot;&quot; width=&quot;382&quot; height=&quot;180&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/composer_.png 382w, https://blog.openshift.com/wp-content/uploads/composer_-300x141.png 300w&quot; sizes=&quot;(max-width: 382px) 100vw, 382px&quot;/&gt;Hyperledger Composer pod being added to the service mesh.&amp;#13;
+&amp;#13;
+&lt;p&gt;This visual servicegraph is accessible at http://&amp;lt;servicegraph_url&amp;gt;/dotviz&lt;/p&gt;&amp;#13;
+&lt;p&gt;All of the above is purely API driven. Using the previous pattern of deploying sidecar-injected Kubernetes deployments and services, we’ll now add a peer, a member service, and an ingress gateway to our deployment.&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;strong&gt;3.4&amp;#13;
+$ oc apply -f examples/{vp0.yaml,membersrvc.yaml,ingress_hyperledger.yaml}&lt;/strong&gt;&amp;#13;
+&amp;#13;
+service &quot;vp0&quot; configured&amp;#13;
+deployment &quot;vp0&quot; configured&amp;#13;
+service &quot;membersrvc&quot; configured&amp;#13;
+deployment &quot;membersrvc&quot; configured&amp;#13;
+ingress &quot;gateway&quot; configured&amp;#13;
+&amp;#13;
+&lt;strong&gt;$ oc describe ingress gateway&lt;/strong&gt;&amp;#13;
+&amp;#13;
+Name:                   gateway&amp;#13;
+Namespace:              istio-system&amp;#13;
+Address:                af86a3923af1f11e7a5800244344b7a3-1404950415.us-west-2.elb.amazonaws.com&amp;#13;
+Default backend:        default-http-backend:80 (&amp;lt;none&amp;gt;)&amp;#13;
+Rules:&amp;#13;
+&amp;#13;
+Host  Path    Backends&amp;#13;
+----  ----    --------&amp;#13;
+*&amp;#13;
+/login                  composer:8080 (&amp;lt;none&amp;gt;)&amp;#13;
+/chain/blocks/0         vp0:7050 ()&amp;#13;
+&amp;#13;
+&amp;#13;
+3.5&amp;#13;
+&lt;strong&gt;$ oc logs vp0-2099924350-5393f -c vp0&lt;/strong&gt;&amp;#13;
+&amp;#13;
+2017-10-12 08:32:04.927 UTC [nodeCmd] initSysCCs -&amp;gt; INFO 189 Deployed system chaincodess&amp;#13;
+2017-10-12 08:32:04.927 UTC [nodeCmd] serve -&amp;gt; INFO 18a Starting peer with ID=[name:&quot;vp0&quot; ], network ID=[dev], address=[172.21.0.18:7051]&amp;#13;
+2017-10-12 08:32:04.928 UTC [nodeCmd] serve -&amp;gt; INFO 18b Started peer with ID=[name:&quot;vp0&quot; ], network ID=[dev], address=[172.21.0.18:7051]&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;After some time, refreshing the servicegraph page in the browser displays the added microservices:&lt;/p&gt;&amp;#13;
+&amp;#13;
+&lt;img class=&quot;wp-image-14297 size-full&quot; src=&quot;https://blog.openshift.com/wp-content/uploads/service_connected.png&quot; alt=&quot;&quot; width=&quot;680&quot; height=&quot;208&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/service_connected.png 680w, https://blog.openshift.com/wp-content/uploads/service_connected-300x92.png 300w&quot; sizes=&quot;(max-width: 680px) 100vw, 680px&quot;/&gt;3 new microservice pods added to the service mesh&amp;#13;
+&amp;#13;
+&lt;p&gt;Prometheus is deployed as an add-on to Istio and is required in order for servicegraph to work correctly, otherwise, pod metrics won’t be scraped.&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+spec:&amp;#13;
+containers:&amp;#13;
+- name: servicegraph&amp;#13;
+image: docker.io/istio/servicegraph:0.2.7&amp;#13;
+ports:&amp;#13;
+- containerPort: 8088&amp;#13;
+args:&amp;#13;
+- --prometheusAddr=http://prometheus:9090&amp;#13;
+&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;You can also query all kind of metrics in the prometheus/graph. For example request_count.&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+request_count{destination_service=&quot;composer.istio-system.svc.cluster.local&quot;,destination_version=&quot;unknown&quot;,instance=&quot;istio-mixer.istio-system:42422&quot;,job=&quot;istio-mesh&quot;,response_code=&quot;200&quot;,source_service=&quot;unknown&quot;,source_version=&quot;unknown&quot;}&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;p&gt;Hyperledger Composer is the UI and uses mostly HTTP traffic, while the Hyperledger fabric peer generally uses both HTTP and GRPC endpoints.&lt;/p&gt;&amp;#13;
+&lt;h2&gt;Summary&lt;/h2&gt;&amp;#13;
+&lt;p&gt;The purpose here was to describe and visualize how the service mesh is created and connected, without being concerned about the details of the individual components or even about how they operate internally.&lt;/p&gt;&amp;#13;
+&lt;p&gt;You may also be interested in a very simple Hyperledger-based blockchain playground environment running on a protocol agnostic service mesh we have recently deployed. The full deployment is described in a file called &lt;a href=&quot;https://gist.github.com/rflorenc/09a0ded5de183e3158c5ce405d89a306&quot;&gt;blockchain.yaml&lt;/a&gt;.&lt;/p&gt;&amp;#13;
+&lt;dl class=&quot;cat-tags clearfix row&quot;&gt;&lt;dt&gt;Categories&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/category/news/&quot; rel=&quot;category tag&quot;&gt;News&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/products/openshift-container-platform/&quot; rel=&quot;category tag&quot;&gt;OpenShift Container Platform&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/openshift-ecosystem/&quot; rel=&quot;category tag&quot;&gt;OpenShift Ecosystem&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/products/openshift-origin/&quot; rel=&quot;category tag&quot;&gt;OpenShift Origin&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;dt&gt;Tags&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/tag/envoy/&quot; rel=&quot;tag&quot;&gt;envoy&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/istio/&quot; rel=&quot;tag&quot;&gt;Istio&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;/dl&gt;</description>
+<pubDate>Tue, 31 Oct 2017 14:30:27 +0000</pubDate>
+<dc:creator>Ricardo Lourenco</dc:creator>
+<og:type>article</og:type>
+<og:title>Istio Traffic Management - Diving Deeper – OpenShift Blog</og:title>
+<og:description>Visualize how the service mesh is created and connected and deploy a custom app on Istio, going beyond the commonly found BookInfo sample app tutorials.</og:description>
+<og:url>https://blog.openshift.com/istio-traffic-management-diving-deeper/</og:url>
+<og:image>https://blog.openshift.com/wp-content/uploads/skydive-1.png</og:image>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.openshift.com/istio-traffic-management-diving-deeper/</dc:identifier>
+<category>News</category>
+<category>OpenShift Container Platform</category>
+<category>OpenShift Ecosystem</category>
+<category>OpenShift Origin</category>
+<category>envoy</category>
+<category>Istio</category>
+</item>
+<item>
+<title>[Podcast] PodCTL #12 – Introduction to CRI-O</title>
+<link>https://blog.openshift.com/podcast-podctl-12-introduction-to-cri-o/</link>
+<guid isPermaLink="true" >https://blog.openshift.com/podcast-podctl-12-introduction-to-cri-o/</guid>
+<description>&lt;p&gt;&lt;img class=&quot;alignright size-medium wp-image-13230&quot; src=&quot;https://blog.openshift.com/wp-content/uploads/PodCTL-Logo-RedHat-300x226.png&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;226&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/PodCTL-Logo-RedHat-300x226.png 300w, https://blog.openshift.com/wp-content/uploads/PodCTL-Logo-RedHat-768x578.png 768w, https://blog.openshift.com/wp-content/uploads/PodCTL-Logo-RedHat-1024x770.png 1024w, https://blog.openshift.com/wp-content/uploads/PodCTL-Logo-RedHat.png 1514w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot;/&gt;While the industry has standardized on Kubernetes as the container orchestration standard, there is still quite a bit of choice and innovation that is happening around container standards.&lt;/p&gt;&amp;#13;
+&lt;p&gt;In this week’s episode, we talk with Dan Walsh (@rhatdan, Consulting Engineer at Red Hat, container team lead) and Mrunal Patel (@mrunalp, Principal Engineer at Red Hat, OCI/runc maintainer) about the evolution of container standards, and how CRI-O has evolved as an option for simplified, secure interaction with Kubernetes and OCI-compliant container images.&lt;/p&gt;&amp;#13;
+&lt;p&gt;The show will always be available on this blog (&lt;a href=&quot;https://blog.openshift.com/search/?refinement=blog&amp;amp;query=PodCTL&quot;&gt;search: #PodCTL&lt;/a&gt;), as well as &lt;a href=&quot;http://bit.ly/2uWqaHe&quot;&gt;RSS Feeds&lt;/a&gt;, &lt;a href=&quot;https://itunes.apple.com/us/podcast/podctl-1-3-6-ways-to-love-kubernetes/id1270983443?i=1000390948443&amp;amp;mt=2&quot;&gt;iTunes&lt;/a&gt;, &lt;a href=&quot;http://bit.ly/2uIGoo5&quot;&gt;Google Play&lt;/a&gt;, &lt;a href=&quot;https://soundcloud.com/user-822729808&quot;&gt;SoundCloud&lt;/a&gt;, &lt;a href=&quot;http://bit.ly/2vWmZnG&quot;&gt;Stitcher&lt;/a&gt;, &lt;a href=&quot;https://tunein.com/radio/PodCTL---Containers--Kubernetes--OpenShift-p1024049/&quot;&gt;TuneIn&lt;/a&gt; and all your favorite podcast players.&lt;/p&gt;&amp;#13;
+&amp;#13;
+&amp;#13;
+&lt;dl class=&quot;cat-tags clearfix row&quot;&gt;&lt;dt&gt;Categories&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/category/containers/&quot; rel=&quot;category tag&quot;&gt;Containers&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/kubernetes/&quot; rel=&quot;category tag&quot;&gt;Kubernetes&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/products/openshift-container-platform/&quot; rel=&quot;category tag&quot;&gt;OpenShift Container Platform&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/openshift-ecosystem/&quot; rel=&quot;category tag&quot;&gt;OpenShift Ecosystem&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/category/thought-leadership/&quot; rel=&quot;category tag&quot;&gt;Thought Leadership&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;dt&gt;Tags&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/tag/buildah/&quot; rel=&quot;tag&quot;&gt;buildah&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/cncf/&quot; rel=&quot;tag&quot;&gt;CNCF&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/coreos/&quot; rel=&quot;tag&quot;&gt;CoreOS&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/cri/&quot; rel=&quot;tag&quot;&gt;CRI&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/cri-o/&quot; rel=&quot;tag&quot;&gt;CRI-O&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/dan-walsh/&quot; rel=&quot;tag&quot;&gt;Dan Walsh&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/docker/&quot; rel=&quot;tag&quot;&gt;Docker&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/grafeas/&quot; rel=&quot;tag&quot;&gt;Grafeas&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/intel-clear-containers/&quot; rel=&quot;tag&quot;&gt;Intel Clear Containers&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/kubernetes/&quot; rel=&quot;tag&quot;&gt;Kubernetes&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/mrunal-patel/&quot; rel=&quot;tag&quot;&gt;Mrunal Patel&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/oci/&quot; rel=&quot;tag&quot;&gt;OCI&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/podctl/&quot; rel=&quot;tag&quot;&gt;PodCTL&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/skopeo/&quot; rel=&quot;tag&quot;&gt;Skopeo&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;/dl&gt;</description>
+<pubDate>Mon, 30 Oct 2017 07:00:16 +0000</pubDate>
+<dc:creator>Brian Gracely</dc:creator>
+<og:type>article</og:type>
+<og:title>[Podcast] PodCTL #12 - Introduction to CRI-O – OpenShift Blog</og:title>
+<og:description>A look at the history of container standards and the interaction between Kubernetes and containers. A focus on CRI-O.</og:description>
+<og:url>https://blog.openshift.com/podcast-podctl-12-introduction-to-cri-o/</og:url>
+<og:image>https://blog.openshift.com/wp-content/uploads/PodCTL-Logo-RedHat.png</og:image>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.openshift.com/podcast-podctl-12-introduction-to-cri-o/</dc:identifier>
+<category>Containers</category>
+<category>Kubernetes</category>
+<category>OpenShift Container Platform</category>
+<category>OpenShift Ecosystem</category>
+<category>Thought Leadership</category>
+<category>buildah</category>
+<category>CNCF</category>
+<category>CoreOS</category>
+<category>CRI</category>
+<category>CRI-O</category>
+<category>Dan Walsh</category>
+<category>Docker</category>
+<category>Grafeas</category>
+<category>Intel Clear Containers</category>
+<category>Mrunal Patel</category>
+<category>OCI</category>
+<category>PodCTL</category>
+<category>Skopeo</category>
+</item>
+<item>
+<title>Deploy Monocular on OpenShift</title>
+<link>https://blog.openshift.com/deploy-monocular-openshift/</link>
+<guid isPermaLink="true" >https://blog.openshift.com/deploy-monocular-openshift/</guid>
+<description>&lt;p&gt;As a follow-up to &lt;a href=&quot;https://blog.openshift.com/getting-started-helm-openshift&quot;&gt;Getting started with Helm on OpenShift&lt;/a&gt; and &lt;a href=&quot;https://blog.openshift.com/deploy-helm-charts-minishifts-openshift-local-development&quot;&gt;Deploy Helm Charts on Minishift’s OpenShift for Local Development&lt;/a&gt;, this post provides instructions for deploying Monocular on top of a running OpenShift instance.&lt;br/&gt;&amp;#13;
+I’m assuming you have already deployed Helm (client and server side) within your cluster, for instance using &lt;code&gt;oc cluster up&lt;/code&gt;.&lt;/p&gt;&amp;#13;
+&lt;p&gt;Note that this post is solely an illustration of how OpenShift, Monocular, and Helm can run together; Helm and Monocular are not technologies supported by Red Hat. If you are looking for a Red Hat supported way to define and install applications, please see &lt;a href=&quot;https://docs.openshift.org/latest/dev_guide/templates.html&quot;&gt;OpenShift Templates&lt;/a&gt; and &lt;a href=&quot;https://www.ansible.com/&quot;&gt;Ansible&lt;/a&gt;.&lt;/p&gt;&amp;#13;
+&lt;h2&gt;What the Helm is Monocular?&lt;/h2&gt;&amp;#13;
+&lt;p&gt;Monocular is a web-based UI for managing Kubernetes applications packaged as Helm Charts.&lt;br/&gt;&amp;#13;
+It allows you to search and discover available charts from multiple repositories, and install them in your cluster with one click.&lt;/p&gt;&amp;#13;
+&lt;h2&gt;Instructions&lt;/h2&gt;&amp;#13;
+&lt;p&gt;The following commands are used to:&lt;/p&gt;&amp;#13;
+&lt;ul&gt;&lt;li&gt;To set the DOMAIN variable. Adapt accordingly&lt;/li&gt;&amp;#13;
+&lt;li&gt;To set the TILLER_NAMESPACE variable so it indicates in which namespace the server side of helm lives&lt;/li&gt;&amp;#13;
+&lt;li&gt;Add the Helm repository containing the Monocular chart.&lt;/li&gt;&amp;#13;
+&lt;li&gt;Install Monocular using chart and setting relevant parameters (basically the URL where you can find the API component). We’re also disabling persistence because of some issues that we found&lt;/li&gt;&amp;#13;
+&lt;li&gt;Expose routes for both the UI and the API. Note that a route for the API is also needed as per the design of this application.&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;p&gt;Also note that we are logging as an admin user, so you will need to have this kind of privileges in your setup.&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;DOMAIN=&quot;192.168.122.106.xip.io&quot;&amp;#13;
+oc login -u system:admin&amp;#13;
+export TILLER_NAMESPACE=helm&amp;#13;
+MONOCULAR_API_URL=&quot;monocular-api.$DOMAIN&quot;&amp;#13;
+MONOCULAR_UI_URL=&quot;monocular.$DOMAIN&quot;&amp;#13;
+MONOCULAR_NAMESPACE=&quot;monocular&quot;&amp;#13;
+oc project $MONOCULAR_NAMESPACE&amp;#13;
+oc adm policy add-scc-to-user anyuid -z default -n $MONOCULAR_NAMESPACE&amp;#13;
+helm repo add monocular https://kubernetes-helm.github.io/monocular&amp;#13;
+helm install --name monocular --set api.config.releasesEnabled=true,ui.backendHostname=http://$MONOCULAR_API_URL,api.config.cors.allowed_origins={http://$MONOCULAR_UI_URL},api.config.tillerNamespace=$TILLER_NAMESPACE,mongodb.persistence.enabled=false monocular/monocular&amp;#13;
+oc expose svc monocular-monocular-api --hostname=$MONOCULAR_API_URL&amp;#13;
+oc expose svc monocular-monocular-ui --hostname=$MONOCULAR_UI_URL&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;h2&gt;Check Monocular is Up&lt;/h2&gt;&amp;#13;
+&lt;p&gt;You can use the following to see pods are properly running:&lt;/p&gt;&amp;#13;
+&lt;pre&gt;&amp;#13;
+&lt;code&gt;oc get pod&amp;#13;
+NAME                                             READY     STATUS    RESTARTS   AGE&amp;#13;
+monocular-mongodb-768848964-56lw6                1/1       Running   0          7m&amp;#13;
+monocular-monocular-api-1619026850-6xfl2         1/1       Running   2          7m&amp;#13;
+monocular-monocular-api-1619026850-v2v70         1/1       Running   2          7m&amp;#13;
+monocular-monocular-prerender-2060794013-4kh2v   1/1       Running   0          7m&amp;#13;
+monocular-monocular-ui-2454826279-fwffk          1/1       Running   0          7m&amp;#13;
+monocular-monocular-ui-2454826279-kq06j          1/1       Running   0          7m&amp;#13;
+&lt;/code&gt;&amp;#13;
+&lt;/pre&gt;&amp;#13;
+&lt;h2&gt;Use Monocular&lt;/h2&gt;&amp;#13;
+&lt;p&gt;You can now access Monocular using the provided route (&lt;em&gt;monocular.$DOMAIN&lt;/em&gt;, in my case) and browse charts and their information.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;img src=&quot;https://blog.openshift.com/wp-content/uploads/monocular_ui-1024x576.png&quot; alt=&quot;&quot; width=&quot;1024&quot; height=&quot;576&quot; class=&quot;aligncenter size-large wp-image-13916&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/monocular_ui-1024x576.png 1024w, https://blog.openshift.com/wp-content/uploads/monocular_ui-300x169.png 300w, https://blog.openshift.com/wp-content/uploads/monocular_ui-768x432.png 768w&quot; sizes=&quot;(max-width: 1024px) 100vw, 1024px&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;You can also easily deploy or delete charts.&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;img src=&quot;https://blog.openshift.com/wp-content/uploads/monocular_chronograf.png&quot; alt=&quot;&quot; width=&quot;1519&quot; height=&quot;866&quot; class=&quot;alignnone size-full wp-image-14357&quot; srcset=&quot;https://blog.openshift.com/wp-content/uploads/monocular_chronograf.png 1519w, https://blog.openshift.com/wp-content/uploads/monocular_chronograf-300x171.png 300w, https://blog.openshift.com/wp-content/uploads/monocular_chronograf-768x438.png 768w, https://blog.openshift.com/wp-content/uploads/monocular_chronograf-1024x584.png 1024w&quot; sizes=&quot;(max-width: 1519px) 100vw, 1519px&quot;/&gt;&lt;/p&gt;&amp;#13;
+&lt;h2&gt;Conclusion&lt;/h2&gt;&amp;#13;
+&lt;p&gt;If you’re deploying your applications using Helm, Monocular provides a convenient way to visualize the metadata of the charts. You get some really good information and actually have the option to deploy straight from the UI. I know there are many options for deployment, but don’t they say the more the merrier!&lt;/p&gt;&amp;#13;
+&lt;dl class=&quot;cat-tags clearfix row&quot;&gt;&lt;dt&gt;Categories&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/category/products/openshift-container-platform/&quot; rel=&quot;category tag&quot;&gt;OpenShift Container Platform&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;dt&gt;Tags&lt;/dt&gt;&amp;#13;
+&lt;dd&gt;&lt;a href=&quot;https://blog.openshift.com/tag/helm/&quot; rel=&quot;tag&quot;&gt;helm&lt;/a&gt;, &lt;a href=&quot;https://blog.openshift.com/tag/monocular/&quot; rel=&quot;tag&quot;&gt;monocular&lt;/a&gt;&lt;/dd&gt;&amp;#13;
+&lt;/dl&gt;</description>
+<pubDate>Tue, 24 Oct 2017 21:00:54 +0000</pubDate>
+<dc:creator>Karim Boumedhel</dc:creator>
+<og:type>article</og:type>
+<og:title>Deploy Monocular on OpenShift – OpenShift Blog</og:title>
+<og:description>Deploy Monocular, a web-based UI for managing Kubernetes applications packaged as Helm Charts, on top of a running OpenShift instance.</og:description>
+<og:url>https://blog.openshift.com/deploy-monocular-openshift/</og:url>
+<og:image>https://blog.openshift.com/wp-content/uploads/monocular.png</og:image>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.openshift.com/deploy-monocular-openshift/</dc:identifier>
+<category>OpenShift Container Platform</category>
+<category>helm</category>
+<category>monocular</category>
+</item>
+</channel>
+</rss>

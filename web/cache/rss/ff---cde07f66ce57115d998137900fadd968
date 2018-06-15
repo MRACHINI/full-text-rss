@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:og="http://ogp.me/ns#">
+<channel>
+<atom:link rel="self" href="http://ftr.rachini.com/makefulltextfeed.php?url=https%3A%2F%2Fwww.mikrotik-routeros.com%2Ffeed" />
+<atom:link rel="alternate" title="Source URL" href="https://www.mikrotik-routeros.com/feed" />
+<atom:link rel="related" title="Subscribe to feed" href="http://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dhttps%253A%252F%252Fwww.mikrotik-routeros.com%252Ffeed&amp;back=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dhttps%253A%252F%252Fwww.mikrotik-routeros.com%252Ffeed" />
+<title>The (unofficial) Mikrotik site</title>
+<link>https://www.mikrotik-routeros.com</link>
+<description>Tips, Tricks, Scripts and Support.</description>
+<item>
+<title>TheBrothersWISP 56 – #Wispaplooza 2017 Wrap-up, Gear Talk</title>
+<link>https://www.mikrotik-routeros.com/2017/10/thebrotherswisp-56-wispaplooza-2017-wrap-up-gear-talk/</link>
+<guid isPermaLink="true" >https://www.mikrotik-routeros.com/2017/10/thebrotherswisp-56-wispaplooza-2017-wrap-up-gear-talk/</guid>
+<description>[unable to retrieve full-text content] Miller, Mike, and Greg talk a bit about what and who they saw at this year&amp;#8217;s show. This cast we talk about: -Sessions Fiber Friday Master Monday -People Too many to name -Gear Netonix Bridgewave Carbon Fiber Towers Keep contacting us: contactus (at) thebrotherswisp.com or https://facebook.com/thebrotherswisp Here&amp;#8217;s the video:(if you don&amp;#8217;t see it, hit &amp;#8230; &lt;a href=&quot;https://www.mikrotik-routeros.com/2017/10/thebrotherswisp-56-wispaplooza-2017-wrap-up-gear-talk/&quot; class=&quot;more-link&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;TheBrothersWISP 56 &amp;#8211; #Wispaplooza 2017 Wrap-up, Gear Talk&lt;/span&gt; &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Mon, 30 Oct 2017 14:31:40 +0000</pubDate>
+<dc:creator>thebrotherswisp</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://www.mikrotik-routeros.com/2017/10/thebrotherswisp-56-wispaplooza-2017-wrap-up-gear-talk/</dc:identifier>
+<category>podcast</category>
+</item>
+<item>
+<title>TheBrothersWISP 55 – BGP Long Path Protection, Ubiquiti Investor Thoughts, Sonar Acquires WispMon</title>
+<link>https://www.mikrotik-routeros.com/2017/10/thebrotherswisp-55-bgp-long-path-protection-ubiquiti-investor-thoughts-sonar-acquires-wispmon/</link>
+<guid isPermaLink="true" >https://www.mikrotik-routeros.com/2017/10/thebrotherswisp-55-bgp-long-path-protection-ubiquiti-investor-thoughts-sonar-acquires-wispmon/</guid>
+<description>[unable to retrieve full-text content] This cast we talk about: Baicells Sponsorship Microcom Sponsorship Baltic Sponsorship Tower Coverage Sponsorship Sponsors need to signup a time for Wispapalooza between Tuesday and Wednesday &amp;#8211; holler at Mike Long path BGP advertisement filtering As per the UBNT investor day, they have no plans to play in the CBRS range Thoughts on recent &amp;#8230; &lt;a href=&quot;https://www.mikrotik-routeros.com/2017/10/thebrotherswisp-55-bgp-long-path-protection-ubiquiti-investor-thoughts-sonar-acquires-wispmon/&quot; class=&quot;more-link&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;TheBrothersWISP 55 &amp;#8211; BGP Long Path Protection, Ubiquiti Investor Thoughts, Sonar Acquires WispMon&lt;/span&gt; &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Mon, 02 Oct 2017 00:57:40 +0000</pubDate>
+<dc:creator>thebrotherswisp</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://www.mikrotik-routeros.com/2017/10/thebrotherswisp-55-bgp-long-path-protection-ubiquiti-investor-thoughts-sonar-acquires-wispmon/</dc:identifier>
+<category>podcast</category>
+</item>
+<item>
+<title>TheBrothesWISP – Cambium Elevate Real World Experience</title>
+<link>https://www.mikrotik-routeros.com/2017/09/thebrotheswisp-cambium-elevate-real-world-experience/</link>
+<guid isPermaLink="true" >https://www.mikrotik-routeros.com/2017/09/thebrotheswisp-cambium-elevate-real-world-experience/</guid>
+<description>[unable to retrieve full-text content] This special cast we have Sakid and Dmitry from Cambium along with, Wilson, Mike, Greg, and special guest Brian Gray. What is Cambium at a glance, what is the difference between PMP and ePMP, what is Elevate and how is it being used in the real world. Brian Gray speaks openly and extremely honestly &amp;#8230; &lt;a href=&quot;https://www.mikrotik-routeros.com/2017/09/thebrotheswisp-cambium-elevate-real-world-experience/&quot; class=&quot;more-link&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;TheBrothesWISP &amp;#8211; Cambium Elevate Real World Experience&lt;/span&gt; &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Tue, 26 Sep 2017 23:04:01 +0000</pubDate>
+<dc:creator>thebrotherswisp</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://www.mikrotik-routeros.com/2017/09/thebrotheswisp-cambium-elevate-real-world-experience/</dc:identifier>
+<category>podcast</category>
+</item>
+<item>
+<title>TheBrothersWISP 54 – Mikrotik Newsletter 78, Ubiquiti UAP‑AC‑SHD, Outdoor Boxes</title>
+<link>https://www.mikrotik-routeros.com/2017/09/thebrotherswisp-54-mikrotik-newsletter-78-ubiquiti-uap%e2%80%91ac%e2%80%91shd-outdoor-boxes/</link>
+<guid isPermaLink="true" >https://www.mikrotik-routeros.com/2017/09/thebrotherswisp-54-mikrotik-newsletter-78-ubiquiti-uap%e2%80%91ac%e2%80%91shd-outdoor-boxes/</guid>
+<description>[unable to retrieve full-text content] Greg, Mr. Wiiiillllsssoooon, Tomas and Mike chat nicely about all vendors great and small 😉 This is the newer, friendlier TBW hehehe. This cast we talk about: Mikrotik newsletter 78 UBNT UAP‑AC‑SHD Outdoor Boxes Tomas Unimus Updates CBRS Rules Keep contacting us: contactus (at) thebrotherswisp.com or https://facebook.com/thebrotherswisp Here&amp;#8217;s the video:(if you don&amp;#8217;t see it, &amp;#8230; &lt;a href=&quot;https://www.mikrotik-routeros.com/2017/09/thebrotherswisp-54-mikrotik-newsletter-78-ubiquiti-uap%e2%80%91ac%e2%80%91shd-outdoor-boxes/&quot; class=&quot;more-link&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;TheBrothersWISP 54 &amp;#8211; Mikrotik Newsletter 78, Ubiquiti UAP‑AC‑SHD, Outdoor Boxes&lt;/span&gt; &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Sun, 17 Sep 2017 17:39:18 +0000</pubDate>
+<dc:creator>thebrotherswisp</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://www.mikrotik-routeros.com/2017/09/thebrotherswisp-54-mikrotik-newsletter-78-ubiquiti-uap%e2%80%91ac%e2%80%91shd-outdoor-boxes/</dc:identifier>
+<category>podcast</category>
+</item>
+<item>
+<title>TheBrothersWISP 53 – Hurricane Harvey, BGP Looking Glass, Thermal Inversion</title>
+<link>https://www.mikrotik-routeros.com/2017/09/thebrotherswisp-53-hurricane-harvey-bgp-looking-glass-thermal-inversion/</link>
+<guid isPermaLink="true" >https://www.mikrotik-routeros.com/2017/09/thebrotherswisp-53-hurricane-harvey-bgp-looking-glass-thermal-inversion/</guid>
+<description>[unable to retrieve full-text content] Greg, Mike, and Miller do the thing with the talking and the laughing. This cast we talk about: Hurricane Harvey BGP Looking Glasses Route Servers CLI Ransomware Thermal Inversions Mike moves cables on his B5cs google dns servers under atttaaaaacccckkkk! Mikrotik wAP60 hit FCC Rain fade calculations Rain fade link 2 Chassis-based Radios Keep &amp;#8230; &lt;a href=&quot;https://www.mikrotik-routeros.com/2017/09/thebrotherswisp-53-hurricane-harvey-bgp-looking-glass-thermal-inversion/&quot; class=&quot;more-link&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;TheBrothersWISP 53 &amp;#8211; Hurricane Harvey, BGP Looking Glass, Thermal Inversion&lt;/span&gt; &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Sun, 03 Sep 2017 13:48:13 +0000</pubDate>
+<dc:creator>thebrotherswisp</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://www.mikrotik-routeros.com/2017/09/thebrotherswisp-53-hurricane-harvey-bgp-looking-glass-thermal-inversion/</dc:identifier>
+<category>podcast</category>
+</item>
+<item>
+<title>TheBrothersWISP 52 – Ubiquiti UCRM vs Aircontrol, BGP to Customers, 100Gb Switch</title>
+<link>https://www.mikrotik-routeros.com/2017/08/thebrotherswisp-52-ubiquiti-ucrm-vs-aircontrol-bgp-to-customers-100gb-switch/</link>
+<guid isPermaLink="true" >https://www.mikrotik-routeros.com/2017/08/thebrotherswisp-52-ubiquiti-ucrm-vs-aircontrol-bgp-to-customers-100gb-switch/</guid>
+<description>[unable to retrieve full-text content] Greg and Mike go down the tangent hole, and have a good time doing it. This cast we talk about: Ubiquti Front Row Ubiquiti UCRM Bridgewave has 10Gb AES 256 80ghz link BGP for redundant customer connections WISPAPALOOZA Calendar Midwest IX is looking for a sales leader Dragonwave Bankruptcy 100G switches Unimus Beta licenses &amp;#8230; &lt;a href=&quot;https://www.mikrotik-routeros.com/2017/08/thebrotherswisp-52-ubiquiti-ucrm-vs-aircontrol-bgp-to-customers-100gb-switch/&quot; class=&quot;more-link&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;TheBrothersWISP 52 &amp;#8211; Ubiquiti UCRM vs Aircontrol, BGP to Customers, 100Gb Switch&lt;/span&gt; &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Sun, 20 Aug 2017 02:57:38 +0000</pubDate>
+<dc:creator>thebrotherswisp</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://www.mikrotik-routeros.com/2017/08/thebrotherswisp-52-ubiquiti-ucrm-vs-aircontrol-bgp-to-customers-100gb-switch/</dc:identifier>
+<category>podcast</category>
+</item>
+<item>
+<title>TheBrothersWISP Special – New MT Chips and Bridging / wireless and UI design</title>
+<link>https://www.mikrotik-routeros.com/2017/07/thebrotherswisp-special-new-mt-chips-and-bridging-wireless-and-ui-design/</link>
+<guid isPermaLink="true" >https://www.mikrotik-routeros.com/2017/07/thebrotherswisp-special-new-mt-chips-and-bridging-wireless-and-ui-design/</guid>
+<description>&lt;div id=&quot;content_div-1305&quot;&gt;&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://thebrotherswisp.com/index.php/thebrotherswisp-special-new-mt-chips-and-bridging-wireless-and-ui-design/&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://thebrotherswisp.com/wp-content/themes/response/images/responselogo.png&quot; class=&quot;alignnone&quot; width=&quot;428&quot; height=&quot;42&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;This is a special cast with Thrift dropping some knowledge bombs on: Wilson, Mike, and Tomas.&lt;/p&gt;&amp;#13;
+&lt;p&gt;This cast we talk about:&lt;br/&gt;&lt;a href=&quot;http://www.marvell.com/switching/prestera-dx/&quot;&gt;New chips&lt;/a&gt; Mikrotik is using in the CRS3xx line.&lt;br/&gt;&amp;#13;
+In particular, these two: &lt;a href=&quot;http://www.marvell.com/docs/switching/assets/marvell-switching-prestera-98dx82xx-product-brief-2014-04.pdf&quot;&gt;CRS317&lt;/a&gt; and &lt;a href=&quot;http://www.marvell.com/docs/switching/assets/marvell-switching-prestera-98dx3xxx-product-brief-2014-03.pdf&quot;&gt;CRS326&lt;/a&gt;&lt;br/&gt;&lt;a href=&quot;https://www.marvell.com/docs/switching/assets/marvell-switching-network-virtualization-white-paper-2015-08.pdf&quot;&gt;Here’s a bit of information on what Marvell’s eBridge functionality means&lt;/a&gt;&lt;br/&gt;&lt;a href=&quot;https://www.marvell.com/docs/switching/assets/marvell-switching-carrier-ethernet-white-paper-2015-06.pdf&quot;&gt;Here’s a bit on Carrier Ethernet&lt;/a&gt;&lt;br/&gt;&lt;a href=&quot;https://wiki.mikrotik.com/wiki/Manual:Switch_Chip_Features#Bridge_Hardware_Offloading&quot;&gt;Mikrotik’s bridge hardware offloading&lt;/a&gt;&lt;br/&gt;&lt;a href=&quot;https://wiki.mikrotik.com/wiki/Manual:Nv2#Nv2_AP_Synchronization&quot;&gt;NV2 AP Sync&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;Keep contacting us: contactus (at) thebrotherswisp.com or &lt;a href=&quot;https://www.facebook.com/thebrotherswisp&quot;&gt;https://facebook.com/thebrotherswisp&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Here’s the video:&lt;/strong&gt;(if you don’t see it, hit refresh)&lt;br/&gt;&lt;span class=&quot;embed-youtube&quot;&gt;&lt;iframe class=&quot;youtube-player&quot; type=&quot;text/html&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/hNXRhe0JBU4?version=3&amp;amp;rel=0&amp;amp;fs=1&amp;amp;autohide=2&amp;amp;showsearch=0&amp;amp;showinfo=1&amp;amp;iv_load_policy=1&amp;amp;wmode=transparent&quot; allowfullscreen=&quot;true&quot;&gt;[embedded content]&lt;/iframe&gt;&lt;/span&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://thebrotherswisp.com/?feed=podcast&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://thebrotherswisp.com/img/feedlink.png&quot; title=&quot;Feed&quot; class=&quot;alignnone&quot; width=&quot;576&quot; height=&quot;108&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;div class=&quot;sharedaddy sd-sharing-enabled&quot;&gt;&amp;#13;
+&lt;div class=&quot;robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing&quot;&gt;&amp;#13;
+&lt;h3 class=&quot;sd-title&quot;&gt;Share this:&lt;/h3&gt;&amp;#13;
+&amp;#13;
+&lt;/div&gt;&amp;#13;
+&lt;/div&gt;&amp;#13;
+&amp;#13;
+&lt;/div&gt;&amp;#13;
+&amp;#13;
+</description>
+<pubDate>Mon, 31 Jul 2017 13:47:01 +0000</pubDate>
+<dc:creator>thebrotherswisp</dc:creator>
+<og:type>article</og:type>
+<og:title>TheBrothersWISP Special - New MT Chips and Bridging / wireless and UI design</og:title>
+<og:url>https://www.mikrotik-routeros.com/2017/07/thebrotherswisp-special-new-mt-chips-and-bridging-wireless-and-ui-design/</og:url>
+<og:image>http://thebrotherswisp.com/img/feedlink.png</og:image>
+<og:description> This is a special cast with Thrift dropping some knowledge bombs on: Wilson, Mike, and Tomas. This cast we talk about: New chips Mikrotik is using in the CRS3xx line. In particular, these two: CRS317 and CRS326 Here's a bit of information on what ...</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://www.mikrotik-routeros.com/2017/07/thebrotherswisp-special-new-mt-chips-and-bridging-wireless-and-ui-design/</dc:identifier>
+<category>podcast</category>
+</item>
+<item>
+<title>TheBrothersWISP 51 – UBNT Signed Firmware, New FCC Spectrum, VMware Vs Native VLAN</title>
+<link>https://www.mikrotik-routeros.com/2017/07/thebrotherswisp-51-ubnt-signed-firmware-new-fcc-spectrum-vmware-vs-native-vlan/</link>
+<guid isPermaLink="true" >https://www.mikrotik-routeros.com/2017/07/thebrotherswisp-51-ubnt-signed-firmware-new-fcc-spectrum-vmware-vs-native-vlan/</guid>
+<description>&lt;div id=&quot;content_div-1301&quot;&gt;&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://thebrotherswisp.com/index.php/thebrotherswisp-51-ubnt-signed-firmware-new-fcc-spectrum-vmware-vs-native-vlan/&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://thebrotherswisp.com/wp-content/themes/response/images/responselogo.png&quot; class=&quot;alignnone&quot; width=&quot;428&quot; height=&quot;42&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;We have the lovely Greg, the sleepy Tomas, and the sassy Mike. We talk the talk, though it’s too hot for anyone to walk the walk.&lt;/p&gt;&amp;#13;
+&lt;p&gt;This cast we talk about:&lt;br/&gt;&lt;a href=&quot;https://www.rfelements.com/calc/&quot;&gt;RF elements link calculator for horns&lt;/a&gt;&lt;br/&gt;&lt;a href=&quot;https://www.facebook.com/thebrotherswisp/posts/1259845077474275&quot;&gt;Ubiquiti blocking cambium elevate code&lt;/a&gt;&lt;br/&gt;&amp;#13;
+Native VTLAN on a trunked port doesn’t seem to work on VMWare&lt;br/&gt;&amp;#13;
+Mike bitches about people in FB groups LOL&lt;br/&gt;&amp;#13;
+MM using 40km SM optics and modeconditioning patch cables was a bust – try 2km 100mb optics&lt;br/&gt;&amp;#13;
+LTE Questions&lt;br/&gt;&amp;#13;
+MT hardware offload bridging released, then pulled&lt;br/&gt;&amp;#13;
+FCC Net Neutrality (brief)&lt;br/&gt;&amp;#13;
+FCC 3550 – 3700 (brief)&lt;br/&gt;&amp;#13;
+FCC 3700 – 4200 (brief)&lt;br/&gt;&amp;#13;
+bob and chuck&lt;br/&gt;&lt;a href=&quot;http://unimus.net&quot;&gt;Unimus 1.0&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;Keep contacting us: contactus (at) thebrotherswisp.com or &lt;a href=&quot;https://www.facebook.com/thebrotherswisp&quot;&gt;https://facebook.com/thebrotherswisp&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;strong&gt;Here’s the video:&lt;/strong&gt;(if you don’t see it, hit refresh)&lt;br/&gt;&lt;span class=&quot;embed-youtube&quot;&gt;&lt;iframe class=&quot;youtube-player&quot; type=&quot;text/html&quot; width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.youtube.com/embed/t3ZOgb9v_R8?version=3&amp;amp;rel=1&amp;amp;fs=1&amp;amp;autohide=2&amp;amp;showsearch=0&amp;amp;showinfo=1&amp;amp;iv_load_policy=1&amp;amp;wmode=transparent&quot; allowfullscreen=&quot;true&quot;&gt;[embedded content]&lt;/iframe&gt;&lt;/span&gt;&lt;/p&gt;&amp;#13;
+&lt;p&gt;&lt;a href=&quot;http://thebrotherswisp.com/?feed=podcast&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;http://thebrotherswisp.com/img/feedlink.png&quot; title=&quot;Feed&quot; class=&quot;alignnone&quot; width=&quot;576&quot; height=&quot;108&quot;/&gt;&lt;/a&gt;&lt;/p&gt;&amp;#13;
+&lt;div class=&quot;sharedaddy sd-sharing-enabled&quot;&gt;&amp;#13;
+&lt;div class=&quot;robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing&quot;&gt;&amp;#13;
+&lt;h3 class=&quot;sd-title&quot;&gt;Share this:&lt;/h3&gt;&amp;#13;
+&amp;#13;
+&lt;/div&gt;&amp;#13;
+&lt;/div&gt;&amp;#13;
+&amp;#13;
+&lt;/div&gt;&amp;#13;
+&amp;#13;
+</description>
+<pubDate>Mon, 24 Jul 2017 02:01:57 +0000</pubDate>
+<dc:creator>thebrotherswisp</dc:creator>
+<og:type>article</og:type>
+<og:title>TheBrothersWISP 51 – UBNT Signed Firmware, New FCC Spectrum, VMware Vs Native VLAN</og:title>
+<og:url>https://www.mikrotik-routeros.com/2017/07/thebrotherswisp-51-ubnt-signed-firmware-new-fcc-spectrum-vmware-vs-native-vlan/</og:url>
+<og:image>http://thebrotherswisp.com/img/feedlink.png</og:image>
+<og:description> We have the lovely Greg, the sleepy Tomas, and the sassy Mike. We talk the talk, though it's too hot for anyone to walk the walk. This cast we talk about: RF elements link calculator for horns Ubiquiti blocking cambium elevate code Native VTLAN on a ...</og:description>
+<dc:language>en-US</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://www.mikrotik-routeros.com/2017/07/thebrotherswisp-51-ubnt-signed-firmware-new-fcc-spectrum-vmware-vs-native-vlan/</dc:identifier>
+<category>podcast</category>
+</item>
+<item>
+<title>TheBrothersWISP 50 – Elevate On Mikrotik, New Mikrotik Bridging, iBGP Full Mesh Or Nah</title>
+<link>https://www.mikrotik-routeros.com/2017/07/thebrotherswisp-50-elevate-on-mikrotik-new-mikrotik-bridging-ibgp-full-mesh-or-nah/</link>
+<guid isPermaLink="true" >https://www.mikrotik-routeros.com/2017/07/thebrotherswisp-50-elevate-on-mikrotik-new-mikrotik-bridging-ibgp-full-mesh-or-nah/</guid>
+<description>[unable to retrieve full-text content] It&amp;#8217;s Greg, Tomas(of course), and Miller catching up on a few network related thing-o&amp;#8217;s. This cast we talk about: UBNT switch through the FCC, has built in wireless UBNT ONT NanoG Note &amp;#8211; Cambium ePMP exploit out/update fools Mike and company do a DNS video Cambium Elevate on MikroTik MikroTik new bridging in 6.40rc &amp;#8230; &lt;a href=&quot;https://www.mikrotik-routeros.com/2017/07/thebrotherswisp-50-elevate-on-mikrotik-new-mikrotik-bridging-ibgp-full-mesh-or-nah/&quot; class=&quot;more-link&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;TheBrothersWISP 50 – Elevate On Mikrotik, New Mikrotik Bridging, iBGP Full Mesh Or Nah&lt;/span&gt; &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Mon, 10 Jul 2017 13:31:35 +0000</pubDate>
+<dc:creator>thebrotherswisp</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://www.mikrotik-routeros.com/2017/07/thebrotherswisp-50-elevate-on-mikrotik-new-mikrotik-bridging-ibgp-full-mesh-or-nah/</dc:identifier>
+<category>podcast</category>
+</item>
+<item>
+<title>TheBrothersWISP 49 – Mesh Networking, Get Started In Automation, Customer Service</title>
+<link>https://www.mikrotik-routeros.com/2017/06/thebrotherswisp-49-mesh-networking-get-started-in-automation-customer-service/</link>
+<guid isPermaLink="true" >https://www.mikrotik-routeros.com/2017/06/thebrotherswisp-49-mesh-networking-get-started-in-automation-customer-service/</guid>
+<description>[unable to retrieve full-text content] Greg grills the Slovakian Robot(Tomas) on some random things. This cast we talk about: Some automation getting started tips(plink, expect scripts, ansible) Success stories from Unimus thus far Speed and quality of services to customers PPPoE VPN issues Tomas worked out Favorite thing you are watching on TV right now Keep contacting us: contactus &amp;#8230; &lt;a href=&quot;https://www.mikrotik-routeros.com/2017/06/thebrotherswisp-49-mesh-networking-get-started-in-automation-customer-service/&quot; class=&quot;more-link&quot;&gt;Continue reading &lt;span class=&quot;screen-reader-text&quot;&gt;TheBrothersWISP 49 – Mesh Networking, Get Started In Automation, Customer Service&lt;/span&gt; &lt;span class=&quot;meta-nav&quot;&gt;&amp;#8594;&lt;/span&gt;&lt;/a&gt;</description>
+<pubDate>Mon, 26 Jun 2017 00:01:37 +0000</pubDate>
+<dc:creator>thebrotherswisp</dc:creator>
+<dc:language>en-US</dc:language>
+<dc:identifier>https://www.mikrotik-routeros.com/2017/06/thebrotherswisp-49-mesh-networking-get-started-in-automation-customer-service/</dc:identifier>
+<category>podcast</category>
+</item>
+</channel>
+</rss>

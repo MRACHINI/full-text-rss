@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:og="http://ogp.me/ns#">
+<channel>
+<atom:link rel="self" href="http://ftr.rachini.com/makefulltextfeed.php?url=feeds.feedburner.com%2Fengineerguycompodcast" />
+<atom:link rel="alternate" title="Source URL" href="http://feeds.feedburner.com/engineerguycompodcast" />
+<atom:link rel="related" title="Subscribe to feed" href="http://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dfeeds.feedburner.com%252Fengineerguycompodcast&amp;back=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dfeeds.feedburner.com%252Fengineerguycompodcast" />
+<title>Engineerguy videos &amp;amp; audio</title>
+<link>http://www.engineerguy.com</link>
+<description>Bill Hammack's audio and video work emphasizes the creative role of engineers in designing and creating our world. He's a regular commentator on radio - based at Illinois Public Radio in Urbana he's appeared on public radio's premier business program Marketplace, and on Radio National Australia's Science Show. Many engineering, science, and journalistic groups have recognized his work.</description>
+<image><title>Engineerguy videos &amp;amp; audio</title>
+<link>http://www.engineerguy.com</link>
+<url>http://www.engineerguy.com/rss/hammack-head-shot.jpg</url>
+</image>
+<item>
+<title>Bonus: Rocker arms: sinusoids in two different directions</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/uQeNafL7cu8/engineerguy-analyzer-fourier-107-rocker-arms.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/uQeNafL7cu8/engineerguy-analyzer-fourier-107-rocker-arms.mp4</guid>
+<description>&lt;a href=&quot;http://www.engineerguy.com/fourier-podcast-feed/engineerguy-analyzer-fourier-107-rocker-arms.mp4&quot;&gt;Download Video&lt;/a&gt;</description>
+<pubDate>Wed, 26 Nov 2014 01:03:02 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:format>video/mpeg</dc:format>
+<dc:identifier>http://www.engineerguy.com/fourier-podcast-feed/engineerguy-analyzer-fourier-107-rocker-arms.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/uQeNafL7cu8/engineerguy-analyzer-fourier-107-rocker-arms.mp4"  fileSize="309899233"  type="video/mp4"  expression="full"  duration="1048" ></media:content>
+</item>
+<item>
+<title>Bonus: Watch the machine spin around over and over...</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/m0yVrqqe5c4/engineerguy-analyzer-fourier-106-machine-spin.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/m0yVrqqe5c4/engineerguy-analyzer-fourier-106-machine-spin.mp4</guid>
+<description>&lt;a href=&quot;http://www.engineerguy.com/fourier-podcast-feed/engineerguy-analyzer-fourier-106-machine-spin.mp4&quot;&gt;Download Video&lt;/a&gt;</description>
+<pubDate>Wed, 26 Nov 2014 00:34:26 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:format>video/mpeg</dc:format>
+<dc:identifier>http://www.engineerguy.com/fourier-podcast-feed/engineerguy-analyzer-fourier-106-machine-spin.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/m0yVrqqe5c4/engineerguy-analyzer-fourier-106-machine-spin.mp4"  fileSize="51295087"  type="video/mp4"  expression="full"  duration="173" ></media:content>
+</item>
+<item>
+<title>Page-by-Page Guide to the Free PDF of the Book Albert Michelson&amp;#039;s Harmonic Analyzer</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/LAFZwrikags/engineerguy-analyzer-fourier-105-commentary.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/LAFZwrikags/engineerguy-analyzer-fourier-105-commentary.mp4</guid>
+<description>&lt;a href=&quot;http://www.engineerguy.com/fourier-podcast-feed/engineerguy-analyzer-fourier-105-commentary.mp4&quot;&gt;Download Video&lt;/a&gt;</description>
+<pubDate>Wed, 26 Nov 2014 00:32:04 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:format>video/mpeg</dc:format>
+<dc:identifier>http://www.engineerguy.com/fourier-podcast-feed/engineerguy-analyzer-fourier-105-commentary.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/LAFZwrikags/engineerguy-analyzer-fourier-105-commentary.mp4"  fileSize="347465620"  type="video/mp4"  expression="full"  duration="1184" ></media:content>
+</item>
+<item>
+<title>(4/4) Operation: The details of setting up the Harmonic Analyzer</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/-qAvqR2gL_w/engineerguy-analyzer-fourier-104-operation.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/-qAvqR2gL_w/engineerguy-analyzer-fourier-104-operation.mp4</guid>
+<description>&lt;a href=&quot;http://www.engineerguy.com/fourier-podcast-feed/engineerguy-analyzer-fourier-104-operation.mp4&quot;&gt;Download Video&lt;/a&gt;</description>
+<pubDate>Wed, 26 Nov 2014 02:24:21 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:format>video/mpeg</dc:format>
+<dc:identifier>http://www.engineerguy.com/fourier-podcast-feed/engineerguy-analyzer-fourier-104-operation.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/-qAvqR2gL_w/engineerguy-analyzer-fourier-104-operation.mp4"  fileSize="206173640"  type="video/mp4"  expression="full"  duration="707" ></media:content>
+</item>
+<item>
+<title>(3/4) Analysis: Explaining Fourier analysis with a machine</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/E3ScwTvH2Ig/engineerguy-analyzer-fourier-103-analysis.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/E3ScwTvH2Ig/engineerguy-analyzer-fourier-103-analysis.mp4</guid>
+<description>&lt;a href=&quot;http://www.engineerguy.com/fourier-podcast-feed/engineerguy-analyzer-fourier-103-analysis.mp4&quot;&gt;Download Video&lt;/a&gt;</description>
+<pubDate>Wed, 26 Nov 2014 00:28:51 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:format>video/mpeg</dc:format>
+<dc:identifier>http://www.engineerguy.com/fourier-podcast-feed/engineerguy-analyzer-fourier-103-analysis.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/E3ScwTvH2Ig/engineerguy-analyzer-fourier-103-analysis.mp4"  fileSize="66286996"  type="video/mp4"  expression="full"  duration="244" ></media:content>
+</item>
+<item>
+<title>(2/4) Synthesis: A machine that uses gears, springs and levers to add sines and cosines</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/F6TiJRyGO0I/engineerguy-analyzer-fourier-102-synthesis.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/F6TiJRyGO0I/engineerguy-analyzer-fourier-102-synthesis.mp4</guid>
+<description>[unable to retrieve full-text content]This series on Albert Michelson’s Harmonic Analyzer celebrates a nineteenth century mechanical computer that performed Fourier analysis by using gears, springs and levers to calculate with sines and cosines—an astonishing feat in an age before electronic computers.   This video (the second of four) shows how to use the machine to do Fourier synthesis. Check out the series companion book and learn how to get a free PDF of the entire book at http://www.engineerguy.com/fourier.</description>
+<pubDate>Wed, 26 Nov 2014 00:26:48 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:identifier>http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/F6TiJRyGO0I/engineerguy-analyzer-fourier-102-synthesis.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/F6TiJRyGO0I/engineerguy-analyzer-fourier-102-synthesis.mp4"  fileSize="100152609"  type="video/mp4"  expression="full"  duration="341" ></media:content>
+</item>
+<item>
+<title>(1/4) Intro/History: Introducing a 100-year-old mechanical computer</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/POiERwMtmQ8/engineerguy-analyzer-fourier-101-intro.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/POiERwMtmQ8/engineerguy-analyzer-fourier-101-intro.mp4</guid>
+<description>[unable to retrieve full-text content]This introduction to the series Albert Michelson’s Harmonic Analyzer celebrates a nineteenth century mechanical computer that performed Fourier analysis by using gears, springs and levers to calculate with sines and cosines—an astonishing feat in an age before electronic computers. This video is the first of four -- plus several bonus videos. Check out the series companion book and learn how to get a free PDF of the entire book at http://www.engineerguy.com/fourier.</description>
+<pubDate>Wed, 26 Nov 2014 00:24:56 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:identifier>http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/POiERwMtmQ8/engineerguy-analyzer-fourier-101-intro.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/POiERwMtmQ8/engineerguy-analyzer-fourier-101-intro.mp4"  fileSize="64570249"  type="video/mp4"  expression="full"  duration="218" ></media:content>
+</item>
+<item>
+<title>The Cigarette machine</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/m_MwkegSNpw/radio-airc.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/m_MwkegSNpw/radio-airc.mp4</guid>
+<description>[unable to retrieve full-text content]Bill nominates, perhaps only provocatively,  James Bosnack's cigarette machine as the invention with the greatest economic impact on the 20th century. Cigarettes, as compared to pipes and cigars, are and the most direct way to deliver nicotine to the brain. Bosnack's machine made the mass production of cigarettes possible. The use of cigarettes, of course, has taken a tremendous human and economic toll. (The quotations are from Tastes of Paradise by Wolfgang Shivelbusch published by Pantheon, New York, 1992.)</description>
+<pubDate>Mon, 18 Aug 2014 22:54:32 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:identifier>http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/m_MwkegSNpw/radio-airc.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/m_MwkegSNpw/radio-airc.mp4"  fileSize="68839341"  type="application/octet-stream"  expression="full"  duration="161" ></media:content>
+</item>
+<item>
+<title>How home air conditioning triumphed over the open air movement</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/m_MwkegSNpw/radio-airc.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/m_MwkegSNpw/radio-airc.mp4</guid>
+<description>[unable to retrieve full-text content]Bill explains how the rise of home air conditioning had to battle the open air movements in public school: They regarded it as only for factories where it was first introduced. Only when movie theatres added air conditioning in the 1930 and 1940s did it become popular for the home.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=m_MwkegSNpw:6yFtMJPG1sM:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=m_MwkegSNpw:6yFtMJPG1sM:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=m_MwkegSNpw:6yFtMJPG1sM:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=m_MwkegSNpw:6yFtMJPG1sM:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=m_MwkegSNpw:6yFtMJPG1sM:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=m_MwkegSNpw:6yFtMJPG1sM:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/m_MwkegSNpw&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 12 Aug 2014 10:56:52 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:identifier>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/m_MwkegSNpw/radio-airc.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/m_MwkegSNpw/radio-airc.mp4"  fileSize="68839341"  type="application/octet-stream"  expression="full"  duration="150" ></media:content>
+</item>
+<item>
+<title>Kodak</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/ynzBsjWeat0/radio-koda.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/ynzBsjWeat0/radio-koda.mp4</guid>
+<description>[unable to retrieve full-text content]Bill tells the story of how George Eastman invented film. Its use in the Brownie camera  revolutionized photography; that it changed the way American families think of themselves and recall their own histories.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ynzBsjWeat0:uawxheOfsrE:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ynzBsjWeat0:uawxheOfsrE:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=ynzBsjWeat0:uawxheOfsrE:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ynzBsjWeat0:uawxheOfsrE:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ynzBsjWeat0:uawxheOfsrE:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=ynzBsjWeat0:uawxheOfsrE:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/ynzBsjWeat0&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 05 Aug 2014 20:08:10 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:identifier>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/ynzBsjWeat0/radio-koda.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/ynzBsjWeat0/radio-koda.mp4"  fileSize="79022632"  type="application/octet-stream"  expression="full"  duration="173" ></media:content>
+</item>
+<item>
+<title>How the Donner Party inspired food packaging</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/zsGw-ID-huc/radio-pack.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/zsGw-ID-huc/radio-pack.mp4</guid>
+<description>&lt;a href=&quot;http://www.engineerguy.com/radio-talks-illustrated/podcast-feed/radio-pack.mp4&quot;&gt;Download Video&lt;/a&gt;</description>
+<pubDate>Mon, 28 Jul 2014 21:20:46 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:format>video/mpeg</dc:format>
+<dc:identifier>http://www.engineerguy.com/radio-talks-illustrated/podcast-feed/radio-pack.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/zsGw-ID-huc/radio-pack.mp4"  fileSize="189720424"  type="application/octet-stream"  expression="full"  duration="187" ></media:content>
+</item>
+<item>
+<title>Theremin: How science fiction got its sound</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/_ha1L3G759c/radio-ther.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/_ha1L3G759c/radio-ther.mp4</guid>
+<description>&lt;a href=&quot;http://www.engineerguy.com/radio-talks-illustrated/podcast-feed/radio-ther.mp4&quot;&gt;Download Video&lt;/a&gt;</description>
+<pubDate>Fri, 25 Jul 2014 16:36:06 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:format>video/mpeg</dc:format>
+<dc:identifier>http://www.engineerguy.com/radio-talks-illustrated/podcast-feed/radio-ther.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/_ha1L3G759c/radio-ther.mp4"  fileSize="61675754"  type="application/octet-stream"  expression="full"  duration="135" ></media:content>
+</item>
+<item>
+<title>Ferris Wheel: How the Eiffel Tower wasn&amp;#039;t good enough</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/Smuo-OfmVVA/radio-ferr.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/Smuo-OfmVVA/radio-ferr.mp4</guid>
+<description>&lt;a href=&quot;http://www.engineerguy.com/radio-talks-illustrated/podcast-feed/radio-ferr.mp4&quot;&gt;Download Video&lt;/a&gt;</description>
+<pubDate>Fri, 25 Jul 2014 16:34:02 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:format>video/mpeg</dc:format>
+<dc:identifier>http://www.engineerguy.com/radio-talks-illustrated/podcast-feed/radio-ferr.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/Smuo-OfmVVA/radio-ferr.mp4"  fileSize="86253154"  type="application/octet-stream"  expression="full"  duration="191" ></media:content>
+</item>
+<item>
+<title>Coffee makers: How baseball put them in our homes</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/-e3OwjD1XDs/radio-coff.mp4</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/-e3OwjD1XDs/radio-coff.mp4</guid>
+<description>&lt;a href=&quot;http://www.engineerguy.com/radio-talks-illustrated/podcast-feed/radio-coff.mp4&quot;&gt;Download Video&lt;/a&gt;</description>
+<pubDate>Tue, 08 Jul 2014 01:00:00 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:format>video/mpeg</dc:format>
+<dc:identifier>http://www.engineerguy.com/radio-talks-illustrated/podcast-feed/radio-coff.mp4</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/-e3OwjD1XDs/radio-coff.mp4"  fileSize="87346425"  type="application/octet-stream"  expression="full"  duration="207" ></media:content>
+</item>
+<item>
+<title>Why the Dvorak keyboard didn’t take over the world</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/Il3xFTx_734/dvorak.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/Il3xFTx_734/dvorak.htm</guid>
+<description>&lt;iframe width=&quot;500&quot; height=&quot;281&quot; src=&quot;//www.youtube.com/embed/ZnUBl90tayI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;[embedded content]&lt;/iframe&gt;&lt;img src=&quot;http://www.engineerguy.com/failure/images/failure-video-bar-dvorak.jpg&quot; height=&quot;133&quot; width=&quot;500&quot; alt=&quot;&quot; usemap=&quot;#videobar&quot; /&gt;&lt;map name=&quot;#videobar&quot; id=&quot;#videobar&quot;&gt;&lt;area shape=&quot;rect&quot; coords=&quot;13,34,159,127&quot; href=&quot;index.htm&quot; alt=&quot;watch now&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;177,34,323,127&quot; href=&quot;picturephone.htm&quot; alt=&quot;watch now&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;338,34,484,127&quot; href=&quot;betamax.htm&quot; alt=&quot;watch now&quot; /&gt;&lt;/map&gt;&lt;h4&gt;Transcript&lt;/h4&gt;
+&lt;p&gt;Perhaps no technological failure is better known or more lamented than that of the Dvorak Keyboard. Since the early 1870s nearly every typewriter used a keyboard with what’s called a QWERTY layout named for the six keys in the upper left hand corner. To August Dvorak, a Professor at the University of Washington, this arrangement of keys - and I quote him here - was “so destructive that an improved arrangement is a modern imperative.” So, he rearranged the keys to look like this …&lt;/p&gt;
+&lt;p&gt;Dvorak had great hopes for this new keyboard, but it failed to take over the world. For the Dvorak keyboard the urban myth about its marketplace failure goes something like this: The QWERTY keyboard was designed to purposely slow down typists, otherwise the mechanism would jam. Dvorak designed his keyboard, in contrast, with humans in mind, using scientific principles. The only reason it failed and that we still use the QWERTY keyboard was that it was first and we draw the pat conclusion that the marketplace never changes: Whoever is first always wins. Let’s take this apart and look for a richer sequence of events that explains the keyboard’s failure, and see what we can learn from that. Let’s start with the QWERTY keyboard. It wasn’t a random arrangement. A human factor researcher at IBM noted that as early as 1873 it was “human engineered.” He showed that many of the most frequent letters are clustered at the center of the keyboard and so are confined to a reasonably small visual field.&lt;/p&gt;
+&lt;p&gt;In contrast to this mythical randomness of the QWERTY keyboard, the Dvorak was designed on objective, scientific principles. To find the principles I got a copy of his great Magnum Opus Typewriting Behavior from our library. Its light on the principles of keyboard design. It’s filled with inspirational motivation for someone learning typing. He even claims that using a typewriter makes you civilized, but as you filter out this kind of stuff -- its throughout the book -- you find the origins of his keyboard design.&lt;/p&gt;
+&lt;p&gt;Dvorak’s scientific basis came from early 20th century time motion studies of factory workers. The most sophisticated of which attached lights to workers fingers, studied their movements, and then worked to simplify the motion. Today it smacks a bit of elitism: Workers themselves incapable of finding the best motions, and so needing a scientific method to tell them how to work. In his book Dvorak mentions these studies, implying that he used them to find the shortest, most direct paths for typing, yet most often he recommends that beginning typist study these photographs to improve their skills. Even if the scientific basis isn’t what we would think it should be today, still, is the Dvorak keyboard faster?&lt;/p&gt;
+&lt;p&gt;Likely it is. When you look at the most carefully done and rigorous studies they show often that the Dvorak keyboard is a bit better, perhaps 5%.&lt;/p&gt;
+&lt;p&gt;And so that brings us back to really looking at the reason for the failure. Partly it was due to the QWERTY keyboard being there first, partly it was due to Dvorak not being the best promoter of his work, and mostly because the keyboard was only a little better. Likely what will dislodge the QWERTY keyboard so despised by August Dovrak is this: New devices like heads-up displays, or even just mobile devices, which give us a reason to learn something new. We no longer need a “hand-sized” but use instead a finger-sized one. This keyboard, for example, isn’t QWERTY based.&lt;/p&gt;
+&lt;p&gt;That’s the deeper lesson: To dislodge an existing technology requires a significant change in performance, and likely an increase in functionality. I’m Bill Hammack, the EngineerGuy.&lt;/p&gt;
+</description>
+<pubDate>Fri, 27 Jun 2014 18:18:43 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en-GB</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/failure/dvorak.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/w6aP2nrwBrk/dvorak-2014-06-10_iPad-Apple_TV_1080p.m4v"  fileSize="146174801"  type="text/html"  expression="full"  duration="229" ></media:content>
+</item>
+<item>
+<title>PicturePhone: How Bell Telephone lost a half billion, but nearly created the internet</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/FX8FdsZ1sPQ/picturephone.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/FX8FdsZ1sPQ/picturephone.htm</guid>
+<description>&lt;iframe width=&quot;500&quot; height=&quot;281&quot; src=&quot;//www.youtube.com/embed/WzdCKBZP4Jo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;[embedded content]&lt;/iframe&gt;&lt;img src=&quot;http://www.engineerguy.com/failure/images/failure-video-bar-picturephone.jpg&quot; height=&quot;133&quot; width=&quot;500&quot; alt=&quot;&quot; usemap=&quot;#videobar&quot; /&gt;&lt;map name=&quot;#videobar&quot; id=&quot;#videobar&quot;&gt;&lt;area shape=&quot;rect&quot; coords=&quot;13,34,159,127&quot; href=&quot;index.htm&quot; alt=&quot;watch now&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;177,34,323,127&quot; href=&quot;dvorak.htm&quot; alt=&quot;watch now&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;338,34,484,127&quot; href=&quot;betamax.htm&quot; alt=&quot;watch now&quot; /&gt;&lt;/map&gt;&lt;h4&gt;Transcript&lt;/h4&gt;
+&lt;p&gt;Today video chatting on a phone seems natural, yet for years the public resisted video chat. The device in this photo -- its from 1964 -- shows the Bell System’s PicturePhone. Although you see grandma enjoying a chat with her daughter and granddaughter very few people -- let alone grandparents -- used the device. Bell lost a half billion dollars. Here’s the amazing story of the failure, but more importantly near revolutionary success, of the very first mass-manufactured phone for video chatting.&lt;/p&gt;
+&lt;p&gt;This device was meant to be the most revolutionary communication medium of the century, but failed miserably as a consumer product. In 1964 the mighty Bell System, the great monopoly that solely owned the telephone system, introduced the PicturePhone. They hoped that everyone would replace their voice-only phone with a PicturePhone, even though Bell charged one-hundred and sixty dollars a month for the phone and its service -- about thousand in today’s dollars.&lt;/p&gt;
+&lt;p&gt;Technically, it was an amazing achievement: Bell used the existing twisted-pair copper wire of the telephone network -- not broadband lines like today -- to produce black and white video on a screen about five inches square. And, amazingly for the time, it used a CCD-based-camera, which had size and height controls so the image could be adjusted without moving the PicturePhone itself.&lt;/p&gt;
+&lt;p&gt;To spark interest in the PicturePhone, Bell created “PictureBooths” in New York, Chicago, and Washington DC to introduce the phones to the public -- at cost of about twenty bucks a minute, over one-hundred and fifty in today’s dollars. Bell hoped for a billion dollar business with a million phones set up by 1980, and twelve million subscribers by the year 2000, but in 1964 only seventy-one patrons used the PictureBooths in the first six months, and six years later the number of users fell to zero.&lt;/p&gt;
+&lt;p&gt;The PictutrePhone itself limped along with a handful of customers until Bell withdrew it in 1978, after investing some five hundred million dollars.&lt;/p&gt;
+&lt;p&gt;The truly interesting aspect isn’t the failure. The PicturePhone had the problems of any new invention: attracting users and producing enough to lower the cost.More fascinating to me than the failure is how close PicturePhone came to being the internet.&lt;/p&gt;
+&lt;p&gt;In the 1950s and early 1960s the Bell System engineers who designed the PicturePhone followed the speculations about a new coming media revolution, so they thought of an interconnected world. They knew that as long as customers used telephone lines only for voice calls, they had little reason to pay for broadband lines to the home -- copper would work well enough. But with PicturePhone they could justify the cost of upgrading local lines.&lt;/p&gt;
+&lt;p&gt;So, they designed the PicturePhone to spark consumer interest, and to generate cash, to build an all-digital switched network to “provide”, in their words, “a wide spectrum of customer services, including Picturephone.”&lt;/p&gt;
+&lt;p&gt;In fact, PicturePhone did deliver data in a proto-internet way. The phones connected mainframe computers. And an add-on let users share 35 mm slides and a flip-out mirror captured documents placed on a desk. The PicturePhone didn’t quite do its job well-enough: The video, although cutting edge for the time, was still choppy, and sharing documents on a 5 inch by 5 inch screen was less than ideal. The root of the failure lies in Bell’s monopoly powers.&lt;/p&gt;
+&lt;p&gt;It could not cross subsidize the PicturePhone -- introduce it at low rate to build demand -- because this would leave them open to charges of monopoly abuse.&lt;/p&gt;
+&lt;p&gt;So, in a way the PicturePhone fit in nowhere: Too expensive for home, too limited for business. But it does remind us when looking at failure to look carefully at the details because in them is often the path to the future.&lt;/p&gt;
+&lt;p&gt;I’m Bill Hammack, the EngineerGuy.&lt;/p&gt;
+</description>
+<pubDate>Fri, 27 Jun 2014 18:17:36 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en-GB</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/failure/picturephone.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/p3tyhzJNUVI/picturephone-2014-06-10_iPad-Apple_TV_1080p.m4v"  fileSize="154280590"  type="text/html"  expression="full"  duration="239" ></media:content>
+</item>
+<item>
+<title>How Sony’s Betamax lost to JVC’s VHS Cassette Recorder</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/zk1sRcxbhaE/betamax.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/zk1sRcxbhaE/betamax.htm</guid>
+<description>&lt;iframe width=&quot;500&quot; height=&quot;281&quot; src=&quot;//www.youtube.com/embed/ddYZITaxlTQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;[embedded content]&lt;/iframe&gt;&lt;img src=&quot;http://www.engineerguy.com/failure/images/failure-video-bar-betamax.jpg&quot; height=&quot;133&quot; width=&quot;500&quot; alt=&quot;&quot; usemap=&quot;#videobar&quot; /&gt;&lt;map name=&quot;#videobar&quot; id=&quot;#videobar&quot;&gt;&lt;area shape=&quot;rect&quot; coords=&quot;13,34,159,127&quot; href=&quot;index.htm&quot; alt=&quot;watch now&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;177,34,323,127&quot; href=&quot;dvorak.htm&quot; alt=&quot;watch now&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;338,34,484,127&quot; href=&quot;picturephone.htm&quot; alt=&quot;watch now&quot; /&gt;&lt;/map&gt;&lt;h4&gt;Transcript&lt;/h4&gt;
+&lt;p&gt;This mighty machine sparked a revolution in our use of media. It’s a Sony Betamax video cassette recorder from 1979. This monster weighs about 36 pounds. The engineer in me find it fascinating: there is nothing digital, it’s a truly analog machine -- all moving pieces and parts.&lt;/p&gt;
+&lt;p&gt;Early adopters of the Betamax used it to record television shows -- a revolutionary concept at the time -- because prior to the Betamax you had to watch a show when it was broadcast. It threaten the entertainment industry so much that in 1979 they argued that recording television shows at home infringed on their copyright. It all came to a head in a Supreme Court case -- Sony Corporation of America versus Universal City Studios -- where five justices allowed home recording. Although Sony won this court battle, they ultimately lost out to a machine that used this size tape. This is a VHS recorder made by Sony’s great rival JVC.&lt;/p&gt;
+&lt;p&gt;Both machines solved the same problem: How to store information compactly on a tape. Here’s the brilliant innovation used by both machines. The machine grabs the tape, drags it forward, as this silver drum starts to spin rapidly. The drum has two electromagnets (called heads) arranged on opposite sides of the drum that read the magnetic information on the tape. That rotating head allowed for a compact recorder: in many previous recorders the magnetic heads didn’t move, only the tape. Because there was a limit to how fast the tape could move, it took a lot of tape -- about a seven inch reel to record an hour, which means that a movie would need two 7-inch reels inside a cassette. So, the rotating heads dramatically reduced the amount of tape needed, reducing the size to where it could be easily held in a cassette.&lt;/p&gt;
+&lt;p&gt;So, if the machines are so similar why did Betamax lose to JVC? Many thought the betamax machine would win: It had the better image quality and the Betamax is decidedly better built. Compare ejecting a tape on the Betamax to the VHS. First, watch the Betamax. Note how smooth it is. And then watch the VHS. That’s abrupt and will wear out the mechanism. Yet, to my engineer’s eye the VHS was the better solution.&lt;/p&gt;
+&lt;p&gt;First, the VHS was lighter than the Betamax: 29 and a half lbs compared to 36 lbs for the this Betamax machine. That’s a huge difference for a mass manufactured object. It impacts everything from material costs to assembly time to shipping costs. So, at the low end of the market the VHS machines were cheaper than Sony’s Betamax.&lt;/p&gt;
+&lt;p&gt;Second, the earliest Betamax tapes played for only one hour, VHS played for 2 hours -- enough time for a movie. The ultimate killer, though, was the rental market.&lt;/p&gt;
+&lt;p&gt;While, Betamax focused in its ads and energies on time shifting -- their ads featured headlines like “Watch whatever, whenever” -- while JVC, the maker of the VHS system, created relationships with the nascent video rental industry. When this market grew, VHS dominated in titles. While you could for a while find both formats eventually retailers began giving shelf space to the slightly more dominant brand, which then dominated even more.&lt;/p&gt;
+&lt;p&gt;So, the Betamax versus VHS dispels the notion that simply being first to market is the most important issue. It reminds us that technical excellence in one area isn’t enough -- here the superior picture quality of Betamax -- but that all technical aspects matter. For any mass manufactured object, the winner is usually the one that is just good enough. I’m Bill Hammack, the EngineerGuy.&lt;/p&gt;
+</description>
+<pubDate>Fri, 27 Jun 2014 18:16:32 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en-GB</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/failure/betamax.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/jmcpFtySnNs/betamax-2014-06-13-1156_iPad-Apple_TV_1080p.m4v"  fileSize="147706719"  type="text/html"  expression="full"  duration="229" ></media:content>
+</item>
+<item>
+<title>Stories of Technological Failure: PicturePhone, Dvorak keyboard &amp; Betamax</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/mUv0gWFN6KE/failure</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/mUv0gWFN6KE/failure</guid>
+<description>&lt;iframe width=&quot;500&quot; height=&quot;281&quot; src=&quot;//www.youtube.com/embed/SDSZCaOjECM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;[embedded content]&lt;/iframe&gt;&lt;img src=&quot;http://www.engineerguy.com/failure/images/failure-video-bar-intro.jpg&quot; height=&quot;133&quot; width=&quot;500&quot; alt=&quot;&quot; usemap=&quot;#videobar&quot; /&gt;&lt;map name=&quot;#videobar&quot; id=&quot;#videobar&quot;&gt;&lt;area shape=&quot;rect&quot; coords=&quot;13,34,159,127&quot; href=&quot;picturephone.htm&quot; alt=&quot;watch now&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;177,34,323,127&quot; href=&quot;dvorak.htm&quot; alt=&quot;watch now&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;338,34,484,127&quot; href=&quot;betamax.htm&quot; alt=&quot;watch now&quot; /&gt;&lt;/map&gt;&lt;h4&gt;Transcript&lt;/h4&gt;
+&lt;p&gt;This car, a Ford Edsel, was one of the greatest technological failures in history. It’s failure cost Ford nearly three billion in today’s dollars making the name “Edsel” -- the first name of Henry Ford’s son -- shorthand for any wildly ill-conceived product that fails. Yet the Edsel had many “firsts” that now appear in our cars, things like seat belts and child-proof locks. And this reminds us that although we want to be very pat and trace failure to a single cause in reality technological things fail in the marketplace for many reasons. So, in this series I take a deeper look at the failure of three famous engineered objects.&lt;/p&gt;
+&lt;p&gt;First the Picturephone, called by some the Bell System’s Edsel because the company lost half a billion dollars in promoting and developing it. The PicturePhone highlights what we really should appreciate about failures: How often they fail by being ahead of their time: this device came tantalizing close to creating a revolutionary technology that we now use today. Next, I’ll look at the Dvorak keyboard.&lt;/p&gt;
+&lt;p&gt;While the Dvorak arrangement of the letters was likely faster than our current QWERTY arrangement, the latter still dominates. And usually we explain this away quickly by noting that the QWERTY keyboard got there first and thus simply became locked in the marketplace, but the important lesson is that to dislodge an existing technology requires a significant change in performance, and likely an increase in functionality.&lt;/p&gt;
+&lt;p&gt;And third, I’ll look at how the Betamax video cassette recorder lost to this VHS machine made by JVC. Often the winner is not the “better” or more powerful competitor, but the one that is just good enough.&lt;/p&gt;
+&lt;p&gt;To explore these three failures I take a cue from the opening sentence of Tolstoy’s great Anna Karenina: “All happy families are alike,” he wrote, but “each unhappy family is unhappy in it own way.” Which means that instead of looking for a simple uniform explanation for each of these failures, I’ll tell you a richer story of their short life and eventually demise. Please join me.&lt;/p&gt;
+&lt;p&gt;I’m Bill Hammack, the EngineerGuy.&lt;/p&gt;
+</description>
+<pubDate>Wed, 25 Jun 2014 21:02:49 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en-GB</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/failure/</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/VFKzBbi7XXY/failure-intro-2014-06-16-1127_iPad-Apple_TV_1080p.m4v"  fileSize="84364335"  type="text/html"  expression="full"  duration="131" ></media:content>
+</item>
+<item>
+<title>How a Lead-Acid Battery Works</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/58VChe7xRm0/video-battery.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/58VChe7xRm0/video-battery.htm</guid>
+<description>[unable to retrieve full-text content]Bill details how a microwave oven heats food. He describes how the microwave vacuum tube, called a magnetron, generates radio frequencies that cause the water in food to rotate back and forth. He shows the standing wave inside the oven, and notes how you can measure the wavelength with melted cheese. He concludes by describing how a magnetron generates radio waves. You can learn more about the microwave oven from the EngineerGuy team's new book Eight Amazing Engineering Stories http://www.engineerguy.com/elements&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=58VChe7xRm0:tpydTcL7ptA:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=58VChe7xRm0:tpydTcL7ptA:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=58VChe7xRm0:tpydTcL7ptA:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=58VChe7xRm0:tpydTcL7ptA:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=58VChe7xRm0:tpydTcL7ptA:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=58VChe7xRm0:tpydTcL7ptA:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/58VChe7xRm0&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 03 Jul 2012 11:26:34 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/elements/videos/video-battery.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/70Dc_Ditg98/battery-engineerguy-iPod.mp4"  fileSize="48269632"  type="application/octet-stream"  expression="full"  duration="311" ></media:content>
+</item>
+<item>
+<title>What Keeps Nuclear Weapons from Proliferating</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/ZlN0Ii08lpQ/video-uranium.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/ZlN0Ii08lpQ/video-uranium.htm</guid>
+<description>[unable to retrieve full-text content]Bill explains that the hardest step is making the proper type of uranium. Weapons and power plants require uranium that contains a greater amount of the isotope uranium-235 than found in natural uranium, which is mostly uranium-238. He outlines the key difficulty in separating the two isotope: They have nearly identical properties. He explains the two key methods for separation: Gas diffusion and centrifuges.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ZlN0Ii08lpQ:Lcr322Q8KOc:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ZlN0Ii08lpQ:Lcr322Q8KOc:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=ZlN0Ii08lpQ:Lcr322Q8KOc:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ZlN0Ii08lpQ:Lcr322Q8KOc:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ZlN0Ii08lpQ:Lcr322Q8KOc:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=ZlN0Ii08lpQ:Lcr322Q8KOc:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/ZlN0Ii08lpQ&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 19 Jun 2012 11:48:48 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/elements/videos/video-uranium.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/mlulsEAl46M/uranium-engineerguy-iPod.mp4"  fileSize="44544710"  type="application/octet-stream"  expression="full"  duration="279" ></media:content>
+</item>
+<item>
+<title>How an Atomic Clock Works</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/_k-E6qK0By0/video-atomic-clock.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/_k-E6qK0By0/video-atomic-clock.htm</guid>
+<description>[unable to retrieve full-text content]Bill shows the world's smallest atomic clock and then describes how the first one made in the 1950s worked. He describes in detail the use of cesium vapor to create a feedback or control loop to control a quartz oscillator. He highlights the importance of atomic team by describing briefly how a GPS receiver uses four satellites to find its position. You can learn more about atomic clocks and the GPS system in the EngineerGuy team's new book Eight Amazing Engineering Stories http://www.engineerguy.com/elements&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=_k-E6qK0By0:mepEV1qOCxc:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=_k-E6qK0By0:mepEV1qOCxc:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=_k-E6qK0By0:mepEV1qOCxc:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=_k-E6qK0By0:mepEV1qOCxc:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=_k-E6qK0By0:mepEV1qOCxc:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=_k-E6qK0By0:mepEV1qOCxc:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/_k-E6qK0By0&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 12 Jun 2012 12:31:05 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/elements/videos/video-atomic-clock.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/171K0kj4TpI/atomic-clock-engineerguy-iPod.mp4"  fileSize="43542075"  type="application/octet-stream"  expression="full"  duration="273" ></media:content>
+</item>
+<item>
+<title>How a Laser Works</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/8r3KVoJtZEA/video-laser.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/8r3KVoJtZEA/video-laser.htm</guid>
+<description>[unable to retrieve full-text content]Bill shows how the three key characteristics of laser light - single wavelength, narrow beam, and high intensity - are made. He explains the operation of a ruby laser - the first laser ever made - showing how electronic transitions create stimulated emission to give coherent light, and then how the ends of the ruby cavity create a narrow wavelength highly collimated beam. You can learn more about laser in the EngineerGuy team's new book Eight Amazing Engineering Stories&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=8r3KVoJtZEA:tJ8KJW9iyVM:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=8r3KVoJtZEA:tJ8KJW9iyVM:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=8r3KVoJtZEA:tJ8KJW9iyVM:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=8r3KVoJtZEA:tJ8KJW9iyVM:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=8r3KVoJtZEA:tJ8KJW9iyVM:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=8r3KVoJtZEA:tJ8KJW9iyVM:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/8r3KVoJtZEA&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 05 Jun 2012 12:03:46 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/elements/videos/video-laser.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/SpDDR-AgF_k/laser-engineerguy-iPod.mp4"  fileSize="49258916"  type="application/octet-stream"  expression="full"  duration="294" ></media:content>
+</item>
+<item>
+<title>Anodizing Aluminium (or The Beauty of Corrosion)</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/1-Z1nKC7P2g/video-anodizing.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/1-Z1nKC7P2g/video-anodizing.htm</guid>
+<description>[unable to retrieve full-text content]Bill describes how metals like aluminum and titanium are made resistant to corrosion by growing an oxide layer into the metals. These is the same process used on many Apple products. This video is based on a chapter in his book Eight Amazing Engineering Stories.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=1-Z1nKC7P2g:gULK9JkNsmY:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=1-Z1nKC7P2g:gULK9JkNsmY:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=1-Z1nKC7P2g:gULK9JkNsmY:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=1-Z1nKC7P2g:gULK9JkNsmY:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=1-Z1nKC7P2g:gULK9JkNsmY:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=1-Z1nKC7P2g:gULK9JkNsmY:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/1-Z1nKC7P2g&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 29 May 2012 14:28:10 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/elements/videos/video-anodizing.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/gcT2j2Enh28/anodizing-engineerguy-iPod.mp4"  fileSize="40864645"  type="application/octet-stream"  expression="full"  duration="256" ></media:content>
+</item>
+<item>
+<title>How a Smartphone Knows Up from Down</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/RFm0CNoQCGA/video-accelerometer.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/RFm0CNoQCGA/video-accelerometer.htm</guid>
+<description>[unable to retrieve full-text content]Bill takes apart a smartphone and explains how its accelerometer works. He also shares the essential idea underlying the MEMS production of these devices&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=RFm0CNoQCGA:0stygmvjtSo:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=RFm0CNoQCGA:0stygmvjtSo:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=RFm0CNoQCGA:0stygmvjtSo:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=RFm0CNoQCGA:0stygmvjtSo:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=RFm0CNoQCGA:0stygmvjtSo:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=RFm0CNoQCGA:0stygmvjtSo:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/RFm0CNoQCGA&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 22 May 2012 12:13:03 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/elements/videos/video-accelerometer.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/IRVNesKEcpc/accelerometer-engineerguy-iPod.mp4"  fileSize="44289181"  type="video/mpeg"  expression="full"  duration="265" ></media:content>
+</item>
+<item>
+<title>CCD: The Heart of a Digital Camera</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/Q_4qF6VQqjs/video-ccd.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/Q_4qF6VQqjs/video-ccd.htm</guid>
+<description>[unable to retrieve full-text content]Bill takes apart a digital camera and explains how its captures images using a CCD (charge coupled device). He also shares how a single CCD is used with a color filter array to create colored images. This video is based on a chapter from the EngineerGuy team's latest book Eight Amazing Engineering Stories (Learn more at http://www.engineerguy.com/elements)&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=Q_4qF6VQqjs:CcC0azhghHo:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=Q_4qF6VQqjs:CcC0azhghHo:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=Q_4qF6VQqjs:CcC0azhghHo:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=Q_4qF6VQqjs:CcC0azhghHo:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=Q_4qF6VQqjs:CcC0azhghHo:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=Q_4qF6VQqjs:CcC0azhghHo:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/Q_4qF6VQqjs&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Fri, 18 May 2012 19:06:12 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/elements/videos/video-ccd.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/HwDqX3HvMas/ccd-engineerguy-iPod.mp4"  fileSize="44405264"  type="video/mpeg"  expression="full"  duration="267" ></media:content>
+</item>
+<item>
+<title>Fiber optic cables</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/PYHrksSxNMk/video-fiber.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/PYHrksSxNMk/video-fiber.htm</guid>
+<description>[unable to retrieve full-text content]Bill uses a laser pointer and a bucket of glycol to show how fiber optic cables works, and how engineers use them to transmit signals across the ocean.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=PYHrksSxNMk:Pa89hw3Gavk:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=PYHrksSxNMk:Pa89hw3Gavk:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=PYHrksSxNMk:Pa89hw3Gavk:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=PYHrksSxNMk:Pa89hw3Gavk:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=PYHrksSxNMk:Pa89hw3Gavk:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=PYHrksSxNMk:Pa89hw3Gavk:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/PYHrksSxNMk&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 21 Jun 2011 11:46:50 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-fiber.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/i6rUGAgZZZM/fiber-engineerguy-iPod.mp4"  fileSize="56214122"  type="video/mpeg"  expression="full"  duration="336" ></media:content>
+</item>
+<item>
+<title>Cell phone design</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/P5ZDG53YHSk/video-cell-02.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/P5ZDG53YHSk/video-cell-02.htm</guid>
+<description>[unable to retrieve full-text content]Bill uses a pile of cell phones to illustrate the seven design criteria that shape a mobile device. He outlines the seven basic constrain&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=P5ZDG53YHSk:ZRK39sj8oIA:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=P5ZDG53YHSk:ZRK39sj8oIA:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=P5ZDG53YHSk:ZRK39sj8oIA:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=P5ZDG53YHSk:ZRK39sj8oIA:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=P5ZDG53YHSk:ZRK39sj8oIA:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=P5ZDG53YHSk:ZRK39sj8oIA:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/P5ZDG53YHSk&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 14 Jun 2011 11:49:05 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-cell-02.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/es4FK_0RouI/cell-02-engineerguy-iPod.mp4"  fileSize="38773711"  type="video/mpeg"  expression="full"  duration="241" ></media:content>
+</item>
+<item>
+<title>Hard drive teardown</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/ev5TNMAJBhY/video-harddrive.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/ev5TNMAJBhY/video-harddrive.htm</guid>
+<description>[unable to retrieve full-text content]Bill tears down a hard drive to show how it stores data. He explains how smooth the disk surface must be for the device to work, and he outlines the mathematical technique used to increase data storage.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ev5TNMAJBhY:OIjXscvrvAg:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ev5TNMAJBhY:OIjXscvrvAg:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=ev5TNMAJBhY:OIjXscvrvAg:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ev5TNMAJBhY:OIjXscvrvAg:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ev5TNMAJBhY:OIjXscvrvAg:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=ev5TNMAJBhY:OIjXscvrvAg:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/ev5TNMAJBhY&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 07 Jun 2011 13:30:39 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-harddrive.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/jBkxJIk2txc/harddrive-engineerguy-iPod.mp4"  fileSize="50711734"  type="video/mpeg"  expression="full"  duration="304" ></media:content>
+</item>
+<item>
+<title>LCD Monitor</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/p-t4EpxPqxg/video-lcd.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/p-t4EpxPqxg/video-lcd.htm</guid>
+<description>[unable to retrieve full-text content]Bill tears down an LCD monitor to show how it works. He describes how liquid crystals are used, the structure of the glass panes, and the thin film transistor (TFTs) that allow for active matrix addressing.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=p-t4EpxPqxg:vaW6ZCoVcI4:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=p-t4EpxPqxg:vaW6ZCoVcI4:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=p-t4EpxPqxg:vaW6ZCoVcI4:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=p-t4EpxPqxg:vaW6ZCoVcI4:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=p-t4EpxPqxg:vaW6ZCoVcI4:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=p-t4EpxPqxg:vaW6ZCoVcI4:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/p-t4EpxPqxg&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Thu, 17 Mar 2011 11:01:16 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-lcd.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/kJVDES33qwI/lcd-engineerguy-iPod.mp4"  fileSize="48237925"  type="video/mpeg"  expression="full"  duration="298" ></media:content>
+</item>
+<item>
+<title>How smoke detectors work</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/T8nC3tf3l6k/video-smoke.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/T8nC3tf3l6k/video-smoke.htm</guid>
+<description>[unable to retrieve full-text content]Bill takes apart a smoke detector and shows how it uses a radioactive source to generate a tiny current which is disrupted when smoke flows through the sensor. He describes how a special transistor called a MOSFET can be used to detect the tiny current changes.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=T8nC3tf3l6k:mE7OxuPPHII:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=T8nC3tf3l6k:mE7OxuPPHII:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=T8nC3tf3l6k:mE7OxuPPHII:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=T8nC3tf3l6k:mE7OxuPPHII:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=T8nC3tf3l6k:mE7OxuPPHII:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=T8nC3tf3l6k:mE7OxuPPHII:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/T8nC3tf3l6k&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 08 Mar 2011 13:33:25 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-smoke.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/8Ov1oBu-OBs/smoke-engineerguy-iPod.mp4"  fileSize="37486748"  type="video/mpeg"  expression="full"  duration="225" ></media:content>
+</item>
+<item>
+<title>Light Bulb Filament</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/h5jpy5v_oIA/video-lightbulb.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/h5jpy5v_oIA/video-lightbulb.htm</guid>
+<description>[unable to retrieve full-text content]Bill takes apart an incandescent light bulb to how how the filament is made. He shows extreme close-ups of the filament, and he discusses the materials processing need to make the ductile tungsten&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=h5jpy5v_oIA:6RqRDcWGFqM:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=h5jpy5v_oIA:6RqRDcWGFqM:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=h5jpy5v_oIA:6RqRDcWGFqM:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=h5jpy5v_oIA:6RqRDcWGFqM:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=h5jpy5v_oIA:6RqRDcWGFqM:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=h5jpy5v_oIA:6RqRDcWGFqM:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/h5jpy5v_oIA&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 01 Mar 2011 13:29:38 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-lightbulb.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/cN1inf1bEHw/lightbulb-engineerguy-iPod.mp4"  fileSize="35436428"  type="video/mpeg"  expression="full"  duration="218" ></media:content>
+</item>
+<item>
+<title>Why the other line is likely to move faster</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/q323OMRXGhk/video-lines.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/q323OMRXGhk/video-lines.htm</guid>
+<description>[unable to retrieve full-text content]Bill reveals how  &quot;queueing theory&quot; -  developed by engineers to route phone calls -  can be used to find the most efficient arrangement of cashiers and check out lines. He reports on the work of Agner Erlang, a Danish engineer who, at the opening of the 20th century, helped the Copenhagen Telephone Company provide the best level of service at the lowest price.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=q323OMRXGhk:KVypxfQrmzo:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=q323OMRXGhk:KVypxfQrmzo:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=q323OMRXGhk:KVypxfQrmzo:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=q323OMRXGhk:KVypxfQrmzo:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=q323OMRXGhk:KVypxfQrmzo:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=q323OMRXGhk:KVypxfQrmzo:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/q323OMRXGhk&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 21 Dec 2010 13:36:23 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-lines.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/DLh1HZ7tJ34/lines-engineerguy-iPod.mp4"  fileSize="37060165"  type="video/mpeg"  expression="full"  duration="222" ></media:content>
+</item>
+<item>
+<title>How a quartz watch works</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/jpuEISPVBm8/video-quartz-watch.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/jpuEISPVBm8/video-quartz-watch.htm</guid>
+<description>[unable to retrieve full-text content]The amazing everyday wristwatch: We never think about it, but only because engineers have made it so reliable and durable that we don't
+&lt;br&gt;need to. At its heart lies a tiny tuning fork made of the mineral quartz. In this video Bill takes apart a cheap watch and shows extreme
+&lt;br&gt;close-ups of the actually tunings fork. He explains how the piezoelectric effect of quartz lies at the heart of the watch's
+&lt;br&gt;operation.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=jpuEISPVBm8:20ZI_ppd-IA:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=jpuEISPVBm8:20ZI_ppd-IA:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=jpuEISPVBm8:20ZI_ppd-IA:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=jpuEISPVBm8:20ZI_ppd-IA:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=jpuEISPVBm8:20ZI_ppd-IA:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=jpuEISPVBm8:20ZI_ppd-IA:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/jpuEISPVBm8&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 14 Dec 2010 13:40:45 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-quartz-watch.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/7y6mdGnkigk/quartz-watch-engineerguy-iPod.mp4"  fileSize="34862957"  type="video/mpeg"  expression="full"  duration="214" ></media:content>
+</item>
+<item>
+<title>How the first transistor worked</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/sTL9BDwyYKo/video-transistor-point-contact.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/sTL9BDwyYKo/video-transistor-point-contact.htm</guid>
+<description>[unable to retrieve full-text content]Bill shows how a transistor works by examing a replica of the first one ever build: The Bardeen-Brattain point contact transistor.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=sTL9BDwyYKo:I8F5BIFXmTc:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=sTL9BDwyYKo:I8F5BIFXmTc:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=sTL9BDwyYKo:I8F5BIFXmTc:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=sTL9BDwyYKo:I8F5BIFXmTc:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=sTL9BDwyYKo:I8F5BIFXmTc:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=sTL9BDwyYKo:I8F5BIFXmTc:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/sTL9BDwyYKo&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 07 Dec 2010 13:11:46 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-transistor-point-contact.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/DUqdga7oufY/transistor-point-contact-engineerguy-iPod.mp4"  fileSize="44730557"  type="video/mpeg"  expression="full"  duration="286" ></media:content>
+</item>
+<item>
+<title>Black Box</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/fzBNukMpzp0/video-black-box.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/fzBNukMpzp0/video-black-box.htm</guid>
+<description>[unable to retrieve full-text content]Bill opens up a vintage &quot;black box&quot; from a Delta airlines jetliner. He describes how the box withstands high temperatures and crash velocities because it is made from Inconel: A superalloy steels that is used in furnaces and others extreme environments. The flight data recorder he shows is a Sundstrand FA-542 and was likely used on a DC-9 in the 1970s, although it could have been used as late as 1988 on a Boeing 727.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=fzBNukMpzp0:B_hI_8SiuL4:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=fzBNukMpzp0:B_hI_8SiuL4:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=fzBNukMpzp0:B_hI_8SiuL4:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=fzBNukMpzp0:B_hI_8SiuL4:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=fzBNukMpzp0:B_hI_8SiuL4:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=fzBNukMpzp0:B_hI_8SiuL4:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/fzBNukMpzp0&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 30 Nov 2010 13:54:27 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-black-box.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/1CVxM7MnXQc/black-box-engineerguy-iPod.mp4"  fileSize="21753425"  type="video/mpeg"  expression="full"  duration="138" ></media:content>
+</item>
+<item>
+<title>Coffee Maker</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/ah-qrieyvyM/video-coffee-maker.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/ah-qrieyvyM/video-coffee-maker.htm</guid>
+<description>[unable to retrieve full-text content]To engineer an object means to make choices. Bill illustrates how the choice of having a single heating element made an engineer find a creative way to pump water with no moving parts.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ah-qrieyvyM:C7_niAhAp0Q:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ah-qrieyvyM:C7_niAhAp0Q:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=ah-qrieyvyM:C7_niAhAp0Q:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ah-qrieyvyM:C7_niAhAp0Q:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=ah-qrieyvyM:C7_niAhAp0Q:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=ah-qrieyvyM:C7_niAhAp0Q:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/ah-qrieyvyM&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 23 Nov 2010 13:46:30 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-coffee-maker.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/NiwORbVtTKg/coffee-maker-engineerguy-iPod.mp4"  fileSize="26065864"  type="video/mpeg"  expression="full"  duration="160" ></media:content>
+</item>
+<item>
+<title>Pop Can Stay-on tab: An ingenious engineering design</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/aKSsLhExP24/video-pop-can.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/aKSsLhExP24/video-pop-can.htm</guid>
+<description>[unable to retrieve full-text content]Bill uses slow motion video to show the ingenious engineering design of the apparently simple tab of a pop can. To create a tab with the least amount of material it changes from a 2nd to a 1st class lever while opening the can.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=aKSsLhExP24:BhJuUpviFAo:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=aKSsLhExP24:BhJuUpviFAo:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=aKSsLhExP24:BhJuUpviFAo:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=aKSsLhExP24:BhJuUpviFAo:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=aKSsLhExP24:BhJuUpviFAo:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=aKSsLhExP24:BhJuUpviFAo:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/aKSsLhExP24&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 16 Nov 2010 13:27:37 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-pop-can.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/PqVNyRE3Uo8/pop-can-engineerguy-iPod.mp4"  fileSize="22604583"  type="video/mpeg"  expression="full"  duration="137" ></media:content>
+</item>
+<item>
+<title>Whiffletree: A mechanical digital-to-analog converter</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/4Sn5dJiginc/video-whiffletree.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/4Sn5dJiginc/video-whiffletree.htm</guid>
+<description>[unable to retrieve full-text content]Early calculating devices and computers used mechanical digital to
+&lt;br&gt;analogue converters. This video describes one based on an arrangement
+&lt;br&gt;of metal bars called a &quot;whiffletree&quot; - also sometimes called a
+&lt;br&gt;&quot;whippletree.&quot; It shows, briefly, the whiffletree used in IBM's
+&lt;br&gt;revolutionary selectric typewriter and then illustrates the principles
+&lt;br&gt;of a whiffletree converter by showing the simplest one - one that
+&lt;br&gt;encodes digital impulses into two bits of information. (This videos is
+&lt;br&gt;an appendix to Bill Hammack's video about the operation of the
+&lt;br&gt;Selectric Typewriter.)&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=4Sn5dJiginc:RnGGOxS48F0:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=4Sn5dJiginc:RnGGOxS48F0:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=4Sn5dJiginc:RnGGOxS48F0:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=4Sn5dJiginc:RnGGOxS48F0:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=4Sn5dJiginc:RnGGOxS48F0:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=4Sn5dJiginc:RnGGOxS48F0:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/4Sn5dJiginc&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 09 Nov 2010 14:32:17 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-whiffletree.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/wjadqsbydi8/whiffletree-engineerguy-iPod.mp4"  fileSize="9495472"  type="video/mpeg"  expression="full"  duration="149" ></media:content>
+</item>
+<item>
+<title>The IBM Selectric &amp; its mechanical digital-to-analogue converter</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/Msxdy1aLMjI/video-selectric.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/Msxdy1aLMjI/video-selectric.htm</guid>
+<description>[unable to retrieve full-text content]Using slow motion video Bill Hammack, the engineer guy, shows how
+&lt;br&gt;IBM's revolutionary &quot;golf ball&quot; typewriter works. He describes the
+&lt;br&gt;marvelous completely mechanical digital-to-analogue converter that
+&lt;br&gt;translates the discrete impulse of the keys to the rotation of the
+&lt;br&gt;type element. (This is the typewriter featured on the television series Mad Men.)&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=Msxdy1aLMjI:Kv9xLSSUm2s:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=yIl2AUoC8zA&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=Msxdy1aLMjI:Kv9xLSSUm2s:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=Msxdy1aLMjI:Kv9xLSSUm2s:V_sGLiPBpWU&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=Msxdy1aLMjI:Kv9xLSSUm2s:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?d=qj6IDK7rITs&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?a=Msxdy1aLMjI:Kv9xLSSUm2s:gIN9vFwOqvQ&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/EngineerguycomPodcast?i=Msxdy1aLMjI:Kv9xLSSUm2s:gIN9vFwOqvQ&quot; border=&quot;0&quot;&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/EngineerguycomPodcast/~4/Msxdy1aLMjI&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot;/&gt;</description>
+<pubDate>Tue, 09 Nov 2010 14:29:55 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/videos/video-selectric.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/MfCfF85DHGI/selectric-engineerguy-iPod.mp4"  fileSize="30222988"  type="video/mpeg"  expression="full"  duration="185" ></media:content>
+</item>
+<item>
+<title>The ice hotel (audio)</title>
+<link>http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/CHBraBWXY5M/ice-hotel.htm</link>
+<guid isPermaLink="true" >http://feedproxy.google.com/~r/EngineerguycomPodcast/~3/CHBraBWXY5M/ice-hotel.htm</guid>
+<description>&lt;div id=&quot;transcript-column-01&quot; readability=&quot;260&quot;&gt;
+&lt;h3 class=&quot;transcript-head&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; I began to worry as the plane landed. I became alarmed when the flight attendant prepared by putting on a coat, a large scarf and gloves. I'd hoped for a few more minutes of warmth.&lt;/p&gt;
+
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; I was landing in the arctic circle in Northern Sweden. I was to stay in one of the most incredible structures in the world. A hotel made completely from ice. My wife had picked up the New York Times travel section a year ago and read about this ice hotel. She learned how every year, they build a sixty-room hotel from three thousand tons of snow and ice. She decided then and there that she had to visit it. Earlier that day at breakfast, in Stockholm, I asked her why, exactly, we were going to the Ice Hotel. She got as close as she ever does to philosophical, for she is first and foremost a woman of action.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Amy&lt;/span&gt; &quot;I want to taste everything, I want to try it, I want to sample it, I wanna do this really neat thing. And I've never been to Sweden, and its a great excuse to come to Sweden. And hang out in the Arctic circle, and I've experienced the arctic circle in summer, but never in winter, I wanted to try out thirty below and see what that was like.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; What specifically, I asked, excited her about the experience of the Ice Hotel?&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Amy&lt;/span&gt; &quot;Because it's cool, because it's beautiful, because it's ephemeral, because they built it new every year and it melts back to the river. And that's just, God that's amazing. They build ice sculptures inside and every year it's unique.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; Her very physical way of experiencing the world is not mine. She travels around the world to climbs rocks, or backpack along a glacier, while I prefer words. Reading to me is the supreme experience. I agree completely with the Argentinean writer Borges: &quot;I think of reading a book,&quot; he wrote, &quot;as no less an experience than traveling or falling in love. I think that reading Berkeley or Shaw or Emerson, those are quite as real experiences to me as seeing London.&quot; So, that day as we flew from Stockholm to the Arctic I buried myself in a book about travelling through the Sahara Desert. I was in denial about going to the arctic.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;I had only briefly formed an image of where we were going, and what it would be like. It occurred when my wife and I were packing for this trip. As we laid out our things she pointed to a set of warm clothes and said &quot;we should carry them on, rather than check them. They're mission critical.&quot; I don't like vacations where anything in my luggage is described as mission critical.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; As we approached the airport the pilot told us it was minus twenty-nine degrees celsius outside. That's fifty two degrees Fahrenheit below freezing. As the plane neared the ground I began to think of those mission critical warm clothes in our carry on luggage.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; On landing I hope for a few more minutes of warmth, but there is no jet way, so we exit the plane by a set of stairs, and walk across the tarmac in the frigid weather. We'd scheduled transport from the airport to the Ice Hotel by dog sled, but instead got a rude awakening about exactly how cold it was. We met a representative of the Ice Hotel, who explains why our dog sled ride has been cancelled.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Hotel guide&lt;/span&gt; &quot;Too cold for the dogs, not for you, but for the dog, because they get so much cold air inside, not good.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; Too cold for the dogs, but not for me. I don't like this at all. Instead of a dog sled we take a bus to the Ice Hotel. As we leave the airport my friend Allan - we are travelling with Allan and his wife Pat - points out how far north we've flown. He notes that it is high noon, but the sun sits only five degrees above the horizon. Next he draws my attention to the satellite dishes along the road: They point, he notes, toward the horizon so they can reach satellites that circle the equator half a globe away. After that we all sit quietly and study the snow-covered landscape. I find myself wondering what my stay in the Ice Hotel will be like. Will it be anything like the first Ice Palace? It was built by a Russian Princess and was a monstrous joke.&lt;/p&gt;
+&lt;h3 class=&quot;transcript-head&quot;&gt;History of Ice Hotels&lt;/h3&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; The cruel Russian Empress Anna Ivanovna, niece of Peter the Great, had built the first Ice Palace in 1740 to punish a member of the Russian nobility.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;Prince Mikhail angered her by converting to Catholicism, so she first punished him by forcing him to set on a basket of eggs and cackle until they hatched. Not satisfied with this, she made the Prince marry one of her servants. A women described as of &quot;exceptional ugliness.&quot; She'd been nicknamed Buzhennia after the Empress's favorite dish of roast pork with spiced vinegar and onion sauce. Even this forced marriage wasn't enough punishment. Immediately after the ceremony she forced the bride and groom, festooned in furs, to sit in an iron cage on top of an elephant. They led a parade of hundreds of provincial couples - Lapps, Finns, and others - all dressed in their national costumes. They marched to an Ice Palace.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;On the Neva River she'd commissioned her architect to build a Palace of ice for the couple's wedding night. In this Ice Palace she had armed guards force them to stay all night in an ice bed. In spite of its cruel purpose the Palace itself was a true work of art.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;Built of exceptionally clear ice from the Neva River, the palace was fifty-six feet tall, seventeen feet wide, and over twenty-one feet long. To build it the architect had precisely measured with a compass and ruler each block, carefully cut them, then used a crane to set them exactly in place. Freezing water joined the blocks so smoothly that they appeared to be one single piece. A visitor said of that Ice Palace that it was &quot;infinitely more beautiful than if it had been constructed of the finest marble. The transparency and bluish tone of the ice gave it the look of some precious stone.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;Every detail in the Palace showed exquisite craftsmanship: Twenty-nine ice trees adorned the building. Flora and fauna were sculpted from ice and then painted natural colors. And while most of the palace was left transparent, the pillars, doors and window frames were painted green to simulate marble. The windows panes were made from the thinnest ice possible.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;So, as our bus tooled along a snow-covered arctic highway, I prepared for an experience of beauty and discomfort.&lt;/p&gt;
+&lt;h3 class=&quot;transcript-head&quot;&gt;Getting dressed (The technology of warm clothes)&lt;/h3&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; Our bus arrives at the Ice Hotel, but we cannot see it, we must wait for a tour, plus we need to get outfitted to battle the cold weather. As we leave the bus to dash into the warm reception hall, my friend Allan draws our attention.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;Hotel guide &quot;There's a thermometer hanging here in celsius, reading minus twenty-five and a half.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; Again, minus twenty-five and a half celsius is some forty-six degrees Fahrenheit below freezing. I'm not pleased to learn this, but I've brought with me high-tech clothes especially designed for cold weather. Most of them were an engagement gift years ago from my wife, which, I now realize, should have been my first clue that I'd end up in the Arctic. They're made from synthetic material that &quot;wicks&quot; water away from my body. In cold weather this is crucial because the problem isn't getting warm, its staying warm. As your body heats itself it sweats, and if you wear cotton or wool the water produced stays near your skin and pulls out the heat.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; So, at the Ice Hotel reception area I put on no less than six layers of clothing, then cover it with a huge insulated coverall suit supplied by the Ice Hotel. I put ear muffs on, then a hat, then I cover this with what I used to call a face mask, but my wife says I must now call a Balaclava. Apparently the first people to wear full face masks where the soldiers of the Crimean village of Balaclava. They popularized this head gear in ferocious battles of the Crimean War. Still in some subconscious denial about the arctic, I keep calling it a Baklava. A food I note from Greece, a very warm country. When we finish suiting up it's time for our Ice Hotel orientation tour. It begins with an ominous warning.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Hotel guide&lt;/span&gt; &quot;We have this check in tour because this is not a normal hotel. And to be able to survive the night and enjoy your stay here we have to teach you how to live her. Tonight it's very cold, its minus thirty degrees and its actually a bit dangerously cold, so you have to be aware.&quot;&lt;/p&gt;
+&lt;h3 class=&quot;transcript-head&quot;&gt;Into the Ice Hotel&lt;/h3&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; With that we are allowed to enter the Ice Hotel. In our seven layers of clothing and with the temperature dropping now to nearly seventy-two degrees below freezing, we thread our way along a path lined by giant ice obelisks, each eight feet tall and three feet square. As my wife notes, they are the same shape and size as a portapotty. We can see the Ice Hotel in front of us: It's a one story building, nearly 100 feet wide.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;On this trail we pass a refrigerated &quot;Thermo King&quot; truck. It is unloading into the Ice Hotel skids of Abolut Vodka: citron, lemon, and currant flavored. I take this as a positive sign of civilization, until I realize that the Thermo King truck is needed to keep the vodka from freezing. Ever enthusiastic Allan is, of course, at the door first.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Allan&lt;/span&gt; The front entrance is built of clear blocks of ice with reindeer skin doors.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; Allan, Pat, my wife and I take a breath and then Allan pulls on the reindeer antler door handles and we enter the Ice Hotel.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;The first thing we sense is warmth. The temperature inside the Ice Hotel is twenty degrees below freezing, but compared to the outside this feels toasty. Then we notice quiet: Inside the Ice Hotel all sound dies in the three feet thick snow and ice walls. The only sound is our own footsteps.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;We enter the the Great Hallway. A mist rises from its floor; it's roof made of great arches thirty feet tall, held up by massive pillars carved from sparkling, clear ice. I feel a sense of contradiction: The walls are made of snow and ice so they seem fragile, yet at the same time massive; the supports are transparent, yet solid. There are no vertical walls, everything is part of an arch. This drives my eye to focus on the top where an arch culminates in a point. This point tells me these aren't the semi-circular arches of Roman or Byzantine architecture, but influenced by Gothic design. The arches look like they've been transplanted from a great Gothic cathedral, and then frosted with translucent snow and ice.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;Next we set out to search for our rooms. From the Great Hallway we venture down a smaller corridor perhaps fifteen feet tall, made of arches shaped like those of the Great Hallway. The guest rooms line this corridor. The doors of the rooms are just holes cut into the ice walls, then covered with a flimsy curtain. Next to these &quot;doors&quot; the room number is carved in snow. We locate our rooms and enter them.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Amy&lt;/span&gt; &quot;Oh, look at the chocolates frozen solid.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Allan&lt;/span&gt; &quot;The carpet is made of snow.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Pat&lt;/span&gt; &quot;I've never had a bed that lit from underneath before. This is going to be ...&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Amy&lt;/span&gt; &quot;Are those candles under it.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Pat&lt;/span&gt; &quot;I don't know let's see.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Amy&lt;/span&gt; &quot;It's a fluorescent light.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Pat&lt;/span&gt; &quot;So, instead of legs for the bed there are blocks of ice, then it looks like a wood frame.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Amy&lt;/span&gt; &quot;What is that?&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Pat&lt;/span&gt; &quot;It's a foam mattress, then reindeer skins.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; Allan sums it up the best.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Allan&lt;/span&gt; &quot;I see a block of ice. I see reindeer skins on it. There are no reindeer pillows. And there is a night stand made of ice to put my glasses on so they stick to my face when I wake up.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; From there we explore the rest of the Ice Hotel. We find intricate sculptures carved out of ice. In one room a Viking Ship juts out of the wall, in another an Egyptian pyramid rules the floor, and oddly, in a corner there is a life-sized statue of Frank Zappa sitting on a toilet. Next we come across the room, which to me, is the crowing glory of the Ice Hotel: The Absolut Vodka Bar.&lt;/p&gt;
+&lt;/div&gt;&lt;div id=&quot;transcript-column-02&quot; readability=&quot;287&quot;&gt;
+&lt;p class=&quot;transcript&quot;&gt;To enter the bar we pass through a thirty foot tall ice wall, where they've cut an opening the shape of a Vodka Bottle. The room is like a huge igloo, its dome reaching fifty feet in the air. The room is filled with tables and benches carved from four inch thick ice. The bar itself is one huge chunk of ice. I immediately order a drink called a Northern Light. Allan orders a &quot;Fire &amp;amp; Ice&quot;, ironically his breath condenses as he says &quot;Fire.&quot; Our drinks are served &quot;On the rocks&quot; in the most literal sense: Our glasses are a chunk of ice, with a hole in it. Our bartender explains.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bartender&lt;/span&gt; &quot;We have a special drill, a machine, that makes them. You drill a hole, you cut them in squares, you dip them quickly in hot water and let them freeze again. And while you drip them in hot water [is because] you just have to get the sawdust out of the barrel.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; We are comfortable at the bar, but are reminded our comfort is only relative to the outside when we notice that the stereo is in a refrigerator to keep it warm. We also see our bartender dipping her pen into the flame of a candle.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bartender&lt;/span&gt; &quot;I have to warm up the ink, otherwise I can't write anything with it. It looks very silly. And The worst thing is when you stand like this and you look around, and you look at the pen, and its on fire.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; Following our drinks in the Ice Bar, we tour the hotel studying the sculptures until its time to spend the night in the Ice Hotel. Staying in the hotel is much less exciting than you'd think. First, attached to the Ice Hotel was a real, heated building. It contained a changing room, and heated toilets. Non-ice toilet, I note. Second, they gave us special sleeping bag rated for twenty degrees cooler than the actual temperature of the Ice Hotel. Our guide told us that wearing anything more than the lightest of clothes would make use sweat. And that sweat would suck the warmth from our bodies, making us very cold at night. So, we change into light clothing in the heated changing room, then dash to our beds, to crawl into our sleeping bags. None of us emerge from our warm cocoons until morning, when an Ice Hotel hostess comes by to offer us warm lingonberry juice. We then gather in the changing room where I chat with other guests about how well they slept.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;British woman&lt;/span&gt; &quot;Very well, wake up once I think. I was out like a light.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;British man&lt;/span&gt; &quot;Terrible really. Main problem was the sleeping bag. I kept getting tied in knots. I was twisting and turning all night and had to untangled by myself. But other than than it wasn't cold. It was quite fine.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; Although he did have one problem.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;British man&lt;/span&gt; &quot;Dropped my pillow, and it went onto the floor, and I picked it up, and it was freezing [laughing] freezing.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; Next I check with Allan and Pat.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Allan&lt;/span&gt; Going to the bathroom scared me back to sleep. Just the idea of having to put on all those clothes.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Pat&lt;/span&gt; &quot;My nose got cold at one point, and that woke me up. So, it took a little while to convince myself I really wanted to stay inside the sleeping bag and not go anywhere.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Pat&lt;/span&gt;There was the time that I was lying there and I gave a great big exhale, lying on my back, and it snowed back on top of me.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; And my wife rated the experience highly.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Amy&lt;/span&gt; &quot;It was great. I got up once, braved the elements to go to the bathroom, came back. It's actually better than being camping, because you know when you get out of your nice, toasty warm sleeping back you don't have to go into the cold and dark and dig a hole. You can go to a nice, proper rest room with heating and lights and radio. It's much, much easier than being camping.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; You can see one of the problems my wife and I have in choosing where to travel: I never rate the comfort of a hotel by how far it was above digging a hole for going to the bathroom. I was eager, after my night in the hotel to find out why anyone would build such a beautiful, yet ephemeral thing. I mention to my wife and our friends that I'm going to find the architect of the Ice Hotel and talk to him or her, but they insist that I first have some arctic experiences.&lt;/p&gt;
+&lt;h3 class=&quot;transcript-head&quot;&gt;Experience&lt;/h3&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; We took a dog sled ride along the iced over Torne River. We rode in that long twilight characteristic of the arctic. Even though fifty degrees below freezing quickly numbs fingers, toes and noses, the twilight made up for it by making the snow look luminous and blue.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;We visited with some Sami, the indigenous people of northern Sweden. They couched us in driving a reindeer sled, and shared they're amazing knowledge of reindeer&lt;/p&gt;
+.
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Sami guide&lt;/span&gt; &quot;It's hard to sound like a deer, but like this&quot; [Deer impersonation follows]&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt;They shared with use a meal of reindeer wrapped in what looked like a tortilla shell.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;And as I held on tightly, my wife drove a snowmobile into a dark forest and we sat in the freezing cold, until the Northern Lights appeared above us. We watched them flicker and twist, until they disappeared.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;Of course the snowmobile was too tame for my experience loving, rock climbing, primitive camping wife. She just wanted to . . .&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Amy&lt;/span&gt; &quot;Just let it out, but we never really got any straightaways. I really wanted to see what that thing could do.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; And not all experiences were as sublime as visiting natives, or taking in the great cosmic display of light -- some were more mundane, yet, to my wife, equally important.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Amy&lt;/span&gt; &quot;I found out that the giant monolithic piece of ice that look like porta-potties. They're outside so if you lick them your tongue will stick to them.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; After enough experience for me, I left Pat, Allan and my wife. They planned to take another snowmobile ride and &quot;Let them out.&quot; I wanted to find out why anyone would build something as beautiful, yet temporal as the Ice Hotel. I'm used to buildings, art, or literature that's made to last the centuries. So the Ice Hotel puzzled me. In the morning I tracked down the Architect of the Ice Hotel, a man named Ake Larsson.&lt;/p&gt;
+&lt;h3 class=&quot;transcript-head&quot;&gt;Architect of the Ice Hotel&lt;/h3&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; When we meet I first notice Larsson's hat: It's a knit skullcap that makes him looks like a medieval Deacon. I expect when I glance down to see him wearing vestments, but he wears only a thin cloth jacket. He chain smokes as we chat in his barely heated office, which is scattered with papers and drawings. How, I ask, did he get started working with ice?&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Larsson&lt;/span&gt; &quot;I've been working with wood for twenty years, before I turn over to ice. I started with furniture, when I needed furniture. I didn't want to buy what was out in the shops. So I started to make my own furniture. And then it turns over to be more and more artistic furniture. And suddenly I realized there were no furniture anymore, just art!&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; Once he realized he was making art Larsson sought out other media. He made sculptures of ice, and fall in love with the medium. Over time he refined his methods for building ice sculptures, and then moved onto bigger things. I asked him what exactly the magnificent translucent arches of the Ice Hotel were made from.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Larsson&lt;/span&gt; &quot;I call this material snice -- the density is just between snow and ice.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; He explains that to make the arches they use snow cannons to blast this special &quot;snice&quot; mixture into a mold. This compacts the snow tightly, so that when the temperature reaches 50 degrees below freezing the snice becomes a mass so solid that Larsson tell me &quot;you could drive a car on the roof.&quot; Yet these arches that make up the Ice Hotel aren't permanent like his wood furniture. In fact, they don't even keep their shape over the season.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Larsson&lt;/span&gt; &quot;One of the things with snow construction is it compresses all the time. The whole building shrinks. The building is five and half meters high - the highest arch - at the end of the season its four and half. So it goes down one meter.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; What inspires him to create these transient arches made of snice instead of something permanent and enduring.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Larsson&lt;/span&gt; &quot;Yes, I spend the summers around Europe to look at old Cathedrals.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; And which cathedrals inspire him the most?&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Larsson&lt;/span&gt; &quot;In Reims at France. Very beautiful arches. And also St. Peters in Rome. St. Peters for the size.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; Again, I ask him why ice, why not stone or wood?&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Larsson&lt;/span&gt; &quot;It's to realize a dream, a fairy tale in snow and ice, to build a castle in snow and ice -- that's the goal for me, to build up a dream.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Larsson&lt;/span&gt; &quot;It's just for the moment, enjoy the moment, the day you are in - and don't think about the future or the last. Just here and now. And enjoy it.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; And what does he dream of building in ice, of building &quot;for the moment?&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Larsson&lt;/span&gt; &quot;St. Peters. It's possible to do. The sky is the limit here [laugher].&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; How does he feel about his Ice Cathedral disappearing at the end of every winter?&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Larsson&lt;/span&gt; &quot;Happy. Because then I start to draw a new one.&quot;&lt;/p&gt;
+&lt;h3 class=&quot;transcript-head&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; Still I wondered why anyone would create something so intricate and beautiful, yet short lived. I returned to the Ice Hotel to search for the answer. I found an artist working on a huge ice statue of a women.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Artist&lt;/span&gt; &quot;Lady of the river. Yeah! Ah, A very big lady, the mother of the river.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; The statue is very detailed, and has obviously taken days to carve. Yet, it will be gone in a few months. So I ask why does he like working in ice.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Artist&lt;/span&gt; &quot;Yeah, its perfect. No body can buy it, the water takes the life back. Yeah, it's perfect for me.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; I realize now, that the Ice Hotel reminds us of how we should approach art, and even life. The novelist Walker Percy captured the essence of this approach with a single question about the Grand Canyon. He asked, is it really possible today to experience the Grand Canyon? It seems an odd, almost nonsensical question, but Percy was after something very deep when he talked of &quot;experience.&quot;&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;&lt;span class=&quot;transcript-speaker&quot;&gt;Bill&lt;/span&gt; When the first Spanish Explorer stumbled unexpectedly on the Grand Canyon he experienced wonder and delight as he took in its depths, patterns, colors, and shadows. Today our experience starts with a travel brochure, and a distinct image of the Grand Canyon.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;When we arrive we ask ourselves &quot;does it look like a postcard&quot;, if so we go home and say &quot;it's every bit as beautiful as a postcard.&quot; If it doesn't conform to our expectations, maybe the colors are somber, or the day is cloudy, any disparity between the experience and the postcard makes us return home saying &quot;I was unlucky, I wasn't there at the right time.&quot; Percy argues that the only way today to truly experience the Grand Canyon is to stumble upon it.&lt;/p&gt;
+&lt;p class=&quot;transcript&quot;&gt;That's what, in a sense, the Ice Hotel does. It makes us stumble on it, because very year it's new. It reminds us that when we approach any creative work - a piece of art, literature, a building, or even the most ordinary everyday object - to truly appreciate it we must remove our blinders, and see it fresh, unmediated by any preconceptions.&lt;/p&gt;
+&lt;/div&gt;</description>
+<pubDate>Sat, 30 Jan 2010 07:52:10 +0000</pubDate>
+<dc:creator>Bill Hammack</dc:creator>
+<dc:language>eng</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.engineerguy.com/audio/ice-hotel.htm</dc:identifier>
+<media:thumbnail url="http://www.engineerguy.com/rss/hammack-head-shot.jpg" ></media:thumbnail>
+<media:content url="http://feedproxy.google.com/~r/EngineerguycomPodcast/~5/rlfP_HO81Nw/ice-hotel.mp3"  fileSize="25243776"  type="audio/mpeg"  expression="full"  duration="1577" ></media:content>
+</item>
+</channel>
+</rss>

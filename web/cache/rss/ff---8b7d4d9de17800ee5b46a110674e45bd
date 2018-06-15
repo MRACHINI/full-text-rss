@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:og="http://ogp.me/ns#">
+<channel>
+<atom:link rel="self" href="http://ftr.rachini.com/makefulltextfeed.php?url=www.snapfiles.com%2Ffeeds%2Fsf20fw.xml" />
+<atom:link rel="alternate" title="Source URL" href="http://www.snapfiles.com/feeds/sf20fw.xml" />
+<atom:link rel="related" title="Subscribe to feed" href="http://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dwww.snapfiles.com%252Ffeeds%252Fsf20fw.xml&amp;back=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dwww.snapfiles.com%252Ffeeds%252Fsf20fw.xml" />
+<title>SnapFiles - 20 latest freeware programs</title>
+<link>http://www.snapfiles.com/</link>
+<description>The latest freeware downloads </description>
+<item>
+<title>ControlMyMonitor</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114073&amp;x=7114139&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114073&amp;x=7114139&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;modify the setting of your monitor&lt;/em&gt; ControlMyMonitor enables you to view and modify most settings of your monitor, (brightness, contrast, sharpness, red/green/blue color balance, etc.) without the need to use the OSD. You can modify the settings from the application interface or from the command-line, and also export all settings into a config file and later reload them to quickly switch between monitor configurations. ControlMyMonitor works with any monitor that supports DDC/CI. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114073&amp;amp;a=7114139&amp;amp;loc=2&quot; title=&quot;Download ControlMyMonitor&quot;&gt;Download ControlMyMonitor&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>ControlMyMonitor - modify the setting of your monitor</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/controlmymonitor.png</og:image>
+<og:description>modify the setting of your monitor</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/controlmymonitor.html</dc:identifier>
+</item>
+<item>
+<title>Floomby</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114072&amp;x=7151603&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114072&amp;x=7151603&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;take screenshots in one click&lt;/em&gt; Floomby is a screen capture tool designed to make taking and sharing screenshots fast and easy. All you need to do is press the PrtScr button on you keyboard and Floomby lets you select the area to be captured, uploads the screenshot to the web and copies a sharing link to the clipboard. In addition to screen regions, you can also use hotkeys to capture the active window or you fullscreen desktop. The hotkeys can be customized to fit your needs. Although Floomby is configure for sharing screenshots by default, you can change the settings and choose to disable server uploads and save your screenshots in a local folder. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114072&amp;amp;a=7151603&amp;amp;loc=2&quot; title=&quot;Download Floomby&quot;&gt;Download Floomby&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Floomby - take screenshots in one click</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/floomby.png</og:image>
+<og:description>take screenshots in one click</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/floomby.html</dc:identifier>
+</item>
+<item>
+<title>ShellBagsView</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114071&amp;x=7114139&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114071&amp;x=7114139&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;view saved folder settings&lt;/em&gt; Each time that you open a folder in Explorer, Windows automatically saves the settings for this folder into the Registry. ShellBagsView enables you to review the list of all folder settings that were saved in the Registry. For each folder, the program displays the date/time the folder was accessed, the entry number, display mode (Details, Icons, Tiles, and so on...), the last position of the window, and the last size of the window. The list of selected items can be exported to CSV, HTML, Text or XML format. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114071&amp;amp;a=7114139&amp;amp;loc=2&quot; title=&quot;Download ShellBagsView&quot;&gt;Download ShellBagsView&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>ShellBagsView - view saved folder settings</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/shellbagsview.png</og:image>
+<og:description>view saved folder settings</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/shellbagsview.html</dc:identifier>
+</item>
+<item>
+<title>InstalledPackagesView</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114070&amp;x=7114139&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114070&amp;x=7114139&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;view installed MSI packages&lt;/em&gt; InstalledPackagesView displays a list of all software packages installed on your system with Windows Installer, and lists the files, Registry keys, and .NET Assemblies associated with them. For every installed software, the following information is displayed: Display Name, Display Version, Install Date, Registry Time, Estimated Size, Install Location, Install Source, MSI Filename, and more... You can view the installed software packages information from your local system or from another system on an external hard-drive. The list can be exported to Text, CSV, XML or HTML format. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114070&amp;amp;a=7114139&amp;amp;loc=2&quot; title=&quot;Download InstalledPackagesView&quot;&gt;Download InstalledPackagesView&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>InstalledPackagesView - view installed MSI packages</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/ipv.png</og:image>
+<og:description>view installed MSI packages</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/ipv.html</dc:identifier>
+</item>
+<item>
+<title>iTunes CPU Redux</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114069&amp;x=7151320&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114069&amp;x=7151320&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;reduce iTunes CPU usage&lt;/em&gt; iTunes CPU Redux is a small utility, designed to reduce the amount of resources iTunes uses on your PC. It monitors iTunes and its companion services (MobileDeviceService, MobileDeviceHelper, SyncHelper, Distnoted) running on your PC and automatically closes these services if they are no longer required. If you don't have your phone or other iOS device connected, these services are not needed and are wasting CPU resources. If needed, you can customize the settings and exclude any of those services from being closed. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114069&amp;amp;a=7151320&amp;amp;loc=2&quot; title=&quot;Download iTunes CPU Redux&quot;&gt;Download iTunes CPU Redux&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>iTunes CPU Redux - reduce iTunes CPU usage</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/itunescpuredux.png</og:image>
+<og:description>reduce iTunes CPU usage</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/itunescpuredux.html</dc:identifier>
+</item>
+<item>
+<title>Alternate Pic View ExeSlide</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114067&amp;x=7151594&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114067&amp;x=7151594&amp;feed=3</guid>
+<description>&lt;div id=&quot;globalheader&quot;&gt;
+					
+					&lt;div id=&quot;logoheader&quot;&gt;
+						&lt;div id=&quot;logo&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/&quot;&gt;&amp;#13;
+						&amp;#13;
+						&lt;img src=&quot;http://www.snapfiles.com/images/sflogo-smaller.png&quot; width=&quot;230&quot; height=&quot;35&quot; alt=&quot;SnapFiles&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+						
+					&lt;/div&gt;
+				&lt;div id=&quot;navigation-container&quot;&gt;
+			  &lt;ul id=&quot;navigation&quot;&gt;&lt;li class=&quot;first&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/&quot;&gt;&lt;b&gt;Home&lt;/b&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+					&lt;li&gt;&amp;#13;
+					&amp;#13;
+						&lt;a href=&quot;http://www.snapfiles.com/freeware/&quot;&gt;&lt;b&gt;Freeware&lt;/b&gt;&lt;/a&gt;  &amp;#13;
+&amp;#13;
+					&lt;/li&gt;&amp;#13;
+					&amp;#13;
+					&lt;li&gt;&amp;#13;
+					&lt;a href=&quot;http://www.snapfiles.com/shareware/&quot;&gt;&lt;b&gt;Shareware&lt;/b&gt;&lt;/a&gt;&amp;#13;
+&amp;#13;
+					&amp;#13;
+					&lt;/li&gt;&amp;#13;
+					&amp;#13;
+					&lt;li&gt;&amp;#13;
+					&lt;a href=&quot;http://www.snapfiles.com/new/list-whatsnew.html&quot;&gt;&lt;b&gt;Latest Downloads&lt;/b&gt;&lt;/a&gt;&amp;#13;
+&amp;#13;
+					&amp;#13;
+					&lt;/li&gt;&amp;#13;
+					&amp;#13;
+					&lt;li&gt;&amp;#13;
+					&lt;a href=&quot;http://www.snapfiles.com/features/&quot;&gt;&lt;b&gt;Editor's Selections&lt;/b&gt;&lt;/a&gt;&amp;#13;
+&amp;#13;
+					&amp;#13;
+					&lt;/li&gt;&amp;#13;
+					&amp;#13;
+					&lt;li&gt;&amp;#13;
+					&lt;a href=&quot;http://www.snapfiles.com/topdownloads/&quot;&gt;&lt;b&gt;Top 100&lt;/b&gt;&lt;/a&gt;&amp;#13;
+&amp;#13;
+					&amp;#13;
+					&lt;/li&gt;&amp;#13;
+          &amp;#13;
+					&lt;li&gt;&amp;#13;
+					&lt;a href=&quot;http://portable.snapfiles.com/&quot;&gt;&lt;b&gt;Portable Apps&lt;/b&gt;&lt;/a&gt;&amp;#13;
+&amp;#13;
+					&amp;#13;
+					&lt;/li&gt;					&amp;#13;
+					&amp;#13;
+					&amp;#13;
+					&lt;li class=&quot;navmainstop&quot;&gt;&amp;#13;
+	        &lt;a href=&quot;javascript:toggleDetails('morelist','showmorelist');&quot;&gt;&lt;b&gt;More  &lt;img src=&quot;http://www.snapfiles.com/images/navarrow-down.png&quot; alt=&quot;expand&quot; height=&quot;9&quot; width=&quot;13&quot; /&gt;&lt;/b&gt;&lt;/a&gt;&amp;#13;
+	        &lt;/li&gt;&amp;#13;
+ &amp;#13;
+					&amp;#13;
+					&amp;#13;
+					&amp;#13;
+					&amp;#13;
+					&amp;#13;
+					&lt;li class=&quot;last&quot;&gt;&amp;#13;
+					&amp;#13;
+					&amp;#13;
+					&lt;/li&gt;&lt;li class=&quot;\&amp;quot;myapps\&amp;quot;&quot;&gt;&lt;a href=&quot;\&amp;quot;http://www.snapfiles.com/reviewers/\&amp;quot;&quot;&gt;&lt;b&gt;My Apps&lt;/b&gt;&lt;/a&gt;&lt;/li&gt;&quot;;&amp;#13;
+					var loginlink=&quot;&lt;li class=&quot;\&amp;quot;last\&amp;quot;&quot;&gt;&lt;a href=&quot;\&amp;quot;http://www.snapfiles.com/reviewers/\&amp;quot;&quot;&gt;&lt;b&gt;Login/Join&lt;/b&gt;&lt;/a&gt;&quot;;&amp;#13;
+					&amp;#13;
+					if (document.cookie.indexOf('AXCOOKIELOGIN'+&quot;=&quot;) != -1) &amp;#13;
+						document.write(memberlinks);&amp;#13;
+						else document.write(loginlink);&amp;#13;
+						&amp;#13;
+					//--&amp;gt;&amp;#13;
+					 &amp;#13;
+&amp;#13;
+					&lt;/li&gt;&amp;#13;
+				&amp;#13;
+				&lt;/ul&gt;&lt;/div&gt;
+			&lt;/div&gt;&amp;#13;
+			&amp;#13;
+&amp;#13;
+      &amp;#13;
+    	&amp;#13;
+			&amp;#13;
+			&amp;#13;
+			&lt;!-- globalheader --&gt;&amp;#13;
+&amp;#13;
+&amp;#13;
+		&amp;#13;
+				&amp;#13;
+				&amp;#13;
+			&amp;#13;
+			&amp;#13;
+				&amp;#13;
+      &amp;#13;
+     &amp;#13;
+&amp;#13;
+&lt;div id=&quot;contentcontainer&quot;&gt;
+
+ 
+
+		&lt;div id=&quot;navpath&quot;&gt;
+			&lt;a href=&quot;http://www.snapfiles.com/&quot;&gt;Home&lt;/a&gt;&lt;img src=&quot;http://www.snapfiles.com/images/topnavbullet.png&quot; width=&quot;7&quot; height=&quot;10&quot; alt=&quot;navigation&quot; /&gt;&lt;a href=&quot;http://www.snapfiles.com/freeware/&quot;&gt;Freeware&lt;/a&gt;&lt;img src=&quot;http://www.snapfiles.com/images/topnavbullet.png&quot; width=&quot;7&quot; height=&quot;10&quot; alt=&quot;navigation&quot; /&gt;&lt;a href=&quot;http://www.snapfiles.com/freeware/categories/graphics_and_photo/index.html&quot;&gt;Graphics and Photo&lt;/a&gt;&lt;img src=&quot;http://www.snapfiles.com/images/topnavbullet.png&quot; width=&quot;7&quot; height=&quot;10&quot; alt=&quot;navigation&quot; /&gt;&lt;a href=&quot;http://www.snapfiles.com/freeware/gmm/fwgraphictools.html&quot;&gt;Misc. Imaging Tools&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;</description>
+<og:title>Alternate Pic View ExeSlide - create a slideshow from your images</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/exeslide.png</og:image>
+<og:description>create a slideshow from your images</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/exeslide.html</dc:identifier>
+</item>
+<item>
+<title>Sonic Visualiser</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114064&amp;x=7151600&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114064&amp;x=7151600&amp;feed=3</guid>
+<description>[unable to retrieve full-text content]Sonic Visualiser is a program aimed at those who want to study a musical recording rather than simply listen to it.
+
+It can load audio files in WAV, Ogg and MP3 formats, and l....</description>
+<og:title>Sonic Visualiser - analyze the contents of music audio files</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/sonicvisualizer.png</og:image>
+<og:description>analyze the contents of music audio files</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/sonicvisualizer.html</dc:identifier>
+</item>
+<item>
+<title>WildGem</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114063&amp;x=7151599&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114063&amp;x=7151599&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;find and replace text with Regex in real-time&lt;/em&gt; WildGem is a small application to help you find and replace text. Its powerful syntax combines most of the flexibility of Regex, but with the simplicity of the typical find/replace feature found in your text editor or word processor. The program lets you perform complex search and replace operations with the help of one-click commands that can help you create Regex string without knowing anything about Regular Expressions. Think about it as a WYSIWYG editor for Regex searches. The side-by-side text display lets you preview your text matches and replacement results in real-time, which makes it easy to tweak and adjust your search parameters until you get it right. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114063&amp;amp;a=7151599&amp;amp;loc=2&quot; title=&quot;Download WildGem&quot;&gt;Download WildGem&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>WildGem - find and replace text with Regex in real-time</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/wildgem.png</og:image>
+<og:description>find and replace text with Regex in real-time</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/wildgem.html</dc:identifier>
+</item>
+<item>
+<title>HostsShield</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114062&amp;x=7151598&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114062&amp;x=7151598&amp;feed=3</guid>
+<description>&lt;div id=&quot;globalheader&quot;&gt;
+&lt;div id=&quot;logoheader&quot;&gt;
+&lt;div id=&quot;logo&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/&quot;&gt;&lt;img src=&quot;http://www.snapfiles.com/images/sflogo-smaller.png&quot; width=&quot;230&quot; height=&quot;35&quot; alt=&quot;SnapFiles&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div id=&quot;navigation-container&quot;&gt;
+&lt;ul id=&quot;navigation&quot;&gt;&lt;li class=&quot;first&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/&quot;&gt;&lt;strong&gt;Home&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;a href=&quot;http://www.snapfiles.com/freeware/&quot;&gt;&lt;strong&gt;Freeware&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;a href=&quot;http://www.snapfiles.com/shareware/&quot;&gt;&lt;strong&gt;Shareware&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;a href=&quot;http://www.snapfiles.com/new/list-whatsnew.html&quot;&gt;&lt;strong&gt;Latest Downloads&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;a href=&quot;http://www.snapfiles.com/features/&quot;&gt;&lt;strong&gt;Editor's Selections&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;a href=&quot;http://www.snapfiles.com/topdownloads/&quot;&gt;&lt;strong&gt;Top 100&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;a href=&quot;http://portable.snapfiles.com/&quot;&gt;&lt;strong&gt;Portable Apps&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li class=&quot;navmainstop&quot;&gt;&lt;a href=&quot;javascript:toggleDetails('morelist','showmorelist');&quot;&gt;&lt;strong&gt;More  &lt;img src=&quot;http://www.snapfiles.com/images/navarrow-down.png&quot; alt=&quot;expand&quot; height=&quot;9&quot; width=&quot;13&quot; /&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li class=&quot;last&quot;&gt;&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;&amp;#13;
+&amp;#13;
+&amp;#13;
+&lt;div id=&quot;contentcontainer&quot;&gt;
+&lt;div id=&quot;navpath&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/&quot;&gt;Home&lt;/a&gt;&lt;img src=&quot;http://www.snapfiles.com/images/topnavbullet.png&quot; width=&quot;7&quot; height=&quot;10&quot; alt=&quot;navigation&quot; /&gt;&lt;a href=&quot;http://www.snapfiles.com/freeware/&quot;&gt;Freeware&lt;/a&gt;&lt;img src=&quot;http://www.snapfiles.com/images/topnavbullet.png&quot; width=&quot;7&quot; height=&quot;10&quot; alt=&quot;navigation&quot; /&gt;&lt;a href=&quot;http://www.snapfiles.com/freeware/categories/internet_tools/index.html&quot;&gt;Internet Tools&lt;/a&gt;&lt;img src=&quot;http://www.snapfiles.com/images/topnavbullet.png&quot; width=&quot;7&quot; height=&quot;10&quot; alt=&quot;navigation&quot; /&gt;&lt;a href=&quot;http://www.snapfiles.com/freeware/misctools/fwmiscinternet.html&quot;&gt;Misc. Internet Tools&lt;/a&gt;&lt;/div&gt;
+&lt;div id=&quot;appheader-container&quot;&gt;
+&lt;div id=&quot;appheader&quot;&gt;
+&lt;div id=&quot;apptitle&quot;&gt;
+&lt;div id=&quot;appicon&quot;&gt;&lt;img src=&quot;http://www.snapfiles.com/images/appicons/i_hostsshield.png&quot; alt=&quot;HostsShield&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;appheader-right&quot;&gt;
+&lt;div id=&quot;pp-usertools&quot;&gt;
+&lt;ul&gt;&lt;li id=&quot;saveforlater&quot;&gt;&lt;a id=&quot;addtolater&quot; href=&quot;http://www.snapfiles.com/get/hostsshield.html#&quot; name=&quot;addtolater&quot;&gt;Save for later&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li id=&quot;watchlist&quot;&gt;&lt;a id=&quot;addtofavs&quot; href=&quot;http://www.snapfiles.com/get/hostsshield.html#&quot; name=&quot;addtofavs&quot;&gt;Add to Favorites&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;pp-rightborder&quot;&gt;
+
+&lt;div class=&quot;navbox-container&quot;&gt;
+&lt;div class=&quot;navbox-content&quot;&gt;&lt;span class=&quot;navbox-title&quot;&gt;Popular in Internet Tools&lt;/span&gt;
+&lt;ul&gt;&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_freemusicdl.png&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trendup.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/freemusicdl.html&quot;&gt;Free Music and Video Downloader&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_ghostery.png&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trenddown.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/ghostery.html&quot;&gt;Ghostery for Firefox&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_flagfox.gif&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trenddown.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/flagfox.html&quot;&gt;Flagfox&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_noscript.gif&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trenddown.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/noscript.html&quot;&gt;NoScript&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_whatsapp.png&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trendup.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/whatsapp.html&quot;&gt;WhatsApp&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_myiebrowser.gif&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trenddown.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/myiebrowser.html&quot;&gt;Maxthon&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_freedownloadmanager.gif&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trenddown.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/freedownloadmanager.html&quot;&gt;Free Download Manager&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_webcopy.png&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trenddown.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&amp;#13;
+</description>
+<og:title>HostsShield - block malicious sites via the Hosts file</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/hostsshield.png</og:image>
+<og:description>block malicious sites via the Hosts file</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/hostsshield.html</dc:identifier>
+</item>
+<item>
+<title>todometer</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114059&amp;x=7151595&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114059&amp;x=7151595&amp;feed=3</guid>
+<description>&lt;div id=&quot;globalheader&quot;&gt;
+&lt;div id=&quot;logoheader&quot;&gt;
+&lt;div id=&quot;logo&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/&quot;&gt;&lt;img src=&quot;http://www.snapfiles.com/images/sflogo-smaller.png&quot; width=&quot;230&quot; height=&quot;35&quot; alt=&quot;SnapFiles&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div id=&quot;navigation-container&quot;&gt;
+&lt;ul id=&quot;navigation&quot;&gt;&lt;li class=&quot;first&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/&quot;&gt;&lt;strong&gt;Home&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;a href=&quot;http://www.snapfiles.com/freeware/&quot;&gt;&lt;strong&gt;Freeware&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;a href=&quot;http://www.snapfiles.com/shareware/&quot;&gt;&lt;strong&gt;Shareware&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;a href=&quot;http://www.snapfiles.com/new/list-whatsnew.html&quot;&gt;&lt;strong&gt;Latest Downloads&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;a href=&quot;http://www.snapfiles.com/features/&quot;&gt;&lt;strong&gt;Editor's Selections&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;a href=&quot;http://www.snapfiles.com/topdownloads/&quot;&gt;&lt;strong&gt;Top 100&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;a href=&quot;http://portable.snapfiles.com/&quot;&gt;&lt;strong&gt;Portable Apps&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li class=&quot;navmainstop&quot;&gt;&lt;a href=&quot;javascript:toggleDetails('morelist','showmorelist');&quot;&gt;&lt;strong&gt;More  &lt;img src=&quot;http://www.snapfiles.com/images/navarrow-down.png&quot; alt=&quot;expand&quot; height=&quot;9&quot; width=&quot;13&quot; /&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li class=&quot;last&quot;&gt;&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;&amp;#13;
+&amp;#13;
+&amp;#13;
+&lt;div id=&quot;contentcontainer&quot;&gt;
+&lt;div id=&quot;navpath&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/&quot;&gt;Home&lt;/a&gt;&lt;img src=&quot;http://www.snapfiles.com/images/topnavbullet.png&quot; width=&quot;7&quot; height=&quot;10&quot; alt=&quot;navigation&quot; /&gt;&lt;a href=&quot;http://www.snapfiles.com/freeware/&quot;&gt;Freeware&lt;/a&gt;&lt;img src=&quot;http://www.snapfiles.com/images/topnavbullet.png&quot; width=&quot;7&quot; height=&quot;10&quot; alt=&quot;navigation&quot; /&gt;&lt;a href=&quot;http://www.snapfiles.com/freeware/categories/productivity/index.html&quot;&gt;Productivity&lt;/a&gt;&lt;img src=&quot;http://www.snapfiles.com/images/topnavbullet.png&quot; width=&quot;7&quot; height=&quot;10&quot; alt=&quot;navigation&quot; /&gt;&lt;a href=&quot;http://www.snapfiles.com/freeware/productivity/fwreminders.html&quot;&gt;To-Do and Reminders&lt;/a&gt;&lt;/div&gt;
+&lt;div id=&quot;appheader-container&quot;&gt;
+&lt;div id=&quot;appheader&quot;&gt;
+&lt;div id=&quot;apptitle&quot;&gt;
+&lt;div id=&quot;appicon&quot;&gt;&lt;img src=&quot;http://www.snapfiles.com/images/appicons/i_todometer.png&quot; alt=&quot;todometer&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;appheader-right&quot;&gt;
+&lt;div id=&quot;pp-usertools&quot;&gt;
+&lt;ul&gt;&lt;li id=&quot;saveforlater&quot;&gt;&lt;a id=&quot;addtolater&quot; href=&quot;http://www.snapfiles.com/get/todometer.html#&quot; name=&quot;addtolater&quot;&gt;Save for later&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;li id=&quot;watchlist&quot;&gt;&lt;a id=&quot;addtofavs&quot; href=&quot;http://www.snapfiles.com/get/todometer.html#&quot; name=&quot;addtofavs&quot;&gt;Add to Favorites&lt;/a&gt;&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;pp-rightborder&quot;&gt;
+
+&lt;div class=&quot;navbox-container&quot;&gt;
+&lt;div class=&quot;navbox-content&quot;&gt;&lt;span class=&quot;navbox-title&quot;&gt;Popular in Productivity&lt;/span&gt;
+&lt;ul&gt;&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_winscan2pdf.gif&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trendup.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/winscan2pdf.html&quot;&gt;WinScan2PDF&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_officestarter.gif&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trendup.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/officestarter.html&quot;&gt;Microsoft Office Starter&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_pdfshaper.png&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trenddown.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/pdfshaper.html&quot;&gt;PDF Shaper Free&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_pdf24.gif&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trenddown.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/pdf24.html&quot;&gt;PDF24 PDF Creator&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_pdfanticopy.png&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trenddown.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/pdfanticopy.html&quot;&gt;PDF Anti-Copy&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_dopdf.png&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trendup.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/dopdf.html&quot;&gt;doPDF&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_pdfxchangeviewer.gif&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trendup.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/pdfxchangeviewer.html&quot;&gt;PDF-XChange Viewer&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;li&gt;&lt;img class=&quot;listimage&quot; src=&quot;http://www.snapfiles.com/images/appicons/i_openoffice.gif&quot; alt=&quot;icon&quot; width=&quot;32&quot; height=&quot;32&quot; /&gt;&lt;img src=&quot;http://www.snapfiles.com/images/trendup.png&quot; alt=&quot;trend&quot; width=&quot;10&quot; height=&quot;10&quot; /&gt;  &lt;a href=&quot;http://www.snapfiles.com/get/openoffice.html&quot;&gt;OpenOffice&lt;/a&gt; &lt;span&gt;Free&lt;/span&gt;&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&amp;#13;
+</description>
+<og:title>todometer - a meter-based to-do list for your desktop</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/todometer.png</og:image>
+<og:description>a meter-based to-do list for your desktop</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/todometer.html</dc:identifier>
+</item>
+<item>
+<title>Duplicate File Eraser</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114056&amp;x=7151593&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114056&amp;x=7151593&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;find and remove duplicate files&lt;/em&gt; Duplicate File Eraser is a simple program that can find and remove duplicate files. You can specify multiple file and folder locations and choose to include sub-directories as well. The search can be further limited by file size and file extension. The program will scan the specified folders and compare the files with CRC32, MD5 and SHA1 hash sum verification. You can review the results in a list view and automatically select the duplicate versions for further processing, which includes options to copy, move or delete them. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114056&amp;amp;a=7151593&amp;amp;loc=2&quot; title=&quot;Download Duplicate File Eraser&quot;&gt;Download Duplicate File Eraser&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Duplicate File Eraser - find and remove duplicate files</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/dupfileeraser.png</og:image>
+<og:description>find and remove duplicate files</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/dupfileeraser.html</dc:identifier>
+</item>
+<item>
+<title>Bat To Exe Converter</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114055&amp;x=7151593&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114055&amp;x=7151593&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;convert BAT files to EXE format&lt;/em&gt; Bat To Exe Converter can convert BAT (.bat) script files to EXE (.exe) format. The compiled EXE file supports administrator priviliges as well as inclusion of additional files, folders, icon and version information. The program can create 32-bit or 64-bit executables that can run hidden or visible and can be protected with optional encryption. Other features include a script editing view with syntax coloring, temp file management and optional UPX compression. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114055&amp;amp;a=7151593&amp;amp;loc=2&quot; title=&quot;Download Bat To Exe Converter&quot;&gt;Download Bat To Exe Converter&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Bat To Exe Converter - convert BAT files to EXE format</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/battoexeconverter.png</og:image>
+<og:description>convert BAT files to EXE format</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/battoexeconverter.html</dc:identifier>
+</item>
+<item>
+<title>Audio/Video To Exe</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114054&amp;x=7151593&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114054&amp;x=7151593&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;convert audio and video files to EXE format&lt;/em&gt; Audio/Video To Exe enables you to convert multimedia files to self-playing executables in .EXE format. In addition to converting media files to EXE format, the program can also convert your audio/video files to various other formats, including MOV, MP4, MPG, MP3, OGG, WMV and others. To convert your file(s), simply add them to the list and select &quot;Convert&quot; or &quot;Create EXE&quot; to convert them to the desired format. Audio/Video To Exe also includes a capture tool to capture video directly from your camera, a simple ID3 tag editor, a direct-cut tool and a WAV creator. A Pro version is available that adds some additional features, which are not available in the free version. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114054&amp;amp;a=7151593&amp;amp;loc=2&quot; title=&quot;Download Audio/Video To Exe&quot;&gt;Download Audio/Video To Exe&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Audio/Video To Exe - convert audio and video files to EXE format</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/audiovideotoexe.png</og:image>
+<og:description>convert audio and video files to EXE format</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/audiovideotoexe.html</dc:identifier>
+</item>
+<item>
+<title>Vbs To Exe</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114053&amp;x=7151593&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114053&amp;x=7151593&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;convert VBS files to EXE format&lt;/em&gt; Vbs To Exe can convert VBS (.vbs) files to the EXE (.exe) format. It supports administrator priviliges as well as inclusion of additional files, folders, icon and version information. The program can create 32-bit or 64-bit executables that can run hidden or visible and can be protected with optional encryption. Other features include a script editing view with syntax coloring, temp file management and optional UPX compression. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114053&amp;amp;a=7151593&amp;amp;loc=2&quot; title=&quot;Download Vbs To Exe&quot;&gt;Download Vbs To Exe&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Vbs To Exe - convert VBS files to EXE format</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/vbstoexe.png</og:image>
+<og:description>convert VBS files to EXE format</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/vbstoexe.html</dc:identifier>
+</item>
+<item>
+<title>Pixeloid</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114051&amp;x=7151274&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114051&amp;x=7151274&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;A novel and secure way to store data&lt;/em&gt; Pixeloid is a unique encryption tool that allows you to encrypt typed text, images or text files inside a small Pixeloid graphic, that resembles a matrix of colored pixels. You can drag and drop an image or text file or type/paste the text into a dialog box and create the Pixeloid with the click of a button. By default, the stored data is not encrypted, only hidden inside the Pixeloid. You can optionally add impenetrable security by protecting your Pixeloid with a password and TripleDES encryption. Pixeloid is essentially an encryption tool like many others, but it offers a unique approach that makes it easy to create and protect your secret data. Since the program outputs regual JPG image files, a Pixeloid can be easily shared via email or even posted on the web. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114051&amp;amp;a=7151274&amp;amp;loc=2&quot; title=&quot;Download Pixeloid&quot;&gt;Download Pixeloid&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Pixeloid - A novel and secure way to store data</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/pixeloid.png</og:image>
+<og:description>A novel and secure way to store data</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/pixeloid.html</dc:identifier>
+</item>
+<item>
+<title>PhotoWipe</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114050&amp;x=7151591&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114050&amp;x=7151591&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;remove unwanted objects from your photos&lt;/em&gt; PhotoWipe is an easy to use program that can help you remove unwanted objects from your photos by simply painting them black. One you load the photo you want to edit, you can choose from several different brush and pencil sized and start painting over the object you want to remove. You can then preview the results and go back to make changes or save the edited photo as a new image. PhotoWipe is a simple and straightfoward tool and it works well in some situations with relatively plain backgrounds but not so great with more complex object removals. Unfortunately, there are no fine-tuning or adjustments options other than brush sizes and an eraser, so if you're not satisfied with the results, there is little you can do about it. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114050&amp;amp;a=7151591&amp;amp;loc=2&quot; title=&quot;Download PhotoWipe&quot;&gt;Download PhotoWipe&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>PhotoWipe - remove unwanted objects from your photos</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/photowipe.jpg</og:image>
+<og:description>remove unwanted objects from your photos</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/photowipe.html</dc:identifier>
+</item>
+<item>
+<title>CobraTek Wifi Manager</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114048&amp;x=7151590&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114048&amp;x=7151590&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;security tool for WiFi networks&lt;/em&gt; CobraTek Wifi Manager is a security tool for WiFi networks that lets you manage and audit your wireless network. It uses your wireless adapter and displays a list of all networks access points that are within range, along with their signal strength, encryption type and other details. CobraTek Wifi Manager comes with a security scan feature that allows you to test your access point for password vulnerabilities by scanning it from a built-in database of commonly used passwords. You can extend the database and also create your own. Other features include an option to display your current location on Google Maps, detailed wireless system information, hosted network setup, and more. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114048&amp;amp;a=7151590&amp;amp;loc=2&quot; title=&quot;Download CobraTek Wifi Manager&quot;&gt;Download CobraTek Wifi Manager&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>CobraTek Wifi Manager - security tool for WiFi networks</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/cobrawifi.png</og:image>
+<og:description>security tool for WiFi networks</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/cobrawifi.html</dc:identifier>
+</item>
+<item>
+<title>LightBulb</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114046&amp;x=7149477&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114046&amp;x=7149477&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;adjust your display brightness based on the time of day&lt;/em&gt; LightBulb is a small application that can help reduce eye strain at night by automatically adjusting your display gamma levels based on current time of day. The program uses color temperature profiles to determine channel output levels for day and night and applies smooth transitions between them at sunrise and sunset. You can adjust the temperature values for daytime and nighttime based on your preference and also customize the transition duration and preview your settings with a simulated 24-hour preview. LightBulb automatically uses sunrise and sunset times based on your location but these settings can also be customized if needed. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114046&amp;amp;a=7149477&amp;amp;loc=2&quot; title=&quot;Download LightBulb&quot;&gt;Download LightBulb&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>LightBulb - adjust your display brightness based on the time of day</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/lightbulb.png</og:image>
+<og:description>adjust your display brightness based on the time of day</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/lightbulb.html</dc:identifier>
+</item>
+<item>
+<title>Riot Isolator</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114045&amp;x=7151469&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114045&amp;x=7151469&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;improve your privacy and security&lt;/em&gt; Riot Isolator is a security toolbox that offers a variety of security and privacy oriented functions. The program includes a secure file eraser, file unlocker, anti-keylogger, anti-screenshot, anti-webcam, RAM eraser, USB drive protection, network usage stats, and more. You can access most of the tools by clicking on the small icons that are shown in the main GUI. Some tools are self-explanatory, others may require you to take a look at the help file to understand what they do and how they work (e.g. Live Report or Realtime Recognize). Riot Isolator comes with some handy tools but the interface design is confusing and lacks guidance. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114045&amp;amp;a=7151469&amp;amp;loc=2&quot; title=&quot;Download Riot Isolator&quot;&gt;Download Riot Isolator&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Riot Isolator - improve your privacy and security</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/riotisolator.png</og:image>
+<og:description>improve your privacy and security</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/riotisolator.html</dc:identifier>
+</item>
+<item>
+<title>Nasa`s Eyes</title>
+<link>http://www.snapfiles.com/php/rsslink.php?i=114044&amp;x=7130805&amp;feed=3</link>
+<guid isPermaLink="true" >http://www.snapfiles.com/php/rsslink.php?i=114044&amp;x=7130805&amp;feed=3</guid>
+<description>&lt;p id=&quot;sf_description&quot;&gt;&lt;em id=&quot;revintroline&quot;&gt;Experience Earth and our solar system&lt;/em&gt; Experience Earth and our solar system, the universe and the spacecraft exploring them, with immersive 3D simulations. Monitor our planet's vital signs, such as sea level height, atmospheric carbon dioxide concentration and Antarctic ozone. Trace the movement of water around the globe using the gravity map from NASA's GRACE satellites. Spot volcanic eruptions and forest fires using the carbon monoxide vital sign. Check out the hottest and coldest locations on Earth with the global surface temperature map. Explore the planets, their moons, asteroids, comets and the spacecraft exploring them from 1950 to 2050. Ride with the Curiosity Rover as it lands on Mars or fly by Pluto with the New Horizons spacecraft all from the comfort of your home computer. Take a virtual flight to any planet you wish, as long as it's far beyond our solar system. This fully rendered 3D universe is scientifically accurate, allowing you to zoom in for a close look at more than 1,000 exotic planets known to orbit distant stars. &lt;span class=&quot;dmcanote&quot;&gt;Copyright Snapfiles.com&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&quot;textdllink&quot;&gt;&lt;a href=&quot;http://www.snapfiles.com/php/sfdwnld.php?id=114044&amp;amp;a=7130805&amp;amp;loc=2&quot; title=&quot;Download Nasa`s Eyes&quot;&gt;Download Nasa`s Eyes&lt;/a&gt;&lt;/div&gt;
+</description>
+<og:title>Nasa`s Eyes - Experience Earth and our solar system</og:title>
+<og:image>http://www.snapfiles.com/screenfiles/nasaeyes.png</og:image>
+<og:description>Experience Earth and our solar system</og:description>
+<dc:language>en</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>http://www.snapfiles.com/get/nasaeyes.html</dc:identifier>
+</item>
+</channel>
+</rss>

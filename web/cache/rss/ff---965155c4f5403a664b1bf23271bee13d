@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="css/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:og="http://ogp.me/ns#">
+<channel>
+<atom:link rel="self" href="http://ftr.rachini.com/makefulltextfeed.php?url=https%3A%2F%2Fblog.author.io%2Ffeed" />
+<atom:link rel="alternate" title="Source URL" href="https://blog.author.io/feed" />
+<atom:link rel="related" title="Subscribe to feed" href="http://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dhttps%253A%252F%252Fblog.author.io%252Ffeed&amp;back=http%3A%2F%2Fftr.rachini.com%2Fmakefulltextfeed.php%3Furl%3Dhttps%253A%252F%252Fblog.author.io%252Ffeed" />
+<title>Author.io - Medium</title>
+<link>https://blog.author.io?source=rss----a6c53cdfaf8b---4</link>
+<description>blog.author.io - Medium</description>
+<image><title>Author.io - Medium</title>
+<link>https://blog.author.io?source=rss----a6c53cdfaf8b---4</link>
+<url>https://cdn-images-1.medium.com/proxy/1*TGH72Nnw24QL3iV9IOm4VA.png</url>
+</image>
+<item>
+<title>Npm Needs a Personal Trainer</title>
+<link>https://blog.author.io/npm-needs-a-personal-trainer-537e0f8859c6?source=rss----a6c53cdfaf8b---4</link>
+<guid isPermaLink="true" >https://blog.author.io/npm-needs-a-personal-trainer-537e0f8859c6?source=rss----a6c53cdfaf8b---4</guid>
+<description>&lt;div class=&quot;aspectRatioPlaceholder is-locked&quot;&gt;
+
+&lt;img class=&quot;graf-image&quot; data-image-id=&quot;1*DnSo0yGbkLsYscYR4sWOnA.png&quot; data-width=&quot;693&quot; data-height=&quot;693&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*DnSo0yGbkLsYscYR4sWOnA.png&quot;/&gt;&lt;/div&gt;
+&lt;p name=&quot;a199&quot; id=&quot;a199&quot; class=&quot;graf graf--p graf-after--figure&quot;&gt;It’s hard to find developers who &lt;strong class=&quot;markup--strong markup--p-strong&quot;&gt;don’t&lt;/strong&gt; know what &lt;a href=&quot;http://npmjs.org&quot; data-href=&quot;http://npmjs.org&quot; class=&quot;markup--anchor markup--p-anchor&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;npm&lt;/a&gt; is. With 110K unique modules in store at the beginning of 2015, it’s the “go to” resource for node.js. But npm is overweight for it’s age.&lt;/p&gt;
+&lt;h4 name=&quot;bb4d&quot; id=&quot;bb4d&quot; class=&quot;graf graf--h4 graf-after--p&quot;&gt;Childhood Obesity is a Problem… for npm&lt;/h4&gt;
+&lt;p name=&quot;94b0&quot; id=&quot;94b0&quot; class=&quot;graf graf--p graf-after--h4&quot;&gt;Npm is growing by leaps and bounds. Some growth is healthy, some is not. Like a child, it needs a proper diet of good practices and developers who exercise them.&lt;/p&gt;
+&lt;p name=&quot;2d11&quot; id=&quot;2d11&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;350K is a lot of modules, but is that too many? It’s hard to tell. There are lots of unique cases where a slight variation of a module fits one use case better than another. Perhaps there is some room to trim unnecessary modules, but there are other things &lt;em class=&quot;markup--em markup--p-em&quot;&gt;you&lt;/em&gt; can do.&lt;/p&gt;
+&lt;p name=&quot;470e&quot; id=&quot;470e&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Instead of worrying about the number of modules, developers should focus on making their own modules healthier. Everyone pitches in for a healthier community.&lt;/p&gt;
+&lt;p name=&quot;5b80&quot; id=&quot;5b80&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;In meetup presentations and tech talks, it’s common to hear a developer pitch the ease of use their module offers as a way to convince you it’s the best thing since sliced bread.&lt;/p&gt;
+&lt;p name=&quot;1570&quot; id=&quot;1570&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;You &lt;em class=&quot;markup--em markup--p-em&quot;&gt;just&lt;/em&gt; …&lt;/p&gt;
+&lt;pre name=&quot;04f7&quot; id=&quot;04f7&quot; class=&quot;graf graf--pre graf-after--p&quot;&gt;&amp;#13;
+npm install awesome-sauce &amp;#13;
+&lt;/pre&gt;
+&lt;p name=&quot;d78a&quot; id=&quot;d78a&quot; class=&quot;graf graf--p graf-after--pre&quot;&gt;… and you’re off to the races! Right? Maybe not.&lt;/p&gt;
+&lt;p name=&quot;0c78&quot; id=&quot;0c78&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Have you looked at the code this awesome module downloaded into your project folder? Look carefully. Some IDE’s hide the node_modules folder from view to present the appearance of a clean project. This is like black clothing… slimming, but still a facade.&lt;/p&gt;
+&lt;p name=&quot;e5c8&quot; id=&quot;e5c8&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;There are many modules with excessive “extras” delivered to npm. In my personal experience, I’ve seen numerous modules containing example folders, documentation directories, and all sorts of other stuff. In some cases, the functional JavaScript files collectively weigh in under 100Kb, accompanied by 20MB of documentation and example files.&lt;/p&gt;
+&lt;p name=&quot;eb64&quot; id=&quot;eb64&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;&lt;strong class=&quot;markup--strong markup--p-strong&quot;&gt;The Node community needs to minimize module footprints.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 name=&quot;9952&quot; id=&quot;9952&quot; class=&quot;graf graf--h3 graf-after--p&quot;&gt;&lt;strong class=&quot;markup--strong markup--h3-strong&quot;&gt;What Difference Does it Make?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p name=&quot;9c74&quot; id=&quot;9c74&quot; class=&quot;graf graf--p graf-after--h3&quot;&gt;Underscore is a popular module. According to today’s stats, it was downloaded 87,920 times yesterday alone. It was downloaded 4.5M times in the last month. It’s a popular dependency. Now imagine if 1.5Kb was stripped out of the library (which happens to be about the size of the README file). 4.5M x 1.5Kb = ~6.4GB/mo.&lt;/p&gt;
+&lt;p name=&quot;f921&quot; id=&quot;f921&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;I picked on underscore specifically because of it’s popularity and its relatively good job of ignoring extra files, though at the time of this writing, a straight npm installation still includes both the minified (16Kb) and unminified (47Kb) versions of the library, plus the LICENSE and README files at 2Kb each.&lt;/p&gt;
+&lt;h3 name=&quot;5121&quot; id=&quot;5121&quot; class=&quot;graf graf--h3 graf-after--p&quot;&gt;Publish Only What You Need&lt;/h3&gt;
+&lt;p name=&quot;1d42&quot; id=&quot;1d42&quot; class=&quot;graf graf--p graf-after--h3&quot;&gt;There are two primary approaches for minimizing the footprint of an npm module. Whitelisting is accomplished with the package.json file, while blacklisting is accomplished with the .npmignore file.&lt;/p&gt;
+&lt;h4 name=&quot;e837&quot; id=&quot;e837&quot; class=&quot;graf graf--h4 graf-after--p&quot;&gt;Slimmer Pickings: Whitelist files in package.json&lt;/h4&gt;
+&lt;p name=&quot;b480&quot; id=&quot;b480&quot; class=&quot;graf graf--p graf-after--h4&quot;&gt;Whitelisting is the most effective/robust way to reduce your npm footprint. Specify only the relevant resources in the package.json &lt;a href=&quot;https://docs.npmjs.com/files/package.json#files&quot; data-href=&quot;https://docs.npmjs.com/files/package.json#files&quot; class=&quot;markup--anchor markup--p-anchor&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;files&lt;/a&gt; section.&lt;/p&gt;
+&lt;p name=&quot;f7cd&quot; id=&quot;f7cd&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Certain files are always included, regardless of settings:&lt;/p&gt;
+&lt;ul class=&quot;postList&quot;&gt;&lt;li name=&quot;ad82&quot; id=&quot;ad82&quot; class=&quot;graf graf--li graf-after--p&quot;&gt;package.json&lt;/li&gt;&amp;#13;
+&lt;li name=&quot;44d3&quot; id=&quot;44d3&quot; class=&quot;graf graf--li graf-after--li&quot;&gt;README (and its variants)&lt;/li&gt;&amp;#13;
+&lt;li name=&quot;7466&quot; id=&quot;7466&quot; class=&quot;graf graf--li graf-after--li&quot;&gt;CHANGELOG (and its variants)&lt;/li&gt;&amp;#13;
+&lt;li name=&quot;fac2&quot; id=&quot;fac2&quot; class=&quot;graf graf--li graf-after--li&quot;&gt;LICENSE / LICENCE&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;p name=&quot;31d0&quot; id=&quot;31d0&quot; class=&quot;graf graf--p graf-after--li&quot;&gt;Conversely, some files are always ignored:&lt;/p&gt;
+&lt;ul class=&quot;postList&quot;&gt;&lt;li name=&quot;45ef&quot; id=&quot;45ef&quot; class=&quot;graf graf--li graf-after--p&quot;&gt;.git&lt;/li&gt;&amp;#13;
+&lt;li name=&quot;fb11&quot; id=&quot;fb11&quot; class=&quot;graf graf--li graf-after--li&quot;&gt;CVS&lt;/li&gt;&amp;#13;
+&lt;li name=&quot;a753&quot; id=&quot;a753&quot; class=&quot;graf graf--li graf-after--li&quot;&gt;.svn&lt;/li&gt;&amp;#13;
+&lt;li name=&quot;dcbc&quot; id=&quot;dcbc&quot; class=&quot;graf graf--li graf-after--li&quot;&gt;.hg&lt;/li&gt;&amp;#13;
+&lt;li name=&quot;6ed0&quot; id=&quot;6ed0&quot; class=&quot;graf graf--li graf-after--li&quot;&gt;.lock-wscript&lt;/li&gt;&amp;#13;
+&lt;li name=&quot;ba1a&quot; id=&quot;ba1a&quot; class=&quot;graf graf--li graf-after--li&quot;&gt;.wafpickle-N&lt;/li&gt;&amp;#13;
+&lt;li name=&quot;31a8&quot; id=&quot;31a8&quot; class=&quot;graf graf--li graf-after--li&quot;&gt;*.swp&lt;/li&gt;&amp;#13;
+&lt;li name=&quot;7963&quot; id=&quot;7963&quot; class=&quot;graf graf--li graf-after--li&quot;&gt;.DS_Store&lt;/li&gt;&amp;#13;
+&lt;li name=&quot;4833&quot; id=&quot;4833&quot; class=&quot;graf graf--li graf-after--li&quot;&gt;._*&lt;/li&gt;&amp;#13;
+&lt;li name=&quot;194f&quot; id=&quot;194f&quot; class=&quot;graf graf--li graf-after--li&quot;&gt;npm-debug.log&lt;/li&gt;&amp;#13;
+&lt;/ul&gt;&lt;p name=&quot;ed55&quot; id=&quot;ed55&quot; class=&quot;graf graf--p graf-after--li&quot;&gt;By explicitly identifying the necessary files, developers guarantee slimmer packages, even if something slips into the code base by mistake (like an examples directory).&lt;/p&gt;
+&lt;h4 name=&quot;7855&quot; id=&quot;7855&quot; class=&quot;graf graf--h4 graf-after--p&quot;&gt;The Ignored Diet: Blacklisting Files&lt;/h4&gt;
+&lt;p name=&quot;2e51&quot; id=&quot;2e51&quot; class=&quot;graf graf--p graf-after--h4&quot;&gt;Npm has an ironically often ignored .npmignore capability. If the package.json “files” attribute is for whitelisting, .npmignore is the equivalent of blacklisting.&lt;/p&gt;
+&lt;p name=&quot;1a7e&quot; id=&quot;1a7e&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;This file is similar to the .gitignore file. It prevents specific files and folders from being published to the npm registry. It’s simple and makes your modules lean. You should be using it in every module you publish if you’re not using whitelisting.&lt;/p&gt;
+&lt;h3 name=&quot;cba0&quot; id=&quot;cba0&quot; class=&quot;graf graf--h3 graf-after--p&quot;&gt;&lt;strong class=&quot;markup--strong markup--h3-strong&quot;&gt;What REALLY Needs to be Published to npm?&lt;/strong&gt;&lt;/h3&gt;
+&lt;p name=&quot;8b03&quot; id=&quot;8b03&quot; class=&quot;graf graf--p graf-after--h3&quot;&gt;For node use, is it &lt;em class=&quot;markup--em markup--p-em&quot;&gt;really&lt;/em&gt; necessary to have both minified and unminified versions of a file? Is the README &lt;em class=&quot;markup--em markup--p-em&quot;&gt;really&lt;/em&gt; necessary? How many copies of this are on your production server? Are you running your projects on a low-end $5 virtual machine or a free OpenShift instance? While space is often cheap, don’t abuse it.&lt;/p&gt;
+&lt;p name=&quot;e299&quot; id=&quot;e299&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Some files offer convenience, but I’d argue people aren’t even looking at the contents of a package. When they do, they’re usually browsing through it on Github. If someone goes to the effort to create a large amount of documentation, take the final step and publish it as a Github page, or create a wiki. Just get it out of npm.&lt;/p&gt;
+&lt;h4 name=&quot;686e&quot; id=&quot;686e&quot; class=&quot;graf graf--h4 graf-after--p&quot;&gt;Cutting the Cruft&lt;/h4&gt;
+&lt;p name=&quot;5e4c&quot; id=&quot;5e4c&quot; class=&quot;graf graf--p graf-after--h4&quot;&gt;The point is to use reasonable judgement in determining what’s really necessary in a published module. Here’s a starter list of things you might be able to get rid of.&lt;/p&gt;
+&lt;p name=&quot;892d&quot; id=&quot;892d&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;&lt;strong class=&quot;markup--strong markup--p-strong&quot;&gt;Any dotfile (.gitignore, .jshintrc, .editorconfig, etc)&lt;/strong&gt;&lt;/p&gt;
+&lt;p name=&quot;9fb5&quot; id=&quot;9fb5&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;While these are typically very small files, they don’t usually provide functional value to the published module. It’s easy to remove them all in one swoop by adding the following to .npmignore:&lt;/p&gt;
+&lt;pre name=&quot;4383&quot; id=&quot;4383&quot; class=&quot;graf graf--pre graf-after--p&quot;&gt;&amp;#13;
+.*&amp;#13;
+&lt;/pre&gt;
+&lt;p name=&quot;0780&quot; id=&quot;0780&quot; class=&quot;graf graf--p graf-after--pre&quot;&gt;&lt;strong class=&quot;markup--strong markup--p-strong&quot;&gt;Any Markdown File&lt;/strong&gt;&lt;/p&gt;
+&lt;p name=&quot;f2a1&quot; id=&quot;f2a1&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Again, these files typically aren’t providing functional value to a module. Host these on a Github page/wiki instead. This includes the large README file content, CONTRIBUTOR/CONTRIBUTING, etc.&lt;/p&gt;
+&lt;p name=&quot;8fab&quot; id=&quot;8fab&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;&lt;strong class=&quot;markup--strong markup--p-strong&quot;&gt;The License File?&lt;/strong&gt;&lt;/p&gt;
+&lt;p name=&quot;c039&quot; id=&quot;c039&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;This one is trickier, because some licenses require distribution with the code. If in doubt, leave this one &lt;em class=&quot;markup--em markup--p-em&quot;&gt;in&lt;/em&gt; your code base.&lt;/p&gt;
+&lt;blockquote name=&quot;86c4&quot; id=&quot;86c4&quot; class=&quot;graf graf--blockquote graf-after--p&quot;&gt;&amp;#13;
+&lt;p&gt;&lt;strong class=&quot;markup--strong markup--blockquote-strong&quot;&gt;GOTCHA!&lt;/strong&gt;&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;
+&lt;blockquote name=&quot;945f&quot; id=&quot;945f&quot; class=&quot;graf graf--blockquote graf-after--blockquote&quot; readability=&quot;12.357692307692&quot;&gt;&amp;#13;
+&lt;p&gt;Remember, npm will &lt;a href=&quot;https://docs.npmjs.com/files/package.json#files&quot; data-href=&quot;https://docs.npmjs.com/files/package.json#files&quot; class=&quot;markup--anchor markup--blockquote-anchor&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;include certain files regardless of whether they’re ignored&lt;/a&gt;. This includes LICENSE, README, &amp;amp; CHANGELOG (and variants). The only real option is to not have these files at all, or reduce their content. For example, provide a link to your Github wiki/page instead of adding the content to the README. This is a shame since sites like Github do so many nice things automatically with the README, yet so many servers get cluttered with this completely unnecessary addition to the production environment.&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;
+&lt;p name=&quot;9c72&quot; id=&quot;9c72&quot; class=&quot;graf graf--p graf-after--blockquote&quot;&gt;&lt;strong class=&quot;markup--strong markup--p-strong&quot;&gt;Unit Tests&lt;/strong&gt;&lt;/p&gt;
+&lt;p name=&quot;99de&quot; id=&quot;99de&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Developers sometimes think people are running their carefully crafted test suites, but the reality is most don’t even know tests exist. &lt;em class=&quot;markup--em markup--p-em&quot;&gt;Caring&lt;/em&gt; that tests exist is even less likely. Most developers only run a test suite when there’s a problem. Less experienced/patient developers will skip your module in favor of another that works as they expect. If they &lt;em class=&quot;markup--em markup--p-em&quot;&gt;do&lt;/em&gt; care about unit tests, they’ll look at your Github repository or the status of your CI service. You are using CI, right?&lt;/p&gt;
+&lt;blockquote name=&quot;438a&quot; id=&quot;438a&quot; class=&quot;graf graf--blockquote graf-after--p&quot; readability=&quot;12&quot;&gt;&amp;#13;
+&lt;p&gt;If you’re not using Travis or another service for your open source modules, it’s worth taking a look. Travis, Shippable, CodeShip, AppVeyor, and others offer free CI services for open source projects.&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;
+&lt;p name=&quot;7825&quot; id=&quot;7825&quot; class=&quot;graf graf--p graf-after--blockquote&quot;&gt;Since you’re a responsible developer using a CI service, you should add these configuration files to .npmignore, such as .yml or .yaml files.&lt;/p&gt;
+&lt;p name=&quot;c842&quot; id=&quot;c842&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;In the rare situation a developer actually wants to run your test suite on their own local computer, they’ll likely clone or fork it. The bottom line is tests really don’t need to be published to npm.&lt;/p&gt;
+&lt;p name=&quot;fc6e&quot; id=&quot;fc6e&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;&lt;strong class=&quot;markup--strong markup--p-strong&quot;&gt;Examples &amp;amp; Documentation&lt;/strong&gt;&lt;/p&gt;
+&lt;p name=&quot;b598&quot; id=&quot;b598&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Many people create an “examples” folder to demonstrate how to use the module. Again, the common workflow of the average developer usually does not include running examples out of an npm deployment. They’ll visit the public page (Github/BitBucket/Whatever) for help. Like tests, if they want to run the examples, they’ll clone the project.&lt;/p&gt;
+&lt;p name=&quot;dcc2&quot; id=&quot;dcc2&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;&lt;strong class=&quot;markup--strong markup--p-strong&quot;&gt;Project &amp;amp; Editor Files&lt;/strong&gt;&lt;/p&gt;
+&lt;p name=&quot;1952&quot; id=&quot;1952&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Any other project/editor specific files don’t need to be deployed to npm. This includes build files. The module may have an awesome grunt or gulp process to streamline something, but unless you’re distributing a grunt/gulp plugin, you don’t need to include these files in your npm package.&lt;/p&gt;
+&lt;h4 name=&quot;d434&quot; id=&quot;d434&quot; class=&quot;graf graf--h4 graf-after--p&quot;&gt;Exceptions to the Rule&lt;/h4&gt;
+&lt;p name=&quot;8765&quot; id=&quot;8765&quot; class=&quot;graf graf--p graf-after--h4&quot;&gt;There are going to be exceptions to the rule. For example, Yeoman generators will include a lot of template files that may fit some of the suggested ignore patterns above. Use reasonable judgement. Think about how people will &lt;em class=&quot;markup--em markup--p-em&quot;&gt;actually&lt;/em&gt; use your module.&lt;/p&gt;
+&lt;h3 name=&quot;05c7&quot; id=&quot;05c7&quot; class=&quot;graf graf--h3 graf-after--p&quot;&gt;Trimming Fat Dependency Chains&lt;/h3&gt;
+&lt;p name=&quot;acf3&quot; id=&quot;acf3&quot; class=&quot;graf graf--p graf-after--h3&quot;&gt;So far, this article has focused mostly on stripping unnecessary files out of published npm modules. That’s the least developers can do. There are other “exercises” to make modules strong.&lt;/p&gt;
+&lt;p name=&quot;c55f&quot; id=&quot;c55f&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Dependency chains can get pretty long. Some get so long Windows users are greeted with “path too long” error messages when attempting to delete them. This is ridiculous. Operating systems aside, if you need to troubleshoot a deeply nested module within the node_modules directory, it’s a bit painful.&lt;/p&gt;
+&lt;p name=&quot;82ef&quot; id=&quot;82ef&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Dependency chains can be simplified through the process of flattening. This concept means moving a module “up the chain”. For example, examine the following node_modules dependency chain:&lt;/p&gt;
+&lt;pre name=&quot;7bfe&quot; id=&quot;7bfe&quot; class=&quot;graf graf--pre graf-after--p&quot;&gt;&amp;#13;
+node_modules&lt;br/&gt;module-a&lt;br/&gt;module-b&lt;br/&gt;module-c&lt;br/&gt;module-d&lt;br/&gt;module-e&lt;br/&gt;module-b&lt;br/&gt;module-c&lt;br/&gt;module-d&lt;br/&gt;module-f&lt;br/&gt;module-g&lt;br/&gt;module-b&lt;br/&gt;module-c&lt;br/&gt;module-d&lt;br/&gt;module-h&lt;br/&gt;module-b&lt;br/&gt;module-c&lt;br/&gt;module-d&amp;#13;
+&lt;/pre&gt;
+&lt;p name=&quot;e53b&quot; id=&quot;e53b&quot; class=&quot;graf graf--p graf-after--pre&quot;&gt;Module “B” depends on “C”, which depends on “D”. Modules E/G/H also depend on module “B” and it’s entire dependency chain. This chain should be flattened by moving Module “B” up, resulting in:&lt;/p&gt;
+&lt;pre name=&quot;7fc4&quot; id=&quot;7fc4&quot; class=&quot;graf graf--pre graf-after--p&quot;&gt;&amp;#13;
+node_modules&lt;br/&gt;module-a&lt;br/&gt;module-e&lt;br/&gt;module-f&lt;br/&gt;module-g&lt;br/&gt;module-h&lt;br/&gt;module-b&lt;br/&gt;module-c&lt;br/&gt;module-d&amp;#13;
+&lt;/pre&gt;
+&lt;p name=&quot;ee49&quot; id=&quot;ee49&quot; class=&quot;graf graf--p graf-after--pre&quot;&gt;When node cannot find a dependency, it looks “up” the chain for the next node_modules directory. Both examples function the same way, but the dependency chain is smaller in the second. There are fewer copies of the same module, reducing the overall module footprint.&lt;/p&gt;
+&lt;p name=&quot;c122&quot; id=&quot;c122&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;&lt;strong class=&quot;markup--strong markup--p-strong&quot;&gt;UPDATE:&lt;/strong&gt; There are some tools for flattening dependency chains, like &lt;a href=&quot;https://docs.npmjs.com/cli/dedupe&quot; data-href=&quot;https://docs.npmjs.com/cli/dedupe&quot; class=&quot;markup--anchor markup--p-anchor&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;npm-dedupe&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 name=&quot;2393&quot; id=&quot;2393&quot; class=&quot;graf graf--h3 graf-after--p&quot;&gt;The Developer Experience&lt;/h3&gt;
+&lt;p name=&quot;1014&quot; id=&quot;1014&quot; class=&quot;graf graf--p graf-after--h3&quot;&gt;Some folks believe the mere act of publishing a module to npm will attract contributors and help their project flourish. Not really. That discussion could easily be a completely different article, but if you’re ultimately looking for contributors, it’s easier to attract them with lean modules. The code structure should make sense, run lean, and not require hunting through a mountain of dependencies.&lt;/p&gt;
+&lt;p name=&quot;273c&quot; id=&quot;273c&quot; class=&quot;graf graf--p graf-after--p graf--trailing&quot;&gt;Happy lean publishing, and let’s make npm fit for all of us! Now I have to go clean up some of my modules :-)&lt;/p&gt;
+</description>
+<pubDate>Wed, 13 Sep 2017 02:26:49 +0000</pubDate>
+<dc:creator>Corey Butler</dc:creator>
+<og:title>Npm Needs a Personal Trainer – Author.io</og:title>
+<og:url>https://blog.author.io/npm-needs-a-personal-trainer-537e0f8859c6</og:url>
+<og:image>https://cdn-images-1.medium.com/max/1200/1*DnSo0yGbkLsYscYR4sWOnA.png</og:image>
+<og:description>Beware of Bloat</og:description>
+<og:type>article</og:type>
+<dc:language>da</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.author.io/npm-needs-a-personal-trainer-537e0f8859c6?source=rss----a6c53cdfaf8b---4&amp;gi=2d1c11c87a31</dc:identifier>
+<category>javascript</category>
+<category>npm</category>
+<category>nodejs</category>
+</item>
+<item>
+<title>Debugging Developer Life</title>
+<link>https://blog.author.io/debugging-developer-life-25da714668db?source=rss----a6c53cdfaf8b---4</link>
+<guid isPermaLink="true" >https://blog.author.io/debugging-developer-life-25da714668db?source=rss----a6c53cdfaf8b---4</guid>
+<description>&lt;div class=&quot;section-inner sectionLayout--insetColumn&quot; readability=&quot;21&quot;&gt;
+
+&lt;div class=&quot;aspectRatioPlaceholder is-locked&quot;&gt;
+
+&lt;img class=&quot;graf-image&quot; data-image-id=&quot;1*V1lgGXtUJTwqtC4d2bNERQ.jpeg&quot; data-width=&quot;638&quot; data-height=&quot;359&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*V1lgGXtUJTwqtC4d2bNERQ.jpeg&quot;/&gt;&lt;/div&gt;
+&lt;p name=&quot;7019&quot; id=&quot;7019&quot; class=&quot;graf graf--p graf-after--figure&quot;&gt;Developer Experience (DX) is something I’ve been passionate about my entire professional career. I recently shared some of my passion through a talk at Node Interactive North America 2016 in Austin, TX.&lt;/p&gt;
+
+Developing Nirvana — Corey Butler, Author.io
+&lt;p name=&quot;f226&quot; id=&quot;f226&quot; class=&quot;graf graf--p graf-after--figure graf--trailing&quot;&gt;As I reflect on the conference, I keep thinking about how developer workflow is very much like a human version of debugging. We look for breakpoints in our lives, like we do in our code. Sometimes we cobble together workarounds to keep life moving forward, just like we do code… and we usually feel the same way about our patch jobs in life as we do our patch jobs in code.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+<pubDate>Wed, 13 Sep 2017 02:31:52 +0000</pubDate>
+<dc:creator>Corey Butler</dc:creator>
+<og:title>Debugging Developer Life – Author.io</og:title>
+<og:url>https://blog.author.io/debugging-developer-life-25da714668db</og:url>
+<og:image>https://cdn-images-1.medium.com/max/1200/1*V1lgGXtUJTwqtC4d2bNERQ.jpeg</og:image>
+<og:description>Developer Experience (DX) is something I’ve been passionate about my entire professional career. I recently shared some of my passion…</og:description>
+<og:type>article</og:type>
+<dc:language>fr</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.author.io/debugging-developer-life-25da714668db?source=rss----a6c53cdfaf8b---4&amp;gi=86b082c7df27</dc:identifier>
+<category>dx</category>
+<category>javascript</category>
+<category>nodejs</category>
+<category>authorio</category>
+<category>workflow</category>
+</item>
+<item>
+<title>Love Localhost</title>
+<link>https://blog.author.io/love-localhost-f488940f3e38?source=rss----a6c53cdfaf8b---4</link>
+<guid isPermaLink="true" >https://blog.author.io/love-localhost-f488940f3e38?source=rss----a6c53cdfaf8b---4</guid>
+<description>&lt;h3 name=&quot;d986&quot; id=&quot;d986&quot; class=&quot;graf graf--h3 graf--leading&quot;&gt;The Importance of Workflow&lt;/h3&gt;
+&lt;p name=&quot;38af&quot; id=&quot;38af&quot; class=&quot;graf graf--p graf-after--h3&quot;&gt;There’s nothing more frustrating than a halt in an otherwise productive day. What was budding enthusiasm quickly turns to dread. This sentimaent may resonate with many developers. The thought of configuring “one more server” can be summed up with “ugh”.&lt;/p&gt;
+&lt;p name=&quot;2f25&quot; id=&quot;2f25&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Fenix makes web serving much easier to do with a simple installer, a visual interface, one-click collaboration features, and insights into web traffic (including webhooks).&lt;/p&gt;
+&lt;p name=&quot;e906&quot; id=&quot;e906&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Using a web server from the start of development can reduce stresses, especially when prototyping HTML/JS apps. For example, like any web server, it inherently provides CORS support. Serving a JSON or XML data file to a jQuery page won’t cause the browser to complain about cross origin policy restrictions.&lt;/p&gt;
+&lt;p name=&quot;0b5d&quot; id=&quot;0b5d&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Of course, visual interfaces often make life easier. Color coded status bars identify online/offline servers, errors, and warnings. Animations highlight important activity. If you use &lt;a href=&quot;http://growl.info/&quot; data-href=&quot;http://growl.info/&quot; class=&quot;markup--anchor markup--p-anchor&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;growl&lt;/a&gt; or &lt;a href=&quot;http://www.growlforwindows.com/&quot; data-href=&quot;http://www.growlforwindows.com/&quot; class=&quot;markup--anchor markup--p-anchor&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;growl for Windows&lt;/a&gt;, Fenix uses it to keep tabs on itself without annoying the user. There’s even a logging feature to help identify how browsers are attempting to access site resources.&lt;/p&gt;
+&lt;div class=&quot;aspectRatioPlaceholder is-locked&quot;&gt;
+
+&lt;img class=&quot;graf-image&quot; data-image-id=&quot;1*DrNT1eBWxdztJAemXZdFZA.png&quot; data-width=&quot;330&quot; data-height=&quot;595&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*DrNT1eBWxdztJAemXZdFZA.png&quot;/&gt;&lt;/div&gt;
+An example web log showing page requests.
+&lt;p name=&quot;0032&quot; id=&quot;0032&quot; class=&quot;graf graf--p graf-after--figure&quot;&gt;&lt;em class=&quot;markup--em markup--p-em&quot;&gt;Collaborative Workflow&lt;/em&gt;&lt;/p&gt;
+&lt;p name=&quot;9efa&quot; id=&quot;9efa&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Developing web products is rarely a one-person effort. Design and development is commonly separated into two roles. Even when it’s not, it’s still useful to privately review your work with others before publicly releasing it.&lt;/p&gt;
+&lt;p name=&quot;118c&quot; id=&quot;118c&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;Fenix features the ability to share local sites immediately, securely, and &lt;em class=&quot;markup--em markup--p-em&quot;&gt;temporarily.&lt;/em&gt; With one click, SSH tunneling will proxy your local server to a privately assigned (HTTP&lt;strong class=&quot;markup--strong markup--p-strong&quot;&gt;S&lt;/strong&gt;) URL. There’s even a copy link that can be sent to collaborators. Presto! Your laptop is now a public web server. Possibly even a few if you share multiple sites at once.&lt;/p&gt;
+&lt;div class=&quot;aspectRatioPlaceholder is-locked&quot;&gt;
+
+&lt;img class=&quot;graf-image&quot; data-image-id=&quot;1*vcc1KI_CJExK4zSP4vn6Og.png&quot; data-width=&quot;573&quot; data-height=&quot;80&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*vcc1KI_CJExK4zSP4vn6Og.png&quot;/&gt;&lt;/div&gt;
+A site shared via Fenix
+&lt;p name=&quot;e29e&quot; id=&quot;e29e&quot; class=&quot;graf graf--p graf-after--figure&quot;&gt;All of this can be seen in action on &lt;a href=&quot;http://youtu.be/liYneTTtYhM&quot; data-href=&quot;http://youtu.be/liYneTTtYhM&quot; class=&quot;markup--anchor markup--p-anchor&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;YouTube&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 name=&quot;8447&quot; id=&quot;8447&quot; class=&quot;graf graf--h3 graf-after--p&quot;&gt;Beating Web Flow Woes&lt;/h3&gt;
+&lt;p name=&quot;cfde&quot; id=&quot;cfde&quot; class=&quot;graf graf--p graf-after--h3&quot;&gt;These days, the line between client-side and server-side development is blurred. It’s hard to do one without the other in some capacity. Fenix web servers simplify client-side workflow by providing more power on localhost, but what about server side development?&lt;/p&gt;
+&lt;p name=&quot;d01b&quot; id=&quot;d01b&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;In the same way Fenix focuses on relieving some pain in client-side development workflow, it also relieves some pain in server-side development with it’s webhook handling capabilities.&lt;/p&gt;
+&lt;p name=&quot;3dbc&quot; id=&quot;3dbc&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;The native “Request Browser” allows inspection of real data payloads:&lt;/p&gt;
+&lt;div class=&quot;aspectRatioPlaceholder is-locked&quot;&gt;
+
+&lt;img class=&quot;graf-image&quot; data-image-id=&quot;1*r43B651dD3Mc9KCg3AnVWQ.png&quot; data-width=&quot;680&quot; data-height=&quot;426&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*r43B651dD3Mc9KCg3AnVWQ.png&quot;/&gt;&lt;/div&gt;
+An example JSON webhook with headers and payload.
+&lt;p name=&quot;8d79&quot; id=&quot;8d79&quot; class=&quot;graf graf--p graf-after--figure&quot;&gt;Fenix receives webhooks from cloud providers, but a key workflow feature is the ability to “unshare” the request browser. For the “wears-every-hat” developer that’s responsible for end-to-end creation, this means you can produce your own webhooks locally and inspect them without requiring an internet connection. The spotty-wifi train ride into work can now be more productive.&lt;/p&gt;
+&lt;p name=&quot;deb2&quot; id=&quot;deb2&quot; class=&quot;graf graf--p graf-after--p&quot;&gt;There’s a short &lt;a href=&quot;http://youtu.be/O1n7j9OKxko&quot; data-href=&quot;http://youtu.be/O1n7j9OKxko&quot; class=&quot;markup--anchor markup--p-anchor&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;video walkthru&lt;/a&gt; available if you want to see this in action.&lt;/p&gt;
+&lt;blockquote name=&quot;4840&quot; id=&quot;4840&quot; class=&quot;graf graf--blockquote graf-after--p&quot;&gt;&amp;#13;
+&lt;p&gt;Why Webhooks?&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;
+&lt;blockquote name=&quot;32e1&quot; id=&quot;32e1&quot; class=&quot;graf graf--blockquote graf-after--blockquote&quot; readability=&quot;8.801652892562&quot;&gt;&amp;#13;
+&lt;p&gt;The overwhelming abundance of cloud services has introduced a fantastic but often “puzzling” approach to developing web products. Many web applications are a collection of different backend cloud services carefully pieced together to form a whole, all wrapped up in a nice looking design. Many cloud services use &lt;a href=&quot;http://www.webhooks.org/&quot; data-href=&quot;http://www.webhooks.org/&quot; class=&quot;markup--anchor markup--blockquote-anchor&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;webhooks&lt;/a&gt; as a way to stitch services together.&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;
+&lt;blockquote name=&quot;5a5d&quot; id=&quot;5a5d&quot; class=&quot;graf graf--blockquote graf-after--blockquote&quot; readability=&quot;16&quot;&gt;&amp;#13;
+&lt;p&gt;For the unfamiliar, a webhook is just an HTTP request. When you type a domain into your favorite browser, you’re actually sending an HTTP GET request. There are other kinds of HTTP requests, like POST, PUT, DELETE, and more. Webhooks are an automated way of creating one of these requests, but instead of sending from a browser, they’re sent between servers.&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;
+&lt;blockquote name=&quot;a745&quot; id=&quot;a745&quot; class=&quot;graf graf--blockquote graf-after--blockquote&quot; readability=&quot;10&quot;&gt;&amp;#13;
+&lt;p&gt;Webhooks are commonly generated by cloud providers when their system completes a task. For example, a credit card transaction service may send an HTTP POST request to your server when a customer’s card is charged. The webhook acts as a signal, indicating the cloud service has completed its task. What your server does with the information it receives is up to you.&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;
+&lt;blockquote name=&quot;12ca&quot; id=&quot;12ca&quot; class=&quot;graf graf--blockquote graf-after--blockquote graf--trailing&quot; readability=&quot;9&quot;&gt;&amp;#13;
+&lt;p&gt;Cloud providers are not created equally. Documentation can vary substantially from service to service. Even the best services sometimes struggle to keep documentation up to date. As a result, it can be tricky to know exactly what format or data a webhook is actually delivering. Fenix shows you exactly what is being sent.&lt;/p&gt;&amp;#13;
+&lt;/blockquote&gt;
+</description>
+<pubDate>Mon, 28 Nov 2016 03:41:57 +0000</pubDate>
+<dc:creator>Corey Butler</dc:creator>
+<og:title>Love Localhost – Author.io</og:title>
+<og:url>https://blog.author.io/love-localhost-f488940f3e38</og:url>
+<og:image>https://cdn-images-1.medium.com/max/1200/desat/multiply/purple/overlay/purple/1*Pmwt8w5vUamFODWxVoHkCQ.png</og:image>
+<og:description>Develop Locally… and love every minute.</og:description>
+<og:type>article</og:type>
+<dc:language>da</dc:language>
+<dc:format>text/html</dc:format>
+<dc:identifier>https://blog.author.io/love-localhost-f488940f3e38?source=rss----a6c53cdfaf8b---4&amp;gi=2be6d4b9b4e</dc:identifier>
+</item>
+</channel>
+</rss>
