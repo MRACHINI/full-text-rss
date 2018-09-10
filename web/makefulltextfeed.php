@@ -45,7 +45,7 @@ if (_FF_FTR_MODE === 'simple') {
 // Deal with magic quotes
 if (get_magic_quotes_gpc()) {
 	$process = array(&$_REQUEST);
-	while (list($key, $val) = each($process)) {
+	while (list($key, $val) = foreach($process)) {
 		foreach ($val as $k => $v) {
 			unset($process[$key][$k]);
 			if (is_array($v)) {
