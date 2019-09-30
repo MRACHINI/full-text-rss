@@ -1,4 +1,18 @@
 <?php
+
+/**
+ * This class represents a text sample to be parsed.
+ *
+ * @category    Text
+ * @package     Text_LanguageDetect
+ * @author      Nicholas Pisarro
+ * @copyright   2006
+ * @license     BSD
+ * @version     CVS: $Id: Parser.php 322327 2012-01-15 17:55:59Z cweiske $
+ * @link        http://pear.php.net/package/Text_LanguageDetect/
+ * @link        http://langdetect.blogspot.com/
+ */
+
 /**
  * This class represents a text sample to be parsed.
  *
@@ -6,106 +20,99 @@
  * class. After a new profile has been built, the data can be retrieved using
  * the accessor functions.
  *
- * This class is intended to be used by the Text_LanguageDetect class, not
+ * This class is intended to be used by the Text_LanguageDetect class, not 
  * end-users.
  *
- * @category  Text
- * @package   Text_LanguageDetect
- * @author    Nicholas Pisarro <infinityminusnine+pear@gmail.com>
- * @copyright 2006 Nicholas Pisarro
- * @license   BSD http://www.opensource.org/licenses/bsd-license.php
- * @version   Release: 1.0.0
- * @link      http://pear.php.net/package/Text_LanguageDetect/
+ * @category    Text
+ * @package     Text_LanguageDetect
+ * @author      Nicholas Pisarro
+ * @copyright   2006
+ * @license     BSD
+ * @version     release: 0.3.0
  */
 class Text_LanguageDetect_Parser extends Text_LanguageDetect
 {
     /**
-     * The piece of text being parsed
+     * the piece of text being parsed
      *
-     * @var string
+     * @access  private
+     * @var     string
      */
-    protected $_string;
+    var $_string;
 
     /**
-     * Stores the trigram frequencies of the sample
+     * stores the trigram frequencies of the sample
      *
-     * @var string
+     * @access  private
+     * @var     string
      */
-    protected $_trigrams = array();
+    var $_trigrams = array();
 
     /**
-     * Stores the trigram ranks of the sample
+     * stores the trigram ranks of the sample
      *
-     * @var array
+     * @access  private
+     * @var     array
      */
-    protected $_trigram_ranks = array();
+    var $_trigram_ranks = array();
 
     /**
-     * Stores the unicode blocks of the sample
+     * stores the unicode blocks of the sample
      *
-     * @var array
+     * @access  private
+     * @var     array
      */
-    protected $_unicode_blocks = array();
-
+    var $_unicode_blocks = array();
+    
     /**
      * Whether the parser should compile the unicode ranges
-     *
-     * @var bool
+     * 
+     * @access  private
+     * @var     bool
      */
-    protected $_compile_unicode = false;
+    var $_compile_unicode = false;
 
     /**
      * Whether the parser should compile trigrams
      *
-     * @var bool
+     * @access  private
+     * @var     bool
      */
-    protected $_compile_trigram = false;
+    var $_compile_trigram = false;
 
     /**
      * Whether the trigram parser should pad the beginning of the string
      *
-     * @var bool
+     * @access  private
+     * @var     bool
      */
-    protected $_trigram_pad_start = false;
+    var $_trigram_pad_start = false;
 
     /**
      * Whether the unicode parser should skip non-alphabetical ascii chars
      *
-     * @var bool
+     * @access  private
+     * @var     bool
      */
-    protected $_unicode_skip_symbols = true;
+    var $_unicode_skip_symbols = true;
 
     /**
      * Constructor
      *
-     * @param string $string string to be parsed
+     * @access  private
+     * @param   string  $string     string to be parsed
      */
-    public function __construct($string)
-    {
+    function Text_LanguageDetect_Parser($string) {
         $this->_string = $string;
-    }
-
-    /**
-     * PHP 4 constructor for backwards compatibility.
-     *
-     * @param string $string string to be parsed
-     *
-     * @return void
-     */
-    public function Text_LanguageDetect_Parser($string)
-    {
-        self::__construct($string);
     }
 
     /**
      * Returns true if a string is suitable for parsing
      *
-     * @param string $str input string to test
-     *
-     * @return bool true if acceptable, false if not
+     * @param   string  $str    input string to test
+     * @return  bool            true if acceptable, false if not
      */
-    public static function validateString($str)
-    {
+    public static function validateString($str) {
         if (!empty($str) && strlen($str) > 3 && preg_match('/\S/', $str)) {
             return true;
         } else {
@@ -114,37 +121,34 @@ class Text_LanguageDetect_Parser extends Text_LanguageDetect
     }
 
     /**
-     * Turn on/off trigram counting
+     * turn on/off trigram counting
      *
-     * @param bool $bool true for on, false for off
-     *
-     * @return void
+     * @access  public
+     * @param   bool    $bool true for on, false for off
      */
-    public function prepareTrigram($bool = true)
+    function prepareTrigram($bool = true)
     {
         $this->_compile_trigram = $bool;
     }
 
     /**
-     * Turn on/off unicode block counting
+     * turn on/off unicode block counting
      *
-     * @param bool $bool true for on, false for off
-     *
-     * @return void
+     * @access  public
+     * @param   bool    $bool true for on, false for off
      */
-    public function prepareUnicode($bool = true)
+    function prepareUnicode($bool = true)
     {
         $this->_compile_unicode = $bool;
     }
 
     /**
-     * Turn on/off padding the beginning of the sample string
+     * turn on/off padding the beginning of the sample string
      *
-     * @param bool $bool true for on, false for off
-     *
-     * @return void
+     * @access  public
+     * @param   bool    $bool true for on, false for off
      */
-    public function setPadStart($bool = true)
+    function setPadStart($bool = true)
     {
         $this->_trigram_pad_start = $bool;
     }
@@ -152,11 +156,10 @@ class Text_LanguageDetect_Parser extends Text_LanguageDetect
     /**
      * Should the unicode block counter skip non-alphabetical ascii chars?
      *
-     * @param bool $bool true for on, false for off
-     *
-     * @return void
+     * @access  public
+     * @param   bool    $bool true for on, false for off
      */
-    public function setUnicodeSkipSymbols($bool = true)
+    function setUnicodeSkipSymbols($bool = true)
     {
         $this->_unicode_skip_symbols = $bool;
     }
@@ -164,9 +167,10 @@ class Text_LanguageDetect_Parser extends Text_LanguageDetect
     /**
      * Returns the trigram ranks for the text sample
      *
-     * @return array Trigram ranks in the text sample
+     * @access  public
+     * @return  array    trigram ranks in the text sample
      */
-    public function getTrigramRanks()
+    function &getTrigramRanks()
     {
         return $this->_trigram_ranks;
     }
@@ -174,37 +178,39 @@ class Text_LanguageDetect_Parser extends Text_LanguageDetect
     /**
      * Return the trigram freqency table
      *
-     * Only used in testing to make sure the parser is working
+     * only used in testing to make sure the parser is working
      *
-     * @return array Trigram freqencies in the text sample
+     * @access  public
+     * @return  array    trigram freqencies in the text sample
      */
-    public function getTrigramFreqs()
+    function &getTrigramFreqs()
     {
         return $this->_trigram;
     }
 
     /**
-     * Returns the array of unicode blocks
+     * returns the array of unicode blocks
      *
-     * @return array Unicode blocks in the text sample
+     * @access  public
+     * @return  array   unicode blocks in the text sample
      */
-    public function getUnicodeBlocks()
+    function &getUnicodeBlocks()
     {
         return $this->_unicode_blocks;
     }
 
     /**
      * Executes the parsing operation
-     *
-     * Be sure to call the set*() functions to set options and the
+     * 
+     * Be sure to call the set*() functions to set options and the 
      * prepare*() functions first to tell it what kind of data to compute
      *
      * Afterwards the get*() functions can be used to access the compiled
      * information.
      *
-     * @return void
+     * @access public
      */
-    public function analyze()
+    function analyze()
     {
         $len = strlen($this->_string);
         $byte_counter = 0;
@@ -252,9 +258,9 @@ class Text_LanguageDetect_Parser extends Text_LanguageDetect
             if ($this->_compile_trigram) {
                 if (!($b == ' ' && ($a == ' ' || $char == ' '))) {
                     if (!isset($this->_trigram[$a . $b . $char])) {
-                        $this->_trigram[$a . $b . $char] = 1;
+                       $this->_trigram[$a . $b . $char] = 1;
                     } else {
-                        $this->_trigram[$a . $b . $char]++;
+                       $this->_trigram[$a . $b . $char]++;
                     }
                 }
 
@@ -265,11 +271,10 @@ class Text_LanguageDetect_Parser extends Text_LanguageDetect
             // unicode block detection
             if ($this->_compile_unicode) {
                 if ($this->_unicode_skip_symbols
-                    && strlen($char) == 1
-                    && ($char < 'A' || $char > 'z'
-                    || ($char > 'Z' && $char < 'a'))
-                    && $char != "'"
-                ) {  // does not skip the apostrophe
+                        && strlen($char) == 1
+                        && ($char < 'A' || $char > 'z'
+                        || ($char > 'Z' && $char < 'a'))
+                        && $char != "'") {  // does not skip the apostrophe
                                             // since it's included in the language
                                             // models
 
@@ -292,8 +297,7 @@ class Text_LanguageDetect_Parser extends Text_LanguageDetect
         if ($this->_compile_unicode) {
             foreach ($unicode_chars as $utf8_char => $count) {
                 $search_result = $this->_unicode_block_name(
-                    $this->_utf8char2unicode($utf8_char), $blocks, $block_count
-                );
+                        $this->_utf8char2unicode($utf8_char), $blocks, $block_count);
 
                 if ($search_result != -1) {
                     $block_name = $search_result[2];
@@ -339,3 +343,5 @@ class Text_LanguageDetect_Parser extends Text_LanguageDetect
         }
     }
 }
+
+/* vim: set expandtab tabstop=4 shiftwidth=4 softtabstop=4: */

@@ -5,10 +5,10 @@
  * Each instance of this class should hold extraction patterns and other directives
  * for a website. See ContentExtractor class to see how it's used.
  * 
- * @version 1.1
- * @date 2017-09-25
+ * @version 1.0
+ * @date 2015-06-09
  * @author Keyvan Minoukadeh
- * @copyright 2017 Keyvan Minoukadeh
+ * @copyright 2015 Keyvan Minoukadeh
  * @license http://www.gnu.org/licenses/agpl-3.0.html AGPL v3
  */
 
@@ -43,6 +43,7 @@ class SiteConfig
 	
 	// Process HTML with tidy before creating DOM (bool or null if undeclared)
 	public $tidy = null;
+	
 	protected $default_tidy = true; // used if undeclared
 	
 	// Autodetect title/body if xpath expressions fail to produce results.
@@ -92,12 +93,6 @@ class SiteConfig
 	public $parser = null;
 	protected $default_parser = 'libxml'; // used if undeclared
 	
-	// Insert detected image (currently only og:image) into beginning of extracted article
-	// Only does this if extracted article contains no images
-	// bool or null if undeclared
-	public $insert_detected_image = null;
-	protected $default_insert_detected_image = true; // used if undeclared
-
 	// Strings to search for in HTML before processing begins (used with $replace_string)
 	public $find_string = array();
 	// Strings to replace those found in $find_string before HTML processing begins
@@ -106,9 +101,10 @@ class SiteConfig
 	// the options below cannot be set in the config files which this class represents
 	
 	//public $cache_in_apc = false; // used to decide if we should cache in apc or not
+	public $cache_key = null;
 	public static $debug = false;
 	protected static $apc = false;
-	protected static $config_path_custom;
+	protected static $config_path;
 	protected static $config_path_fallback;
 	protected static $config_cache = array();
 	const HOSTNAME_REGEX = '/^(([a-zA-Z0-9-]*[a-zA-Z0-9])\.)*([A-Za-z0-9-]*[A-Za-z0-9])$/';
@@ -140,13 +136,7 @@ class SiteConfig
 		self::$apc = $apc;
 		return $apc;
 	}
-
-	// return bool or null
-	public function insert_detected_image($use_default=true) {
-		if ($use_default) return (isset($this->insert_detected_image)) ? $this->insert_detected_image : $this->default_insert_detected_image;
-		return $this->insert_detected_image;
-	}
-
+	
 	// return bool or null
 	public function tidy($use_default=true) {
 		if ($use_default) return (isset($this->tidy)) ? $this->tidy : $this->default_tidy;
@@ -172,32 +162,15 @@ class SiteConfig
 	}
 	
 	public static function set_config_path($path, $fallback=null) {
-		self::$config_path_custom = $path;
+		self::$config_path = $path;
 		self::$config_path_fallback = $fallback;
 	}
-
-	protected static function load_cached_merged($host, $exact_host_match) {
-		if ($exact_host_match) {
-			$key = $host.'.merged.ex';
-		} else {
-			$key = $host.'.merged';
-		}
-		return self::load_cached($key);
-	}
-
-	protected static function add_to_cache_merged($host, $exact_host_match, SiteConfig $config=null) {
-		if ($exact_host_match) {
-			$key = $host.'.merged.ex';
-		} else {
-			$key = $host.'.merged';
-		}
-		if (!isset($config)) $config = new SiteConfig();
-		self::add_to_cache($key, $config);
-	}
-
+	
 	public static function add_to_cache($key, SiteConfig $config, $use_apc=true) {
 		$key = strtolower($key);
 		if (substr($key, 0, 4) == 'www.') $key = substr($key, 4);
+		if ($config->cache_key) $key = $config->cache_key;
+		$key .= '.'.self::get_key_suffix();		
 		self::$config_cache[$key] = $config;
 		if (self::$apc && $use_apc) {
 			self::debug("Adding site config to APC cache with key sc.$key");
@@ -205,23 +178,10 @@ class SiteConfig
 		}
 		self::debug("Cached site config with key $key");
 	}
-
-	public static function load_cached($key) {
-		$key = strtolower($key);
-		if (substr($key, 0, 4) == 'www.') $key = substr($key, 4);
-		//var_dump('in cache?', $key, self::$config_cache);
-		if (array_key_exists($key, self::$config_cache)) {
-			self::debug("... site config for $key already loaded in this request");
-			return self::$config_cache[$key];
-		} elseif (self::$apc && ($sconfig = apc_fetch("sc.$key"))) {
-			self::debug("... site config for $key found in APCu");
-			return $sconfig;
-		}
-		return false;
-	}
-
+	
 	public static function is_cached($key) {
 		$key = strtolower($key);
+		$key .= '.'.self::get_key_suffix();
 		if (substr($key, 0, 4) == 'www.') $key = substr($key, 4);
 		if (array_key_exists($key, self::$config_cache)) {
 			return true;
@@ -252,7 +212,7 @@ class SiteConfig
 		}
 		// check for single statement commands
 		// we do not overwrite existing non null values
-		foreach (array('tidy', 'prune', 'parser', 'autodetect_on_failure', 'insert_detected_image') as $var) {
+		foreach (array('tidy', 'prune', 'parser', 'autodetect_on_failure') as $var) {
 			if ($this->$var === null) $this->$var = $newconfig->$var;
 		}
 		// treat find_string and replace_string separately (don't apply array_unique) (thanks fabrizio!)
@@ -261,6 +221,16 @@ class SiteConfig
 			//$this->$var = $this->$var + $newconfig->$var;
 			$this->$var = array_merge($this->$var, $newconfig->$var);
 		}
+	}
+	
+	// This is used to make sure that when a different primary folder is chosen
+	// The key for the cached result includes that folder choice.
+	// Otherwise, a subsequent request choosing a different folder
+	// could return the wrong cached config.
+	public static function get_key_suffix() {
+		$key_suffix = basename(self::$config_path);
+		if ($key_suffix === 'custom') $key_suffix = '';
+		return $key_suffix;
 	}
 
 	// Add test_contains to last test_url
@@ -304,12 +274,6 @@ class SiteConfig
 		$host = strtolower($host);
 		if (substr($host, 0, 4) == 'www.') $host = substr($host, 4);
 		if (!$host || (strlen($host) > 200) || !preg_match(self::HOSTNAME_REGEX, ltrim($host, '.'))) return false;
-		// got a merged one?
-		$config = self::load_cached_merged($host, $exact_host_match);
-		if ($config) {
-			//self::debug('. returned merged config from a previous request');
-			return $config;
-		}
 		// check for site configuration
 		$try = array($host);
 		// should we look for wildcard matches 
@@ -320,87 +284,102 @@ class SiteConfig
 				$try[] = '.'.implode('.', $split);
 			}
 		}
+		
+		// Which primary folder should we look inside?
+		// If it's not the default ('custom'), we need
+		// a key suffix to distinguish site config fules
+		// held in this folder from those in other folders.
+		$key_suffix = self::get_key_suffix();
 
-		// look for site config file in custom folder
-		self::debug(". looking for site config for $host in custom folder");
-		//var_dump($try);
-		$config = null;
-		$config_std = null;
+		// look for site config file in primary folder
+		self::debug(". looking for site config for $host in primary folder");
 		foreach ($try as $h) {
-			//$h_key = $h.'.'.$key_suffix;
-			$h_key = $h.'.custom';
-			//var_dump($h_key, $h);
-			if ($config = self::load_cached($h_key)) {
-				break;
-			} elseif (file_exists(self::$config_path_custom."/$h.txt")) {
+			$h_key = "$h.$key_suffix";
+			if (array_key_exists($h_key, self::$config_cache)) {
+				self::debug("... site config for $h already loaded in this request");
+				return self::$config_cache[$h_key];
+			} elseif (self::$apc && ($sconfig = apc_fetch("sc.$h_key"))) {
+				self::debug("... site config for $h in APC cache");
+				return $sconfig;
+			} elseif (file_exists(self::$config_path."/$h.txt")) {
 				self::debug("... found site config ($h.txt)");
-				$file_custom = self::$config_path_custom."/$h.txt";
-				$config = self::build_from_file($file_custom);
-				//$matched_name = $h;
+				$file_primary = self::$config_path."/$h.txt";
+				$matched_name = $h;
 				break;
 			}
 		}
 		
 		// if we found site config, process it
-		// if autodetec on failure is off (on by default) we do not need to look
-		// in secondary folder
-		if ($config && !$config->autodetect_on_failure()) {
-			self::debug('... autodetect on failure is disabled (no other site config files will be loaded)');
-			self::add_to_cache_merged($host, $exact_host_match, $config);
-			return $config;
+		if (isset($file_primary)) {
+			$config_lines = file($file_primary, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+			if (!$config_lines || !is_array($config_lines)) return false;
+			$config = self::build_from_array($config_lines);
+			// if APC caching is available and enabled, mark this for cache
+			//$config->cache_in_apc = true;
+			$config->cache_key = $matched_name;
+			
+			// if autodetec on failure is off (on by default) we do not need to look
+			// in secondary folder
+			if (!$config->autodetect_on_failure()) {
+				self::debug('... autodetect on failure is disabled (no other site config files will be loaded)');
+				return $config;
+			}
 		}
 		
 		// look for site config file in secondary folder
 		if (isset(self::$config_path_fallback)) {
-			self::debug(". looking for site config for $host in standard folder");
+			self::debug(". looking for site config for $host in secondary folder");
 			foreach ($try as $h) {
-				if ($config_std = self::load_cached($h)) {
-					break;
-				} elseif (file_exists(self::$config_path_fallback."/$h.txt")) {
-					self::debug("... found site config in standard folder ($h.txt)");
+				if (file_exists(self::$config_path_fallback."/$h.txt")) {
+					self::debug("... found site config in secondary folder ($h.txt)");
 					$file_secondary = self::$config_path_fallback."/$h.txt";
-					$config_std = self::build_from_file($file_secondary);
+					$matched_name = $h;
 					break;
 				}
+			}
+			if (!isset($file_secondary)) {
+				self::debug("... no site config match in secondary folder");
 			}
 		}
 		
 		// return false if no config file found
-		if (!$config && !$config_std) {
+		if (!isset($file_primary) && !isset($file_secondary)) {
 			self::debug("... no site config match for $host");
-			self::add_to_cache_merged($host, $exact_host_match);
 			return false;
 		}
 		
-		// final config handling
-		$config_final = null;
-		if (!$config_std && $config) {
-			$config_final = $config;
-		// merge with primary
-		} elseif ($config_std && $config) {
+		// return primary config if secondary not found
+		if (!isset($file_secondary) && isset($config)) {
+			return $config;
+		}
+		
+		// process secondary config file
+		$config_lines = file($file_secondary, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+		if (!$config_lines || !is_array($config_lines)) {
+			// failed to process secondary
+			if (isset($config)) {
+				// return primary config
+				return $config;
+			} else {
+				return false;
+			}
+		}
+		
+		// merge with primary and return
+		if (isset($config)) {
 			self::debug('. merging config files');
-			$config->append($config_std);
-			$config_final = $config;
+			$config->append(self::build_from_array($config_lines));
+			return $config;
 		} else {
 			// return just secondary
-			//$config = self::build_from_array($config_lines);
+			$config = self::build_from_array($config_lines);
 			// if APC caching is available and enabled, mark this for cache
 			//$config->cache_in_apc = true;
-			$config_final = $config_std;
+			$config->cache_key = $matched_name;
+			return $config;
 		}
-		self::add_to_cache_merged($host, $exact_host_match, $config_final);
-		return $config_final;
 	}
 	
-	public static function build_from_file($path, $cache=true) {
-		$key = basename($path, '.txt');
-		$config_lines = file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-		if (!$config_lines || !is_array($config_lines)) return false;
-		$config = self::build_from_array($config_lines);
-		if ($cache) self::add_to_cache($key, $config);
-		return $config;
-	}
-
 	public static function build_from_string($string) {
 		$config_lines = explode("\n", $string);
 		return self::build_from_array($config_lines);
@@ -420,23 +399,13 @@ class SiteConfig
 			if (count($command) != 2) continue;
 			$val = trim($command[1]);
 			$command = trim($command[0]);
-			//if ($command == '' || $val == '') continue;
-			// $val can be empty, e.g. replace_string: 
-			if ($command == '') continue;
-
-			// strip_attr is now an alias for strip.
-			// In FTR 3.8 we can strip attributes from elements, not only the elements themselves
-			// e.g. strip: //img/@srcset (removes srcset attribute from all img elements)
-			// but for backward compatibility (to avoid errors with new config files + old version of FTR)
-			// we've introduced strip_attr and we'll recommend using that in our public site config rep.
-			// strip_attr: //img/@srcset
-			if ($command == 'strip_attr') $command = 'strip';
-
+			if ($command == '' || $val == '') continue;
+			
 			// check for commands where we accept multiple statements
 			if (in_array($command, array('title', 'body', 'author', 'date', 'strip', 'strip_id_or_class', 'strip_image_src', 'single_page_link', 'single_page_link_in_feed', 'next_page_link', 'native_ad_clue', 'http_header', 'test_url', 'find_string', 'replace_string'))) {
 				array_push($config->$command, $val);
 			// check for single statement commands that evaluate to true or false
-			} elseif (in_array($command, array('tidy', 'prune', 'autodetect_on_failure', 'insert_detected_image'))) {
+			} elseif (in_array($command, array('tidy', 'prune', 'autodetect_on_failure'))) {
 				$config->$command = ($val == 'yes');
 			// check for single statement commands stored as strings
 			} elseif (in_array($command, array('parser'))) {

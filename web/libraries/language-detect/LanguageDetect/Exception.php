@@ -1,16 +1,4 @@
 <?php
-/**
- * Part of Text_LanguageDetect
- *
- * PHP version 5
- *
- * @category Text
- * @package  Text_LanguageDetect
- * @author   Nicholas Pisarro <infinityminusnine+pear@gmail.com>
- * @license  BSD http://www.opensource.org/licenses/bsd-license.php
- * @link     http://pear.php.net/package/Text_LanguageDetect/
- */
- 
 class Text_LanguageDetect_Exception extends Exception
 {
     /**

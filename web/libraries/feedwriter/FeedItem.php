@@ -186,4 +186,5 @@
 		$this->setElement('enclosure','',$attributes);
 	}
 	
- }
+ } // end of class FeedItem
+?>
