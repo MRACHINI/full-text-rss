@@ -63,7 +63,7 @@ class Zend_Cache_Backend
      */
     public function __construct(array $options = array())
     {
-        while (list($name, $value) = foreach($options)) {
+        while (list($name, $value) = each($options)) {
             $this->setOption($name, $value);
         }
     }
@@ -78,7 +78,7 @@ class Zend_Cache_Backend
     public function setDirectives($directives)
     {
         if (!is_array($directives)) Zend_Cache::throwException('Directives parameter must be an array');
-        while (list($name, $value) = foreach($directives)) {
+        while (list($name, $value) = each($directives)) {
             if (!is_string($name)) {
                 Zend_Cache::throwException("Incorrect option name : $name");
             }
